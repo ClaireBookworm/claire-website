@@ -12,7 +12,7 @@ module.exports = {
       whitelist,
     },
   },
-  darkMode: 'class',
+  // darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {

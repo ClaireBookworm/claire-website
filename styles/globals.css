@@ -49,6 +49,7 @@ body {
 .gallerySubhead {
     font-family: 'Gilroy';
     font-weight: 700;
+    font-size: 1.7rem;
 }
 
 .cardTitle {
@@ -77,12 +78,21 @@ body {
 }
 
 .blogContainer {
-    margin-right: 3rem;
+    margin-right: 2rem;  
 }
 
-.postContent {
-    padding-right: 3rem;
-    max-width: 75%;
+.postContent { 
+    background-color: #e0e6ed;
+    border-radius: 3px;   
+    color: #1b1a1f;
+    /* padding-right: 3rem; */
+    padding: 3rem 3rem 1rem 3rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+.postContent h1, h2, h3, h4 {
+    font-family: "Gilroy", "Inter";
 }
 
 .postContent h1 {
@@ -96,7 +106,15 @@ body {
 }
 
 .postContent p {
-    padding-bottom: 8px;
+    padding-bottom: 10px;
+}
+
+.postContent blockquote {
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 300;
+    opacity: 0.55;
+    font-size: 1.3rem;
 }
 
 .postContent a {

@@ -20,7 +20,8 @@ export default function Nav({active}) {
         window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', e => {
             const newColorScheme = e.matches ? "light" : "dark";
             if (newColorScheme === "dark") {
-                document.body.style.backgroundColor = "#000"
+                document.body.style.backgroundColor = "#1b1a1f"
+                document.body.style.postContent.backgroundColor = "#f0feff"
                 document.querySelector("#theme_toggle").classList.toggle("rotate-180");
             } else if (newColorScheme === "light") {
                 document.body.style.backgroundColor = colors[~~(Math.random() * colors.length)];
