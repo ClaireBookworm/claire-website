@@ -36,6 +36,7 @@ export default function Home({ allPostsData }) {
               <span>
                 {date}
               </span>
+              <br /><br />
             </li>
           ))}
         </ul>

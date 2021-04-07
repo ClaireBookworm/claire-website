@@ -32,7 +32,7 @@ export default function Post({ postData }) {
         {/* <ReactMarkdown plugins={[gfm]}>
           {postData.contentHtml}
         </ReactMarkdown> */}
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div className="postContent" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>
     </Layout>
   );

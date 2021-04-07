@@ -80,16 +80,29 @@ body {
     margin-right: 3rem;
 }
 
-h1 {
+.postContent {
+    padding-right: 3rem;
+    max-width: 75%;
+}
+
+.postContent h1 {
     font-weight: 800;
     font-size: 1.8rem;
 }
 
-h2 {
+.postContent h2 {
     font-weight: 600;
     font-size: 1.5rem;
 }
 
-p {
-    padding: 8px auto;
+.postContent p {
+    padding-bottom: 8px;
+}
+
+.postContent a {
+    text-decoration: underline;
+
+}
+.postContent a:hover {
+    opacity: 80%;
 }
