@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bolder;
+    font-display: swap;
+    text-transform: uppercase;
+    src: url("/gilroy.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0066FF;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+}
+
+.heading {
+    @apply font-gilroy uppercase text-6xl sm:text-7xl md:text-8xl
+}
+
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    /* font-size: 36px; Increased font size */
+  }
+  
+.icon-bar > svg:hover {
+    fill: #e0e6ed;
+}
+
+.gallerySubhead {
+    font-family: 'Gilroy';
+    font-weight: 700;
+}
+
+.cardTitle {
+    font-family: 'Gilroy';
+}
+
+.blogListName {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.blogListName:hover {
+    text-decoration: wavy;
+}
+
+/* BLOG POST CSS */
+
+.postTitle {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.postDate {
+    font-weight: 300;
+    text-decoration: dotted;
+}
+
+.blogContainer {
+    margin-right: 3rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 8px auto;
+}
