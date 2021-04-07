@@ -4,7 +4,7 @@ import gfm from 'remark-gfm'
 import math from 'remark-math'
 import html from 'remark-html'
 
-import 'katex/dist/katexNext.min.css';
+import 'katex/dist/katex.min.css';
 
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
