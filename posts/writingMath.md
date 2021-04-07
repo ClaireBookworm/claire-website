@@ -16,4 +16,4 @@ function add(a,b) {
 ```
 
 ## Todo
-- [] figure out how to do syntax highlighting (use `notebookjs`)?
+-[] figure out how to do syntax highlighting (use `notebookjs`)?
