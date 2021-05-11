@@ -21,7 +21,7 @@ export default function Gallery() {
             <br />
             <h2 className="gallerySubhead">Also, these!</h2>
             <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                <GalleryCard title="TARDIS" children="The TARDIS *(transcranial applicable repeating deep interchanging stimulation)* is a extra-cranial BCI technology we developed and mapped out for the Conrad Challenge. The team is me, Neel, Charlie, and Andrew. We've been chosen as Conrad Finalists! And yes, the name is a pun." href="https://tardisneuro.us" />
+                <GalleryCard title="TARDIS" children="The TARDIS *(transcranial applicable repeating deep interchanging stimulation)* is a extra-cranial BCI technology we developed which won us the grand Pete Conrad Scholar at the Conrad Challenge. The team is me, Neel, Charlie, and Andrew. We've been chosen as Conrad Finalists! And yes, the name is a Dr. Who reference." href="https://tardisapp.us" />
                 <GalleryCard title="Sigmoid Hacks – Co-Exec, Marketing, Website Development" children="The hackathon for normalizing the word *'machine learning'* — it really doesn't have to be a buzzword, I swear. The event was very successful, it was Jan 17-19, 2021!" href="https://sigmoidhacks.ml/"/>
                 <GalleryCard />
                 <GalleryCard />
