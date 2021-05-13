@@ -23,8 +23,8 @@ export default function Gallery() {
             <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                 <GalleryCard title="TARDIS" children="The TARDIS *(transcranial applicable repeating deep interchanging stimulation)* is a extra-cranial BCI technology we developed which won us the grand Pete Conrad Scholar at the Conrad Challenge. The team is me, Neel, Charlie, and Andrew. We've been chosen as Conrad Finalists! And yes, the name is a Dr. Who reference." href="https://tardisapp.us" />
                 <GalleryCard title="Sigmoid Hacks – Co-Exec, Marketing, Website Development" children="The hackathon for normalizing the word *'machine learning'* — it really doesn't have to be a buzzword, I swear. The event was very successful, it was Jan 17-19, 2021!" href="https://sigmoidhacks.ml/"/>
-                <GalleryCard />
-                <GalleryCard />
+                <GalleryCard title="Hack Club AMA Hosting" href="https://hackclub.com/amas/" children="I've hosted many AMAs with Hack Club (for Simone Giertz, Tom Preston-Werner, Chris Cox, Nicky Case, Gwynne Shotwell) after initially proposing the idea! I've reached out to many of our guests as well as have hosted the calls. It's always amazing to be able to meet your role models."/>
+                <GalleryCard title="Arena of Memory Streaming" href="https://www.twitch.tv/memorysportstv" children="I do a lot of memory sports, and recently have been commentating on matches (and appearing on others) between memory athletes, and most notably, the arena of memory, which is on twitch @ memorysportstv!"/>
                 <GalleryCard />
                 <GalleryCard />
                 <GalleryCard />
