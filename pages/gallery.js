@@ -33,10 +33,10 @@ export default function Gallery() {
         <GalleryCard
           title="DeepAI Intern"
           href="https://deepai.org"
-          children="After developing MIRAI ([check it out!](https://deepai.org/machine-learning-model/mri-brain-tumor-detection)) with DeepAI for a 2019 Symposium at UCLA, I interned with them. I work in content development, doing research on data science and writing articles, and marketing/outreach."
+          children="After working on a project with DeepAI in 2019, I started to intern for them. I worked in content development, doing research on data science, writing articles, and marketing/outreach."
         />
         <GalleryCard
-          href="hackclub.com"
+          href="https://hackclub.com"
           title="Hack Club Community Team"
           children="I am employed as a community team member at Hack Club to encourage engagement and retention for new members whilst also keeping the environment both wholesome and technical for club members and leaders worldwide."
         />
@@ -64,6 +64,11 @@ export default function Gallery() {
           title="Halo Charity"
           href="https://halo.angelhacks.org/"
           children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. While we were unable to get government-mandated and medically-approved N95 masks, we were able to donate a lot of K-N95 masks to non-medical yet essential public service workers."
+        />
+        <GalleryCard
+          title="MIRAI"
+          href="https://deepai.org/machine-learning-model/mri-brain-tumor-detection"
+          children=""
         />
       </div>
       <br />
@@ -94,8 +99,6 @@ export default function Gallery() {
             href="https://phillipian.net"
             children="I'm on the digital team at my school newspaper!"
         />
-        <GalleryCard />
-        <GalleryCard />
       </div>
     </Layout>
   );

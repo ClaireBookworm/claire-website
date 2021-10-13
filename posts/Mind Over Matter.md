@@ -2,7 +2,7 @@
 title: Mind Over Matter - Neuroethical Considerations of Neurotechnology
 date: 'April 4, 2021'
 ---
-*Note: this is a repost of an essay I wrote in 2020 for an NIH Neuroethics essay copmetition*
+*Note: this is a repost of an essay I wrote in 2020 for an NIH Neuroethics essay competition*
 
 
 # Mind Over Matter: Neuroethical Considerations of Neurotechnology
@@ -55,4 +55,4 @@ Horgan, J. (2017, October 13). Bizarre Brain-Implant Experiment Sought to "Cure"
 
 
 ## Thanks
-Thanks for reading! Please credit if you share or cite, my twitter is [@clairebookworm1](https://twitter.com/clairebookworm1)!
+Thanks for reading! If you share or have any comments lmk! My twitter is [@clairebookworm1](https://twitter.com/clairebookworm1)!
