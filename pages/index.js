@@ -11,7 +11,7 @@ export default function Home() {
           <div>Claire Wang<div className="inline opacity-50">.</div></div>
         </section>
         <section className="mt-8 md:mt-16 w-2/3 lg:w-1/2 md:text-xl">
-          Hello! I’m Claire, a current high school student and a lover of neuroscience, coding, comics, and design! I’m a budding researcher in fear, memory, BCIs, and parallel computing and I believe in the art of making for the betterment of the world. DFTBA¹!
+          Hello! I’m Claire, a high school student; thanks for stoppin' by. I'm curious about neuroscience and coding and have done some budding research about them! It's worryingly easy for be to exhibit cult behavior, given by how much I love Hack Club, and my fangirl behavior about Imagine Dragons, almost any book, and making puns. I truly believe in the art of making for the betterment of the world, or just merely enjoying it for yourself. DFTBA¹!
         </section>
         <section className="mt-8 md:mt-8 w-2/3 lg:w-1/2 md:text-xl">
           <div className="icon-bar">
