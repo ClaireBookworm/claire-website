@@ -14,7 +14,7 @@
     "gray-matter": "^4.0.2",
     "katex": "^0.13.2",
     "markdown": "^0.5.0",
-    "next": "10.0.7",
+    "next": "^12.0.1",
     "next-themes": "^0.0.11",
     "nextra": "^0.4.5",
     "notebookjs": "^0.6.4",
@@ -38,5 +38,22 @@
     "autoprefixer": "^10.2.4",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.0.3"
-  }
+  },
+  "description": "",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaireBookworm/claire-website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaireBookworm/claire-website/issues"
+  },
+  "homepage": "https://github.com/ClaireBookworm/claire-website#readme"
 }
