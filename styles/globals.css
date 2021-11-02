@@ -17,6 +17,10 @@ body {
     background-color: #0066FF;
 }
 
+a:hover {
+    opacity: 80%;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
@@ -56,6 +60,12 @@ body {
     font-family: 'Gilroy';
 }
 
+.writingsTitle {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-family: 'Gilroy', 'Inter', sans-serif;
+}
+
 .blogListName {
     font-weight: 800;
     font-size: 1.2em;
@@ -82,13 +92,19 @@ body {
 }
 
 .postContent { 
-    background-color: #e0e6ed;
+    background-color: #eef1f4;
     border-radius: 3px;   
     color: #1b1a1f;
-    /* padding-right: 3rem; */
     padding: 3rem;
-    max-width: 80%;
-    margin: auto;
+    max-width: 100%;
+    /* margin: auto; */
+    font-family: "Jost*", "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.postcontent > * {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .postContent h1, h2, h3, h4 {
@@ -107,6 +123,7 @@ body {
 
 .postContent p {
     padding-bottom: 10px;
+    width: 80%;
 }
 
 .postContent blockquote {

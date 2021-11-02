@@ -26,6 +26,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <div>
+        <h1 className="writingsTitle">cold brew blog</h1>
         <ul>
           {allPostsData.map(({ id, date, title }, index) => (
             <li key={index}>
@@ -40,6 +41,8 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+        <br />
+        <p>Find my wordpress blog at <a href="https://clairebookworm.wordpress.com/">clairebookworm.wordpress.com</a></p>
       </div>
     </Layout>
   );
