@@ -11,7 +11,7 @@ export default function Home() {
           <div>Claire Wang<div className="inline opacity-50">.</div></div>
         </section>
         <section className="mt-8 md:mt-16 w-2/3 lg:w-1/2 md:text-xl">
-          Hello! I’m Claire, a high school student; thanks for stoppin' by. I'm curious about neuroscience and coding and have done some budding research in the fields. If you even see me, I'm probably either talking about Hack Club, my love for Imagine Dragons, ranting about books, or making a banger of a pun. I truly believe in the art of making for the betterment of the world, or just merely enjoying it for yourself. DFTBA¹!
+          Hello! I’m Claire, a high school student; thanks for stoppin' by. I'm curious about neuroscience and coding and have done some budding research in the fields. If you ever see me, I'll probably either be talking about Hack Club, expressing my ever-lasting love for Imagine Dragons, ranting about books, or making an absolute banger of a pun. I truly believe in the art of making for the betterment of the world, or just merely enjoying it for yourself. DFTBA¹!
         </section>
         <section className="mt-8 md:mt-8 w-2/3 lg:w-1/2 md:text-xl">
           <div className="icon-bar">
