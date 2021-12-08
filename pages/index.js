@@ -1,10 +1,14 @@
-import HeadObject from '../components/head'
+import Head from '../components/head'
 import Nav from '../components/nav'
 
 export default function Home() {
   return (
     <div>
-      <HeadObject />
+
+      <Head>
+      <meta property="twitter:url" content="https://clairebookworm.com/" />
+      <script defer data-domain="clairebookworm.com" src="https://plausible.io/js/plausible.js"></script>
+        </Head>
       <Nav active="Home" />
       <main className="mt-6 sm:mt-12 md:mt-16 flex flex-col text-white pl-12 md:pl-20">
         <section className="heading" aria-hidden="true">
