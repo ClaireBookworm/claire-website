@@ -21,8 +21,8 @@ export default function Gallery() {
           children="I analyze brain imaging data and assist programmers on the development of virtual and augmented reality experiments to be used in participates with implanted neural electrodes, as well as am spearheading my own project!"
         />
         <GalleryCard
-          title="MIT PRIMES CS"
-          children="I'm in the 2021 cohort for MIT PRIMES in the CS track, doing research and learning about parallel computing and graph decomposition."
+          title="MIT PRIMES CS (2021)"
+          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work."
           href="https://math.mit.edu/research/highschool/primes/"
         />
         <GalleryCard
@@ -43,7 +43,7 @@ export default function Gallery() {
         <GalleryCard
           href="https://anomaly-science.com"
           title="Anomaly Science Board / Executive"
-          children="I'm on the board and am CMO of Anomaly Science, which focuses on the art of the artisans."
+          children="I'm on the board and am CMO of Anomaly Science, which focuses on honing the art of the artisans through legal aid, engagement, the particle system, and the community. Currently in Series A."
         />
         <GalleryCard
           title="Supersingular Ratio of Elliptic Curves"
@@ -65,22 +65,17 @@ export default function Gallery() {
           href="https://halo.angelhacks.org/"
           children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. While we were unable to get government-mandated and medically-approved N95 masks, we were able to donate a lot of K-N95 masks to non-medical yet essential public service workers."
         />
-        <GalleryCard
-          title="MIRAI"
-          href="https://deepai.org/machine-learning-model/mri-brain-tumor-detection"
-          children=""
-        />
       </div>
       <br />
       <h2 className="gallerySubhead">Also, these!</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <GalleryCard
-          title="TARDIS"
-          children="The TARDIS *(transcranial applicable repeating deep interchanging stimulation)* is a extra-cranial BCI technology we developed which won us the grand Pete Conrad Scholar at the Conrad Challenge. The team is me, Neel, Charlie, and Andrew. We won the top Pete Conrad Scholar award in our track and were chosen for GATSVI. And yes, the name is a Dr. Who reference :)"
-          href="https://tardisapp.us"
+          title="Nujjet (prev. TARDIS)"
+          children="NUJJET is our response to the widespread pandemic of high school stress of today. By creating a low cost neuro headset to monitor and modulate your brain, we can help you study more effectively, and make long term changes."
+          href="https://nujjet.us/"
         />
         <GalleryCard
-          title="Sigmoid Hacks – Co-Exec, Marketing, Website Development"
+          title="Sigmoid Hacks – Co-Exec, Marketing & Webdev"
           children="The hackathon for normalizing the word *'machine learning'* — it really doesn't have to be a buzzword, I swear. The event was very successful, it was Jan 17-19, 2021!"
           href="https://sigmoidhacks.ml/"
         />
@@ -95,9 +90,9 @@ export default function Gallery() {
           children="I do a lot of memory sports, and recently have been commentating on matches (and appearing on others) between memory athletes, and most notably, the arena of memory, which is on twitch @ memorysportstv!"
         />
         <GalleryCard 
-            title="Phillipian Digital Associate Editor"
+            title="Phillipian Digital Editor"
             href="https://phillipian.net"
-            children="I'm on the digital team at my school newspaper!"
+            children="Digital Editor of the Phillipian CXLV."
         />
       </div>
     </Layout>

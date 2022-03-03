@@ -7,7 +7,7 @@ const links = [
     { label: "Home", href: "/" },
     { label: "Resume", href: "http://u.filein.io/ehgDuRV-vz.pdf" },
     { label: "Scrapbook", href: "https://scrapbook.hackclub.com/clairebookworm/" },
-    { label: "Timeline", href:"https://timeline.bookworm.design"},
+    // { label: "Timeline", href:"https://timeline.bookworm.design"},
     { label: "Writing", href: "/writing"},
     { label: "Projects", href: "/gallery" }
 ]
