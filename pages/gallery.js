@@ -60,11 +60,6 @@ export default function Gallery() {
           title="Mind Over Matter"
           children="I submitted this essay for a NIH neuroethics essay contest and  won a Gold Key at the Scholastic Writing Award. I talk about BCIs and the moral implications involved in such invasive techniques."
         />
-        <GalleryCard
-          title="Halo Charity"
-          href="https://halo.angelhacks.org/"
-          children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. While we were unable to get government-mandated and medically-approved N95 masks, we were able to donate a lot of K-N95 masks to non-medical yet essential public service workers."
-        />
       </div>
       <br />
       <h2 className="gallerySubhead">Also, these!</h2>
@@ -77,7 +72,7 @@ export default function Gallery() {
         <GalleryCard 
           title="MIDI Lab"
           href="https://midilab.netlify.app/"
-          children="My final project for CS 630B Data Visualization (you can find my portfolio for it [here](https://dont-break-things.vercel.app/)). Feel free to upload your own mp3 files or use the preloaded ones. MIDI support not fully implemented yet, but I just love the vaporwave style."
+          children="My final project for *CS 630B Data Visualization* (you can find my portfolio for it **[here](https://dont-break-things.vercel.app/)**). Feel free to upload your own mp3 files or use the preloaded ones. MIDI support not fully implemented yet, but I just love the vaporwave style."
         />
         <GalleryCard
           title="Sigmoid Hacks – Co-Exec, Marketing & Webdev"
@@ -94,10 +89,15 @@ export default function Gallery() {
           href="https://www.twitch.tv/memorysportstv"
           children="I do a lot of memory sports, and recently have been commentating on matches (and appearing on others) between memory athletes, and most notably, the arena of memory, which is on twitch @ memorysportstv!"
         />
+        <GalleryCard
+          title="Halo Charity"
+          href="https://halo.angelhacks.org/"
+          children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. While we were unable to get government-mandated and medically-approved N95 masks, we were able to donate a lot of K-N95 masks to non-medical yet essential public service workers."
+        />
         <GalleryCard 
             title="Phillipian Digital Editor"
             href="https://phillipian.net"
-            children="Digital Editor of the Phillipian CXLV."
+            children="Digital Editor of the Phillipian CXLV (previously associate digital)."
         />
       </div>
     </Layout>
