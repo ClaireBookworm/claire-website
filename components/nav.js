@@ -5,7 +5,7 @@ const colors = require('../lib/colors.json')
 
 const links = [
     { label: "Home", href: "/" },
-    { label: "Resume", href: "https://clairebookworm.com/public/files/Claire-Resume-Pager.pdf" },
+    { label: "Resume", href: "https://cloud-k9qzmiamk-hack-club-bot.vercel.app/0claire-resume-pager.pdf" },
     { label: "Scrapbook", href: "https://scrapbook.hackclub.com/clairebookworm/" },
     // { label: "Timeline", href:"https://timeline.bookworm.design"},
     { label: "Writing", href: "/writing"},
