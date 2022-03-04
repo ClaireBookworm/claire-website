@@ -74,6 +74,11 @@ export default function Gallery() {
           children="NUJJET is our response to the widespread pandemic of high school stress of today. By creating a low cost neuro headset to monitor and modulate your brain, we can help you study more effectively, and make long term changes."
           href="https://nujjet.us/"
         />
+        <GalleryCard 
+          title="MIDI Lab"
+          href="https://midilab.netlify.app/"
+          children="My final project for CS 630B Data Visualization (you can find my portfolio for it [here](https://dont-break-things.vercel.app/)). Feel free to upload your own mp3 files or use the preloaded ones. MIDI support not fully implemented yet, but I just love the vaporwave style."
+        />
         <GalleryCard
           title="Sigmoid Hacks – Co-Exec, Marketing & Webdev"
           children="The hackathon for normalizing the word *'machine learning'* — it really doesn't have to be a buzzword, I swear. The event was very successful, it was Jan 17-19, 2021!"
