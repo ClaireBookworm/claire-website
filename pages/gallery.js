@@ -60,15 +60,15 @@ export default function Gallery() {
           title="Mind Over Matter"
           children="I submitted this essay for a NIH neuroethics essay contest and  won a Gold Key at the Scholastic Writing Award. I talk about BCIs and the moral implications involved in such invasive techniques."
         />
+        <GalleryCard
+          title="Nujjet (prev. TARDIS)"
+          children="NUJJET is our response to the widespread pandemic of high school stress of today. By creating a low cost neuro headset to monitor and modulate your brain, we can help you study more effectively, and make long term changes. *(Participated in Conrad, Gatsvi, and Hack Club)*"
+          href="https://nujjet.us/"
+        />
       </div>
       <br />
       <h2 className="gallerySubhead">Also, these!</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        <GalleryCard
-          title="Nujjet (prev. TARDIS)"
-          children="NUJJET is our response to the widespread pandemic of high school stress of today. By creating a low cost neuro headset to monitor and modulate your brain, we can help you study more effectively, and make long term changes."
-          href="https://nujjet.us/"
-        />
         <GalleryCard 
           title="MIDI Lab"
           href="https://midilab.netlify.app/"
