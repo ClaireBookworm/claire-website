@@ -22,7 +22,7 @@ export default function Gallery() {
         />
         <GalleryCard
           title="MIT PRIMES CS (2021)"
-          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project. You can find the github [here](https://github.com/ClaireBookworm/gbbs) or click for the paper."
+          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)** or click for the paper."
           href="https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf"
         />
         <GalleryCard
