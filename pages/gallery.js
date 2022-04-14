@@ -28,7 +28,7 @@ export default function Gallery() {
         <GalleryCard
           href="zephyr.hackclub.com"
           title="Intern @ Hack Club"
-          children="Over summer of 2021, I intern at Hack Club HQ at Vermont working mainly on the Zephyr (linked) to improve hacker and technical experience as well as some fundraising efforts. The zephyr was one of the most life changing events I've ever been at."
+          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked) to improve hacker and technical experience as well as some fundraising efforts. The zephyr was one of the most life changing events I've ever been at."
         />
         <GalleryCard
           title="DeepAI Intern"
@@ -43,7 +43,7 @@ export default function Gallery() {
         <GalleryCard
           href="https://anomaly-science.com"
           title="Anomaly Science Board / Executive"
-          children="I'm on the board and am CMO of Anomaly Science, which focuses on honing the art of the artisans through legal aid, engagement, the particle system, and the community. Currently in Series A."
+          children="I'm on the board and am CMO of Anomaly Science, which focuses on honing the art of the artisans through legal aid, engagement, the particle system, and the community. Currently raising our Series A round."
         />
         <GalleryCard
           title="Supersingular Ratio of Elliptic Curves"
@@ -53,12 +53,12 @@ export default function Gallery() {
         <GalleryCard
           href="https://deepai.org/machine-learning-model/mri-brain-tumor-detection"
           title="MIRAI"
-          children="MIRAI is a neural network that detects and outlines brain tumors in MRI brain scans. This model utilizes **metalearning and a MASK R-CNN** to be able to detect brain tumors with an accuracy that rivals that of a professional. MIRAI takes in a MRI head scan and spits out a labeled one, as well as a precise outline of the tumor. Upload an image and try it out! *Disclaimer: this model is for research purchases only and not approved for medical use or diagnosis."
+          children="MIRAI is a neural network that detects and outlines brain tumors in MRI brain scans. This model utilizes **metalearning and a MASK R-CNN** to be able to detect brain tumors with an accuracy that rivals that of a professional. MIRAI takes in a MRI head scan and spits out a labeled one, as well as a precise outline of the tumor. *Disclaimer: this model is for practice purposes only.*"
         />
         <GalleryCard
           href="https://www.notion.so/nerdfighteria/Mind-Over-Matter-Neuroethical-Considerations-of-Neurotechnology-e54d1c520b5d419ba4fed84cec5a24be"
           title="Mind Over Matter"
-          children="I submitted this essay for a NIH neuroethics essay contest and  won a Gold Key at the Scholastic Writing Award. I talk about BCIs and the moral implications involved in such invasive techniques."
+          children="Neuroscientists are driven to understand a three-pound mass of neurons and glia pondering the morality and risks of studying themselves. Neuroethics is a broad field, yet evaluating the risks and benefits of brain-computer interfaces (BCIs) is a timely and critical topic due to the rapid development of technologies, including implants and wearables electronics. "
         />
         <GalleryCard
           title="Nujjet (prev. TARDIS)"
@@ -69,35 +69,51 @@ export default function Gallery() {
       <br />
       <h2 className="gallerySubhead">Also, these!</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        <GalleryCard 
+        <GalleryCard
           title="MIDI Lab"
           href="https://midilab.netlify.app/"
-          children="My final project for *CS 630B Data Visualization* (you can find my portfolio for it **[here](https://dont-break-things.vercel.app/)**). Feel free to upload your own mp3 files or use the preloaded ones. MIDI support not fully implemented yet, but I just love the vaporwave style."
+          children="My final project for *CS 630B Data Visualization* (you can find **[my portfolio for it here](https://dont-break-things.vercel.app/)**). Feel free to upload your own mp3 files or use the preloaded ones!"
+        />
+        <GalleryCard
+          title="IQ and Misleading Data"
+          href="https://observablehq.com/@clairebookworm/iq"
+          children="Is IQ a thing? We think no, and prove it by showing how easily we can create misleading graphs and data from some simple finagling and tricks."
         />
         <GalleryCard
           title="Sigmoid Hacks – Co-Exec, Marketing & Webdev"
-          children="The hackathon for normalizing the word *'machine learning'* — it really doesn't have to be a buzzword, I swear. The event was very successful, it was Jan 17-19, 2021!"
+          children="The hackathon for normalizing the word *'machine learning'* — it really doesn't have to be a buzzword, I swear. (Jan 17-19, 2021)"
           href="https://sigmoidhacks.ml/"
         />
         <GalleryCard
           title="Hack Club AMA Hosting"
           href="https://hackclub.com/amas/"
-          children="I've hosted many AMAs with Hack Club (for Simone Giertz, Tom Preston-Werner, Chris Cox, Nicky Case, Gwynne Shotwell) after initially proposing the idea! I've reached out to many of our guests as well as have hosted the calls. It's always amazing to be able to meet your role models."
+          children="I've hosted many AMAs with Hack Club (for Simone Giertz, Tom Preston-Werner, Chris Cox, Nicky Case, Gwynne Shotwell, Vitalik Buterin) after initially proposing the idea!"
         />
         <GalleryCard
           title="Arena of Memory Streaming"
           href="https://www.twitch.tv/memorysportstv"
-          children="I do a lot of memory sports, and recently have been commentating on matches (and appearing on others) between memory athletes, and most notably, the arena of memory, which is on twitch @ memorysportstv!"
+          children="I do a lot of memory sports, and recently have been commentating on matches (and appearing on others), and most notably, the arena of memory, which is on twitch @ memorysportstv!"
         />
         <GalleryCard
           title="Halo Charity"
           href="https://halo.angelhacks.org/"
-          children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. While we were unable to get government-mandated and medically-approved N95 masks, we were able to donate a lot of K-N95 masks to non-medical yet essential public service workers."
+          children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. We were able to donate a many K-N95 masks to non-medical yet essential public service workers."
+        />
+      </div>
+      <h2 className="gallerySubhead">Stuff in Progress...</h2>
+      <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <GalleryCard
+          title="Phillipian Digital Editor"
+          href="https://phillipian.net"
+          children="Digital Editor of the Phillipian CXLV (previously associate digital). Trying to make some cool stuff :)"
         />
         <GalleryCard 
-            title="Phillipian Digital Editor"
-            href="https://phillipian.net"
-            children="Digital Editor of the Phillipian CXLV (previously associate digital)."
+          title="MIT PRIMES (2022)"
+          children="Currently careening around scRNA-seq trying to understand what's going on!? (cs/bio track, @ Broad)"
+        />
+        <GalleryCard
+          title="CS Club"
+          children="With Hack Club being ~80% of my personality I should probably be running one..."
         />
       </div>
     </Layout>
