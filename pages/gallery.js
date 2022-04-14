@@ -22,13 +22,13 @@ export default function Gallery() {
         />
         <GalleryCard
           title="MIT PRIMES CS (2021)"
-          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)** or click for the paper."
+          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project and was presented at JMM 2022. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)**, our poster at  or click for the paper."
           href="https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf"
         />
         <GalleryCard
           href="zephyr.hackclub.com"
           title="Intern @ Hack Club"
-          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked) to improve hacker and technical experience as well as some fundraising efforts. The zephyr was one of the most life changing events I've ever been at."
+          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked) to improve hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
         />
         <GalleryCard
           title="DeepAI Intern"
@@ -100,6 +100,7 @@ export default function Gallery() {
           children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. We were able to donate a many K-N95 masks to non-medical yet essential public service workers."
         />
       </div>
+      <br />
       <h2 className="gallerySubhead">Stuff in Progress...</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <GalleryCard

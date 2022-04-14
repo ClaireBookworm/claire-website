@@ -54,6 +54,7 @@ a:hover {
     font-family: 'Gilroy';
     font-weight: 700;
     font-size: 1.7rem;
+    padding-top: 10px;
 }
 
 .cardTitle {
