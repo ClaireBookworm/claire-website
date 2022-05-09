@@ -5,9 +5,10 @@ date: 'March 2, 2022'
 
 *english class lyric essay*
 
-------
+—
 
 Thesis: I don’t think mirrors are enough.
+
 
 Period 1 (8:24 AM) *a thought process*
 

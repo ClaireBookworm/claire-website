@@ -8,6 +8,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -99,7 +100,7 @@ a:hover {
     padding: 3rem;
     max-width: 100%;
     /* margin: auto; */
-    font-family: "Jost*", "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-family: "EB Garamond", "Jost*", "Futura", "Trebuchet MS", Arial, sans-serif;
     font-size: 1.2rem;
 }
 
