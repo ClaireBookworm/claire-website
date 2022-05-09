@@ -5,6 +5,8 @@ date: 'March 2, 2022'
 
 *english class lyric essay*
 
+------
+
 Thesis: I don’t think mirrors are enough.
 
 Period 1 (8:24 AM) *a thought process*
@@ -79,7 +81,9 @@ We all suffer a bit of misperception, I think. We spend so much of our lives won
 
 Period 7 (2:05 pm): I sure do enjoy biology. I wonder what’s the physiological basis for passion?
 
-### Works Cited
+----
+
+## Works Cited
 
 Goldstein, Lee. “The Amygdala: Neurobiological Aspects of Emotion, Memory, and Mental Dysfunction.” *The Yale Journal of Biology and Medicine* vol. 65,5 (1992): 540–542.
 
