@@ -1,5 +1,5 @@
 ---
-title: ∂ great things ß∫
+title: '∂ great things ß∫'
 date: 'October 14, 2021'
 ---
 

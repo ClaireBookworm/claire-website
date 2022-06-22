@@ -1,5 +1,5 @@
 ---
-title: Writing Math
+title: "test: displaying math"
 date: 'April 7, 2021'
 ---
 

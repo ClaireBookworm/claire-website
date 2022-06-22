@@ -9,6 +9,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -80,8 +81,12 @@ a:hover {
 /* BLOG POST CSS */
 
 .postTitle {
+    font-family: "Gilroy";
     font-weight: 900;
     font-size: 4rem;
+}
+.postTitle:hover{
+    text-decoration: wavy;
 }
 
 .postDate {
@@ -90,17 +95,21 @@ a:hover {
 }
 
 .blogContainer {
-    margin-right: 2rem;  
+    /* margin-right: 2rem;   */
+    margin-right: auto;
+    /* margin-left: auto; */
+    width: 80vw;
 }
 
 .postContent { 
-    background-color: #eef1f4;
+    background-color: #fbfdff;
     border-radius: 3px;   
     color: #1b1a1f;
-    padding: 3rem;
-    max-width: 100%;
-    /* margin: auto; */
-    font-family: "EB Garamond", "Jost*", "Futura", "Trebuchet MS", Arial, sans-serif;
+    padding: 5%;
+    /* max-width: 100%; */
+    margin: auto;
+    align-items: center;
+    font-family: "Proxima Nova", "Montserrat", "EB Garamond", "Jost*", "Futura", "Trebuchet MS", Arial, sans-serif;
     font-size: 1.2rem;
 }
 
@@ -110,30 +119,38 @@ a:hover {
 }
 
 .postContent h1, h2, h3, h4 {
-    font-family: "Gilroy", "Inter";
+    font-family: "Proxima Nova", "Montserrat", "Gilroy", "Inter";
 }
 
 .postContent h1 {
+    
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .postContent h2 {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.postContent h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .postContent p {
     padding-bottom: 10px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .postContent blockquote {
     padding: 10px;
     border-radius: 3px;
     font-weight: 300;
-    opacity: 0.55;
+    opacity: 0.7;
     font-size: 1.3rem;
+    text-decoration: dotted;
+    font-style:italic;
 }
 
 .postContent a {
@@ -142,4 +159,8 @@ a:hover {
 }
 .postContent a:hover {
     opacity: 80%;
+}
+.blog-elements {
+    padding-left:0!important;
+    margin-left: 0 !important;
 }
