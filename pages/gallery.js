@@ -46,6 +46,11 @@ export default function Gallery() {
           children="I'm on the board and am CMO of Anomaly Science, which focuses on honing the art of the artisans through legal aid, engagement, the particle system, and the community. Currently raising our Series A round."
         />
         <GalleryCard
+          href="https://artofmemory.com/start/"
+          title="Memory Sports"
+          children="I'm a memory athlete (which sounds peculiar, but click this card to get started) and I was the longest reigning Words champion in the world on Memory League, 3rd place nationally at USAMC held at MIT (in which I was the youngest competitor out of various adults and older students), and the Youth Champion at the Taiwain International Championship. In addition, I was the 2021 World Speed Reading Champion at MSO. In fact, doing memory sports was what got me interested in neuroscience and especially memory!"
+        />
+        <GalleryCard
           title="Supersingular Ratio of Elliptic Curves"
           children="This paper starts with an overview of elliptic curves and then summarizes the Lang-Trotter conjecture. It aims to show that the ratio of Supersingular primes that are 2 (mod 3) to those that are 1 (mod 3) approaches 2."
           href="https://deepai.org/publication/supersingular-ratio-of-elliptic-curves"
