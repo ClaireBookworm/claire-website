@@ -13,7 +13,7 @@ export default function Gallery() {
       <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute"
-          children="I am attention RSI 2022 this year \& doing research at Prof. Jeremy Wolfe's Visual Attemtion Lab at Harvard Medical! (ongoing)"
+          children="I am attending RSI 2022 this year \& doing research at Prof. Jeremy Wolfe's Visual Attemtion Lab at Harvard Medical! (ongoing)"
         />
         <GalleryCard
           href="https://angelhacks.org"
