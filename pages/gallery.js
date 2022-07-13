@@ -10,6 +10,11 @@ export default function Gallery() {
 
       <h2 className="gallerySubhead">Major Projects</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <GalleryCard
+          href="https://math.mit.edu/research/highschool/rsi/"
+          title="Research Science Institute"
+          children="I am attention RSI 2022 this year \& doing research at Prof. Jeremy Wolfe's Visual Attemtion Lab at Harvard Medical! (ongoing)"
+        />
         <GalleryCard
           href="https://angelhacks.org"
           title="AngelHacks"
