@@ -7,7 +7,7 @@ const links = [
     { label: "Home", href: "/" },
     // { label: "Resume", href: "https://cloud-k9qzmiamk-hack-club-bot.vercel.app/0claire-resume-pager.pdf" },
     { label: "Scrapbook", href: "https://scrapbook.hackclub.com/clairebookworm/" },
-    // { label: "Timeline", href:"https://timeline.bookworm.design"},
+    { label: "Resume", href:"https://cloud-okswj8rqt-hack-club-bot.vercel.app/0claire-resume-2022.pdf"},
     { label: "Writing", href: "/writing"},
     { label: "Projects", href: "/gallery" }
 ]
