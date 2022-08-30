@@ -9,7 +9,7 @@ export default function Gallery() {
       </h1>
 
       <h2 className="gallerySubhead">Major Projects</h2>
-      <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="mt-12 mr-16 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
       <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute"
