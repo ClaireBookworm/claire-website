@@ -15,7 +15,7 @@ export default function Home() {
           <div>Claire Wang<div className="inline opacity-50">.</div></div>
         </section>
         <section className="mt-8 md:mt-16 w-2/3 lg:w-1/2 md:text-xl">
-          Hello! I’m Claire, a high school student; thanks for stoppin' by. I'm fascinated about neuroscience and computer science and have done some budding research in these fields. If you ever see me, I'll probably either be talking about <a style={{"fontWeight: bold"}} href="https://hackclub.com/">Hack Club</a>, expressing my ever-lasting love for Imagine Dragons & my Spotify <a href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s?si=5952a9845b984880">playlists</a>, ranting about <a href="https://bookshelf.website/clairebookworm">books</a>, or making an absolute banger of a pun. I truly believe in the art of making for the betterment of the world while having fun doing so. I'm always open DFTBA¹!
+          Hello! I’m Claire, a high school student; thanks for stoppin' by. I'm fascinated about neuroscience and computer science and have done some budding research in these fields. If you ever see me, I'll probably either be talking about <a style={{"fontWeight":bold}} href="https://hackclub.com/">Hack Club</a>, expressing my ever-lasting love for Imagine Dragons & my Spotify <a href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s?si=5952a9845b984880">playlists</a>, ranting about <a href="https://bookshelf.website/clairebookworm">books</a>, or making an absolute banger of a pun. I truly believe in the art of making for the betterment of the world while having fun doing so. I'm always open DFTBA¹!
         </section>
         <section className="mt-8 md:mt-8 w-2/3 lg:w-1/2 md:text-xl">
           <div className="icon-bar">
