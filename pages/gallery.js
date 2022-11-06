@@ -111,7 +111,7 @@ export default function Gallery() {
         />
       </div>
       <br />
-      <h2 className="gallerySubhead">Stuff in Progress...</h2>
+      <h2 className="gallerySubhead">Various things in progress...</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <GalleryCard
           title="Phillipian Digital Editor"
