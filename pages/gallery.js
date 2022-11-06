@@ -13,7 +13,7 @@ export default function Gallery() {
         <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute (Summer 2022)"
-          children="As part of the Visual Attention Lab and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and discovering the extent of their correlation as well as developing a platform for human experimentation for such MM experiments."
+          children="As part of the *[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)* and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and discovering the extent of their correlation as well as developing a platform for human experimentation for such MM experiments."
         />
         <GalleryCard
           href="https://angelhacks.org"
@@ -39,6 +39,11 @@ export default function Gallery() {
           href="zephyr.hackclub.com"
           title="Intern @ Hack Club (Summer 2020)"
           children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked) to improve hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
+        />
+        <GalleryCard 
+          title="Phillipian State Of The Academy 2023"
+          href="https://sota.phillipian.net/"
+          children="As digital editor of Phillips Academy's *Phillipian* newspaper, I developed the annual State of the Academy (SOTA), a report based on data collected from the majority of the student body (the survey is completely anonymous and specific data is kept private). This publication is referenced to by faculty, alumni, students, and so on."
         />
         <GalleryCard
           title="DeepAI Intern (2019-2021)"
@@ -116,15 +121,11 @@ export default function Gallery() {
         <GalleryCard
           title="Phillipian Digital Editor"
           href="https://phillipian.net"
-          children="Digital Editor of the Phillipian CXLV (previously associate digital). Trying to make some cool stuff :)"
-        />
-        <GalleryCard
-          title="MIT PRIMES (2022)"
-          children="Worked with the Broad Institute on scRNA-sequencing. (Hiatus)"
+          children="Digital Editor of Phillips Academy's *The Phillipian* CXLV (previously an associate editor). Working on exploring *[data journalism](https://sota.phillipian.net)*, giving *[voices to marginalized communities](https://latinelegacy.phillipian.net)*, and so on. :)"
         />
         <GalleryCard
           title="Andover Computer Science Club"
-          children="We meet weekly and run fun workshops to inspire members of various levels of expertise to find joy in making and creating with code! As co-president, I have worked on liasing with faculty advisors, applying for alumni Abbot Grants, organizing various speaker series and longer-form copmeittions, and so on. (Also, with Hack Club being ~80% of my personality I should probably be running one...)"
+          children="We meet weekly and run fun workshops to inspire members of various levels of expertise to find joy in making and creating with code! As co-president, I have worked on liasing with faculty advisors, applying for alumni Abbot Grants, organizing various speaker series and longer-form copmeittions, and so on."
         />
         <GalleryCard
           title="Andover A-RISE Science Olympiad & Research"
@@ -137,6 +138,10 @@ export default function Gallery() {
         <GalleryCard
           title="Andover Quiz Bowl Club"
           children="The Andover Quiz Bowl Team has qualified for Nationals for the past few years and have done very well in many regional tournaments. As co-president of the club, I organize weekly meetings, apply for grants and work on fundraising, and help train members for tournaments."
+        />
+                <GalleryCard
+          title="MIT PRIMES (2022)"
+          children="Worked with the Broad Institute on scRNA-sequencing. (Hiatus)"
         />
       </div>
     </Layout>
