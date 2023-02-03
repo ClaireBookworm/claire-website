@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class">
       <Component {...pageProps} />
-	<Analytics />
+	    <Analytics />
     </ThemeProvider>
   )
 }
