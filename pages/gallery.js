@@ -23,7 +23,7 @@ export default function Gallery() {
         <GalleryCard
           href="https://sinerider.com"
           title="SineRider - A game about love, math, and graphing. (Summer 2022)"
-          children="A game of love, math, and graphing <3. I helped leed a team of Hack Club students to create a game with 3b1b (Grant Sanderson) and Polytroper (Chris Walker) to teach players the wonders of function composition through a beautiful game of skiing and love, slated to fully launched near the end of 2022. Our prototype launch reached #2 on the front page of HackerNews and got lots of feedback from amazing people like Nicky Case and Grant Sanderson!"
+          children="A game of love, math, and graphing <3. I helped lead a team of Hack Club students to create a game with 3b1b (Grant Sanderson) and Polytroper (Chris Walker) to teach players the wonders of function composition through a beautiful game of skiing and love, slated to fully launched near the end of 2022. Our prototype launch reached #2 on the front page of HackerNews and got lots of feedback from amazing people like Nicky Case and Grant Sanderson!"
         />
         <GalleryCard
           href="http://lonn.semel.ucla.edu/"
@@ -32,8 +32,8 @@ export default function Gallery() {
         />
         <GalleryCard
           title="MIT PRIMES CS (2021)"
-          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project and was presented at JMM 2022. We were also accepted into APOCS23, held in Italy in Jan 2023. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)**, our poster, or click for the paper."
-          href="https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf"
+          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project and was presented at AMS-PME JMM 2022 & ACM-SIAM SODA APOCS 2023. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)**, our poster, initial [PRIMES paper](https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf), or click for the published paper."
+          href="https://epubs.siam.org/doi/abs/10.1137/1.9781611977578.ch2"
         />
         <GalleryCard
           href="zephyr.hackclub.com"
@@ -43,7 +43,7 @@ export default function Gallery() {
         <GalleryCard 
           title="Phillipian State Of The Academy 2023"
           href="https://sota.phillipian.net/"
-          children="As digital editor of Phillips Academy's *Phillipian* newspaper, I developed the annual State of the Academy (SOTA), a report based on data collected from the majority of the student body (the survey is completely anonymous and specific data is kept private). This publication is referenced to by faculty, alumni, students, and so on."
+          children="As digital editor of Phillips Academy's newspaper, *The Phillipian*, I developed the annual State of the Academy (SOTA), a report based on data collected from the majority of the student body (the survey is completely anonymous and specific data is kept private). This publication is referenced to by faculty, alumni, students, and so on. SOTA won the 2022 NSPA Digital Story of the Year interactive graphic award."
         />
         <GalleryCard
           title="DeepAI Intern (2019-2021)"
@@ -63,7 +63,7 @@ export default function Gallery() {
         <GalleryCard
           href="https://artofmemory.com/start/"
           title="Memory Sports"
-          children="I'm a memory athlete (which sounds peculiar, but click this card to get started) and I was the longest reigning Words champion in the world on Memory League, 3rd place nationally at USAMC held at MIT (in which I was the youngest competitor out of various adults and older students), and the Youth Champion at the Taiwain International Championship. In addition, I was the 2021 World Speed Reading Champion at MSO. In fact, doing memory sports was what got me interested in neuroscience and especially memory!"
+          children="I'm a memory athlete (which sounds peculiar, but click this card to get started) and I was the longest reigning Words champion in the world on Memory League, 3rd place nationally at USAMC held at MIT (in which I was the youngest competitor out of various adults and older students), and the Youth Champion at the Taiwan International Championship. In addition, I was the 2021 World Speed Reading Champion at MSO. In fact, doing memory sports was what got me interested in neuroscience and especially memory!"
         />
         <GalleryCard
           title="Supersingular Ratio of Elliptic Curves (2018-2019)"
@@ -73,16 +73,16 @@ export default function Gallery() {
         <GalleryCard
           href="https://deepai.org/machine-learning-model/mri-brain-tumor-detection"
           title="MIRAI (2018-2019)"
-          children="MIRAI is a neural network that detects and outlines brain tumors in MRI brain scans. This model utilizes **metalearning and a MASK R-CNN** to be able to detect brain tumors with an accuracy that rivals that of a professional. MIRAI takes in a MRI head scan and spits out a labeled one, as well as a precise outline of the tumor. *Disclaimer: this model is for practice purposes only.*"
+          children="MIRAI is a neural network that detects and outlines brain tumors in MRI brain scans. This model utilizes **meta-learning and a MASK R-CNN** to be able to detect brain tumors with an accuracy that rivals that of a professional. MIRAI takes in a MRI head scan and spits out a labeled one, as well as a precise outline of the tumor. *Disclaimer: this model is for practice purposes only.*"
         />
         <GalleryCard
           href="https://www.notion.so/nerdfighteria/Mind-Over-Matter-Neuroethical-Considerations-of-Neurotechnology-e54d1c520b5d419ba4fed84cec5a24be"
           title="Mind Over Matter"
-          children="Neuroscientists are driven to understand a three-pound mass of neurons and glia pondering the morality and risks of studying themselves. Neuroethics is a broad field, yet evaluating the risks and benefits of brain-computer interfaces (BCIs) is a timely and critical topic due to the rapid development of technologies, including implants and wearables electronics. "
+          children="Neuroscientists are driven to understand a three-pound mass of neurons and glia pondering the morality and risks of studying themselves. Neuro-ethics is a broad field, yet evaluating the risks and benefits of brain-computer interfaces (BCIs) is a timely and critical topic due to the rapid development of technologies, including implants and wearables electronics. "
         />
         <GalleryCard
           title="Nujjet (prev. TARDIS) (2021-Present)"
-          children="NUJJET is our response to the widespread pandemic of high school stress of today. By creating a low cost neuro headset to monitor and modulate your brain, we can help you study more effectively, and make long term changes. *(Participated in Conrad, Gatsvi, and Hack Club)* (Currently in hiatus)"
+          children="NUJJET is our response to the widespread pandemic of high school stress of today. By creating a low cost neuroscience headset to monitor and modulate your brain, we can help you study more effectively, and make long term changes. *(Participated in Conrad Challenge, GATSVI, and Hack Club)* (Currently in hiatus)"
           href="https://nujjet.us/"
         />
       </div>
@@ -125,7 +125,7 @@ export default function Gallery() {
         />
         <GalleryCard
           title="Andover Computer Science Club"
-          children="We meet weekly and run fun workshops to inspire members of various levels of expertise to find joy in making and creating with code! As co-president, I have worked on liasing with faculty advisors, applying for alumni Abbot Grants, organizing various speaker series and longer-form copmeittions, and so on."
+          children="We meet weekly and run fun workshops to inspire members of various levels of expertise to find joy in making and creating with code! As co-president, I have worked on liaising with faculty advisors, applying for alumni Abbot Grants, organizing various speaker series and longer-form competitions, and so on."
         />
         <GalleryCard
           title="Andover A-RISE Science Olympiad & Research"
