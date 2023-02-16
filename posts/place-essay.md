@@ -13,6 +13,8 @@ Alas, no. It is my mom that has caught me in my mischievous scheme. My copy of *
 
 
 ******
+******
+******
 
 
 The best bathroom I’ve ever had the pleasure of experiencing had lush red walls, graffiti art and skate stickers threatening to shroud the expensive maroon paint, and, somehow, a sparkling chandelier. All smack dab in the middle of some nondescript vegetarian bowl place I’ve gone to religiously since. 
