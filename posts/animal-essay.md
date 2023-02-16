@@ -1,0 +1,35 @@
+---
+title: "hey, we are all aphid-people."
+date: 'Feb 1, 2023'
+---
+
+
+
+> *“I’m losing my edge/ To all the kids in Tokyo and Berlin/ I’m losing my edge to the art-school Brooklynites in little jackets and borrowed nostalgia for the unremembered eighties.”* - Losing My Edge by LCD Soundsystem 
+ 
+In the 2018 version of Princeton Review’s SAT Test Prep Book, you can find a passage about aphids and their amazing abilities to suck up sap more than three times their weight within practice tests. This was, regardless of what it says about my academic hobbies, my first introduction to the existence of these uncannily translucent green insects. 
+
+Sources say that while aphids may be considered pests by most people, they have unique and fascinating characteristics that make them unique from many other insect species. If anything, that feels too consolatory to me… every species has “unique and fascinating” characteristics; there’s no need to lie to the Aphidoidea species. You’ve definitely heard the approximate saying, “everyone is unique in their own way.” And there’s always that smartass that responds with, “doesn’t that make everyone un-unique?”
+
+That “smartass” has a point, though. We grow up believing we are the Thumbelina that twirls beyond the boring flowers because we are different. Each first word, first step, first picture, first… everything is celebrated. Even your first solid food and first vegetable—I wish I still did this now! Why no celebration? 
+
+Aphids are also sometimes referred to as plant lice. For many, that brings memories of being afraid to share hats or helmets with any and everyone for the possibility of blood-sucking insects climbing around your hair. At first glance, you cannot tell the lice are there, but that is the beauty of camouflage: by blending into the background, aphids (and other living organisms) can hide from those that want to kill them. 
+
+Taylor Swift once sang: *Lord, what will become of me; Once I've lost my novelty?*
+What if we become pests? Akin to plant lice as we continue to cavort around the world believing incorrectly that we are gracing the world around us with our presence? As Swift bemoans, *“will you still want me when I’m nothing new?”* 
+
+But! You may protest aphids are unique! For example, they reproduce both sexually and asexually based on the season and environment. This means they can reproduce within a few days of being born when reproducing asexually (which is likely why they are such pests), *or* sexually produce eggs that can survive winters. This is something even humans cannot do! (Though, not for lack of trying.) 
+
+Even cooler, they “poop candy.” In the words of one of my favorite Ted-ed videos: “[all those generations] means lots of poop. Some aphid populations can produce hundreds of kilograms of poop per acre— making them some of the most prolific poopers on the planet. We know this poop as the sweet, syrupy liquid called honeydew.” Ew.
+
+Yet cool! Finally, something unique—in fact, it seems aphids and associated insects have been around for millennia, just long enough to have generated mythology. Dew falls from the mythological Norse tree Yggdrasil onto the Earth. Zeus was nursed with honeydew as he recovered from being… eaten by his father and later found the strength to lead a revolution against his cannibalistic father. As a dabbling teacher, I once taught a class about aphids and how biology is truly magical, and sometimes it truly makes no sense how some things happen. How does 1/16th of an inch of organic material produce hundreds of kilograms of waste? A prolific waster but, somehow, not always a pest. 
+
+Gross? Maybe, but I believe life is inherently a series of wasteful events that combine into some form of happiness. Years ago, when I was sure I would grow up to become an environmentalist, I wondered why everything we did seemed only to worsen the world. Just by breathing, eating, laughing… all bad? It is like the law of entropy—an unending downhill battle. But just like the aphid, I like to think we create good out of it: we find joy in art, music, conversations, and the like. Honeydew, the secretion,  is a major issue for farmers because it can cause sooty mold and also ruins glass or metal. Yet, it is highly valued in parts of Europe and Asia “for its reputed medicinal value.” Last year, I met someone in SF who talked about how she had been searching for happiness for years only to find out that there is no meaning in life—instead, happiness can only be felt when there are sad moments to contrast it with.
+
+Human interactions all seem so unique, but it really is just two people who find the best parts of themselves to offer up nervously, eyes squeezed shut, to the other in the hopes that they accept. We change who we are around different people. Newsflash to a Claire a few years ago: this isn’t special to you; everyone mildly molds their personality to better fit around the life of another. As a chronic college-counselor-diagnosed (long story) people pleaser, being able to fit myself unobtrusively around the lives of others is of utmost importance. 
+
+Because thick tree sap takes a long time to pass through a ~0.001-meter diameter tube, aphids must change their color based on their host plant. This makes them all the more annoying because predators won’t be able to tell the difference between a simple frond of leaves and the horde of aphids feeding from them. Aphids can camouflage themselves in a variety of shades of green! 
+
+A part of me is convinced that I picked a personality during the gap year I took after 7th grade. I’d always been kind of hidden within my books beforehand. The highlight of my lunches was meeting with my singular (1) best friend, and we’d just read on our matching Kindle Paperwhites (books were too heavy, and there was a limit to how many you could check out at once) and occasionally swap funny quotes. (Yes, I’m sure many people here at Andover did the same. Let me be.) Then, after some self-reflection during my gap year of being alone, I decided to choose a few mildly quirky details about myself and stick to it. I like to think humans build relationships on faux disagreements: for example, if I tell you my favorite band of all time is Imagine Dragons, we become best friends in one of two ways. Either you agree, and I fall madly in love with you. Or you disagree (more likely option), and we have a falsely passionate argument and become lifetime associates. Uncontroversial arguments are too easy: if I have strong opinions on Star Trek vs. Star Wars, the only way is up. 
+
+In hindsight, I don’t think 13-year-old me decided to manipulate every person I ever met afterward, but it’s easy to convince myself I did. Otherwise, how do you explain the fact that I now actually *talk* to ≥1 person on a daily basis? Maybe I *am* the aphid.
