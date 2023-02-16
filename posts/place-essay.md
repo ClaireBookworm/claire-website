@@ -10,7 +10,11 @@ At least, this is what I tell myself as I sequester myself behind the supposed b
 The highlight of my days, then, became the minuscule periods of time I could grab that were just long enough to make my thighs go numb after supporting my books at weird angles. I transcended beyond the boring white walls into the stories of Meg or Mrs. Whatsit. Suddenly the lotions and shampoos were no longer lotions and shampoos anymore… instead there stood Mr. Rochester and his burning building or the very *rocket that Walked A Mile™* and… what… is that? Miss Trunchbull storming her way toward me? 
 
 Alas, no. It is my mom that has caught me in my mischievous scheme. My copy of *A Wrinkle in Time* is ferociously wrenched away from my rubbery hands as she breaches the sacred temple of the bathroom. Another fallen soldier, probably never to be seen again (as proof: when A Wrinkle In Time the movie came out, I had forgotten the entire plot). Perhaps more unfortunate is the loss of yet another hiding place. There are only so many places I could hide a 6’’ x 9’’ book.
+
+
 ******
+
+
 The best bathroom I’ve ever had the pleasure of experiencing had lush red walls, graffiti art and skate stickers threatening to shroud the expensive maroon paint, and, somehow, a sparkling chandelier. All smack dab in the middle of some nondescript vegetarian bowl place I’ve gone to religiously since. 
 
 I am aware that my enjoyment of the bathroom is truly embarrassing. No one would want to make it publicly known that they like to spend tremendous amounts of time in a space made primarily for defecation. And, now that my legs are long enough, I have no issue submitting my biology homework in the comfort of the ever-persevering sound of the bathroom fan. But that is exactly it! There’s a silence to it, and now that my mom only occasionally barges in, it sometimes gives me a chance to take the first relaxed breath of the day. In a home where boundaries can mean nothing, the promise of control is intoxicating.
