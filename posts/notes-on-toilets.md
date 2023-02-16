@@ -12,10 +12,9 @@ The highlight of my days, then, became the minuscule periods of time I could gra
 Alas, no. It is my mom that has caught me in my mischievous scheme. My copy of *A Wrinkle in Time* is ferociously wrenched away from my rubbery hands as she breaches the sacred temple of the bathroom. Another fallen soldier, probably never to be seen again (as proof: when A Wrinkle In Time the movie came out, I had forgotten the entire plot). Perhaps more unfortunate is the loss of yet another hiding place. There are only so many places I could hide a 6’’ x 9’’ book.
 
 
-******
-******
-******
-
+*
+*
+*
 
 The best bathroom I’ve ever had the pleasure of experiencing had lush red walls, graffiti art and skate stickers threatening to shroud the expensive maroon paint, and, somehow, a sparkling chandelier. All smack dab in the middle of some nondescript vegetarian bowl place I’ve gone to religiously since. 
 
