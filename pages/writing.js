@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
         <br />
-        <p>Find my wordpress blog at <a href="https://clairebookworm.wordpress.com/">clairebookworm.wordpress.com</a></p>
+        <p>Find my substack at <a href="https://clairebookworm.substack.com/">clairebookworm.substack.com/</a>, where I might be a bit more active / have more shorter posts. Or, find my old wordpress blog at <a href="https://clairebookworm.wordpress.com/">clairebookworm.wordpress.com</a>. It's pretty bad.</p>
       </div>
     </Layout>
   );

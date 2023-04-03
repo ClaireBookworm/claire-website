@@ -13,12 +13,12 @@ export default function Gallery() {
         <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute (Summer 2022)"
-          children="As part of the *[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)* and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and discovering the extent of their correlation as well as developing a platform for human experimentation for such MM experiments."
+          children="As part of the *[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)* and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and discovering the extent of their correlation as well as developing a platform for human experimentation for such MM experiments. [Update: I will be an RSI 2023 counselor as well!]"
         />
         <GalleryCard
           href="https://angelhacks.org"
           title="AngelHacks (2018-Present)"
-          children="I founded AngelHacks 1.0 in 2018 and this grew to be an event hosted at Snapchat HQ with 150+ mentors and amazing prizes and workshops! AngelHacks 2.0 (in 2020) had 1000+ attendees and we were able to run many workshops and have awesome people talk. I have raised up to $10k+ in donations and much more in in-kind sponsorships."
+          children="I founded AngelHacks 1.0 in 2018 and this grew to be an event hosted at Snapchat HQ with 150+ mentors and amazing prizes and workshops! AngelHacks 2.0 (in 2020) had 1000+ attendees and we were able to run many workshops and have awesome people talk. I have raised up to $10k+ in donations and much more in in-kind sponsorships. [Update: AngelHacks 3.0 is in the works...]"
         />
         <GalleryCard
           href="https://sinerider.com"
@@ -38,7 +38,7 @@ export default function Gallery() {
         <GalleryCard
           href="zephyr.hackclub.com"
           title="Intern @ Hack Club (Summer 2020)"
-          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked) to improve hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
+          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked; a cross-country train-based hackathon) to improve hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
         />
         <GalleryCard 
           title="Phillipian State Of The Academy 2023"
