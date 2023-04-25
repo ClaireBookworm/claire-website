@@ -5,10 +5,13 @@ date: 'April 25, 2023'
 
 **we literally don't matter, actually. (a rant written in the middle of a class)**
 
-link to a **[doc with the many many comments my amazing friends made](https://docs.google.com/document/d/1yCXL6144fO2_3g0GLVUkCbKiJ2M-wY1ZQwOMRLHBXAA/edit)** *(feel free to add more! or comment on this post! some of this essay has been added after my draft in response to some comments that were made, cus peer review <3! idk. basically the point is that this is not something super polished).*
+* * * * *
 
-*Also, stay till the end to see some life updates because I was inspired by what Reboot and Apoorva's blogs do.*
+link to a *[doc with the many many comments my amazing friends made](https://docs.google.com/document/d/1yCXL6144fO2_3g0GLVUkCbKiJ2M-wY1ZQwOMRLHBXAA/edit)* *(feel free to add more! or comment on this post! some of this essay has been added after my draft in response to some comments that were made, cus peer review <3! idk. basically the point is that this is not something super polished).*
 
+*Also, stay till the end to see some life updates because I was inspired by what Reboot and Apoorva's blogs do!*
+
+* * * * *
 * * * * *
 
 Recently I've been thinking a lot about how we are told we are meant for great things. In some of the communities I'm in, they always tell us that we are exceptional, smart, different--- all while that is obviously not true. I don't think many students take it to heart; we do enter a room with more confidence, join a discussion with the belief that we probably know what we're talking about, etcetera. This may be a good thing, but it has kind of hurt me as well (?). I've felt that I *can* do great things, that I am *meant* to do so---in fact, it is almost a moral negative if I do not. In the other communities I'm in, like Hack Club, RSI/research communities, and rationality circles... everyone seems to have this shared view that they are meant to impact the world. Having a deep belief in someone is meaningful and can motivate them to grow and learn for themselves, but at some point, I think it cripples the way you explore the world. In fact, [according to The Atlantic](https://www.theatlantic.com/education/archive/2015/06/the-s-word/397205/), parents aren't supposed to tell their kids they are smart (*thanks, Phosra*). 
@@ -58,6 +61,8 @@ The video my friend showed in class that led to all this: *To Us Former Prodigi
 [https://twitter.com/meaning_enjoyer/status/1650130635397414912](https://twitter.com/meaning_enjoyer/status/1650130635397414912?s=46&t=8hDsm_rOHMAm1Ni0IhTqLw)
 
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45860d71-cd40-4320-b07f-640e72fc5269_1110x948.png)
+
+* * * * *
 
 ## ✨ Random Things ✨
 
