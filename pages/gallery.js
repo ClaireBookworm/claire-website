@@ -13,7 +13,7 @@ export default function Gallery() {
         <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute (Summer 2022)"
-          children="As part of the *[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)* and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and discovering the extent of their correlation as well as developing a platform for human experimentation for such MM experiments. [Update: I will be an RSI 2023 counselor as well!]"
+          children="As part of the *[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)* at Harvard Medical School under Prof. Jeremy Wolfe and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and the extent of their correlation, in addition to developing a platform for human experimentation for such massive memory experiments. [Update: I will be an RSI 2023 counselor as well!]"
         />
         <GalleryCard
           href="https://angelhacks.org"
@@ -38,7 +38,7 @@ export default function Gallery() {
         <GalleryCard
           href="zephyr.hackclub.com"
           title="Intern @ Hack Club (Summer 2020)"
-          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked; a cross-country train-based hackathon) to improve hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
+          children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked; a cross-country train-based hackathon), especially on hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
         />
         <GalleryCard 
           title="Phillipian State Of The Academy 2023"
