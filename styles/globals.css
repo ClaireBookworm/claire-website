@@ -63,6 +63,16 @@ a:hover {
     font-family: 'Gilroy';
 }
 
+GalleryCard > a {
+    text-decoration: underline dotted !important;
+}
+
+GalleryCard > a:hover {
+    text-decoration: dotted;
+    opacity: 80%;
+    font-weight: 900;
+}
+
 .writingsTitle {
     font-size: 3rem;
     padding-bottom: 20px;

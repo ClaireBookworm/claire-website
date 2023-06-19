@@ -5,15 +5,14 @@ date: 'April 25, 2023'
 
 **we literally don't matter, actually. (a rant written in the middle of a class)**
 
-* * * * *
-
 link to a *[doc with the many many comments my amazing friends made](https://docs.google.com/document/d/1yCXL6144fO2_3g0GLVUkCbKiJ2M-wY1ZQwOMRLHBXAA/edit)* *(feel free to add more! or comment on this post! some of this essay has been added after my draft in response to some comments that were made, cus peer review <3! idk. basically the point is that this is not something super polished).*
 
-*Also, stay till the end to see some life updates because I was inspired by what Reboot and Apoorva's blogs do!*
+*Also, **stay till the end** to see some life updates because I was inspired by what Reboot and Apoorva's blogs do!*
 
 * * * * *
 * * * * *
 
+<br />
 Recently I’ve been thinking a lot about how we are told we are meant for great things. In some of the communities I’m in, they always tell us that we are exceptional, smart, different— all while that is obviously not true. I don’t think many students take it to heart; we do enter a room with more confidence, join a discussion with the belief that we probably know what we’re talking about, etcetera. This may be a good thing, but it has kind of hurt me as well (?). I’ve felt that I can do great things, that I am meant to do so—in fact, it is almost a moral negative if I do not. In the other communities I’m in, like Hack Club, RSI/research communities, and rationality circles… everyone seems to have this shared view that they are meant to impact the world. Having a deep belief in someone is meaningful and can motivate them to grow and learn for themselves, but at some point, I think it cripples the way you explore the world. In fact, [according to The Atlantic](https://www.theatlantic.com/education/archive/2015/06/the-s-word/397205/), parents aren't supposed to tell their kids they are smart (*thanks, Phosra*). 
 
 As a friend commented on my draft, many places actually don’t tell students this. In fact, they actively seem to avoid this? Instead, they go with the strategy of framing themselves as a group of people who “love math” or “love art.” This seems to be such a better approach, and I wonder why more people don’t do this. A good comparison is between places like my high school Andover, which tell us that we’re going to do “great things,” vs. communities like Hack Club, which frame their members as people who "[love making](https://hackclub.com/philosophy/) and [creating things](https://site-git-hw.hackclub.dev/hackers-wanted/)." In the words of my commentator (*s/o Agniv*): "This is weird to me because of the imposter syndrome it would naturally breed. I believe I saw a statistic where many freshmen at top colleges got imposter syndrome, [which] negatively affected them."
@@ -64,19 +63,20 @@ The video my friend showed in class that led to all this: *To Us Former Prodigi
 ![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45860d71-cd40-4320-b07f-640e72fc5269_1110x948.png)
 
 * * * * *
+<br />
 
 ## ✨ Random Things ✨
 
--   I'm running [AngelHacks](https://angelhacks.hackclub.com/) 3.0 as a partnership with [Hack Club](https://hackclub.com/)! It'll be a 24-hour game jam in Boston in Late May and is open to all gamers, coders, artists, storytellers, musicians... and if you're not in Boston, we have 3 satellite events too: Los Angeles, Bay Area, and [Toronto](https://angelhacksto.hackclub.com/). More details to come, but please feel free to register here: <https://airtable.com/shrK2lcYQVjHLKNf4>. We're also struggling to find an overnight venue in Boston, so if you have any contacts, please let me know!
+I'm running [AngelHacks](https://angelhacks.hackclub.com/) 3.0 (this time, as a partnership with [Hack Club](https://hackclub.com/))! It'll be a 24-hour game jam in Boston in Late May and is open to all gamers, coders, artists, storytellers, musicians... and if you're not in Boston, we have 3 satellite events too: Los Angeles, Bay Area, and [Toronto](https://angelhacksto.hackclub.com/). More details to come, but please feel free to register here: <https://airtable.com/shrK2lcYQVjHLKNf4>. We're also struggling to find an overnight venue in Boston, so if you have any contacts, please let me know!
 
--   [SineRider](https://sinerider.com/), a game of love and graphing, is launching this weekend! We got some amazing merch, are trying to convince ThinkerCon people to like it, and are in the midst of playtesting. Stay tuned yay!
+[SineRider](https://sinerider.com/), a game of love and graphing, is launching this weekend! We got some amazing merch, are trying to convince ThinkerCon people to like it, and are in the midst of playtesting. Stay tuned yay!
 
--   I will also be an RSI counselor this summer, and I'm so excited to be torturing the new generation of Rickoids (RSI Broads?). If you're looking for a summer intern too, I'll be in Boston! :)
+I will also be an RSI counselor this summer, and I'm so excited to be torturing the new generation of Rickoids (RSI Broads?). If you're looking for a summer intern too, I'll be in Boston! :)
 
--   Over spring break, I was at [WARP](https://www.warp.camp/), the Winter Applied Rationality Program. I met some of the coolest people ever, took some classes that really, uh, *updated my priors /s*, and spent many hours nerding out over things I probably don't actually understand. I super recommend :D.
+- Over spring break, I was at [WARP](https://www.warp.camp/), the Winter Applied Rationality Program. I met some of the coolest people ever, took some classes that really, uh, *updated my priors /s*, and spent many hours nerding out over things I probably don't actually understand. I super recommend :D.
 
--   A few weeks ago, I was at [Horizon](https://horizon.hackclub.com/), a partnership between Hack Club and the Girl Scouts of Greater NYC. This was so fun---I taught [generative art](http://github.com/clairebookworm/generative-art-workshop/) to some really amazing girls, met some inspiring women in the industry at the dinner afterward, and explored the city! We also took many Polaroids and crashed the Girls Who Code event as well.
+- A few weeks ago, I was at [Horizon](https://horizon.hackclub.com/), a partnership between Hack Club and the Girl Scouts of Greater NYC. This was so fun---I taught [generative art](http://github.com/clairebookworm/generative-art-workshop/) to some really amazing girls, met some inspiring women in the industry at the dinner afterward, and explored the city! We also took many Polaroids and crashed the Girls Who Code event as well.
 
--   Some books I've recently read: *When Breath Becomes Air* by Paul Kalanithi, *Crying in H-Mart* by Michelle Zauner, *Three-Body Problem* by Cixin Liu, *Godel Escher Bach* by Hofstadter (still), *Games: Agency as Art* by C. Thi Nguyen, *The Dharma Bums* by Jack Kerouac
+- Some books I've recently read: *When Breath Becomes Air* by Paul Kalanithi, *Crying in H-Mart* by Michelle Zauner, *Three-Body Problem* by Cixin Liu, *Godel Escher Bach* by Hofstadter (still), *Games: Agency as Art* by C. Thi Nguyen, *The Dharma Bums* by Jack Kerouac
 
--   Concerts/music teehee: I saw [Snarky Puppy](https://open.spotify.com/artist/7ENzCHnmJUr20nUjoZ0zZ1?si=VrjmecwTQ72OV2ojVBYg-w) and [Cory Wong](https://open.spotify.com/artist/6xt9sJmmyYwWkJv8A6ssiU?si=0r4jW5JOSoqlWMJuLVHD9Q) in concert! This is why Boston is amazing tbh. I'm also seeing [Watsky](https://open.spotify.com/artist/3mJ9GlkLzj8Ka7Z7EQaCMi?si=T2VZYgUMRXKSShkyyJCgSg) soon.
+- Concerts/music teehee: I saw [Snarky Puppy](https://open.spotify.com/artist/7ENzCHnmJUr20nUjoZ0zZ1?si=VrjmecwTQ72OV2ojVBYg-w) and [Cory Wong](https://open.spotify.com/artist/6xt9sJmmyYwWkJv8A6ssiU?si=0r4jW5JOSoqlWMJuLVHD9Q) in concert! This is why Boston is amazing tbh. I'm also seeing [Watsky](https://open.spotify.com/artist/3mJ9GlkLzj8Ka7Z7EQaCMi?si=T2VZYgUMRXKSShkyyJCgSg) soon.

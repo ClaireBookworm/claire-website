@@ -13,17 +13,22 @@ export default function Gallery() {
         <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute (Summer 2022, 2023)"
-          children="As part of the *[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)* at Harvard Medical School under Prof. Jeremy Wolfe and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and the extent of their correlation, in addition to developing a platform for human experimentation for such massive memory experiments. [Update: I will be an RSI 2023 counselor as well & working at the Computational Cognitive Neuroscience Lab!]"
+          children="As part of the **[Visual Attention Lab](https://search.bwh.harvard.edu/new/index.html)** at Harvard Medical School under Prof. Jeremy Wolfe and a student at RSI (Research Science Institute), I did research on Spatial and Temporal Massive Memory and the extent of their correlation, in addition to developing a platform for human experimentation for such massive memory experiments. [Update: I will be an RSI 2023 counselor as well & working at the Computational Cognitive Neuroscience Lab!]"
         />
         <GalleryCard
           href="https://angelhacks.org"
           title="AngelHacks (2018-2023)"
-          children="I founded AngelHacks 1.0 in 2018 into a hackathon hosted at Snapchat HQ with 150+ mentors and amazing prizes and workshops! AngelHacks 2.0 (in 2020) had 1000+ attendees and we were able to run many workshops and have awesome people talk. I have raised up to $10k+ in donations and much more in in-kind sponsorships. AngelHacks 3.0 (& we partnered w/ Hack Club to make it the official HC Spring Event) was a 24-hour game jam in Boston in 2023, where people came together to make rhythm games, lambda calculus explorers, puzzle games, text-based quizzes, and more!"
+          children="I founded **[AngelHacks 1.0](https://2019.angelhacks.org/)** in 2018 into a hackathon hosted at Snapchat HQ with 150+ mentors and amazing prizes and workshops! **[AngelHacks 2.0](https://2021.angelhacks.org/)** (in 2021) had 1000+ attendees and we were able to run many workshops and have awesome people talk. I have raised up to $10k+ in donations and much more in in-kind sponsorships. AngelHacks 3.0 (& we partnered w/ Hack Club to make it the official HC Spring Event) was a 24-hour game jam in Boston in 2023, where people came together to make rhythm games, lambda calculus explorers, puzzle games, text-based quizzes, and more!"
         />
         <GalleryCard
           href="https://sinerider.com"
           title="SineRider - A game about love, math, and graphing. (Summer 2022)"
-          children="A game of love, math, and graphing <3. I helped lead a team of Hack Club teenagers to create a game with Polytroper (Chris Walker) to teach players the wonders of function composition through a beautiful game of skiing and love. Our prototype launch reached #2 on the front page of HackerNews and got lots of feedback from amazing people like Nicky Case and Grant Sanderson! **Public beta launched**, find the link to the trailer [here](https://www.youtube.com/watch?v=35nDYoIwiA8). "
+          children="A game of love, math, and graphing <3. I helped lead a team of Hack Club teenagers to create a game with Polytroper (Chris Walker) to teach players the wonders of function composition through a beautiful game of skiing and love. Our prototype launch reached #2 on the front page of HackerNews and got lots of feedback from amazing people like Nicky Case and Grant Sanderson! **Public beta launched**, find the link to the trailer **[here](https://www.youtube.com/watch?v=35nDYoIwiA8)**."
+        />
+        <GalleryCard
+          href="https://excstential.substack.com/"
+          title="ExCStential Ethics"
+          children="An independent project with Dr. Kiran Bhardwaj & Olha @ Andover on Tech Ethics (something I've been interested in for a while)! We researched/read papers on privacy, EA/AI, competition, and design ethics. A list of readings we've done is **[linked here](https://bit.ly/excstential-readings)**, you should check it out! In addition, click on this card to see some of the essays we wrote & find our final presentation on privacy policy **[here](https://cloud-qg99kx646-hack-club-bot.vercel.app/0excstential-presentation.pdf)**."
         />
         <GalleryCard
           href="http://lonn.semel.ucla.edu/"
@@ -32,7 +37,7 @@ export default function Gallery() {
         />
         <GalleryCard
           title="MIT PRIMES CS (2021-22)"
-          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project and was presented at AMS-PME JMM 2022 & ACM-SIAM SODA APOCS 2023. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)**, our poster, initial [PRIMES paper](https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf), or click for the published paper."
+          children="Work on creating an efficient algorithm for bi-core decomposition of graphs. We achieved a higher speedup and an improvement of theoretical work and span based on previous work. This won the S.T.-Yau Global Science Award and Best CS Project and was presented at AMS-PME JMM 2022 & ACM-SIAM SODA APOCS 2023. You can find the github **[here](https://github.com/ClaireBookworm/gbbs)**, our poster, initial **[PRIMES paper](https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf)**, or click for the published paper."
           href="https://epubs.siam.org/doi/abs/10.1137/1.9781611977578.ch2"
         />
         <GalleryCard
@@ -121,7 +126,7 @@ export default function Gallery() {
         <GalleryCard
           title="Phillipian Digital Editor"
           href="https://phillipian.net"
-          children="Digital Editor of Phillips Academy's *The Phillipian* CXLV (previously an associate editor). Working on exploring *[data journalism](https://sota.phillipian.net)*, giving *[voices to marginalized communities](https://latinelegacy.phillipian.net)*, and so on. :)"
+          children="Digital Editor of Phillips Academy's *The Phillipian* CXLV (previously an associate editor). Working on exploring *[data journalism](https://sota.phillipian.net)*, amplifying **[voices to marginalized communities on campus](https://latinelegacy.phillipian.net)**, and so on. :)"
         />
         <GalleryCard
           title="Andover Computer Science Club"
