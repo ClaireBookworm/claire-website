@@ -7,10 +7,12 @@ const links = [
     { label: "Home", href: "/" },
     // { label: "Resume", href: "https://cloud-k9qzmiamk-hack-club-bot.vercel.app/0claire-resume-pager.pdf" },
     { label: "Projects", href: "/gallery" },
-    { label: "Resume", href:"https://cloud-g0e1pc0o2-hack-club-bot.vercel.app/0claire-wang-2023-new.pdf"},
+    { label: "Resume", href:"https://cloud-av56e77t5-hack-club-bot.vercel.app/0resume-claire-year.pdf"},
     { label: "Writing", href: "/writing"},
     { label: "Scrapbook", href: "https://scrapbook.hackclub.com/clairebookworm/" }
 ]
+
+// Old: https://cloud-g0e1pc0o2-hack-club-bot.vercel.app/0claire-wang-2023-new.pdf
 
 export default function Nav({active}) {
     useEffect(() => {
