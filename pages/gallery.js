@@ -8,8 +8,23 @@ export default function Gallery() {
         Projects <div className="inline opacity-50">&</div> Portfolio<div className="inline opacity-50">.</div>
       </h1>
 
-      <h2 className="gallerySubhead">Major Projects</h2>
+      <h2 className="gallerySubhead">Major Projects & In Progress</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <GalleryCard
+          title="Jasanoff Lab @ MIT McGovern/CSAIL"
+          href="https://jasanofflab.mit.edu/"
+          children="Designing complex circuits for better MRI imaging to understand neurofeedback circuits."
+        />
+        <GalleryCard
+          title="Desimone Lab @ MIT McGovern"
+          href="https://desimonelab.org/"
+          children="Behavioral analysis of free-moving marmosets in correlation with ASD & social behaviors."
+        />
+        <GalleryCard
+          title="Contrary Venture Partner"
+          href="https://contrary.com/"
+          children="Part of the venture partner program at Contrary Capital, where I help source and evaluate deals."
+        />
         <GalleryCard
           href="https://math.mit.edu/research/highschool/rsi/"
           title="Research Science Institute (Summer 2022, 2023)"
@@ -45,7 +60,7 @@ export default function Gallery() {
           title="Intern @ Hack Club (Summer 2020)"
           children="Over summer of 2021, I interned at Hack Club HQ at Vermont working mainly on the Zephyr (linked; a cross-country train-based hackathon), especially on hacker and technical experience as well as some fundraising efforts. The Hacker Zephyr was life changing <3."
         />
-        <GalleryCard 
+        <GalleryCard
           title="Phillipian State Of The Academy 2023"
           href="https://sota.phillipian.net/"
           children="As digital editor of Phillips Academy's newspaper, *The Phillipian*, I developed the annual State of the Academy (SOTA), a report based on data collected from the majority of the student body (the survey is completely anonymous and specific data is kept private). This publication is referenced to by faculty, alumni, students, and so on. SOTA won the 2022 NSPA Digital Story of the Year interactive graphic award."
@@ -72,7 +87,7 @@ export default function Gallery() {
         />
       </div>
       <br />
-      <h2 className="gallerySubhead">In progress<div className="inline opacity-50">...</div></h2>
+      <h2 className="gallerySubhead">More<div className="inline opacity-50">...</div></h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* <GalleryCard
           title="Andover Computer Science Club"
@@ -90,21 +105,6 @@ export default function Gallery() {
           title="Andover Quiz Bowl Club"
           children="The Andover Quiz Bowl Team has qualified for Nationals for the past few years and have done very well in many regional tournaments. As co-president of the club, I organize weekly meetings, apply for grants and work on fundraising, and help train members for tournaments."
         /> */}
-        <GalleryCard
-          title="Jasanoff Lab @ MIT McGovern/CSAIL"
-          href="https://jasanofflab.mit.edu/"
-          children="Designing complex circuits for better MRI imaging to understand neurofeedback circuits."
-        />
-        <GalleryCard
-          title="Desimone Lab @ MIT McGovern"
-          href="https://desimonelab.org/"
-          children="Behavioral analysis of free-moving marmosets in correlation with ASD & social behaviors."
-        />
-        <GalleryCard
-          title="Contrary Venture Partner"
-          href="https://contrary.com/"
-          children="Part of the venture partner program at Contrary Capital, where I help source and evaluate deals."
-        />
         <GalleryCard
           title="MIT PRIMES (2022)"
           children="Worked with the Broad Institute on scRNA-sequencing. (Hiatus)"
