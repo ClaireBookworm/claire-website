@@ -9,7 +9,7 @@ date: 'Oct 27, 2023'
 
 > Read this post on my [substack](https://clairebookworm.substack.com/p/how-to-be-lonely) too!
 
-The emptiness of a farewell at an airport. Nick’s morning meeting: the idea of a farewell being an exhalation. ([all things end](https://open.spotify.com/track/5csu6psyW6UN4ggucwOuDR?si=b4add22527c042c3))
+The emptiness of a farewell at an airport. Nick’s morning meeting: the idea of a farewell being an exhalation. (*[all things end](https://open.spotify.com/track/5csu6psyW6UN4ggucwOuDR?si=b4add22527c042c3)*)
 
 Somehow, it becomes a feeling of calm?
 

@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default function HeadObject({children}) {
     const title = "Claire Wang";
     const description = "Student. Researcher. Design.";
-    const keywords = "claire, wang, neuroscience, computer science, hack club";
+    const keywords = "claire, wang, neuroscience, computer science, hack club, mit";
     const author = "Claire Wang";
     const twitter = "@clairebookworm1";
     //const image = "/ogimage.png"; // This is your OpenGraph image
@@ -24,7 +24,6 @@ export default function HeadObject({children}) {
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:site" content={twitter} />
             <meta name="twitter:creator" content={twitter} />
-            <script async defer data-website-id="c5b782d5-9b00-45b0-9b47-57cdbba6eef1" src="https://analytics.sarthakmohanty.me/umami.js"></script>
             {children}
         </Head>
     )
