@@ -27,6 +27,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <div>
         <h1 className="writingsTitle">cold brew blog</h1>
+        <p>Find my substack at <a href="https://clairebookworm.substack.com/">clairebookworm.substack.com</a>.</p>
         <ul>
           {allPostsData.map(({ id, date, title }, index) => (
             <li key={index}>
@@ -42,7 +43,6 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
         <br />
-        <p>Find my substack at <a href="https://clairebookworm.substack.com/">clairebookworm.substack.com/</a>, where I might be a bit more active / have more (shorter-form) posts.</p>
       </div>
     </Layout>
   );
