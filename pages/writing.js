@@ -27,7 +27,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <div>
         <h1 className="writingsTitle">cold brew blog</h1>
-        <p>Find my substack at <a href="https://clairebookworm.substack.com/">clairebookworm.substack.com</a>.</p>
+        <p style={{"fontSize": '1.5rem'}}>Find my substack at <a href="https://clairebookworm.substack.com/">clairebookworm.substack.com</a>.</p>
+        <br />
         <ul>
           {allPostsData.map(({ id, date, title }, index) => (
             <li key={index}>

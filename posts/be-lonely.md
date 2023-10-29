@@ -18,9 +18,9 @@ When I say goodbye to someone, there’s a feeling of numbness and silence after
 If any of you are chronically online like I am, you might have seen those tiktok/reels that describe the feeling of the post-Facetime or the post-friend-hangout, where you’re half relieved that you’re alone now but suddenly left to deal with the fact that your life no longer revolves around this person.
 
 It seems pretty apparent that there’s a **difference between being alone and being lonely**—one is an observation of fact, and the other has a connotation of unwilling sadness. I might even say I was a somewhat lonely child: I’ve dug around my childhood photos, and I’d sometimes see an old Polaroid of me staring sadly directly at the camera, holding a pail of water while other kids frolicked in the background. Regardless of how this all happened, it’s turned me into someone who constantly needs the presence of other people. I have to eat with other people (or I’d not eat); I can’t watch a movie alone; I don’t like solitary walks, etc…
-
+<br />
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1TF3aLBoP470QhXJJ8asx4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+<br />
 It’s great, actually.
 
 I love being around my friends, especially since there’s always at least one person down to do something or go somewhere stupid. Over this past summer, I’ve had friends visiting every week, and I’ve gotten to get to know so many people better now that the demands of a shared program, school, or job no longer constrain us. It takes agency, but there’s no better feeling in the world than when the people you care about return the effort. <3
@@ -68,89 +68,91 @@ A crux: does fame or wealth matter to you? For me, I think fundamentally, it doe
 
 Returning to my weird relationship with being alone, I really focused on the idea that there’s so much external validation pushing me. It feels bad to think that I care somewhat about externalities, and it’s a rant for a whole other time on how I’ve tried to change that. Maybe the conclusion is that we’re **fundamentally lonely people**, and we must first be okay with being alone to become okay with finding joy in other people without basing our value on them.
 
->> on the one hand it’s exceedingly strange that finding yourself can be lonely and scary,
->> liberation in your hand
->>only to transform into confusion
->>self-peace always just
->>just out of reach
->>
->>just
->>——but on the other hand, it makes perfect sense that this happens
->>the time we’re so used to devoting, putting aside for people and things and just everything that we’re supposed to do
->>once we stop trying to please everyone,
->>don’t tie ourselves to the buildings our friends are in
->>don’t tie ourselves to the obligations we once felt our own minds and hearts in
->>
->>well, all of a sudden, we have all the free time in the world
->>and it’s
->>overwhelming
->>because we know we must keep going with the big things
->>homework, life
->>—but now that we feel untethered
->>
->>nothing feels like true weight
->>what do i even care about anyway? all of the things i thought i was seem to just be other things
->>other things i was confusing with myself
->>who is me? who am i? what does this leave behind?
->>
->>maybe drifting aimlessly waiting for some part of you to leap out and say, hey, this is me, permanently this time!
->>but lying in wait feels like nothing
->>and we’re left to do way too many possible things, with the strange threads of friendships and whatever else still there
->>a guilt in the back of the mind, over abandoning people and brushing them off
->>maybe you are
->>maybe that’s not their problem
->>do we owe explanations to the people we string up and leave hanging?
->>though that’s assuming we’d know those answers ourselves
->>
+>> on the one hand it’s exceedingly strange that finding yourself can be lonely and scary, <br />
+>> liberation in your hand <br />
+>>only to transform into confusion <br />
+>>self-peace always just <br />
+>>just out of reach <br />
+>> <br /><br />
+>>just <br />
+>>——but on the other hand, it makes perfect sense that this happens <br />
+>>the time we’re so used to devoting, putting aside for people and things and just everything that we’re supposed to do <br />
+>>once we stop trying to please everyone, <br />
+>>don’t tie ourselves to the buildings our friends are in <br />
+>>don’t tie ourselves to the obligations we once felt our own minds and hearts in <br />
+>><br /><br />
+>>well, all of a sudden, we have all the free time in the world <br />
+>>and it’s <br />
+>>overwhelming <br />
+>>because we know we must keep going with the big things <br />
+>>homework, life <br />
+>>—but now that we feel untethered <br />
+>> <br />
+>>nothing feels like true weight <br />
+>>what do i even care about anyway? all of the things i thought i was seem to just be other things <br />
+>>other things i was confusing with myself <br />
+>>who is me? who am i? what does this leave behind? <br />
+>> <br /><br />
+>>maybe drifting aimlessly waiting for some part of you to leap out and say, hey, this is me, permanently this time!<br />
+>>but lying in wait feels like nothing<br />
+>>and we’re left to do way too many possible things, with the strange threads of friendships and whatever else still there<br />
+>>a guilt in the back of the mind, over abandoning people and brushing them off<br />
+>>maybe you are<br />
+>>maybe that’s not their problem<br />
+>>do we owe explanations to the people we string up and leave hanging?<br />
+>>though that’s assuming we’d know those answers ourselves<br />
+>><br /><br />
 >>–darla ripley (of andover’24 <3)
 
+<br />
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0dEqmFXIVlwFoG2cGuz050?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br />
 
 # Life Updates!
 It’s been a hot sec, a lot of claire-lore has happened :D.
 
 ## Summer
-- I was an RSI counselor! I had a lot of fun getting to know my kids and seeing the behind-the-scenes. Also got to work with Roman Dangovski, learning some RL!
+* I was an RSI counselor! I had a lot of fun getting to know my kids and seeing the behind-the-scenes. Also got to work with Roman Dangovski, learning some RL!
 
-- Went to Japan for [Hackuba](https://hackuba.com/), which also happened to be made up of exclusively my friends… I cavorted around Tokyo, learned the transit system, mountain biked for the first time, and played around with Amazon-bought tDCS/OpenBCI EEG systems. Neel and I finally tried to build our [Nujjet](https://nujjet.vercel.app/) project, but it seems that extracranial stimulation might be a pseudoscience?!
+* Went to Japan for [Hackuba](https://hackuba.com/), which also happened to be made up of exclusively my friends… I cavorted around Tokyo, learned the transit system, mountain biked for the first time, and played around with Amazon-bought tDCS/OpenBCI EEG systems. Neel and I finally tried to build our [Nujjet](https://nujjet.vercel.app/) project, but it seems that extracranial stimulation might be a pseudoscience?!
 
 ## MIT, Fall Semester (first 1/2)
-- My roommate (Anjali) and I decked out our room so much it’s my safe haven now. I took some inspiration and tried to make it a “schelling dorm” and people always pull up to study together or listen to music / have fun!
+* My roommate (Anjali) and I decked out our room so much it’s my safe haven now. I took some inspiration and tried to make it a “schelling dorm” and people always pull up to study together or listen to music / have fun!
 
-- Went to DC for the Davidson Fellow Summit! Michael and I are Davidson Fellows for our parallel algorithms research and had a lot of fun getting to know the other people.
+* Went to DC for the Davidson Fellow Summit! Michael and I are Davidson Fellows for our parallel algorithms research and had a lot of fun getting to know the other people.
 
-- Joined the HackMIT organizing team: I have many thoughts on collegiate hackathons, having gone to a few, and it was really interesting seeing how they are run + how different culturally they are from Hack Club-esque events.
+* Joined the HackMIT organizing team: I have many thoughts on collegiate hackathons, having gone to a few, and it was really interesting seeing how they are run + how different culturally they are from Hack Club-esque events.
 
-- I’ve started doing hella research (2 UROPs) in neuroscience!
+* I’ve started doing hella research (2 UROPs) in neuroscience!
 
-- At the Desimone Lab, I’m working under Haoran Xu and Beizhen Zheng, where I’m working on some behavioral analysis of freely-moving marmosets and studying their social behaviors (especially with ASD models)
+* At the Desimone Lab, I’m working under Haoran Xu and Beizhen Zheng, where I’m working on some behavioral analysis of freely-moving marmosets and studying their social behaviors (especially with ASD models)
 
-- At the Jasanoff Lab, I’m working under Kevin Chung and building phased-array RF coils to enhance live neurofeedback MRI imaging and building a new methodology that helps us understand neural circuits/reward pathways better, with a focus on working with live rats w/ electrodes. This is SO cool. I’m learning so much, it’s one of the highlights of my weeks.
+* At the Jasanoff Lab, I’m working under Kevin Chung and building phased-array RF coils to enhance live neurofeedback MRI imaging and building a new methodology that helps us understand neural circuits/reward pathways better, with a focus on working with live rats w/ electrodes. This is SO cool. I’m learning so much, it’s one of the highlights of my weeks.
 
-- Joined a startup to work on special projects (atm, focusing on eye tracking & Alzheimer’s treatment)
+* Joined a startup to work on special projects (atm, focusing on eye tracking & Alzheimer’s treatment)
 
-- I’ve also joined Code for Good and the Harvard Policy Debate Team! Haven’t debated in years, so we’ll see how this goes…
+* I’ve also joined Code for Good and the Harvard Policy Debate Team! Haven’t debated in years, so we’ll see how this goes…
 
-- On a whim, I auditioned for a Shakespeare play, and now I’m the lead character Benedick in Much Ado About Nothing
+* On a whim, I auditioned for a Shakespeare play, and now I’m the lead character Benedick in Much Ado About Nothing
 
-- Went to NYC for (possibly redacted) Contrary retreat for new VPs! :)
+* Went to NYC for (possibly redacted) Contrary retreat for new VPs! :)
 
 ## Art & things.
 Concert Lineup and reviews, because I’m kind of insane:
 
-- [Jacob Collier](https://open.spotify.com/artist/0QWrMNukfcVOmgEU0FEDyD?si=cb20ab73b4e44867) w/ Neel & Rishi, in Japan — The Japan concert had maybe one of the most respectful crowds ever because almost no one was cheering alone. Maybe that was good, though, because I got to hear him play Time Alone with You and Sun is in Your Eyes, and it was kind of a religious experience. So worth it, even if I might have paid a bit too much for those last-minute tickets.
+* [Jacob Collier](https://open.spotify.com/artist/0QWrMNukfcVOmgEU0FEDyD?si=cb20ab73b4e44867) w/ Neel & Rishi, in Japan — The Japan concert had maybe one of the most respectful crowds ever because almost no one was cheering alone. Maybe that was good, though, because I got to hear him play Time Alone with You and Sun is in Your Eyes, and it was kind of a religious experience. So worth it, even if I might have paid a bit too much for those last-minute tickets.
 
-- ICA: Joshua Redman Group, [where are we](https://open.spotify.com/album/6lI2Db6atrpRHt0l76DQCl?si=J3Tsfc-oT_CH_KIJV1dbbA) w/ Seb!— One thing I love about Boston is how culturally cool it is. This was some blues jazz music, and the audience ranged from Berklee college students to us to old art museum enthusiasts. Plus, it was so fun escaping MIT and hearing Cavassa’s vocals.
+* ICA: Joshua Redman Group, [where are we](https://open.spotify.com/album/6lI2Db6atrpRHt0l76DQCl?si=J3Tsfc-oT_CH_KIJV1dbbA) w/ Seb!— One thing I love about Boston is how culturally cool it is. This was some blues jazz music, and the audience ranged from Berklee college students to us to old art museum enthusiasts. Plus, it was so fun escaping MIT and hearing Cavassa’s vocals.
 
-- ICA: [serpentwithfeet](https://open.spotify.com/artist/1O9iHQjrVuiAYOJFCBeFSl?si=df37846506274f4f) Heart Of Brick w/ Seb— this was a dance show based on serpentwithfeet’s new unreleased R&B album about the beauty and psychology is Black gay culture, especially in New York. I’ve never seen people such such perfect control of their bodies, and the music was a nice blend of slow vocal rap and beautiful backing music.
+* ICA: [serpentwithfeet](https://open.spotify.com/artist/1O9iHQjrVuiAYOJFCBeFSl?si=df37846506274f4f) Heart Of Brick w/ Seb— this was a dance show based on serpentwithfeet’s new unreleased R&B album about the beauty and psychology is Black gay culture, especially in New York. I’ve never seen people such such perfect control of their bodies, and the music was a nice blend of slow vocal rap and beautiful backing music.
 
-- [Hozier](https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS?si=041ad5b7628f4d62) w/ Rishi — we, uh, took a 3-hour bus ride to Connecticut to see him, but GOD was it WORTH IT. I love Hoizer. I breathe Hozier. I worship— anyways, beautiful new album, beautiful vocals; one of the few artists I’d say is hands down better live. It was at the Sound on Sound Festival too, so we also got to see Alanis Morisette and John Mayer!
+* [Hozier](https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS?si=041ad5b7628f4d62) w/ Rishi — we, uh, took a 3-hour bus ride to Connecticut to see him, but GOD was it WORTH IT. I love Hoizer. I breathe Hozier. I worship— anyways, beautiful new album, beautiful vocals; one of the few artists I’d say is hands down better live. It was at the Sound on Sound Festival too, so we also got to see Alanis Morisette and John Mayer!
 
-- [Thundercat](https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw?si=93b902b9ea7f4ef6) w/ Seb — I fully only knew, like, three of his songs, but the performance was really technically impressive (and the stage design was so creative!). He’s a fantastic bassist, and his drummer was insane with how fast he was playing. He had this one song where he just kept talking about anime, and it was so funny.
+* [Thundercat](https://open.spotify.com/artist/4frXpPxQQZwbCu3eTGnZEw?si=93b902b9ea7f4ef6) w/ Seb — I fully only knew, like, three of his songs, but the performance was really technically impressive (and the stage design was so creative!). He’s a fantastic bassist, and his drummer was insane with how fast he was playing. He had this one song where he just kept talking about anime, and it was so funny.
 
-- [Tom Odell](https://open.spotify.com/artist/2txHhyCwHjUEpJjWrEyqyX?si=c5d8fd3f0d8d4cc3) w/ Asher — You might know this guy from Another Love but honestly, his new album is amazing too. I was surprised (?) that he had such a dedicated fan base, but it was fun trying to figure out what song he was singing by frantically scrolling through the setlist.
+* [Tom Odell](https://open.spotify.com/artist/2txHhyCwHjUEpJjWrEyqyX?si=c5d8fd3f0d8d4cc3) w/ Asher — You might know this guy from Another Love but honestly, his new album is amazing too. I was surprised (?) that he had such a dedicated fan base, but it was fun trying to figure out what song he was singing by frantically scrolling through the setlist.
 
-- I’m seeing Joji w/ the entire rat squad & Jeremy Zucker soon, too!
+* I’m seeing Joji w/ the entire rat squad & Jeremy Zucker soon, too!
 
 **Recommendations:**
 
