@@ -14,7 +14,6 @@ export default function Gallery() {
           title = "Boyden Lab @ MIT McGovern/Media Lab"
           href="https://synthneuro.org/projects/understanding-normal-and-pathological-brain-computations/"
           children="Working towards whole brain emulation, starting with C. elegans, under D. Deng. Developing RNNs/alternate models using theories of consciousness, enhancing the diSPIM microscope & image segmentation pipelines, designing GEVI (voltage indicators), etc."
-          
         />
 
         <GalleryCard
