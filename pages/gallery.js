@@ -11,6 +11,13 @@ export default function Gallery() {
       <h2 className="gallerySubhead">Major Projects & In Progress</h2>
       <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <GalleryCard
+          title = "Boyden Lab @ MIT McGovern/Media Lab"
+          href="https://synthneuro.org/projects/understanding-normal-and-pathological-brain-computations/"
+          children="Working towards whole brain emulation, starting with C. elegans, under D. Deng. Developing RNNs/alternate models using theories of consciousness, enhancing the diSPIM microscope & image segmentation pipelines, designing GEVI (voltage indicators), etc."
+          
+        />
+
+        <GalleryCard
           title="Jasanoff Lab @ MIT McGovern/CSAIL"
           href="https://jasanofflab.mit.edu/"
           children="Designing complex circuits for better MRI imaging to understand neurofeedback circuits."
