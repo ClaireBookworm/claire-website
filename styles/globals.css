@@ -176,7 +176,7 @@ GalleryCard > a:hover {
 
 .postContent a {
     text-decoration: underline dashed;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 1.5px;
     transition: all 0.2s ease; /* Add transition for hover effects */
 
 }

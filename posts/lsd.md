@@ -92,88 +92,36 @@ And of course, here is the link to my nbligatory **playlist**: [link](https://op
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3ZahU5K1EWGxn5lbO6dibN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-
+<br />
 
 
 ## References / Footnotes
-**1**
-Erich Goode and Nachman Ben-Yehuda, Moral Panics: The Social Construction of Deviance (Oxford, UK; Cambridge, USA: Blackwell, 1994), 89.
+Here’s a simple ordered list of the references:
 
-**2**
-Barry Glassner, The Culture of Fear: Why Americans Are Afraid of the Wrong Things (New York: Basic Books, 2018).
-
-**3**
-Goode and Ben-Yehuda, Moral Panics, 7.
-
-**4**
-Martin A Lee and Bruce Shlain, Acid Dreams: The Complete Social History of LSD (New York, NY: Grove Press, 1992), 194.
-
-**5**
-Michael E. Brown, “The Condemnation and Persecution of Hippies,” Society 6, no. 10 (September 1969): 33–46, https://doi.org/10.1007/bf03180973, 37.
-
-**6**
-William H. McGlothlin, “Long-Lasting Effects of LSD on Certain Attitudes in Normals” (Santa Monica, CA: RAND Corporation, 1962).
-
-**7**
-Richard Alpert, Sidney Cohen, and Lawrence Schiller, LSD (New York, N.Y: New American Library, 1966), 5-20
-
-**8**
-Albert Hofmann, LSD, My Problem Child; And, Insights/Outlooks (Oxford: Beckley Foundation, 2019), 15.
-
-**9**
-Alpert, Cohen, and Schiller, LSD, 15-20.
-
-**10**
-Martin A Lee and Bruce Shlain, Acid Dreams: The Complete Social History of LSD (New York, Ny: Grove Press, 1992), 19-20.
-
-**11**
-William Braden, The Private Sea: LSD and the Search for God. (London, Pall Mall Press, 1967), 197.
-
-**12**
-Andrew Weil, “The Strange Case of the Harvard Drug Scandal,” www.psychedelic-library.org, 1963, http://www.psychedelic-library.org/look1963.htm.
-
-**13**
-R. Gordon Wasson, “Seeking the Magic Mushroom,” Life Magazine, 1957
-
-**14**
-“Timothy Leary.” Harvard University, Harvard Department of Psychology, psychology.fas.harvard.edu/people/timothy-leary.
-
-**15**
-Martin A Lee and Bruce Shlain, Acid Dreams: The Complete Social History of LSD (New York, Ny: Grove Press, 1992), 75-76; 84-87.
-
-**16**
-Erich Goode and Nachman Ben-Yehuda, Moral Panics: The Social Construction of Deviance (Oxford, UK Cambridge, USA: Blackwell, 1994).
-
-**17**
-Tom Wolfe, Electric Kool-Aid Acid Test. (S.L.: Vintage Classics, 2018).
-
-**18**
-Alfred Friendly Jr, “Police Fear Child Swallowed LSD; Brooklyn Girl of 5 Admitted to a Hospital after She Suffers Convulsions” The New York Times, April 7, 1966, sec. Archives.
-
-**19**
-“A Slaying Suspect Tells of LSD Spree; Medical Student Charged in Mother-In-Law’s Death,” The New York Times, April 12, 1966, sec. Archives.
-
-**20**
-William Braden, The Private Sea: LSD and the Search for God. (London, Pall Mall Press, 1967), 196.
-
-**21**
-Erich Goode and Nachman Ben-Yehuda, Moral Panics: The Social Construction of Deviance (Oxford, Uk ; Cambridge, Usa: Blackwell, 1994), 203.
-
-**22**
-N.I. Dishotsky et al., “LSD and Genetic Damage,” Science (New York, N.Y.) 172, no. 3982 (1971): 431–40.
-
-**23**
-Margalit Fox, “Walter Bowart, Alternative Journalist, Dies at 68,” The New York Times, January 14, 2008, sec. Arts.
-
-**24**
-Desert Sun, “Brown Signs LSD Bill to Head off ‘Threat,’” cdnc.ucr.edu, May 30, 1966.
-
-**25**
-United States Subcommittee on Public Health, Increased Controls over Hallucinogens and Other Dangerous Drugs: Hearings before the Subcommittee on Public Health, Google Books (U.S. Government Printing Office, 1968).
-
-**26**
-Masterclass Staff, “Psychedelic Rock: The History and Sound of Psychedelic Rock,” Masterclass Music, February 2022, https://www.masterclass.com/articles/psychedelic-rock-explained.
-
-**27**
-E. Arnett et al., “Habermas on Acid: A Rhetorical Analysis of a Scientific Controversy,” 2008, 7.
-
+1. Erich Goode and Nachman Ben-Yehuda, *Moral Panics: The Social Construction of Deviance* (Oxford, UK; Cambridge, USA: Blackwell, 1994), 89.
+2. Barry Glassner, *The Culture of Fear: Why Americans Are Afraid of the Wrong Things* (New York: Basic Books, 2018).
+3. Goode and Ben-Yehuda, *Moral Panics*, 7.
+4. Martin A. Lee and Bruce Shlain, *Acid Dreams: The Complete Social History of LSD* (New York, NY: Grove Press, 1992), 194.
+5. Michael E. Brown, “The Condemnation and Persecution of Hippies,” *Society* 6, no. 10 (September 1969): 33–46, https://doi.org/10.1007/bf03180973, 37.
+6. William H. McGlothlin, “Long-Lasting Effects of LSD on Certain Attitudes in Normals” (Santa Monica, CA: RAND Corporation, 1962).
+7. Richard Alpert, Sidney Cohen, and Lawrence Schiller, *LSD* (New York, NY: New American Library, 1966), 5-20.
+8. Albert Hofmann, *LSD, My Problem Child; And, Insights/Outlooks* (Oxford: Beckley Foundation, 2019), 15.
+9. Alpert, Cohen, and Schiller, *LSD*, 15-20.
+10. Martin A. Lee and Bruce Shlain, *Acid Dreams: The Complete Social History of LSD* (New York, NY: Grove Press, 1992), 19-20.
+11. William Braden, *The Private Sea: LSD and the Search for God* (London, Pall Mall Press, 1967), 197.
+12. Andrew Weil, “The Strange Case of the Harvard Drug Scandal,” www.psychedelic-library.org, 1963, http://www.psychedelic-library.org/look1963.htm.
+13. R. Gordon Wasson, “Seeking the Magic Mushroom,” *Life Magazine*, 1957.
+14. “Timothy Leary.” Harvard University, Harvard Department of Psychology, psychology.fas.harvard.edu/people/timothy-leary.
+15. Martin A. Lee and Bruce Shlain, *Acid Dreams: The Complete Social History of LSD* (New York, NY: Grove Press, 1992), 75-76; 84-87.
+16. Erich Goode and Nachman Ben-Yehuda, *Moral Panics: The Social Construction of Deviance* (Oxford, UK; Cambridge, USA: Blackwell, 1994).
+17. Tom Wolfe, *Electric Kool-Aid Acid Test* (S.L.: Vintage Classics, 2018).
+18. Alfred Friendly Jr, “Police Fear Child Swallowed LSD; Brooklyn Girl of 5 Admitted to a Hospital after She Suffers Convulsions,” *The New York Times*, April 7, 1966, sec. Archives.
+19. “A Slaying Suspect Tells of LSD Spree; Medical Student Charged in Mother-In-Law’s Death,” *The New York Times*, April 12, 1966, sec. Archives.
+20. William Braden, *The Private Sea: LSD and the Search for God* (London, Pall Mall Press, 1967), 196.
+21. Erich Goode and Nachman Ben-Yehuda, *Moral Panics: The Social Construction of Deviance* (Oxford, UK; Cambridge, USA: Blackwell, 1994), 203.
+22. N.I. Dishotsky et al., “LSD and Genetic Damage,” *Science (New York, NY)* 172, no. 3982 (1971): 431–40.
+23. Margalit Fox, “Walter Bowart, Alternative Journalist, Dies at 68,” *The New York Times*, January 14, 2008, sec. Arts.
+24. *Desert Sun*, “Brown Signs LSD Bill to Head off ‘Threat,’” cdnc.ucr.edu, May 30, 1966.
+25. United States Subcommittee on Public Health, *Increased Controls over Hallucinogens and Other Dangerous Drugs: Hearings before the Subcommittee on Public Health*, Google Books (U.S. Government Printing Office, 1968).
+26. Masterclass Staff, “Psychedelic Rock: The History and Sound of Psychedelic Rock,” *Masterclass Music*, February 2022, https://www.masterclass.com/articles/psychedelic-rock-explained.
+27. E. Arnett et al., “Habermas on Acid: A Rhetorical Analysis of a Scientific Controversy,” 2008, 7.
