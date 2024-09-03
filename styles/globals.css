@@ -32,6 +32,10 @@ a:hover {
     opacity: 80%;
 }
 
+.selfbio > a:hover {
+    text-decoration-thickness: 2px;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
@@ -95,7 +99,7 @@ GalleryCard > a:hover {
 }
 
 .blogListName:hover {
-    text-decoration: wavy;
+    text-decoration: underline dotted;
 }
 
 /* BLOG POST CSS */
@@ -112,9 +116,6 @@ GalleryCard > a:hover {
     font-family: "Gilroy";
     font-weight: 900;
     font-size: 4rem;
-}
-.postTitle:hover{
-    text-decoration: underline wavy;
 }
 
 .postDate {
@@ -174,7 +175,8 @@ GalleryCard > a:hover {
 }
 
 .postContent a {
-    text-decoration: underline dotted;
+    text-decoration: underline dashed;
+    text-decoration-thickness: 3px;
     transition: all 0.2s ease; /* Add transition for hover effects */
 
 }
