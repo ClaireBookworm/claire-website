@@ -7,6 +7,16 @@
     src: url("/gilroy.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "Satoshi";
+    font-style: normal;
+    src: url("/satoshi.ttf") format("truetype"),
+    url("/satoshi.woff") format("woff"),
+    url("/satoshi.woff2") format("woff2"),
+    url("/satoshi.eot") format("embedded-opentype");
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -119,7 +129,7 @@ GalleryCard > a:hover {
     /* max-width: 100%; */
     margin: auto;
     align-items: center;
-    font-family: "Proxima Nova", "Montserrat", "EB Garamond", "Jost*", "Futura", "Trebuchet MS", Arial, sans-serif;
+    font-family: "Satoshi", "Helvetica Neue", "Futura", Arial, sans-serif;
     font-size: 1.2rem;
 }
 
@@ -187,8 +197,7 @@ GalleryCard > a:hover {
 }
 
 .postContent blockquote {
-    padding: 10px;
-    border-radius: 3px;
+    padding: 5px 0px 5px 10px;
     border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
     font-weight: 300;
     opacity: 0.7;
