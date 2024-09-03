@@ -100,13 +100,21 @@ GalleryCard > a:hover {
 
 /* BLOG POST CSS */
 
+.backButton {
+    transition: all 0.2s ease; /* Add transition for hover effects */
+}
+
+.backButton:hover {
+    opacity: 70%;
+}
+
 .postTitle {
     font-family: "Gilroy";
     font-weight: 900;
     font-size: 4rem;
 }
 .postTitle:hover{
-    text-decoration: wavy;
+    text-decoration: underline wavy;
 }
 
 .postDate {
@@ -130,7 +138,7 @@ GalleryCard > a:hover {
     margin: auto;
     align-items: center;
     font-family: "EB Garamond","Times New Roman", "Helvetica Neue", Arial, serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: -0.2px;
 }
@@ -166,13 +174,14 @@ GalleryCard > a:hover {
 }
 
 .postContent a {
-    text-decoration: underline wavy;
-    transition: all 0.3s ease; /* Add transition for hover effects */
+    text-decoration: underline dotted;
+    transition: all 0.2s ease; /* Add transition for hover effects */
 
 }
 .postContent a:hover {
     opacity: 80%;
-    text-decoration-color: blue;
+    text-decoration-color: #009aab;
+    color: #4599ba;
 }
 
 .blog-elements {
@@ -190,7 +199,7 @@ GalleryCard > a:hover {
 
 .postContent li {
     /* margin-bottom: 10px;  Space between list items */
-    font-size: 1.2rem; /* Consistent with other text */
+    font-size: 1.15rem; /* Consistent with other text */
     line-height: 1.5; /* Adjust for readability */
     margin-left: 20px; /* Adjust as needed */
     padding-left: 20px; /* Adjust as needed */
@@ -198,7 +207,7 @@ GalleryCard > a:hover {
 }
 
 .postContent blockquote {
-    padding: 5px 0px 5px 10px;
+    padding: 5px 0px 5px 15px;
     border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
     font-weight: 300;
     opacity: 0.7;
@@ -206,6 +215,5 @@ GalleryCard > a:hover {
     text-decoration: dotted;
     font-style:italic;
     color: #555555;  /* A softer color for quotes */
-    margin: 10px 0;  /* Space around the blockquote */
     opacity: 0.8;  /* Slight opacity for a subtle effect */
 }
