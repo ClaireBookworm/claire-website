@@ -153,16 +153,6 @@ GalleryCard > a:hover {
     /* width: 80%; */
 }
 
-.postContent blockquote {
-    padding: 10px;
-    border-radius: 3px;
-    font-weight: 300;
-    opacity: 0.7;
-    font-size: 1.3rem;
-    text-decoration: dotted;
-    font-style:italic;
-}
-
 .postContent a {
     text-decoration: underline;
 
@@ -175,9 +165,18 @@ GalleryCard > a:hover {
     margin-left: 0 !important;
 }
 
+.postContet ol {
+    list-style: decimal; /* Use bullets for unordered lists */
+}
+
+.postContent ul {
+    list-style: disc; /* Use bullets for unordered lists */
+}
+
 .postContent ul, .postContent ol {
     margin-left: 20px; /* Adjust as needed */
     padding-left: 20px; /* Adjust as needed */
+    
     list-style-position: outside; /* Ensure bullet points are visible */
 }
 
@@ -187,22 +186,16 @@ GalleryCard > a:hover {
     line-height: 1.5; /* Adjust for readability */
 }
 
-
 .postContent blockquote {
-    padding: 15px 20px;  /* Add some padding for space around the text */
+    padding: 10px;
+    border-radius: 3px;
     border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
-    font-size: 1rem;  /* Make the text smaller */
-    font-weight: 300;  /* Lighter font-weight for quotes */
+    font-weight: 300;
+    opacity: 0.7;
+    font-size: 1.3rem;
+    text-decoration: dotted;
+    font-style:italic;
     color: #555555;  /* A softer color for quotes */
-    background-color: #f9f9f9;  /* Light background to distinguish from other content */
-    margin: 20px 0;  /* Space around the blockquote */
-    font-style: italic;  /* Italicize for a classic quote look */
+    margin: 10px 0;  /* Space around the blockquote */
     opacity: 0.8;  /* Slight opacity for a subtle effect */
-}
-
-.postContent blockquote:before {
-    content: "— ";  /* Add a dash before the quote text */
-    color: #555555;  /* Dash color */
-    font-size: 1.2rem;  /* Slightly larger than the quote text */
-    font-weight: 700;  /* Bold the dash */
 }

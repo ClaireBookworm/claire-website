@@ -19,7 +19,7 @@ export default function Home() {
           <br /><br />
           <span style={{fontSize: '0.9rem', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Currently reading</span>: <span style={{fontStyle: 'italic'}}>Argonauts</span> by Maggie Nelson (also recommend reading her Bluets) & <span style={{fontStyle: 'italic'}}>Godel, Escher, Bach</span> by Hofstadter.</span>
           <br /><br />
-          <span style={{fontSize: '0.9rem', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Current Music Recs</span>: <span style={{fontStyle: 'italic'}} href="https://open.spotify.com/album/3gF9KIynrJaC80HbVayPMx?si=KBXUac8VREuHu01AzrYJqw">Unreal Unearth</span> by Hozier & <span style={{fontStyle: 'italic'}} href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</span> by Bleachers. (Also, my current playlist on loop: <span style={{textDecoration: "underline", "textDecorationStyle": 'dotted', fontStyle: 'italic'}} href="https://open.spotify.com/playlist/1ME2BDtz6wgqk4bLqyl892?si=16714ccd369b4d81">sizzle</span>.) </span>
+          <span style={{fontSize: '0.9rem', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Current Music Recs</span>: <a style={{fontStyle: 'italic'}} href="https://open.spotify.com/album/3gF9KIynrJaC80HbVayPMx?si=KBXUac8VREuHu01AzrYJqw">Unreal Unearth</a> by Hozier & <a style={{fontStyle: 'italic'}} href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</a> by Bleachers. (Also, my current playlist on loop: <a style={{textDecoration: "underline", "textDecorationStyle": 'dotted', fontStyle: 'italic'}} href="https://open.spotify.com/playlist/1ME2BDtz6wgqk4bLqyl892?si=16714ccd369b4d81">sizzle</a>.) </span>
         </section>
         <section className="mt-8 md:mt-8 w-2/3 lg:w-1/2 md:text-xl">
           <div className="icon-bar">
@@ -44,6 +44,15 @@ export default function Home() {
             <a href="https://www.youtube.com/channel/UCxu_RGPnVSEke61ebevOJPA"><svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg></a>
 
             <a href="https://clairebookworm.substack.com/"><svg role="img" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Substack</title><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" fill="white"></path></svg></a>
+
+            <a href="https://musicboard.app/clairebookworm"><svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>MusicBoard</title><path d="M97.173,322.156c35.754,0.874,67.271-11.577,84.481-30.805c6.111-6.845,10.074-14.932,10.836-16.527
+            c0.448-0.949,0.825-1.955,1.149-2.997l45.168-148.824c2.678-8.782,9.991-10.542,15.978-3.577
+            c4.629,5.392,9.606,11.507,14.659,18.304c20.823,27.968,22.502,64.76,11.397,94.439c-11.112,29.667-32.111,38.046-25.375,47.436
+            c6.757,9.418,33.226-13.974,50.453-41.793c17.212-27.824,19.136-74.354,3.603-112.445c-15.54-38.099-38.17-62.592-42.486-82.467
+            c-0.269-1.272-0.545-2.523-0.821-3.737c-0.453-2.06-0.269-5.574,0.429-7.837l1.242-4.105c3.391-11.146-2.89-22.922-14.058-26.307
+            c-11.141-3.384-22.915,2.914-26.297,14.052L172.77,195.409c-2.673,8.784-10.884,11.481-19.142,7.494
+            c-15.156-7.325-33.448-11.817-53.236-12.303c-53.387-1.311-97.377,27.086-98.267,63.426
+            C1.235,290.35,43.784,320.862,97.173,322.156z"/></svg></a>
 
           </div>
         </section>
