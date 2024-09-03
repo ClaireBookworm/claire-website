@@ -4,23 +4,21 @@ date: 'Sep 01, 2024'
 ---
 
 
-**The higher they are, the harder they fall**
-
-*hippie counterculture, moral panics, and lsd*
+> *hippie counterculture, moral panics, and lsd*
 
 **Contents:**
 
-1. Introduction: Not Satan? 
+1) Introduction: Not Satan? 
 
-2. Media, Science, Governments, and LSD: How Fast Can Opinion Change?
+2) Media, Science, Governments, and LSD: How Fast Can Opinion Change?
 
-3. Banned but Never Abandoned: Hippie Culture Turns Counter
+3) Banned but Never Abandoned: Hippie Culture Turns Counter
 
-4. The End? 
+4) The End? 
 
 > this is an old history piece about the LSD/counterculture movement, how it was villainized and led to a variety of different outcomes for hippies and on protest culture. I wrote this a while ago (so my opinions on a few things have likely changed!) and I just wanted to post it so I could send it to people :). The formatting on my substack post [for this](https://clairebookworm.substack.com/p/the-higher-they-are-the-harder-they) is better, with linked footnotes. 
 
-1. Introduction: Not Satan? 
+**1: Introduction: Not Satan?**
 
 If you were to read the headlines of any major magazine of the 1960s, you might genuinely believe that America was in the midst of fighting some Satanic force. Headlines like “America’s Most Dangerous Drug,” “Devil Worship: Exposing Satan’s Underground,” "Strip-Teasing Hippie Goes Wild on LSD,” and “Lock ‘Em Up and Throw Away the Key!” overtook periodicals in response to a hallucinogenic drug that had begun to spread across the nation: LSD.1 This fear was founded on the irrational belief that LSD and the hippie counterculture that embodied it, would take over the nation. As sociologist Barry Glassner puts it, Americans are accustomed to living in a “culture of fear.”2
 
@@ -28,7 +26,7 @@ During the 1960s, the public’s disproportional and blind belief in the demoniz
 
 Swiss chemist Albert Hofmann first synthesized LSD, or Lysergic Acid Diethylamide, in 1938 when trying to develop a nervous system stimulant at Sandoz Pharmaceuticals.7 Unintentionally, he synthesized a hallucinogenic, psychedelic drug that is now often also referred to as acid or psilocybin. Disappointed by its ineffectiveness, Hofmann set LSD aside until five years later, in 1943, when he accidentally absorbed some of it through his fingers when reexamining the drug. He described the mind-blowing sensation as “like [perceiving] an uninterrupted stream of fantastic pictures, extraordinary shapes with intense, kaleidoscopic play of colors.”8 Three days later, Hofmann intentionally ingested 250 mg of LSD to experience the sensations again, later to be commemorated as the first time acid was ever ingested deliberately.9 After Hoffman’s discovery, it took another five years for LSD-25 to reach scientists in the United States, and thus began the spread of psychedelics across the nation—a movement that led not only to a moral panic but also criminalization of an entire subset of society—all within approximately a decade.10 
 
-2. Media, Science, Governments, and LSD: How Fast Can Opinion Change?
+**2: Media, Science, Governments, and LSD: How Fast Can Opinion Change?**
 
 Surprisingly, public media initially praised LSD for its benefits and supposed magical ability to change minds. In 1959, This Week wrote that LSD “has rescued many drug addicts, alcoholics, and neurotics from their private hells—and holds promise for curing tomorrow’s mental ills.”11 From 1959 to 1961, the majority of articles on psychedelics extolled its benefits for drug addicts and mentally ill patients, but any attention was few and far between. That was, until the 1963 firing of Harvard psychologist Timothy Leary and the end of the Harvard Psilocybin Project, a seminal research project that defined public perception of LSD for years to come and showed how fast public opinion can change. 
 
@@ -38,7 +36,8 @@ Harvard University’s willingness to reject something they had widely approved 
 
 
 ![hippie billboards](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb02178d0-eafd-4f0b-892c-e4db6aed7115_778x416.png)
-Figure(s): Anti-Hippie billboards were placed around the nation as part of a project led by John Donnelly & Sons.
+
+*Figure(s): Anti-Hippie billboards were placed around the nation as part of a project led by John Donnelly & Sons.*
 
 It only took two news stories published within the same year to shift media perception entirely. In April 1966, a 5-year-old Brooklyn girl suffered convulsions after swallowing an LSD sugar cube left in the refrigerator by her uncle.18 A week later, police charged former medical-school student Stephen H. Kessler for stabbing his mother-in-law to death. He claimed he was unaware of his actions because he had been high on LSD for three days prior.19 Countless papers reported these two events that snowballed into a widespread attack on LSD itself. Propagandistic statements such as “if you take LSD, even once, your children may be born malformed or retarded” were published as scientific truth, even though there was little to no actual scientific proof.20 As negative sentiments towards LSD spread, Sandoz Pharmaceuticals revoked their new drug application for LSD, and by June 1966, magazines were decrying the villainous effects of psychedelics. Headlines like “Thrill Drug Can Warp Minds and Kill,” “LSD: For the Kick that Can Kill,” and “Strip-Teasing Hipping Goes Wild on LSD” were plastered on the front pages of magazines such as Time or The Atlantic.21 The blind belief in such news led even pro-drug and pro-marijuana counterculture magazines like the East Village Other (EVO) to write articles about LSD’s alleged effects on brain growth, such as “Acid Burned a Hole in My Genes.”22 Although the EVO was “a… newspaper so countercultural it made The Village Voice look like a church circular” and was incredibly influential in the 1960s, yet it still fell for the inaccurate, biased reporting of the time.23 The ease at which even the staunchest LSD supporters could turn against it only serves to prove how easy it is to manipulate the public into a moral panic.
 
@@ -46,7 +45,7 @@ The flood of negative media attention rapidly brought LSD to the attention of dr
 
 Perhaps most concerning was the lack of reputable scientific data to stop any of the government’s legal decisions. A landmark 1967 scientific article titled “Chromosomal  Damage in Human Leukocytes Induced by Lysergic Acid Diethylamide” was published in Science, one of the most reputable sources of scientific knowledge. Soon, many more papers were published claiming LSD-25 caused not only genetic abnormalities but also congenital abnormalities and developmentally delayed children. Future investigations found these science reports to be minimally peer-reviewed, and when future researchers tried to replicate the experiment, the results were found to be drastically different.27 That single scientific article soon led to a slew of anti-LSD scientific articles, further claiming that any use of LSD will lead to internal cell combustion. In the subsequent months of 1967, the New York Times published “LSD Peril found in tests on rats” and “Congenital disabilities to offspring added to peril”; the Los Angeles Times wrote articles like “Dangerous cell reaction in use of LSD reported” and “Harm to chromosome observed in LSD users,” amongst countless others. What is compelling is how the media and scientific community alike chose to base their coverage on unverifiable claims. One journalist reported that a psychiatrist declared that “nobody comes back unharmed. In every case [of LSD usage], there is some degree of brain damage,” but when pushed for sources, the psychiatrist revealed that it was merely hearsay upon hearsay—no factual scientific basis.
 
-3. Banned but Never Abandoned: Hippie Culture Turns Counter
+**3: Banned but Never Abandoned: Hippie Culture Turns Counter**
 
 Walk into any shopping mall today, and you will find rows upon rows of t-shirts with psychedelic fonts or merchandise for legendary bands like The Grateful Dead, Jefferson Airplane, or Jimi Hendrix. These artists all found their first followers through psychedelic music and later became figureheads for the counterculture movement. 
 
@@ -60,7 +59,7 @@ The phenomenon of a counterculture is intriguing. When a culture becomes counter
 
 Yippie lead activist Jerry Rubin, in an open letter to “[his] brothers and sisters in the movement,” called for his “family” to come together and “fulfill [their] destiny in life by rejecting a system which rejects them.” Though the brutal treatment of hippies, especially of youths and disadvantaged communities, was deplorable, it also helped these groups come to a collective understanding that there should be change within the nation.  
 
-4. The End? 
+**4: The End?** 
 
 Hippies may not be Satan’s spawn, as people liked to claim, but they did spawn a movement that had long-lasting impacts that we still feel today. The almost horrifyingly fast descent into hate and vitriol shows how fast the world can turn against a group of people and how susceptible this system is to misinformation and manipulation. There is no easily attributable cause for this descent; rather, it was due to a combination of spectacle-chasing news articles, scientific papers published with minimal peer review, and government action with ulterior motives.  
 
@@ -90,6 +89,8 @@ To learn more, read:
 And of course, here is the link to my nbligatory **playlist**: [link](https://open.spotify.com/playlist/3ZahU5K1EWGxn5lbO6dibN?go=1&sp_cid=d9ccb758f830b1115c92c489febdf020). 
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3ZahU5K1EWGxn5lbO6dibN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
 
 
 ## References / Footnotes

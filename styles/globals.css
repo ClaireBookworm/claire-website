@@ -123,7 +123,7 @@ GalleryCard > a:hover {
     font-size: 1.2rem;
 }
 
-.postcontent > * {
+.postContent > * {
     margin-left: auto;
     margin-right: auto;
 }
@@ -173,4 +173,36 @@ GalleryCard > a:hover {
 .blog-elements {
     padding-left:0!important;
     margin-left: 0 !important;
+}
+
+.postContent ul, .postContent ol {
+    margin-left: 20px; /* Adjust as needed */
+    padding-left: 20px; /* Adjust as needed */
+    list-style-position: outside; /* Ensure bullet points are visible */
+}
+
+.postContent li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 1.2rem; /* Consistent with other text */
+    line-height: 1.5; /* Adjust for readability */
+}
+
+
+.postContent blockquote {
+    padding: 15px 20px;  /* Add some padding for space around the text */
+    border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
+    font-size: 1rem;  /* Make the text smaller */
+    font-weight: 300;  /* Lighter font-weight for quotes */
+    color: #555555;  /* A softer color for quotes */
+    background-color: #f9f9f9;  /* Light background to distinguish from other content */
+    margin: 20px 0;  /* Space around the blockquote */
+    font-style: italic;  /* Italicize for a classic quote look */
+    opacity: 0.8;  /* Slight opacity for a subtle effect */
+}
+
+.postContent blockquote:before {
+    content: "— ";  /* Add a dash before the quote text */
+    color: #555555;  /* Dash color */
+    font-size: 1.2rem;  /* Slightly larger than the quote text */
+    font-weight: 700;  /* Bold the dash */
 }
