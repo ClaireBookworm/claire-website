@@ -3,8 +3,7 @@ title: "The higher they are, the harder they fall"
 date: 'Sep 01, 2024'
 ---
 
-
-> *hippie counterculture, moral panics, and lsd*
+*hippie counterculture, moral panics, and lsd*
 
 **Contents:**
 
@@ -39,6 +38,7 @@ Harvard University’s willingness to reject something they had widely approved 
 
 *Figure(s): Anti-Hippie billboards were placed around the nation as part of a project led by John Donnelly & Sons.*
 
+
 It only took two news stories published within the same year to shift media perception entirely. In April 1966, a 5-year-old Brooklyn girl suffered convulsions after swallowing an LSD sugar cube left in the refrigerator by her uncle.18 A week later, police charged former medical-school student Stephen H. Kessler for stabbing his mother-in-law to death. He claimed he was unaware of his actions because he had been high on LSD for three days prior.19 Countless papers reported these two events that snowballed into a widespread attack on LSD itself. Propagandistic statements such as “if you take LSD, even once, your children may be born malformed or retarded” were published as scientific truth, even though there was little to no actual scientific proof.20 As negative sentiments towards LSD spread, Sandoz Pharmaceuticals revoked their new drug application for LSD, and by June 1966, magazines were decrying the villainous effects of psychedelics. Headlines like “Thrill Drug Can Warp Minds and Kill,” “LSD: For the Kick that Can Kill,” and “Strip-Teasing Hipping Goes Wild on LSD” were plastered on the front pages of magazines such as Time or The Atlantic.21 The blind belief in such news led even pro-drug and pro-marijuana counterculture magazines like the East Village Other (EVO) to write articles about LSD’s alleged effects on brain growth, such as “Acid Burned a Hole in My Genes.”22 Although the EVO was “a… newspaper so countercultural it made The Village Voice look like a church circular” and was incredibly influential in the 1960s, yet it still fell for the inaccurate, biased reporting of the time.23 The ease at which even the staunchest LSD supporters could turn against it only serves to prove how easy it is to manipulate the public into a moral panic.
 
 The flood of negative media attention rapidly brought LSD to the attention of drug enforcement agencies. Nevada and California became the first states to outlaw the possession, sale, and manufacture of LSD on May 30, 1966.24 Other states quickly followed suit, and by 1968, LSD was classified as a Schedule I drug by the United States Drug Enforcement Agency (DEA), legally defining it as a drug with a “high potential for abuse” and with no function in any medical treatment.25 Suddenly, the movement that had created social phenomena such as the Electric Acid Kool-Aid Test and inspired bands like The Beatles and Pink Floyd became a counterculture movement persecuted by the government and the broadscale public.26
@@ -65,9 +65,11 @@ Hippies may not be Satan’s spawn, as people liked to claim, but they did spawn
 
 The emergence of the Yippie counterculture movement can also teach us much about today's movements. Through shared struggles and trauma, Hippies found a sense of identity. Their activism inspired many future movements by showing youths that change is required for the world to become a better place.
 
+
 ![be-in human](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1dae818-2a0e-441b-8970-4146d0d8127e_769x1024.jpeg)
 
-Figure: Poster advertising the famous Human Be-in in San Francisco (Golden Gate Park/Haight Ashbury), advertising the presence of various famous rock bands, artists, figureheads of the movements, and more.
+Figure: *Poster advertising the famous Human Be-in in San Francisco (Golden Gate Park/Haight Ashbury), advertising the presence of various famous rock bands, artists, figureheads of the movements, and more.*
+
 
 To learn more, read:
 

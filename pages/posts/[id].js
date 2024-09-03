@@ -23,6 +23,11 @@ export async function getStaticPaths() {
 export default function Post({ postData }) {
   return (
     <Layout className="blog-elements mt-6 sm:mt-12 md:mt-16 pl-0 md:pl-0">
+      <div className="backButton" onClick={() => window.history.back()}>
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="white" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+      </div>
       <div className="blogContainer">
         <div className="postTitle">{postData.title}</div>
         <div className="postDate">

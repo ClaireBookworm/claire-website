@@ -11,6 +11,8 @@ date: 'Oct 27, 2023'
 
 The emptiness of a farewell at an airport. Nick’s morning meeting: the idea of a farewell being an exhalation. (*[all things end](https://open.spotify.com/track/5csu6psyW6UN4ggucwOuDR?si=b4add22527c042c3)*)
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5csu6psyW6UN4ggucwOuDR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 Somehow, it becomes a feeling of calm?
 
 When I say goodbye to someone, there’s a feeling of numbness and silence afterward. My stomach drops, and I’m in a state of confusion—the thing that had given me a sort of active purpose has just disappeared. Maybe it is not quite me missing them, but more so an understanding that this excitement is now over.

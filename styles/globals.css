@@ -19,7 +19,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -52,14 +51,15 @@ a:hover {
 .icon-bar a {
     float: left; /* Float links side by side */
     text-align: center; /* Center-align text */
-    width: 10%; /* Equal width (5 icons with 20% width each = 100%) */
+    width: auto; /* Equal width (9 icons with 11% width each = 100%) */
+    padding: 3%;
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
     /* font-size: 36px; Increased font size */
 }
 
 .icon-bar > svg:hover {
-    fill: #e0e6ed;
+    fill: #afbccb;
 }
 
 .gallerySubhead {
@@ -129,8 +129,10 @@ GalleryCard > a:hover {
     /* max-width: 100%; */
     margin: auto;
     align-items: center;
-    font-family: "Satoshi", "Helvetica Neue", "Futura", Arial, sans-serif;
-    font-size: 1.2rem;
+    font-family: "EB Garamond","Times New Roman", "Helvetica Neue", Arial, serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
 }
 
 .postContent > * {
@@ -139,7 +141,7 @@ GalleryCard > a:hover {
 }
 
 .postContent h1, h2, h3, h4 {
-    font-family: "Proxima Nova", "Montserrat", "Gilroy", "Inter";
+    font-family: "Gilroy", "Satoshi", "Inter", Arial, san-serif;
 }
 
 .postContent h1 {
@@ -164,36 +166,35 @@ GalleryCard > a:hover {
 }
 
 .postContent a {
-    text-decoration: underline;
+    text-decoration: underline wavy;
+    transition: all 0.3s ease; /* Add transition for hover effects */
 
 }
 .postContent a:hover {
     opacity: 80%;
+    text-decoration-color: blue;
 }
+
 .blog-elements {
     padding-left:0!important;
     margin-left: 0 !important;
 }
 
-.postContet ol {
-    list-style: decimal; /* Use bullets for unordered lists */
+.postContent ol {
+    list-style: decimal !important; /* Use bullets for unordered lists */
 }
 
 .postContent ul {
-    list-style: disc; /* Use bullets for unordered lists */
-}
-
-.postContent ul, .postContent ol {
-    margin-left: 20px; /* Adjust as needed */
-    padding-left: 20px; /* Adjust as needed */
-    
-    list-style-position: outside; /* Ensure bullet points are visible */
+    list-style: disc !important; /* Use bullets for unordered lists */
 }
 
 .postContent li {
-    margin-bottom: 10px; /* Space between list items */
+    /* margin-bottom: 10px;  Space between list items */
     font-size: 1.2rem; /* Consistent with other text */
     line-height: 1.5; /* Adjust for readability */
+    margin-left: 20px; /* Adjust as needed */
+    padding-left: 20px; /* Adjust as needed */
+    list-style-position: outside; /* Ensure bullet points are visible */
 }
 
 .postContent blockquote {

@@ -7,6 +7,9 @@ My top song in 2023 was _all things end_ by hozier, which is fitting, because it
 
 [endalök playlist](https://open.spotify.com/playlist/07ZcBzEGaNfHhjaaCJv3rw?si=fe863bbcdf704ec6)
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/07ZcBzEGaNfHhjaaCJv3rw?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
 There’s something deeply painful about saying goodbye to someone you think you will never see again. You can grab on to the concept of a future reunion, the idea that you’ll keep in contact over text, that “_it’s a see you later not a goodbye_” but what hurts is, once you’ve said enough of these goodbyes–in-denial, your heart figures out it isn’t real.
 
 Recently, I’ve been spending a lot more time alone and being forced to be intentional when asking to hang out with friends. (And, writing a post about how to be alone has not helped my own loneliness problem.) While I still find it deeply difficult to exist on my own and find joy in doing things alone, I think it’s taught me how to say goodbye and how to accept that nothing is permanent.
