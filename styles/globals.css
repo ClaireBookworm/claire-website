@@ -130,6 +130,12 @@ GalleryCard > a:hover {
     width: 80vw;
 }
 
+@media (max-width: 768px) {
+    .postContainer {
+        margin: 0;
+    }
+}
+
 .postContent { 
     background-color: #fbfdff;
     border-radius: 3px;   
