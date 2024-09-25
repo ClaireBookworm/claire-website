@@ -10,9 +10,11 @@ date: 'Sep 22, 2024'
 >
 > **Desires are already memories.**
 
+<br ></br>
+
 That’s Calvino’s *Invisible Cities*—I’m always finding myself referencing the same three things: *Rosencrantz and Guildenstern are Dead* by Tom Stoppard, [*Invisible Cities*](https://www.ruanyifeng.com/calvino/2006/12/cities_one.html) by Italo Calvino, and [Mythologies](https://www.poetryfoundation.org/poems/54877/mythologies) by David Lehman. (As one of my friends calls it, these are my foundational texts.)
 
-I think we should be more worried about working our entire lives for a dream we can never enjoy. “There’s no sense of accomplishment — rather a feeling of discontent. ****Eventually, the city of desire reduces to a city of memory, rather nostalgia.”[1](https://substack.com/home/post/p-147343205?source=queue#footnote-1-147343205)
+I think we should be more worried about working our entire lives for a dream we can never enjoy. “There’s no sense of accomplishment — rather a feeling of discontent. "Eventually, the city of desire reduces to a city of memory, rather nostalgia."[1](https://substack.com/home/post/p-147343205?source=queue#footnote-1-147343205)
 
 It’s no mistake this passage is in Cities & Memory: becoming a “city of memory” is so notable — you never get that ideal of perfection, and your dreams might only materialize partially or differently from how you imagined. So, given that, should we forget about the impossible dream we tend to go for your entire life? Is striving all you should do, or when does stopping make sense?
 
@@ -24,6 +26,8 @@ For the past half-year, I’ve been thinking about ambition and its role in my e
 *an illustration of Calvino’s Invisible Cities by Lima-based [Karina Puente](https://kindlemag.in/dare-dare-experiment/)*
 
 (NOTE: find the substack version of this to leave comments [here](https://substack.com/home/post/p-147343205?source=queue)! <3)
+
+<br ></br>
 
 ### 1.
 
@@ -72,6 +76,8 @@ Consider Hamilton (or, at least, the fictional version of him in the musical): h
 > 
 > — *End of Me, Mother Mother*
 
+<br ></br>
+
 
 ### 2.
 
@@ -104,6 +110,8 @@ Do not let others tell you whether or not the work you do is important — do no
 
 Yet, there is a line. The right kind of ambition cannot trespass upon others. In a universe (or community) of ambitious people, it should not lead to hurt feelings or a toxic environment. Don’t only talk to/respect those that are “useful” to you and ignore the rest, which is something I see all too often :(.
 
+<br ></br>
+
 ### 3.
 
 Maybe ambition comes from a desire to be known.
@@ -127,6 +135,7 @@ I worry deeply that I’ll forever be inadequate, but if I am always thinking ab
 > 
 > — *chasing the sun, sara bareilles*
 
+<br ></br>
 
 ### 4.
 
@@ -146,7 +155,7 @@ In Chinese, there’s this concept of ‘[吃苦](https://chineseposters.net/the
 
 Growing up, the adults around me told me all the time that I have to learn to 吃苦… that opportunities only come to those who are prepared.
 
-!https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff163af75-9a62-4da7-8ca2-fe9c12cb70b2_1188x376.png
+![post scarcity](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff163af75-9a62-4da7-8ca2-fe9c12cb70b2_1188x376.png)
 
 In a series of conversations with A.Z. over the past few months, I’ve also thought about the way one makes decisions.
 
@@ -156,6 +165,7 @@ This [podcast](https://dynamic.wakingup.com/course/C587C1?source=content%20shar
 
 > **We will all be dead any minute.** The key consequence of this finitude is that it makes our choices matter. When it comes to how we use our time, because we don’t have an endless amount of it, something is always at stake. Any decision to spend an amount of time on one thing, that is a decision to not spend on other things instead.
 
+<br ></br>
 
 ### 5.
 
@@ -171,6 +181,7 @@ Isn’t it kind of scary we must rely on others? I wanted to learn how to defend
 
 > Secretly, in my heart, I’ve always harboured the seed of ambition. Every profligate dreamer hungers secretly for the world to be remade in their vision. **There is a ruthlessness to this desire, the willingness to force yourself upon the world to remake it, the insolence about your vision to believe it worthwhile, and even the selfishness to remain indifferent to the fact that others may not want your vision**. To actualise a dream in reality is to apply force to the world and to make it different. To be an effective dreamer is to channel your aggression effectively. This “effectiveness” is dependent on how good you are at execution, the means you’ve got, how creative and resourceful you are, how relentless you are. These are immortal laws and everything that we see today is a product of actualising this will.
 
+<br ></br>
 
 ### 6.
 
@@ -233,7 +244,7 @@ Initially, I created this playlist as a way to make myself focus, to lock in, to
 
 
 
-
+<br ></br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4ynrC2yClDbvktAsHIJnRA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
