@@ -19,13 +19,13 @@ It’s no mistake this passage is in Cities & Memory: becoming a “city of memo
 For the past half-year, I’ve been thinking about ambition and its role in my everyday value judgments. Honestly, I’d like to focus more on the emotional experience of ambition beyond the portrayal of the “grindset” in movies or those motivational YouTube videos.
 
 
-!(an illustration of Calvino’s Invisible Cities by Lima-based Karina Puente)[https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22afcdf9-4d55-413a-a1bf-5592db3ddd69_1784x1286.png]
+![an illustration of Calvino’s Invisible Cities by Lima-based Karina Puente](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22afcdf9-4d55-413a-a1bf-5592db3ddd69_1784x1286.png)
 
 *an illustration of Calvino’s Invisible Cities by Lima-based [Karina Puente](https://kindlemag.in/dare-dare-experiment/)*
 
 (NOTE: find the substack version of this to leave comments [here](https://substack.com/home/post/p-147343205?source=queue)! <3)
 
-1.
+### 1.
 
 As I spend more time in college, I hear more and more people talk about *finding* the thing that will be their life’s calling. It is easy to wait for some Thing™ out there to grab you by the neck and define your life, but most of the time, that *thing* doesn’t ever appear. Or, at least, the ones that don’t involve accidentally finding yourself climbing various ladders (be it corporate, social, or prestige).
 
@@ -35,7 +35,7 @@ For the longest time, I thought my passion for engineering and/or neuroscience w
 
 After asking this of many people who seem to have found their Thing™ in the UK this past August, I’ve started to become much more charitable to myself. Maybe this is slightly existentialist, but it’s almost a game, isn’t it? There is no overall destination or reason for existence—we must each find that for ourselves. “You are the things you do,” and we are unfortunately stuck with this freedom to choose. So there *isn’t* some correct or wrong answer; we’ve just got to [commit](https://www.tommydixon.ca/p/commitment-is-an-act-of-co-creation).
 
-!(satre)[https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F822544c4-33a9-4ad6-97f4-e66388438b52_2000x413.png]
+![Age of Reason](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F822544c4-33a9-4ad6-97f4-e66388438b52_2000x413.png)
 
 *The Age Of Reason by Sartre*
 
@@ -71,9 +71,9 @@ Consider Hamilton (or, at least, the fictional version of him in the musical): h
 > Will there be anybody to see the death of me? The end of me?
 > 
 > — *End of Me, Mother Mother*
-> 
 
-2.
+
+### 2.
 
 Or, consider fuzzy values as a way to combat [value capture](https://philpapers.org/rec/NGUVCH) (when a person’s rich and subtle values are simplified and quantified, and those simplified versions dominate their practical reasoning, akin to goodharts).[4](https://substack.com/home/post/p-147343205?source=queue#footnote-4-147343205) How do we deal with ambitions while ensuring we do not become the worst versions of ourselves? A constant issue is avoiding over-optimizing for things — “Goodharts all the way down.”
 
@@ -88,7 +88,7 @@ There’s a constant urge for us to want to feel significant externally, and thi
 > 
 > 
 > I am calling on every one of you to be the main character. If we must spend so many moments of adolescence contemplating self-image and adulthood, so be it, but be defyingly that way: be that proud solipsist. If we pettily and secretly think we are the centers of the universe anyway, then **we should try to believe that we are indeed capable of achieving everything in the universe.**
-> 
+
 
 Is it too “fuzzy” to be ambitious towards a feeling?
 
@@ -100,11 +100,11 @@ Do not let others tell you whether or not the work you do is important — do no
 > 
 > 
 > — *a little life, hanya yanagihara*
-> 
+
 
 Yet, there is a line. The right kind of ambition cannot trespass upon others. In a universe (or community) of ambitious people, it should not lead to hurt feelings or a toxic environment. Don’t only talk to/respect those that are “useful” to you and ignore the rest, which is something I see all too often :(.
 
-3.
+### 3.
 
 Maybe ambition comes from a desire to be known.
 
@@ -126,9 +126,9 @@ I worry deeply that I’ll forever be inadequate, but if I am always thinking ab
 > But always be chasing the sun!
 > 
 > — *chasing the sun, sara bareilles*
-> 
 
-4.
+
+### 4.
 
 Ambition is perhaps also a sort of tolerance, an almost seeking, of pain in the hopes of something more. It is a romanticization of putting in pain and tears and putting in the work for some idea of something happening in the future. Yet, this brings us back to that initial Invisible Cities quote: when do you stop putting your long-term over short-term? Shouldn’t there be a sort of balance?
 
@@ -140,7 +140,7 @@ Gena Soh’s *I've been away, I've been sad, I've been making decisions, I'm go
 > 
 > 
 > […] I don’t think many people feel this changing of masks as dramatically as I do. Most feel this ‘professional self’ as a mechanical or even, an entertaining and exciting endeavour. I feel real grief about it. I still yearn to live in the world fully as me, without changing any part of me, without sacrificing any aspect of my want.
-> 
+ 
 
 In Chinese, there’s this concept of ‘[吃苦](https://chineseposters.net/themes/eating-bitterness)’ (chi ku), a phrase that means to persevere through hardship/suffering without complaint.
 
@@ -155,9 +155,9 @@ A good framework is the minimization of retroactive *regret*, perhaps. When I t
 This [podcast](https://dynamic.wakingup.com/course/C587C1?source=content%20share&share_id=68BB05D9&code=SCA21FBA0) I was recently sent by J.M. says something that resonated deeply:
 
 > **We will all be dead any minute.** The key consequence of this finitude is that it makes our choices matter. When it comes to how we use our time, because we don’t have an endless amount of it, something is always at stake. Any decision to spend an amount of time on one thing, that is a decision to not spend on other things instead.
-> 
 
-5.
+
+### 5.
 
 The game I played the most with my sister when we were young was a game we nicknamed “wilderness." (*Genuinely, I have no clue how we managed to log some crazy hours into this game and how we made up any of the stories.*) In this game, we would hide in our backyard (or, a few times, the LA Huntington Gardens!), pretending to be self-sufficient while scavenging for things and attempting to build a variety of structures.
 
@@ -170,11 +170,15 @@ Hence my chronic overcommitment—I can’t say “NO”! I want to be involved 
 Isn’t it kind of scary we must rely on others? I wanted to learn how to defend myself, how to make the things I needed, and to have my own contingencies. It’s grown into a desire to *know* things (I’ve given up on being a black belt in martial arts). But I’ve also grown into an appreciation that I must fall back on my friends just as much as they can rely on me.
 
 > Secretly, in my heart, I’ve always harboured the seed of ambition. Every profligate dreamer hungers secretly for the world to be remade in their vision. **There is a ruthlessness to this desire, the willingness to force yourself upon the world to remake it, the insolence about your vision to believe it worthwhile, and even the selfishness to remain indifferent to the fact that others may not want your vision**. To actualise a dream in reality is to apply force to the world and to make it different. To be an effective dreamer is to channel your aggression effectively. This “effectiveness” is dependent on how good you are at execution, the means you’ve got, how creative and resourceful you are, how relentless you are. These are immortal laws and everything that we see today is a product of actualising this will.
-> 
 
-6.
+
+### 6.
+
+
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7JuJyFQ953fXwD0vLQU9vK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
 
 Initially, I created this playlist as a way to make myself focus, to lock in, to tell myself that that I can do so much more if I just tried harder and harder, but honestly I found myself adding more songs that made me question this. But where does this “grindset” end—when does trying harder plateau?
 
@@ -226,40 +230,28 @@ Initially, I created this playlist as a way to make myself focus, to lock in, to
 > Thinking I'd be great
 > 
 > — *nickel, flipturn*
-> 
+
+
+
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4ynrC2yClDbvktAsHIJnRA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+
+
 **Footnotes:**
 
-[1](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-1-147343205)
+1. An awesome [article](https://medium.com/@pooja.tarun.patel/understanding-invisible-cities-with-authors-illustrations-for-each-and-every-city-3648e044279d) with drawings of the cities & some analyses! I encourage you to also buy the actual book and try to doodle what you imagine the cities look like. I also made playlists for some of the other cities: [zora](https://open.spotify.com/playlist/4NDwZSusbqjTQHVjEoyzPk?si=03c1cfad1a904595), [dorothea](https://open.spotify.com/playlist/4lssXZ0oyzfKvLzmY8lm7V?si=1c091fb1a07f4be8), and [eusapia](https://open.spotify.com/playlist/69EMAY1Tq2nrLjLAhfprPS?si=8c29df1448944662).
 
-An awesome [article](https://medium.com/@pooja.tarun.patel/understanding-invisible-cities-with-authors-illustrations-for-each-and-every-city-3648e044279d) with drawings of the cities & some analyses! I encourage you to also buy the actual book and try to doodle what you imagine the cities look like. I also made playlists for some of the other cities: [zora](https://open.spotify.com/playlist/4NDwZSusbqjTQHVjEoyzPk?si=03c1cfad1a904595), [dorothea](https://open.spotify.com/playlist/4lssXZ0oyzfKvLzmY8lm7V?si=1c091fb1a07f4be8), and [eusapia](https://open.spotify.com/playlist/69EMAY1Tq2nrLjLAhfprPS?si=8c29df1448944662).
+2. It was [disproved](https://anderson-review.ucla.edu/new-study-disavows-marshmallow-tests-predictive-powers/)! So many of these psych studies have been disproved. When I went to [Invisible College](https://www.worksinprogress.news/p/apply-to-come-to-invisible-college) (a program at Cambridge, UK, run by [Works in Progress](https://worksinprogress.co/) and [Stripe Press](https://press.stripe.com/); super fun!!) this summer, [Stuart Ritchie](https://www.sciencefictions.org/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile) gave a talk about this — did you know a lot of Kahneman’s studies were shown to not really be extrapolatable?
 
-[2](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-2-147343205)
+3. In many ways, I think *Hamilton* could be a Greek tragedy. His desire to be remembered, his lack of care for his life in his prioritization of what happens after his death is his hamartia.
 
-It was [disproved](https://anderson-review.ucla.edu/new-study-disavows-marshmallow-tests-predictive-powers/)! So many of these psych studies have been disproved. When I went to [Invisible College](https://www.worksinprogress.news/p/apply-to-come-to-invisible-college) (a program at Cambridge, UK, run by [Works in Progress](https://worksinprogress.co/) and [Stripe Press](https://press.stripe.com/); super fun!!) this summer, [Stuart Ritchie](https://www.sciencefictions.org/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile) gave a talk about this — did you know a lot of Kahneman’s studies were shown to not really be extrapolatable?
+4. Check out [C. Thi Nguyen](https://objectionable.net/)’s writings! He also wrote *Games: Agency as Art*, which is a banger everyone should read. (*He gave a talk at the Workshop back at Andover and I remember talking about it to M allll night.*)
 
-[3](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-3-147343205)
+5. In “[i’m losing my edge to the aphids](https://clairebookworm.substack.com/p/im-losing-my-edge-to-aphids)” I talk about how I think I learned to become more extroverted through simple patterns and creating tangible personality traits. While it worked quite well, and my life has become much more colorful and happier through the years, I don’t think it’s done as much to fix my feelings of loneliness as much as me being more intentional in being truly myself with people. In conversations with friends, I’ve heard their sturggles as well—of being tired of being reduced to a soundbite. But if you don’t, how do people remember you? Want to get to know you better?
 
-In many ways, I think *Hamilton* could be a Greek tragedy. His desire to be remembered, his lack of care for his life in his prioritization of what happens after his death is his hamartia.
+6. Man, this paragraph (and this entire essay) has so many “I”’s. But it’s because I believe any “advice” essay is really only advice from and *for* the author alone—for any reader, it is nothing more than leading questions. So many people write these long treatises of what you *should* do but tbh, that’s pretty bad as some source of truth.
 
-[4](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-4-147343205)
+7. If you’ve ever talked to me at *all* in the past year, you might already know this. :) I offer a pre-emptive apology to everyone because Jack Antonoff might be all I ever talk about, and I know it gets boring. Along the same lines, here’s [literally just interspersed bleachers and hozier](https://open.spotify.com/playlist/3NiIWaqbBT0LKVPjunky2a?si=8733566d089c4750). And [every bleachers song ever](https://open.spotify.com/playlist/3yFLpkeocdp3DaOVoq8qch?si=d7fffa2771bc4044).
 
-Check out [C. Thi Nguyen](https://objectionable.net/)’s writings! He also wrote *Games: Agency as Art*, which is a banger everyone should read. (*He gave a talk at the Workshop back at Andover and I remember talking about it to M allll night.*)
-
-[5](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-5-147343205)
-
-In “[i’m losing my edge to the aphids](https://clairebookworm.substack.com/p/im-losing-my-edge-to-aphids)” I talk about how I think I learned to become more extroverted through simple patterns and creating tangible personality traits. While it worked quite well, and my life has become much more colorful and happier through the years, I don’t think it’s done as much to fix my feelings of loneliness as much as me being more intentional in being truly myself with people. In conversations with friends, I’ve heard their sturggles as well—of being tired of being reduced to a soundbite. But if you don’t, how do people remember you? Want to get to know you better?
-
-[6](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-6-147343205)
-
-Man, this paragraph (and this entire essay) has so many “I”’s. But it’s because I believe any “advice” essay is really only advice from and *for* the author alone—for any reader, it is nothing more than leading questions. So many people write these long treatises of what you *should* do but tbh, that’s pretty bad as some source of truth.
-
-[7](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-7-147343205)
-
-If you’ve ever talked to me at *all* in the past year, you might already know this. :) I offer a pre-emptive apology to everyone because Jack Antonoff might be all I ever talk about, and I know it gets boring. Along the same lines, here’s [literally just interspersed bleachers and hozier](https://open.spotify.com/playlist/3NiIWaqbBT0LKVPjunky2a?si=8733566d089c4750). And [every bleachers song ever](https://open.spotify.com/playlist/3yFLpkeocdp3DaOVoq8qch?si=d7fffa2771bc4044).
-
-[8](https://substack.com/home/post/p-147343205?source=queue#footnote-anchor-8-147343205)
-
-Check out [Nina Simone](https://en.wikipedia.org/wiki/Nina_Simone) and [Sinead O’Connor](https://en.wikipedia.org/wiki/Sin%C3%A9ad_O%27Connor)!
+8. Check out [Nina Simone](https://en.wikipedia.org/wiki/Nina_Simone) and [Sinead O’Connor](https://en.wikipedia.org/wiki/Sin%C3%A9ad_O%27Connor)!
