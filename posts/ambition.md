@@ -10,7 +10,7 @@ date: 'Sep 22, 2024'
 >
 > **Desires are already memories.**
 
-<br ></br>
+<br />
 
 That’s Calvino’s *Invisible Cities*—I’m always finding myself referencing the same three things: *Rosencrantz and Guildenstern are Dead* by Tom Stoppard, [*Invisible Cities*](https://www.ruanyifeng.com/calvino/2006/12/cities_one.html) by Italo Calvino, and [Mythologies](https://www.poetryfoundation.org/poems/54877/mythologies) by David Lehman. (As one of my friends calls it, these are my foundational texts.)
 
@@ -186,10 +186,8 @@ Isn’t it kind of scary we must rely on others? I wanted to learn how to defend
 ### 6.
 
 
-
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7JuJyFQ953fXwD0vLQU9vK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-
+<br />
 
 Initially, I created this playlist as a way to make myself focus, to lock in, to tell myself that that I can do so much more if I just tried harder and harder, but honestly I found myself adding more songs that made me question this. But where does this “grindset” end—when does trying harder plateau?
 
@@ -244,9 +242,9 @@ Initially, I created this playlist as a way to make myself focus, to lock in, to
 
 
 
-<br ></br>
+<br />
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4ynrC2yClDbvktAsHIJnRA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
+<br />
 
 
 **Footnotes:**

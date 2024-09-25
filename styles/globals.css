@@ -216,7 +216,6 @@ GalleryCard > a:hover {
 
 .postContent blockquote {
     padding: 5px 0px 5px 15px;
-    margin: 3px;
     border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
     font-weight: 300;
     opacity: 0.7;
