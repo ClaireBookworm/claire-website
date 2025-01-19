@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function HeadObject({children}) {
     const title = "Claire Wang";
-    const description = "Student. Researcher. Design.";
+    const description = "words, words, words. they're all we have to go by!";
     const keywords = "claire, wang, neuroscience, computer science, hack club, mit";
     const author = "Claire Wang";
     const twitter = "@clairebookworm1";
@@ -16,9 +16,9 @@ export default function HeadObject({children}) {
             <meta name="description" content={description} />
             <meta name="keywords" content={keywords} />
             <meta name="author" content="Claire Wang" />
-            <meta property="og:url" content="bookworm.design" /> {/* This is where you put the domain */}
+            <meta property="og:url" content="clairebookworm.com" />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Claire Wang's personal website"/>
+            <meta property="og:title" content="claire's corner"/>
             <meta property="og:description" content={description} />
             {/* <meta property="og:image" content={image} /> */}
             <meta name="twitter:card" content="summary" />
