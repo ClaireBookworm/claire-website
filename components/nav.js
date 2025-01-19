@@ -9,7 +9,8 @@ const links = [
     { label: "Projects", href: "/gallery" },
     { label: "Resume", href:"https://cloud-7df36nh9b-hack-club-bot.vercel.app/0claire_resume_2024.pdf"},
     { label: "Writing", href: "/writing"},
-    { label: "Scrapbook", href: "https://scrapbook.hackclub.com/clairebookworm/" }
+    { label: "Notes", href: "/notes"},
+    // { label: "Scrapbook", href: "https://scrapbook.hackclub.com/clairebookworm/" }
 ]
 
 // Old: https://cloud-g0e1pc0o2-hack-club-bot.vercel.app/0claire-wang-2023-new.pdf

@@ -19,6 +19,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -144,7 +145,7 @@ GalleryCard > a:hover {
     /* max-width: 100%; */
     margin: auto;
     align-items: center;
-    font-family: "EB Garamond","Times New Roman", "Helvetica Neue", Arial, serif;
+    font-family: "Newsreader", "EB Garamond", "Garamond", "Times New Roman", "Helvetica Neue", Arial, serif;
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: -0.2px;
@@ -176,7 +177,7 @@ GalleryCard > a:hover {
 }
 
 .postContent p {
-    padding-bottom: 10px;
+    padding: 5px 0;
     /* width: 80%; */
 }
 
@@ -208,18 +209,20 @@ GalleryCard > a:hover {
 .postContent li {
     /* margin-bottom: 10px;  Space between list items */
     font-size: 1.15rem; /* Consistent with other text */
-    line-height: 1.5; /* Adjust for readability */
+    line-height: 1.2; /* Adjust for readability */
     margin-left: 20px; /* Adjust as needed */
     padding-left: 20px; /* Adjust as needed */
+    padding-bottom: 7.5px;
     list-style-position: outside; /* Ensure bullet points are visible */
 }
 
 .postContent blockquote {
-    padding: 5px 0px 5px 15px;
+    padding: 3px 0px 3px 15px;
+    margin: 5px auto;
     border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
     font-weight: 300;
     opacity: 0.7;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-decoration: dotted;
     font-style:italic;
     color: #555555;  /* A softer color for quotes */
