@@ -1,5 +1,5 @@
 ---
-title: "six thoughts on turning 20"
+title: "six thoughts on my birthday"
 date: "Dec 27, 2024"
 ---
 
