@@ -1,4 +1,6 @@
 import Layout from '../components/layout'
+import Head from 'next/head';
+
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 
@@ -25,6 +27,10 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
+      <Head>
+        <title>cold brew blog</title>
+        <meta property="og:title" content="cold brew blog" />
+      </Head>
       <div>
         <h1 className="writingsTitle">cold brew blog</h1>
         <p style={{"fontSize": '1.25rem', "fontWeight" : "800"}}>Find my substack at <a href="https://clairebookworm.substack.com/" style={{"textDecoration":"underline"}}>clairebookworm.substack.com</a>.</p>

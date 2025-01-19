@@ -1,9 +1,15 @@
 import { GalleryCard } from "../components/card";
+import Head from 'next/head';
+
 import Layout from "../components/layout";
 
 export default function Gallery() {
   return (
     <Layout active="Gallery">
+      <Head>
+        <title>projects, claire wang</title>
+        <meta property="og:title" content="projects & portfolio" />
+      </Head>
       <h1 className="heading">
         Projects <div className="inline opacity-50">&</div> Portfolio<div className="inline opacity-50">.</div>
       </h1>

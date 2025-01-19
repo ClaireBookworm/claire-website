@@ -1,4 +1,6 @@
 import Layout from '../components/layout'
+import Head from 'next/head';
+
 import { getSortedPostsData } from "../notes-lib/posts";
 import Link from "next/link";
 
@@ -14,6 +16,10 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
+		<Head>
+			<title>notes & thinks</title>
+			<meta property="og:title" content="shorter=form content that don't make the blog" />
+		</Head>
       <div>
         <h1 className="writingsTitle">notes & thinks ♥︎</h1>
         <p style={{"fontSize": '1.4rem', "fontWeight" : "800"}}>Shorter-form thoughts and notes I write that don't turn into an entire post.</p>

@@ -6,6 +6,7 @@ export default function Home() {
     <div>
 
       <Head>
+        <title>Claire's Corner</title>
         <meta property="twitter:url" content="https://clairebookworm.com/" />
         <script defer data-domain="clairebookworm.com" src="https://plausible.io/js/plausible.js"></script>
       </Head>

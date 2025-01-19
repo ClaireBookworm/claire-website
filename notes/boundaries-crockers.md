@@ -23,10 +23,4 @@ ig its like. contrarianism has its limits? and when you meet someone, you only s
 
 [**Crocker’s Rules**](http://sl4.org/crocker.html) apparently exist, and is a good baseline to also look at. I think what I'm saying here is slightly different.
 
-in a somewhat related note, yoyok has made me cry so many times 
-
-https://open.spotify.com/track/4D7BCuvgdJlYvlX5WlN54t?si=978af1482a7f4798
-
-and also 
-
-https://open.spotify.com/track/4nHJcUtNSUVjXRnjdP29Bk?si=7f2f72918ff84c2b
+in a somewhat related note, [you're on your own kid](https://open.spotify.com/track/4D7BCuvgdJlYvlX5WlN54t?si=978af1482a7f4798) has made me cry so many times and also [you're gonna go far](https://open.spotify.com/track/4nHJcUtNSUVjXRnjdP29Bk?si=7f2f72918ff84c2b).
