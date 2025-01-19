@@ -36,7 +36,7 @@ export default function Nav({active}) {
     })
     return (
         <nav className="text-white">
-            <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
+            <ul className="padding1 flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
                 <li className="hidden sm:block sm:grid-cols-1 sm:grid-cols-2 sm:grid-cols-3 sm:grid-cols-4 sm:grid-cols-5 sm:grid-cols-6 sm:grid-cols-7 sm:grid-cols-8 sm:grid-cols-9 sm:grid-cols-10 sm:grid-cols-11 sm:grid-cols-12"></li>
                 <ul className={`mx-auto sm:mx-0 grid gap-4 justify-items-center items-center ${links.length + 1 > 4 ? 'grid-cols-3' : 'grid-cols-2'} sm:grid-rows-1 sm:grid-cols-${links.length + 1}`}>
                     {links.map(({ href, label }) => (

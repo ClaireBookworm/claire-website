@@ -7,7 +7,7 @@
     src: url("/gilroy.otf") format("opentype");
 }
 
-@font-face {
+/* @font-face {
     font-family: "Satoshi";
     font-style: normal;
     src: url("/satoshi.ttf") format("truetype"),
@@ -15,7 +15,7 @@
     url("/satoshi.woff2") format("woff2"),
     url("/satoshi.eot") format("embedded-opentype");
 
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
@@ -82,6 +82,11 @@ GalleryCard > a {
     text-decoration: underline dotted !important;
 }
 
+.para {
+    margin-right: auto;
+    width: 80vw;
+}
+
 GalleryCard > a:hover {
     text-decoration: dotted;
     opacity: 80%;
@@ -131,12 +136,6 @@ GalleryCard > a:hover {
     width: 80vw;
 }
 
-@media (max-width: 768px) {
-    .postContainer {
-        margin: 0;
-    }
-}
-
 .postContent { 
     background-color: #fbfdff;
     border-radius: 3px;   
@@ -149,6 +148,11 @@ GalleryCard > a:hover {
     font-size: 1.2rem;
     line-height: 1.5;
     letter-spacing: -0.2px;
+
+    word-wrap: break-word; /* Ensures long words or URLs wrap to the next line */
+    overflow-wrap: anywhere; /* Forces wrapping for long text */
+    white-space: normal; /* Ensures text behaves normally (not pre-wrapped or unwrapped) */
+    overflow: hidden; /* Prevents content from overflowing the container */
 }
 
 .postContent > * {
@@ -157,7 +161,8 @@ GalleryCard > a:hover {
 }
 
 .postContent h1, h2, h3, h4 {
-    font-family: "Gilroy", "Satoshi", "Inter", Arial, san-serif;
+    /* font-family: "Gilroy", "Satoshi", "Inter", Arial, san-serif; */
+    font-family: "Gilroy", "Inter", Arial, san-serif;
 }
 
 .postContent h1 {
@@ -227,4 +232,55 @@ GalleryCard > a:hover {
     font-style:italic;
     color: #555555;  /* A softer color for quotes */
     opacity: 0.8;  /* Slight opacity for a subtle effect */
+}
+
+@media (max-width: 800px) {
+    .enlarge {
+        width: 90vw;
+    }
+    .padding1 {
+        padding: 1rem;
+    }
+    .blogContainer {
+        padding: 0;
+        width: 90vw;
+        margin: 0;
+    }
+    .postContent {
+        font-size: 1rem;
+    }
+    .postTitle {
+        font-size: 1.5rem;
+    }
+    .selfbio {
+        width: 80vw;
+        /* font-size: 1rem; */
+    }
+    .mobile{
+        padding: 1.25rem;
+        font-size: 80%;
+    }
+    .heading { 
+        font-size: 2.5rem;
+        /* tailwind sets 16px to be base, the heading is 6xl = 3.75 rem */
+    }
+    .gallerySubhread {
+        font-size: 1.25rem;
+        width: 80vw;
+    }
+    .galleryMobile {
+        margin-right: 1rem;
+    }
+    .writingsTitle {
+        font-size: 2.5rem;
+    }
+    .cardTitle {
+        font-size: 1.25rem;
+    }
+    .postContent blockquote {
+        font-size: 1.2rem;
+    }
+    .postContent li {
+        font-size: 0.8rem;
+    }
 }

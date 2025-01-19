@@ -9,7 +9,7 @@ export function GalleryCard({
 }) {
     return (
         <Link href={href ?? '/'}>
-            <a className={`rounded border border-white max-w-sm p-5 ${href ? 'hover:bg-white hover:text-black transition duration-200' : 'pointer-events-none'}`}>
+            <a className={`padding1 rounded border border-white max-w-sm p-5 ${href ? 'hover:bg-white hover:text-black transition duration-200' : 'pointer-events-none'}`}>
                 <h1 className="text-2xl font-bold cardTitle">{title ?? 'Empty Card Title'}</h1>
                 <p className="">
                     <ReactMarkdown plugins={[gfm]} bullet={true}>

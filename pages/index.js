@@ -11,7 +11,7 @@ export default function Home() {
         <script defer data-domain="clairebookworm.com" src="https://plausible.io/js/plausible.js"></script>
       </Head>
       <Nav active="Home" />
-      <main className="mt-6 sm:mt-12 md:mt-16 flex flex-col text-white pl-12 md:pl-20">
+      <main className="mobile mt-6 sm:mt-12 md:mt-16 flex flex-col text-white pl-12 md:pl-20">
         <section className="heading" aria-hidden="true">
           <div>Claire Wang<div className="inline opacity-50">.</div></div>
         </section>
@@ -20,14 +20,14 @@ export default function Home() {
           If you ever see me, I'll probably either be talking about <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://hackclub.com/">Hack Club</a>, expressing my ever-lasting love for Bleachers & my Spotify <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s?si=5952a9845b984880">playlists</a>, ranting about <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://bookshelf.website/clairebookworm">books</a>, stuck in the <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://jasanofflab.mit.edu/">lab</a> where I'm currently researching <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://synthneuro.org/">whole brain emulation</a>, or writing bad music <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://musicboard.app/clairebookworm">reviews</a> or for my <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://clairebookworm.substack.com">blog</a>. I truly believe in the art of making for the betterment of the world while having fun doing so. DFTBA¹!
           <br /><br />
 
-          <span style={{fontSize: '0.9rem', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Now</span>: <span style={{fontStyle: 'italic'}}>I'm currently taking a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a  style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://e11.bio">e11.bio</a> (and I'd love to meet up if you're in the area)! ♥︎ </span></span>
+          <span style={{fontSize: '0.9em', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Now</span>: <span style={{fontStyle: 'italic'}}>I'm currently taking a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a  style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://e11.bio">e11.bio</a> (and I'd love to meet up if you're in the area)! ♥︎ </span></span>
           
           <br /><br />
-          <span style={{fontSize: '0.9rem', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Currently reading</span>: <span style={{fontStyle: 'italic'}}>Argonauts</span> by Maggie Nelson (also recommend reading her Bluets) & <span style={{fontStyle: 'italic'}}>Godel, Escher, Bach</span> by Hofstadter.</span>
+          <span style={{fontSize: '0.9em', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Currently reading</span>: <span style={{fontStyle: 'italic'}}>Argonauts</span> by Maggie Nelson (also recommend reading her Bluets) & <span style={{fontStyle: 'italic'}}>Godel, Escher, Bach</span> by Hofstadter.</span>
           <br /><br />
-          <span style={{fontSize: '0.9rem', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Current Music Recs</span>: <a style={{fontStyle: 'italic'}} href="https://open.spotify.com/album/3gF9KIynrJaC80HbVayPMx?si=KBXUac8VREuHu01AzrYJqw">Unreal Unearth</a> by Hozier & <a style={{fontStyle: 'italic'}} href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</a> by Bleachers. (Also, my current playlist on loop: <a style={{textDecoration: "underline", "textDecorationStyle": 'dotted', fontStyle: 'italic'}} href="https://open.spotify.com/playlist/0ougicLNjGgbmIIsvp4Z1L?si=7170355da302401f">dahhling</a>.) </span>
+          <span style={{fontSize: '0.9em', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Current Music Recs</span>: <a style={{fontStyle: 'italic'}} href="https://open.spotify.com/album/3gF9KIynrJaC80HbVayPMx?si=KBXUac8VREuHu01AzrYJqw">Unreal Unearth</a> by Hozier & <a style={{fontStyle: 'italic'}} href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</a> by Bleachers. (Also, my current playlist on loop: <a style={{textDecoration: "underline", "textDecorationStyle": 'dotted', fontStyle: 'italic'}} href="https://open.spotify.com/playlist/0ougicLNjGgbmIIsvp4Z1L?si=7170355da302401f">dahhling</a>.) </span>
         </section>
-        <section className="mt-8 md:mt-8 w-2/3 lg:w-1/2 md:text-xl">
+        <section className="enlarge mt-8 md:mt-8 w-2/3 lg:w-1/2 md:text-xl">
           <div className="icon-bar">
 
             <a href="https://twitter.com/clairebookworm1"><svg fill="white" height="20px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Twitter</title>
@@ -59,10 +59,10 @@ export default function Home() {
           <img className="mt-8 md:mt-12 w-1/2 sm:w-1/3 lg:w-1/4" src="/signature.png" alt="signature of claire" aria-hidden="true" />
         </section>
       </main>
-      <footer className="text-white mt-8 md:mt-16 pl-12 md:pl-20 mb-5 flex flex-col space-y-4 text-xs sm:text-sm">
+      <footer className="para mobile text-white mt-8 md:mt-16 pl-12 md:pl-20 mb-5 flex flex-col space-y-4 text-xs sm:text-sm">
         <div id="footnotes" className="font-inter">
-          ¹DFTBA: Don’t forget to be awesome!<br />
-          ²I'm always happy to chat! You can find me by emailing me at claire (at) angelhacks.org or any way you can find (linked above or otherwise).
+          <span style={{"font-weight": "bold"}}>¹</span>DFTBA: Don’t forget to be awesome!<br />
+          <span style={{"font-weight": "bold"}}>²</span>I'm always happy to chat! You can find me by emailing me at claire (at) angelhacks.org or any way you can find (linked above or otherwise).
         </div>
         <div className="font-gilroy uppercase opacity-40">
           Copyright {new Date().getFullYear()} Claire Wang.

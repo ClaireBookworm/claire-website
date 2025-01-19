@@ -14,8 +14,8 @@ export default function Gallery() {
         Projects <div className="inline opacity-50">&</div> Portfolio<div className="inline opacity-50">.</div>
       </h1>
 
-      <h2 className="gallerySubhead">Major Projects & In Progress</h2>
-      <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <h2 className="gallerySubhead enlarge">Major Projects & In Progress</h2>
+      <div className="galleryMobile mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <GalleryCard
           title = "Boyden Lab @ MIT McGovern/Media Lab"
           href="https://synthneuro.org/projects/understanding-normal-and-pathological-brain-computations/"
@@ -100,7 +100,7 @@ export default function Gallery() {
       </div>
       <br />
       <h2 className="gallerySubhead">More<div className="inline opacity-50">...</div></h2>
-      <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="galleryMobile mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {/* <GalleryCard
           title="Andover Computer Science Club"
           children="We meet weekly and run fun workshops to inspire members of various levels of expertise to find joy in making and creating with code! As co-president, I have worked on liaising with faculty advisors, applying for alumni Abbot Grants, organizing various speaker series and longer-form competitions, and so on."
@@ -129,7 +129,7 @@ export default function Gallery() {
       </div>
       <br />
       <h2 className="gallerySubhead">Previous <div className="inline opacity-50">/</div> Hiatus</h2>
-      <div className="mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="galleryMobile mt-12 mr-16 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <GalleryCard
           title="Phillipian Digital Editor"
           href="https://phillipian.net"

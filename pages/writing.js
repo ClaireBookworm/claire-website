@@ -4,16 +4,6 @@ import Head from 'next/head';
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 
-// export default function Writing() {
-//     return (
-//         <Layout active="Writing">
-//             <h1 className="heading">Writing<div className="inline opacity-50">.</div></h1>
-//             <div className="mt-12 mr-16 flex flex-col">
-//                 <h1>Hello!</h1>
-//             </div>
-//         </Layout>
-//     )
-// }
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -28,6 +18,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>cold brew blog</title>
         <meta property="og:title" content="cold brew blog" />
       </Head>
