@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
 			<meta property="og:title" content="shorter=form content that don't make the blog" />
 		</Head>
       <div>
-        <h1 className="writingsTitle">notes & thinks ♥︎</h1>
+        <h1 className="writingsTitle">notes & thinks <span style={{"fontSize" : "0.75em"}}>♥︎</span></h1>
         <p style={{"fontSize": '1.25rem', "fontWeight" : "800"}}>Shorter-form thoughts and notes I write that don't turn into an entire post.</p>
         <br />
         <ul>
