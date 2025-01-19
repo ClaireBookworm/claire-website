@@ -30,7 +30,7 @@ export default function Post({ postData }) {
         <meta property="og:description" content="cold brew blog | clairebookworm" />
         <meta property="og:type" content="article" />
       </Head>
-      <div className="backButton" onClick={() => window.history.back()}>
+      <div className="backButton" onClick={() => window.history.length > 1 ? window.history.back() : window.location.href = '/writing'}>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="white" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
         </svg>
