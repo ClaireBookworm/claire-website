@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 export default function HeadObject({children}) {
     const title = "Claire Wang";
-    const description = "words, words, words. they're all we have to go by!";
+    const description = "words, words, words. they're all we have to go on!";
     const keywords = "claire, wang, neuroscience, computer science, hack club, mit";
     const author = "Claire Wang";
     const twitter = "@clairebookworm1";

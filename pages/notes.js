@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
 		<Head>
 			<title>notes & thinks</title>
-			<meta property="og:title" content="shorter=form content that don't make the blog" />
+			<meta property="og:title" content="notes & things | claire" />
 		</Head>
       <div>
         <h1 className="writingsTitle">notes & thinks <span style={{"fontSize" : "0.75em"}}>♥︎</span></h1>
