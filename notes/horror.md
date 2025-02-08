@@ -1,6 +1,6 @@
 ---
 title: "horror is other people!"
-date: "Sep 20, 2024" 
+date: "Nov 23, 2024" 
 ---
 
 *this references waiting for godot and synecdoche, new york, which were two things we read/watched in a literature & existentialism course i took :). i spent a lot of that class time thinking about elements of horror in our existence and how scary it is to be out of body, to have no control. reminds me a bit of this lyric from anti-hero:*
