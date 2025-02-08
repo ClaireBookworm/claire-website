@@ -39,8 +39,7 @@ I think we just allow crushes suddenly become the type of thing there the burden
 
 > Don’t rely on someone else to give you what you need. Choose what nourishes you every day. See how strong you become when you remember that love is just reassertation, choosing something over and over. Do it one more time & watch mundane repetition become something transcendent. — *ava* 🐻
 
-<iframe style="border-radius:12px; margin: 1rem" src="https://open.spotify.com/embed/track/5FGDtm3MXJe8LikBkOJnOQ?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br />
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5FGDtm3MXJe8LikBkOJnOQ?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > And part of me wants to walk away 'til you really listen
 > I hate to look at your face and know that we're feeling different
@@ -53,8 +52,7 @@ I think we just allow crushes suddenly become the type of thing there the burden
 
 <br />
 
-<iframe style="border-radius:12px; margin: 1rem" src="https://open.spotify.com/embed/track/6y6bUurXB0FfhddEU5Qch0?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br />
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6y6bUurXB0FfhddEU5Qch0?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > If you would just make one mistake
 > What a relief that would be
@@ -66,8 +64,7 @@ I think we just allow crushes suddenly become the type of thing there the burden
 > You'll be by the window, only watchin'
 
 <br />
-<iframe style="border-radius:12px; margin: 1rem" src="https://open.spotify.com/embed/track/1zShh2S3moxyqU6u6fJZVQ?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br />
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1zShh2S3moxyqU6u6fJZVQ?utm_source=generator" width="100%" height="300" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > You told me once that I’m selfish
 > And I kissed you hard, in the dark
