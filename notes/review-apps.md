@@ -21,8 +21,8 @@ Though, it likely depends on the person. why do ***you*** write reviews? do you 
 
 oftentimes, i’ll think about how I’ll review something while I’m experiencing it (this is true for primarily food). I’m normally just not very critical or aware of the “quality” of whatever it is I’m consuming — it’s more just purely based on enjoyment. but now that there’s asshole-ish pseudo-intellectualism in the house, I’m suddenly noticing if the dish was too salty or if the service was good. maybe it just makes us more aware of what it is we’re experiencing. 
 
-<div style="text-align: center; margin-top: 10px; margin-bottom: 10px; ">
-	<img src="https://github.com/ClaireBookworm/claire-website/blob/main/public/files/gauntlet.png?raw=true" alt="gauntlet">
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px; height: 100px;">
+	<img src="https://github.com/ClaireBookworm/claire-website/blob/main/public/files/gauntlet.png?raw=true" alt="gauntlet" style="height: 40%;">
 </div>
 
 Recently, I was sent this article by Sasha Chapin: [how to like everything more](https://sashachapin.substack.com/p/how-to-like-everything-more) (quotes below are from this article).
@@ -43,4 +43,4 @@ Finally, being kind of pretentious-broey-intellectual about things is kind of fu
 
 [...]
 
-*(On that note, find recommendations of things I consume [**at this post**](https://www.clairebookworm.com/notes/recs), or on my [musicboard](https://musicboard.app/clairebookworm) and [letterboxd](https://letterboxd.com/clairebookworm/))*
+*(On that note, find recommendations of things I consume **[at this post](https://www.clairebookworm.com/notes/recs)**, or on my [musicboard](https://musicboard.app/clairebookworm) and [letterboxd](https://letterboxd.com/clairebookworm/))*
