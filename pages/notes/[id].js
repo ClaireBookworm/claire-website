@@ -1,5 +1,5 @@
 import Layout from "../../components/layout";
-import Head from 'next/head';
+// import Head from 'next/head';
 import CustomHead from '../../components/custom_head';
 
 import 'katex/dist/katex.min.css';
