@@ -3,15 +3,15 @@ title: "recommendations!"
 date: "Dec 27, 2025" 
 ---
 
-I love giving people recommendations and notes on the infinite amount of content I consume. I sometimes write reviews or notes on [letterboxd](https://letterboxd.com/clairebookworm/) and [musicboard](https://musicboard.app/clairebookworm). And, because [bookshelf.website](http://bookshelf.website) is down, here is my replacement list of books + other recommendations… 
+I love giving people recommendations and notes on the infinite amount of content I consume. I sometimes write reviews or notes on [letterboxd](https://letterboxd.com/clairebookworm/) and [musicboard](https://musicboard.app/clairebookworm). And, because [bookshelf.website](http://bookshelf.website) is down, here is my replacement list of books + other recommendations…  Please feel free to send me any rec my way + I *love* it when people tell me about a rec they really liked!!
 
 *currently reading:*
 - There is no Antimemetics Division, by qntm
 - Diaspora, by Greg Egan
 - Travesties, by Tom Stoppard
 
-### books i like
-*books that feel like each sentence is painting strung up next to each other* (my strongest recs) 
+## written
+*books where each sentence is a painting strung up in a gallery* (my strongest recs) 
 
 - Symphony for the City of the Dead, by M.T. Anderson
 - Invisible Cities, by Italo Calvino
@@ -98,9 +98,62 @@ I love giving people recommendations and notes on the infinite amount of content
 - Nimona
 - I was their American Dream
 
-### other miscellany
+## music
+find my music reviews on [musicboard](https://musicboard.app/clairebookworm).
 
-*films i like*
+**recommended playlists by yours truly**:
+- [sizzle](https://open.spotify.com/playlist/1ME2BDtz6wgqk4bLqyl892?si=53ca471122304f2c), *r&b beats*
+- [dahhling](https://open.spotify.com/playlist/0ougicLNjGgbmIIsvp4Z1L?si=657869bf74c540ac), *indie/rock, woodsy? nostalgic?*
+- [unavailable](https://open.spotify.com/playlist/5Jqz7gjwAFKbwYsWfXYv9g?si=157e36094db64096), *sorry i can't come to the phone right now im busy having the time of my life; pop-girl party music*
+- [🧸🪀🧶](https://open.spotify.com/playlist/7r2XPz7THgjJr8uQKbAt2G?si=fbde2959cda0469d), *play with your music!; fun electronica*; for more: [so it goes...](https://open.spotify.com/playlist/13IAsMqVJnZwXoKJSPg8fe?si=2831f38bca8d4a78)
+- [schilly and spilly](https://open.spotify.com/playlist/5K1b96cFtvMRl6MwmsIOrA?si=a09c2be88fa0481a), *indie pop standards*
+- [buttervinyl](https://open.spotify.com/playlist/4Kw8tq592A7pUYwiP5avrz?si=36c1800b29df4da5), *jazz and funky*
+- [slightly funky and possibly spunky](https://open.spotify.com/playlist/17cb5sukTNNmIwzDwK5HJY?si=970b9470619b4db5), *even more jazz and funk*
+- [spin (disc)](https://open.spotify.com/playlist/54nSJBDuN09vOhxJMDrTT6?si=d424a3e2f38a43b1), *insanely well produced house edm*
+- [intro to bleachers](https://open.spotify.com/playlist/0bzfpSgyjg3BB8w7f7nUQV?si=bd6365945e454334), *if you're tired of hearing me talk about them and want to learn more...*
+- [micro-classical](https://open.spotify.com/playlist/26is1OVE2tQXaWuGlmjO0C?si=10e33cdbfee34ec3), *soundtracks and modern classical*
+
+**best albums of all time**
+
+find the musicboard (and more comprehensive) list for this [here](https://musicboard.app/clairebookworm/list/albums-on-loop/).
+
+- Melodrama, by Lorde
+- Submarine, by The Marias
+- Pulsar, by L'imperatrice
+- Bleachers, by Bleachers
+- The Last Goodbye, by ODESZA
+- empathogen, by WILLOW
+- Empire Central, by Snarky Puppy
+- How to Build an Ocean: Instructions, by Bears in Trees
+- Unreal Unearth, by Hozier
+- Five Seconds Flat, by Lizzy McAlpine
+- MINT JAMS(Live), by Casiopea
+- Mr. Morale & the Big Steppers, by Kendrick Lamar
+- BRAT, by Charli xcx
+- The Land is Inhospitable and So Are We, by Mitski
+- Dance Fever, by Florence + the Machine
+- Luv(six) Heaxology, by Nujabes
+- Good Morning It's Now Tomorrow, by Matt Maltese
+- Nothing Happens, by Wallows
+- Good Faith, by Madeon
+- Love Hate Music Box, by Rainbow Kitten Surprise
+- Further Joy, by the Regrettes
+- Hyperdrama, by Justice
+- 22, A Million, by Bon Iver
+- Random Access Memories, by Daft Punk
+- Dopamine, by BØRNS
+- Carrie & Lowell, by Sufjan Stevens
+- Loss of Life, by MGMT
+- I Love You So F***ing Much, by Glass Animals
+- God Said No, by Omar Apollo
+- Wild EP, by The Analog Affair
+- M3LL155X, by FKA Twigs
+- Hurry Up, We're Dreaming, by M83
+- Citrona, by Flipturn
+
+## other miscellany
+
+*films i like* (check out my letterboxd...)
 
 - Everything Everywhere All at Once
 - A Silent Voice
@@ -109,8 +162,9 @@ I love giving people recommendations and notes on the infinite amount of content
 - Synecdoche, New York
 - Stalker (1979)
 - Kinds of Kindness
+- Challengers
 
-*blogs/magazines i like* 
+*blogs/magazines you should read too* 
 - ava bookbear express
 - rayne fisher-quann
 - sasha chapin

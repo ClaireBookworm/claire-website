@@ -19,9 +19,9 @@ Fundamentally, having a crush on someone is pushing the existing default frame y
 
 Often times, people will like someone and the moment this happens, it is a sort of “power imbalance.” The object of your affections becomes a *target*—you might talk about every conversation you have this person to all your friends (ask yourself: does this kind of break the privacy assumptions you have with them?) or put yourself into the mindset that prevents you from seeing the other person also as a living being. When you get stuck on the idea of liking someone, of whether or not they like you back, of analyzing all their actions to see if you can find an “ick” to get over them with, etc. etc., these are ways of thinking about someone that can be pretty harmful. 
 
-Lets imagine if this person doesn’t return your affections. You go around to all your friends / rationalize to yourself: ah, this person had xyz flaws, or this person said xyz things that kind of led me on, etc. etc., I think this is natural. It is human to try to make yourself feel better. But at the same time? Most of the time?? The other person might have actually done nothing wrong, and the actions you’ve taken now have hurt them: they might hear something second-hand about the things you’re supposedly “saying” about them, and so on. '
+Lets imagine if this person doesn’t return your affections. You go around to all your friends / rationalize to yourself: ah, this person had xyz flaws, or this person said xyz things that kind of led me on, etc. etc., I think this is natural. It is human to try to make yourself feel better. But at the same time? Most of the time?? The other person might have actually done nothing wrong, and the actions you’ve taken now have hurt them: they might hear something second-hand about the things you’re supposedly “saying” about them, and so on.
 
-Perhaps more applicable: **you can just *dislike* someone**. We have this tendency to try to attribute bad traits or justifications to someone when we dislike someone, but sometimes maybe you just don't click with them! Or find them annoying, or too different of a personality type, and so on... this doesn't make them a *bad* person, and you don't need to (and shouldn't, most of the time!) try to find reasons to justify it to yourself and others. 
+Perhaps more applicable: **you can just *dislike* someone**. We have this tendency to try to attribute bad traits or justifications to someone when we dislike someone, but sometimes maybe you just don't click with them! Or find them annoying, or too different of a personality type, and so on... this doesn't make them a *bad* person, and you don't need to (and shouldn't, most of the time!) try to find reasons about their bad-ness to justify it to yourself and others. 
 
 It’s so easy to forget. I’ve done this too! We forget that the person we're dating, or in a situationship with, or just have a one-side crush on… it’s a whole living breathing human who has so much going on. You might assume the level of priority you place this situation to be the *same* in their minds… but it really might not be! And when they don’t respond in the way you want (i.e., maybe not giving you as much time and credence as you feel you deserve or being worried about other things), it doesn’t make them a *bad* person. There are more factors at play here—its not a default write-off. 
 
@@ -41,43 +41,66 @@ We allow crushes bring some sort of added scrutiny to the target, but I think, e
 
 > Don’t rely on someone else to give you what you need. Choose what nourishes you every day. See how strong you become when you remember that love is just reassertation, choosing something over and over. Do it one more time & watch mundane repetition become something transcendent. — *ava* 🐻‍❄️ྀིྀི
 
+<hr /><br />
 
------
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5FGDtm3MXJe8LikBkOJnOQ?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+### some epilogue
+<br />
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5FGDtm3MXJe8LikBkOJnOQ?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > And part of me wants to walk away 'til you really listen
+>
 > I hate to look at your face and know that we're feeling different
+>
 > 'Cause part of me wants you back, but
+>
 > I know it won't work like that, huh?
+>
 > Why won't you try moving on for once? That might make it easy
+>
 > I know we cut all the ties but you're never really leaving
+>
 > And part of me wants you back, but
+>
 > I know it won't work like that, huh?
+>
+> — I know it wont work, gracie abrams
 
-<br />
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6y6bUurXB0FfhddEU5Qch0?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6y6bUurXB0FfhddEU5Qch0?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > If you would just make one mistake
+>
 > What a relief that would be
+>
 > But I think for as long as we're together
+>
 > I'll be the only heartbreaker
+>
 > So I'll be the loser in this game
+>
 > I'll be the bad guy in the play
+>
 > I'll be the water main that's burst and flooding
+>
 > You'll be by the window, only watchin'
+>
+> — the only heartbreaker, mitski
 
-<br />
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1zShh2S3moxyqU6u6fJZVQ?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1zShh2S3moxyqU6u6fJZVQ?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 > You told me once that I’m selfish
+>
 > And I kissed you hard, in the dark
+>
 > In the closet
+>
 > You said my music is mellow
+>
 > Maybe I’m just exhausted
+>
 > You think you’re a good person because you won’t push me
+>
 > In the stomach
-> — *letter to an old poet, boygenius*
+> — letter to an old poet, boygenius
 <br />
 
 **some notes from friends after reading this:**

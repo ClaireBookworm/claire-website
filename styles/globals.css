@@ -187,8 +187,8 @@ GalleryCard > a:hover {
 }
 
 .postContent a {
-    text-decoration: underline dashed;
-    text-decoration-thickness: 1.5px;
+    text-decoration: underline dotted;
+    text-decoration-thickness: 1.575px;
     transition: all 0.2s ease; /* Add transition for hover effects */
 
 }
@@ -222,15 +222,14 @@ GalleryCard > a:hover {
 }
 
 .postContent blockquote {
-    padding: 3px 0px 3px 15px;
+    padding: 1px 0px 3px 15px;
     margin: 5px auto;
-    border-left: 5px solid #cccccc;  /* Add a left border to simulate a dash or line */
-    font-weight: 300;
-    opacity: 0.7;
-    font-size: 1.4rem;
+    border-left: 5px solid #a7bac0;  /* Add a left border to simulate a dash or line */
+    font-weight: 400;
+    font-size: 1.25rem;
     text-decoration: dotted;
     font-style:italic;
-    color: #555555;  /* A softer color for quotes */
+    color: #484848;  /* A softer color for quotes */
     opacity: 0.8;  /* Slight opacity for a subtle effect */
 }
 
