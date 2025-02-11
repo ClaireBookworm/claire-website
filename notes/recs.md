@@ -5,7 +5,13 @@ date: "Dec 27, 2025"
 
 I love giving people recommendations and notes on the infinite amount of content I consume. I sometimes write reviews or notes on [letterboxd](https://letterboxd.com/clairebookworm/) and [musicboard](https://musicboard.app/clairebookworm). And, because [bookshelf.website](http://bookshelf.website) is down, here is my replacement list of books + other recommendations… 
 
-*books that feel like each sentence is a poem sausage linked to each other* (my strongest recs) 
+*currently reading:*
+- There is no Antimemetics Division, by qntm
+- Diaspora, by Greg Egan
+- Travesties, by Tom Stoppard
+
+### books i like
+*books that feel like each sentence is painting strung up next to each other* (my strongest recs) 
 
 - Symphony for the City of the Dead, by M.T. Anderson
 - Invisible Cities, by Italo Calvino
@@ -20,6 +26,7 @@ I love giving people recommendations and notes on the infinite amount of content
 - The Tale of Desperaux, by Kate DiCamillo
 - On Earth We’re Briefly Gorgeous, by Ocean Vuong
 - Bluets, by Maggie Nelson
+- The Book of Disquiet, by Fernando Pessoa
 - Sophie’s World, by Jostein Gaarder
 - The Little Prince
 - No Exit, by Sartre
@@ -91,6 +98,8 @@ I love giving people recommendations and notes on the infinite amount of content
 - Nimona
 - I was their American Dream
 
+### other miscellany
+
 *films i like*
 
 - Everything Everywhere All at Once
@@ -112,3 +121,8 @@ I love giving people recommendations and notes on the infinite amount of content
 - asimov press
 - freddie deboer
 - gwern
+- sam kriss
+
+**to reads:** (top of reading list)
+- White Teeth, by Zadie Smith
+- The Overstory, by Richard Powers
