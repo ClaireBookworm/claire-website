@@ -3,7 +3,7 @@ title: "we are all review-bros"
 date: "Jan 30, 2025" 
 ---
 
-There are sooo many review apps today. Every person on the street is a pseudo-film critic with an AMC stubs membership and a letterboxd account. You walk into a restaurant and you see people taking artful photos of their food for a review on beli that maybe only three people will see. I stumble into a bookstore and there's employees writing handwritten reviews and next to them, a college student typing a run-on sentence with way too many literary words on goodreads.
+There's a review app for everything. Every guy on the street is a pseudo-film critic with an AMC stubs membership and a letterboxd account. You walk into a restaurant and you see people taking artful photos of their food for a review on beli that maybe only three people will see. I stumble into a bookstore and there's employees writing handwritten reviews and next to them, a college student typing a run-on sentence with way too many literary words on goodreads.
 
 People loooooove a letterboxd, a beli, a musicboard (album of the year? rate your music??), a goodreads, outdoorsy, rotten tomatos…?, alltrails….
 
@@ -21,8 +21,8 @@ Though, it likely depends on the person. why do ***you*** write reviews? do you 
 
 oftentimes, i’ll think about how I’ll review something while I’m experiencing it (this is true for primarily food). I’m normally just not very critical or aware of the “quality” of whatever it is I’m consuming — it’s more just purely based on enjoyment. but now that there’s asshole-ish pseudo-intellectualism in the house, I’m suddenly noticing if the dish was too salty or if the service was good. maybe it just makes us more aware of what it is we’re experiencing. 
 
-<div style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-	<img src="https://github.com/ClaireBookworm/claire-website/blob/main/public/files/gauntlet.png" alt="gauntlet">
+<div style="text-align: center; margin-top: 10px; margin-bottom: 10px; ">
+	<img src="https://github.com/ClaireBookworm/claire-website/blob/main/public/files/gauntlet.png?raw=true" alt="gauntlet">
 </div>
 
 Recently, I was sent this article by Sasha Chapin: [how to like everything more](https://sashachapin.substack.com/p/how-to-like-everything-more) (quotes below are from this article).
