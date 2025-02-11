@@ -7,7 +7,7 @@ There's a review app for everything. Every guy on the street is a pseudo-film cr
 
 People loooooove a letterboxd, a beli, a musicboard (album of the year? rate your music??), a goodreads, outdoorsy, rotten tomatos…?, alltrails….
 
-endless endless endless pseudo-social media platforms to see what your friends thought about something. endless endless news platforms that hire people to write in-depth reviews. A pitchfork top 100, the apple music top 100 artists... 
+Endless endless endless pseudo-social media platforms to see what your friends thought about something. Endless endless news platforms that hire people to write in-depth reviews. Pitchfork top 100 songs, Apple Music's top 100 artists... 
 
 The whole world is just vomiting out analysis of consumed content and ....? I really don't know how to feel about it. On one hand, I love it—it makes a lot of things more exciting; I was never a restaurant person, but after downloading beli, I’m so much more excited to explore new places and try new food. Does anyone really read my reviews? no. But honestly I’ve found that I don’t even really care. I love reviewing the albums I listen to on musicboard—I’ve always written them anyways, in my notes app, and now I have a whole world of people where at least one other person will like the same album and I can feel seen. 
 
@@ -27,11 +27,11 @@ oftentimes, i’ll think about how I’ll review something while I’m experienc
 
 Recently, I was sent this article by Sasha Chapin: [how to like everything more](https://sashachapin.substack.com/p/how-to-like-everything-more) (quotes below are from this article).
 
-I do so much of what’s in this article subconsciously. Often times people will comment how I seem like literally like *every* music and genre and I think its very much this sort of appreciation. Its not that I like literally *everything*, but I appreciate the art and effort in most of the things that are out there. 
+It's cool to see how much of this I (and people I know) already do. Often times people will comment how I seem to like literally like *every* music and genre and I think its very much this sort of appreciation: the art and effort that was put in makes it worthy of me taking the additional time. 
 
 > You might be surprised by how much internal variation the vocalist uses from phrase to phrase if you can get past just hearing it as “scream scream scream.” If you dare, try the same trick with the onslaught presented by [this piece of music](https://open.spotify.com/track/4cizO9j38ZtvKe3CAcBr8p?si=0d259b4242e64960).
 
-I think I write reviews on letterboxd / musicboard / etc. etc. for better appreciating things, actually, because I often struggle to actually legibilize how I feel about something other than “wow, it’s good”. When I’m inspired to write a review, especially for modalities I don’t have as much experience and appreciation for (i.e., films), I pay much more attention and end up enjoying it much more. I used to think movies were kind of a waste of time: you watch some third thing with someone else without actually getting to know that person any better *and* you’re sinking a huge amount of time into it. It’s only been the past year and a half I’ve begun to really appreciate the art in these movies and how much I actually inherently enjoy them. 
+I think I write reviews on letterboxd / musicboard / etc. etc. for better appreciating things, actually, because I often struggle to actually *legibilize* how I feel about something other than “wow, it’s good”. When I’m inspired to write a review, especially for modalities I don’t have as much experience and appreciation for (i.e., films), I pay much more attention and end up enjoying it much more. I used to think movies were kind of a waste of time: you watch some third thing with someone else without actually getting to know that person any better *and* you’re sinking a huge amount of time into it. It’s only been the past year and a half I’ve begun to really appreciate the art in these movies and how much I actually inherently enjoy them. 
 
 > And I try to make a habit of developing similar micro-obsessions: when I love a piece of work, I drill into it and find a few small details to worship. I find it multiplies my feeling about the larger piece.
 

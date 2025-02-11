@@ -1,5 +1,6 @@
 ---
 title: "ephemerality"
+desc: "how do you say goodbye?"
 date: 'Feb 6, 2024'
 ---
 

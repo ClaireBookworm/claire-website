@@ -1,5 +1,6 @@
 ---
 title: "Notes from the Toilet"
+desc: "You must never bother someone in a restroom."
 date: 'Jan 12, 2023'
 ---
 

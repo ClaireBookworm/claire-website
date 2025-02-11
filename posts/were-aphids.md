@@ -1,5 +1,6 @@
 ---
 title: "hey, we are all aphid-people."
+desc: "'I’m losing my edge/ To all the kids in Tokyo and Berlin/ I’m losing my edge to the art-school Brooklynites in little jackets and borrowed nostalgia for the unremembered eighties.'"
 date: 'Feb 1, 2023'
 ---
 

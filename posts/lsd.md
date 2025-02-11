@@ -1,5 +1,6 @@
 ---
 title: "The higher they are, the harder they fall"
+desc: "hippie counterculture, moral panics, and lsd"
 date: 'Sep 01, 2024'
 ---
 

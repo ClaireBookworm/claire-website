@@ -1,5 +1,6 @@
 ---
 title: "delusions of greatness"
+desc: "we literally don't matter, actually. (a rant written in the middle of a class)"
 date: 'April 25, 2023'
 ---
 

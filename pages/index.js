@@ -1,15 +1,17 @@
 import Head from '../components/head'
+import CustomHead from '../components/custom_head';
 import Nav from '../components/nav'
 
 export default function Home() {
   return (
     <div>
 
-      <Head>
+      <CustomHead title="claire's corner" description="words, words, words. they're all we have to go on!" keywords="claire, wang, neuroscience, computer science, hack club, mit" author="Claire Wang" twitter="@clairebookworm1" />
+      {/* <Head>
         <title>Claire's Corner</title>
         <meta property="twitter:url" content="https://clairebookworm.com/" />
         <script defer data-domain="clairebookworm.com" src="https://plausible.io/js/plausible.js"></script>
-      </Head>
+      </Head> */}
       <Nav active="Home" />
       <main className="mobile mt-6 sm:mt-12 md:mt-16 flex flex-col text-white pl-12 md:pl-20">
         <section className="heading" aria-hidden="true">

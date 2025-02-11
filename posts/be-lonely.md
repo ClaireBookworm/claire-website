@@ -1,5 +1,6 @@
 ---
 title: "how to be lonely"
+desc: "you should take yourself out on a date"
 date: 'Oct 27, 2023'
 ---
 

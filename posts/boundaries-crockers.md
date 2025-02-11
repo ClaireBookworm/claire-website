@@ -1,5 +1,6 @@
 ---
 title: "boundaries (of others)" 
+desc: "how to not overthink friendships, a few notes"
 date: "Mar 31, 2024"
 ---
 

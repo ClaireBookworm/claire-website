@@ -1,5 +1,6 @@
 ---
 title: "i can do more more more"
+desc: "isidora, therefore, is the city of his dreams: with one difference. the dreamed-of city contained him as a young man; he arrives in his old age."
 date: 'Sep 22, 2024'
 ---
 > When a man rides a long time through wild regions he feels the desire for a city. Finally he comes to Isidora, a city where the buildings have spiral staircases encrusted with spiral seashells, where perfect telescopes and violins are made, where the foreigner hesitating between two women always encounters a third, where cockfights degenerate into bloody brawls among the bettors.
