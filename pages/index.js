@@ -1,12 +1,14 @@
 // import Head from '../components/head'
-import CustomHead from '../components/custom_head';
+import CustomHead from '../components/customHead';
+// import Head from 'next/head';
+// console.log('CustomHead:', CustomHead);
 import Nav from '../components/nav'
 
 export default function Home() {
   return (
     <div>
 
-      <CustomHead title="claire's corner" description="words, words, words. they're all we have to go on!" keywords="claire, wang, neuroscience, computer science, hack club, mit" author="Claire Wang" twitter="@clairebookworm1" />
+      <CustomHead title="claire's corner" description="words, words, words. they're all we have to go on!"></CustomHead>
       {/* <Head>
         <title>Claire's Corner</title>
         <meta property="twitter:url" content="https://clairebookworm.com/" />
@@ -22,7 +24,8 @@ export default function Home() {
           If you ever see me, I'll probably either be talking about <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://hackclub.com/">Hack Club</a>, expressing my ever-lasting love for Bleachers & my Spotify <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s?si=5952a9845b984880">playlists</a>, ranting about <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://bookshelf.website/clairebookworm">books</a>, stuck in the <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://jasanofflab.mit.edu/">lab</a> where I'm currently researching <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://synthneuro.org/">whole brain emulation</a>, or writing bad music <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://musicboard.app/clairebookworm">reviews</a> or for my <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://clairebookworm.substack.com">blog</a>. I truly believe in the art of making for the betterment of the world while having fun doing so. DFTBA¹!
           <br /><br />
 
-          <span style={{fontSize: '0.9em', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Now</span>: <span style={{fontStyle: 'italic'}}>I'm currently taking a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a  style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://e11.bio">e11.bio</a>. I'm also working on writing/research at age1VC and directing AI research at Voltage Park (I'd love to meet up if you're in the area)! ♥︎ </span></span>
+          <span style={{fontSize: '0.9em', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Now</span>: <span style={{fontStyle: 'italic'}}>I'm currently taking a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://e11.bio">e11.bio</a>. I'm also working on writing/research at <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://age1.com/">age1</a> and some more in the works (I'd love to meet up if you're in the area)! ♥︎ </span></span>
+          {/* directing AI research at <a style={{ "textDecoration": "underline", "textDecorationStyle": 'dotted' }} href="https://www.voltagepark.com/">Voltage Park</a> (I'd love to meet up if you're in the area)! ♥︎ </span></span> */}
           
           <br /><br />
           <span style={{fontSize: '0.9em', lineHeight: '0.7rem'}}><span style={{fontWeight: 'bold'}}>Currently reading</span>: <span style={{fontStyle: 'italic'}}>Argonauts</span> by Maggie Nelson (also recommend reading her Bluets) & <span style={{fontStyle: 'italic'}}>Godel, Escher, Bach</span> by Hofstadter.</span>
@@ -62,8 +65,8 @@ export default function Home() {
       </main>
       <footer className="para mobile text-white mt-8 md:mt-16 pl-12 md:pl-20 mb-5 flex flex-col space-y-4 text-xs sm:text-sm">
         <div id="footnotes" className="font-inter">
-          <span style={{"font-weight": "bold"}}>¹</span>DFTBA: Don’t forget to be awesome!<br />
-          <span style={{"font-weight": "bold"}}>²</span>I'm always happy to chat! You can find me by emailing me at claire (at) angelhacks.org or any way you can find (linked above or otherwise).
+          <span style={{"fontWeight": "bold"}}>¹</span>DFTBA: Don’t forget to be awesome!<br />
+          <span style={{"fontWeight": "bold"}}>²</span>I'm always happy to chat! You can find me by emailing me at claire (at) angelhacks.org or any way you can find (linked above or otherwise).
         </div>
         <div className="font-gilroy uppercase opacity-40">
           Copyright {new Date().getFullYear()} Claire Wang.

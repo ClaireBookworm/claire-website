@@ -1,7 +1,6 @@
 import Layout from "../../components/layout";
-// import Head from 'next/head';
-import CustomHead from '../../components/custom_head';
-
+import CustomHead from '../../components/customHead';
+console.log('CustomHead:', CustomHead);
 import 'katex/dist/katex.min.css';
 
 import { getAllPostIds, getPostData } from "../../lib/posts";
@@ -25,13 +24,13 @@ export async function getStaticPaths() {
 export default function Post({ postData }) {
   if (!postData.desc) {
     postData.desc = "cold brew blog | clairebookworm";
+    console.log("no description found");
   }
   return (
     <Layout className="blog-elements mt-6 sm:mt-12 md:mt-16 pl-0 md:pl-0">
       <CustomHead
         title={postData.title}
         description={postData.desc}
-        author="Claire Wang"
       />
       {/* <Head>
         <title>{postData.title}</title>

@@ -1,7 +1,6 @@
 import Layout from '../components/layout'
 import Head from 'next/head';
-import CustomHead from '../components/custom_head';
-
+import CustomHead from '../components/customHead';
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 
