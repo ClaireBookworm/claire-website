@@ -5,11 +5,6 @@ date: "Dec 27, 2025"
 
 I love giving people recommendations and notes on the infinite amount of content I consume. I sometimes write reviews or notes on [letterboxd](https://letterboxd.com/clairebookworm/) and [musicboard](https://musicboard.app/clairebookworm). And, because [bookshelf.website](http://bookshelf.website) is down, here is my replacement list of books + other recommendations…  Please feel free to send me any rec my way + I *love* it when people tell me about a rec they really liked!!
 
-*currently reading:*
-- There is no Antimemetics Division, by qntm
-- Diaspora, by Greg Egan
-- Travesties, by Tom Stoppard
-
 ## written
 *books where each sentence is a painting strung up in a gallery* (my strongest recs) 
 
@@ -39,6 +34,7 @@ I love giving people recommendations and notes on the infinite amount of content
 - Never Let Me Go, by Kazuo Ishiguro
 - The Curious Incident of the Dog in the Night-Time
 - The Book Thief, by Markus Zusak
+- There Is No Antimemetics Division, by qntm
 
 *nonfiction masterpieces/recs*
 

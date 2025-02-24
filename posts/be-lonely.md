@@ -12,7 +12,7 @@ date: 'Oct 27, 2023'
 
 The emptiness of a farewell at an airport. Nick’s morning meeting: the idea of a farewell being an exhalation. (*[all things end](https://open.spotify.com/track/5csu6psyW6UN4ggucwOuDR?si=b4add22527c042c3)*)
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5csu6psyW6UN4ggucwOuDR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5csu6psyW6UN4ggucwOuDR?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 Somehow, it becomes a feeling of calm?
 
@@ -21,25 +21,27 @@ When I say goodbye to someone, there’s a feeling of numbness and silence after
 If any of you are chronically online like I am, you might have seen those tiktok/reels that describe the feeling of the post-Facetime or the post-friend-hangout, where you’re half relieved that you’re alone now but suddenly left to deal with the fact that your life no longer revolves around this person.
 
 It seems pretty apparent that there’s a **difference between being alone and being lonely**—one is an observation of fact, and the other has a connotation of unwilling sadness. I might even say I was a somewhat lonely child: I’ve dug around my childhood photos, and I’d sometimes see an old Polaroid of me staring sadly directly at the camera, holding a pail of water while other kids frolicked in the background. Regardless of how this all happened, it’s turned me into someone who constantly needs the presence of other people. I have to eat with other people (or I’d not eat); I can’t watch a movie alone; I don’t like solitary walks, etc…
+
 <br />
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1TF3aLBoP470QhXJJ8asx4?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1TF3aLBoP470QhXJJ8asx4?utm_source=generator" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br />
+
 It’s great, actually.
 
 I love being around my friends, especially since there’s always at least one person down to do something or go somewhere stupid. Over this past summer, I’ve had friends visiting every week, and I’ve gotten to get to know so many people better now that the demands of a shared program, school, or job no longer constrain us. It takes agency, but there’s no better feeling in the world than when the people you care about return the effort. <3
 
 (*side*: I think a lot about the concept of these horizontal and vertical communities—places where I am surrounded by wildly different but amazing people like Andover vs. online communities that find time out of their day to talk and connect—but looking back on this summer, I think my thoughts on it have changed once again. That’s a story for another time. [Check this post out](https://www.noahpinion.blog/p/vertical-communities?utm_source=substack&utm_campaign=post_embed&utm_medium=web); I once spent 2 hours while AT a concert debating this…":
 
->>Ex. Horizontal Good (when it works)
->>- lots of unintentional touch points during your day to day
->>- You feel invested in and cared for by the people physically around you grounding. You are exposed to diverse viewpoints, diverse lifestyles, etc. it makes you feel plugged into society as a whole and gives you a background to “ground” your views about the world in
->>
->>Cons (when it doesn’t work)
->>- hard to find a skill or viewpoint-specific role models, especially if they are marginalized skills, views, or identities
->>- lowest common denominator conversations
->>- Hard to be controversial. The risk of being ostracized is too high
->>
->> –Zach Latta (of hack club)
+>Ex. Horizontal Good (when it works)
+>- lots of unintentional touch points during your day to day
+>- You feel invested in and cared for by the people physically around you grounding. You are exposed to diverse viewpoints, diverse lifestyles, etc. it makes you feel plugged into society as a whole and gives you a background to “ground” your views about the world in
+>
+>Cons (when it doesn’t work)
+>- hard to find a skill or viewpoint-specific role models, especially if they are marginalized skills, views, or identities
+>- lowest common denominator conversations
+>- Hard to be controversial. The risk of being ostracized is too high
+>
+> –Zach Latta (of hack club)
 
 One of my closest friends in high school who lived across from me and I had bonded over this problem: we both realized we so cared about not being alone we’d skip meals if there were no friends free at the time. My school/friend group had a “Schelling point”—there were always friends on the first floor of the library, so I’d dilly-dally on over whenever I was missing human contact. But in many ways, this drained our energies, because people are hard to deal with all the time, and I found that I had less time for introspection when surrounded by the noise of other voices.
 
@@ -71,41 +73,41 @@ A crux: does fame or wealth matter to you? For me, I think fundamentally, it doe
 
 Returning to my weird relationship with being alone, I really focused on the idea that there’s so much external validation pushing me. It feels bad to think that I care somewhat about externalities, and it’s a rant for a whole other time on how I’ve tried to change that. Maybe the conclusion is that we’re **fundamentally lonely people**, and we must first be okay with being alone to become okay with finding joy in other people without basing our value on them.
 
->> on the one hand it’s exceedingly strange that finding yourself can be lonely and scary, <br />
->> liberation in your hand <br />
->>only to transform into confusion <br />
->>self-peace always just <br />
->>just out of reach <br />
->> <br /><br />
->>just <br />
->>——but on the other hand, it makes perfect sense that this happens <br />
->>the time we’re so used to devoting, putting aside for people and things and just everything that we’re supposed to do <br />
->>once we stop trying to please everyone, <br />
->>don’t tie ourselves to the buildings our friends are in <br />
->>don’t tie ourselves to the obligations we once felt our own minds and hearts in <br />
->><br /><br />
->>well, all of a sudden, we have all the free time in the world <br />
->>and it’s <br />
->>overwhelming <br />
->>because we know we must keep going with the big things <br />
->>homework, life <br />
->>—but now that we feel untethered <br />
->> <br />
->>nothing feels like true weight <br />
->>what do i even care about anyway? all of the things i thought i was seem to just be other things <br />
->>other things i was confusing with myself <br />
->>who is me? who am i? what does this leave behind? <br />
->> <br /><br />
->>maybe drifting aimlessly waiting for some part of you to leap out and say, hey, this is me, permanently this time!<br />
->>but lying in wait feels like nothing<br />
->>and we’re left to do way too many possible things, with the strange threads of friendships and whatever else still there<br />
->>a guilt in the back of the mind, over abandoning people and brushing them off<br />
->>maybe you are<br />
->>maybe that’s not their problem<br />
->>do we owe explanations to the people we string up and leave hanging?<br />
->>though that’s assuming we’d know those answers ourselves<br />
->><br /><br />
->>–darla ripley (of andover’24 <3)
+> on the one hand it’s exceedingly strange that finding yourself can be lonely and scary, <br />
+> liberation in your hand <br />
+>only to transform into confusion <br />
+>self-peace always just <br />
+>just out of reach <br />
+>
+>just <br />
+>——but on the other hand, it makes perfect sense that this happens <br />
+>the time we’re so used to devoting, putting aside for people and things and just everything that we’re supposed to do <br />
+>once we stop trying to please everyone, <br />
+>don’t tie ourselves to the buildings our friends are in <br />
+>don’t tie ourselves to the obligations we once felt our own minds and hearts in <br />
+>
+>well, all of a sudden, we have all the free time in the world <br />
+>and it’s <br />
+>overwhelming <br />
+>because we know we must keep going with the big things <br />
+>homework, life <br />
+>—but now that we feel untethered <br />
+>
+>nothing feels like true weight <br />
+>what do i even care about anyway? all of the things i thought i was seem to just be other things <br />
+>other things i was confusing with myself <br />
+>who is me? who am i? what does this leave behind? <br />
+> 
+>maybe drifting aimlessly waiting for some part of you to leap out and say, hey, this is me, permanently this time!<br />
+>but lying in wait feels like nothing<br />
+>and we’re left to do way too many possible things, with the strange threads of friendships and whatever else still there<br />
+>a guilt in the back of the mind, over abandoning people and brushing them off<br />
+>maybe you are<br />
+>maybe that’s not their problem<br />
+>do we owe explanations to the people we string up and leave hanging?<br />
+>though that’s assuming we’d know those answers ourselves<br />
+>
+>–darla ripley (of andover’24 <3)
 
 <br />
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0dEqmFXIVlwFoG2cGuz050?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
