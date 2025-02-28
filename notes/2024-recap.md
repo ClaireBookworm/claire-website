@@ -15,13 +15,13 @@ I started the year ugly crying in my bathroom at 1 am as I read the last twenty-
 
 this book stuck with me this entire past year—and no, it isn’t the “trauma porn” everyone so haphazardly calls it. i’ve always wanted a book that, amongst other things, pays credence to every character and presents you their entire lives: how *does* a person go from being a nifty little college student in cambridge massachusetts to… you know. this? 
 
-spent much of this month in london. it was perhaps one of the best months of the year (possibly even of recent memory!?). loved cavorting around downtown london, riding the tube as i aestheticized my life blasting *sea, swallow me* (for some reason barbican reminded me a lot of that song) into my headphones, and walking into pubs and chit-chatting with strangers. 
+spent much of this month in london. it was perhaps one of the best months of the year (possibly even of recent memory!?). loved cavorting around downtown london, riding the tube as i aestheticized my life blasting *[sea, swallow me](https://open.spotify.com/track/7vPHiwgCOAjSBRjAirbMvS?si=afecb3daed3a40c3)* (for some reason barbican reminded me a lot of that song) into my headphones, and walking into pubs and chit-chatting with strangers. 
 
 I loved waking up and going into LISA and spending the whole day learning ML (and, being around people who i saw as much more experienced and older than me find zero shame in asking questions and realizing that I should do that more). came out of it realizing i actually *do* like cs and i *do* like such ML/math things, it’s just college that’s killing me. (I also made the embarrassing mistake of converting my usd to euros instead of pounds...)
 
-I lost and gained friendships, and felt this deeply. For once in a blue moon, I felt myself re-mapping the associations things had with the people in my life. I sat front row on double decker busses listening to *[vampire empire](https://open.spotify.com/track/0ToG55iJZCOzZkcpWbXxpW?si=8be2adb2742043be)* on loop; spent an entire week only listening to *[heavy with hoping](https://open.spotify.com/track/2W2e6TBrwJt4ASh5jyYgvZ?si=7b4c30ea042544ff)*, so much so that it ended up being my top song of the year. Wrote things I notice while traveling: https://www.clairebookworm.com/notes/jan-london. 
+I lost and gained friendships, and felt this deeply. For once in a blue moon, I felt myself re-mapping the associations things had with the people in my life. I sat front row on double decker busses listening to *[vampire empire](https://open.spotify.com/track/0ToG55iJZCOzZkcpWbXxpW?si=8be2adb2742043be)* on loop; spent an entire week only listening to *[heavy with hoping](https://open.spotify.com/track/2W2e6TBrwJt4ASh5jyYgvZ?si=7b4c30ea042544ff)*, so much so that it ended up being my top song of the year. Wrote [things I notice while traveling](https://www.clairebookworm.com/notes/jan-london). 
 
-organized winter sparc with nina. allowed myself to bodily experience anger and care for once in my life. went to a sourdough soiree run by devansh and was thoroughly surprised by how oxford people will show up with all their feathers and suits and spend an entire night having fun, no LAPTOPS IN SIGHT. (mit people, take notes…) 
+organized winter sparc with n. allowed myself to bodily experience anger and care for once in my life. went to a sourdough soiree run by d and was thoroughly surprised by how oxford people will show up with all their feathers and suits and spend an entire night having fun, *no LAPTOPS IN SIGHT*. (mit people, take notes…) 
 
 # feb
 
@@ -29,9 +29,9 @@ organized winter sparc with nina. allowed myself to bodily experience anger and 
 
 this month, i spent mondays blue biking from a long day at the lab feeling dumb about circuits and rf to pika to clean up (and only clean up, as I was too busy to make it to the actual mealplan dinner). honestly, i didn’t regret this: I got to know my fellow cleaners and discussed the new idkhow album. angsted a lot over a uquiz *“[what song from so much (for) stardust by fall out boy are you?](https://uquiz.com/quiz/YCL7Ak/which-so-much-for-stardust-song-are-you)*” (my song: [flu game](https://open.spotify.com/track/1ZLb41HjOna9bQ3s6laUAZ?si=ae36939d326144c2)).
 
-while in chicago, I watched two guys try to spend as much time jacket-less in the chicago wind and snow. honestly? I *was* impressed when cooper stayed out there in the teeth-shattering, butt-freezing sleet for an almost half-hour. 80% of my calendar this month was purple with the name: “grindset!!”
+while in chicago, I watched two guys try to spend as much time jacket-less in the chicago wind and snow. honestly? I *was* impressed when c stayed out there in the teeth-shattering, butt-freezing sleet for an almost half-hour. 80% of my calendar this month was purple with the name: “grindset!!”
 
-mother mother dropped their new album and I romanticized the concept of my funeral (*end of me*) before i realized i needed to take a breather.
+mother mother dropped their new album and I romanticized the concept of my funeral (*[end of me](https://open.spotify.com/track/0dBdI1vHDoVTJKUBmZ1Lt3?si=63c6e150fc4f4304)*) before i realized i needed to take a breather.
 
 # march
 
@@ -39,9 +39,9 @@ mother mother dropped their new album and I romanticized the concept of my funer
 
 education and mentorship-type things are still quite important to me, and spreading the gospel of hacking at blueprint was a great way to feel good about the work I was doing. 
 
-In a direct dichotomy, I learned to make irish car bombs and various other irish drinks on st. patricks day and had to experience everyone hating on the beer as if i personally offended them. got $1 oysters with sarah
+In a direct dichotomy, I learned to make irish car bombs and various other irish drinks on st. patricks day and had to experience everyone hating on the beer as if i personally offended them. got $1 oysters with s at viale (you should also!).
 
-beautiful beautiful people in my life<3. had a romantic stroll in a graveyard. thought a lot about the concept of being deserving of love. i’m pretty sure asher and i got thrown out of a party, and somehow anjali and asher get blacklisted for barking at a frat. i’m concerned my friends are more insane than i am. 
+beautiful beautiful people in my life<3. had a romantic stroll in a graveyard. thought a lot about the concept of being deserving of love. i’m pretty sure a.p. and i got thrown out of a party, and somehow a.r. and a.p. get blacklisted for barking at a frat. i’m concerned my friends are more insane than i am. 
 
 spent much of spring break romanticizing the idea of dropping out and co-founding a startup w g. ended up not doing that, but it was a fun daydream while it lasted.
 
@@ -84,7 +84,7 @@ moved into the dojohouse and discovered that the length of a commute actually do
 
 [Brat](https://open.spotify.com/album/2lIZef4lzdvZkiiCzvPKj7?si=6aa5c25347944dce) was released and i started writing lengthy emotional paragraph music reviews for [albums](https://open.spotify.com/album/03guxdOi12XJbnvxvxbpwG?si=p20eIUALRRumk9QcOOS60g) [coming](https://open.spotify.com/album/1I2vgUWhcovQKIgQK0jHPB?si=8tTwzUXSQo2uybabyQUmFA) [out](https://open.spotify.com/album/4zP3lXg6RHEiUDOtUkr5yh?si=RwWcgEwYS6mrRKF48isGWQ) and discovered that listening to the smashing pumpkin’s new [hour long album](https://open.spotify.com/album/2BoDjxlw4rrLUOaoVtarU1?si=N4vUbLsDSDuOxztgWJyhtQ) was actually pretty fun.
 
-I spent a lot of the summer in a dark room aligning lenses for a microscope and accidentally micro-dosing toxic chemicals that might mean I don’t live past thirty. spent a lot of time reading angsty merlin fanfiction and re-watched that one episode of criminal minds where spencer reid and aubrey plaza spend the entire episode in jail with seb, briefly reviving the passion I had for that show for a few weeks. 
+I spent a lot of the summer in a dark room aligning lenses for a microscope and accidentally micro-dosing toxic chemicals that might mean I don’t live past thirty. spent a lot of time reading angsty merlin fanfiction and re-watched that one episode of criminal minds where spencer reid and aubrey plaza spend the entire episode in jail with S, briefly reviving the passion I had for that show for a few weeks. 
 
 shit-talked ea and ai safety people with my grad student. (fun times :))
 
