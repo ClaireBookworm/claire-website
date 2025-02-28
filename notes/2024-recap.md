@@ -134,7 +134,7 @@ I also realized I did too much of “planned hangouts” and not enough of the s
 in october i learned to eat the first marshmallow—I went on a spontaneous trip to new york to see bleachers at madison square garden and elated in the joy of having financial freedom and turning off my life360. explored the boston book fair instead of submitting my computer structures code and bought a 1973 vogue magazine.
 
 <div style="display: flex; text-align: center; align-items: center; justify-content: center;">
-	<img src="https://img.notionusercontent.com/s3/prod-files-secure%2Ff2f3e1b3-4f39-4187-b201-2e19ac213bf9%2F200b95a2-497f-42b7-92cf-7090cbc472f4%2FScreenshot_2025-01-24_at_11.20.58_AM.png/size/w=2000?exp=1740772185&sig=o07QnLVj8gdiSGC71i-upTDN6q6Cs85s8xEWeQCT4hc" alt="screenshot" style="height: 15rem"/>
+	<img src="https://github.com/ClaireBookworm/claire-website/blob/main/public/files/october.png?raw=true" alt="screenshot" style="height: 15rem"/>
 </div>
 
 > It is abhorrent to my soul to talk inhumanly about greatness, to let it loom darkly at a distance in an indefinite form, to make out that it is great without making the human character of it evident–wherewith it ceases to be great. For it is not what happens to me that makes me great, but it is what I do, and there is surely no one who thinks that a man became great because he won the great prize in the lottery.
