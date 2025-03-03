@@ -153,7 +153,7 @@ export default function Gallery() {
         <GalleryCard
           title="Supersingular Ratio of Elliptic Curves (2018-2019)"
           children="This paper starts with an overview of elliptic curves and then summarizes the Lang-Trotter conjecture. It aims to show that the ratio of Supersingular primes that are 2 (mod 3) to those that are 1 (mod 3) approaches 2."
-          href="https://deepai.org/publication/supersingular-ratio-of-elliptic-curves"
+          href="https://www.dropbox.com/scl/fi/dlf7ovuytvkbj3hhshxdr/Supersingular-claire.pdf?rlkey=b4q84zxvqv1gz29gk21xgjpqi&st=0a6igrkz&dl=0"
         />
         <GalleryCard
           title="MIDI Lab"
