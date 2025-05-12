@@ -8,13 +8,16 @@ Log of things i'm consuming this year :).
 *books read*
 - Travesties by Tom Stoppard
 - There Is No Antimimetics Division by qntm
+- Normal People by Sally Rooney
+- A Short History of Decay by Emil Cioran
 
 *currently reading*
-- Diaspora by Greg Egan
-- A Short History of Decay by Emil Cioran
+- Just Kids by Patti Smith
+- Wednesday's Child by Yiyun Li
 
 *soon to read*
 - White Teeth by Zadie Smith
+- Diaspora by Greg Egan
 - The Unbearable Lightness of Being by Milan Kundera
 
 
@@ -44,3 +47,12 @@ new albums ive listened (and maybe reviewed) in 2025
 - *[Reflections (from the Vault of Smoke + Mirrors)](https://open.spotify.com/album/5IBigZKJt8uffeMjKw5uEl?si=vV5Cf-kKRzix7WgfTCK8ZQ)* by Imagine Dragons
 - *[Dreaming My Dreams With You](https://open.spotify.com/album/4ftBEHJfbJz1awnWnhztdl?si=veUPWTs3TeSIbzwAkJ9UNA)* by the Cranberries
 - *[The Race for Space](https://open.spotify.com/album/10QhRYxVBuSFgC5mjulTgO?si=JNRJS109QImT0BnWMzescQ)* by Public Service Broadcasting
+
+*march/april/may*: 
+- *[Ants from Up There](https://open.spotify.com/album/21xp7NdU1ajmO1CX0w2Egd?si=iFOQo9x2Rt2au1-7OM1mZg)* by Black Country, New Road ([review](https://musicboard.app/clairebookworm/review/album/ants-from-up-there/black-country-new-road/), 4.5/5 stars)
+- *[Sable, fABLE](https://open.spotify.com/album/3L3UjpXtom6T0Plt1j6l1T?si=LGl0gPOaQwOL7UHtugaQYQ)* by Bon Iver
+- *[Hospice](https://open.spotify.com/album/6fFp2F91noBeodV88bRwTD?si=Ss3Hz42nQZeMyBeNcBHEoQ)* by The Antlers ([review](https://musicboard.app/clairebookworm/review/album/hospice/the-antlers/), 4.5/5 stars)
+- *[Z D A Y](https://open.spotify.com/album/3fYJbBSvOWylo4xH29YCln?si=aNflodrCRU6-Xz28_EZxHw)* by ZORA
+- *[Dancing Critters](https://open.spotify.com/album/2ZhwFls3ePzgx5Ha4nnd8R?si=57ZyZSV5SUWgtlH9xzVT4A)* by Broken Brass (*fire big brass band vibe*)
+- *[Mercurial World (Deluxe)](https://open.spotify.com/album/01d2Rn2VtB6THtOb9nwM9p?si=OsZonMFlRwaS9Nw4AhEUMA)* by Magdalena Bay (*genuinely a 10/10 album, beautiful tasty sounds and lyrics*)
+- *[Forever is a Feeling](https://open.spotify.com/album/2PedUC4azy5ywqWp8gVVrs?si=4fEtCAAxT56xA27Xn6FHVg)* by Lucy Dacus
