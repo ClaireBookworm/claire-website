@@ -33,6 +33,7 @@
     "remark-math": "^4.0.0",
     "remarkable": "^2.0.1",
     "remarkable-katex": "^1.1.7",
+    "rss": "^1.2.2",
     "sharp": "^0.29.1",
     "swr": "^2.3.0",
     "webpack": "^5.97.1"

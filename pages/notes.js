@@ -23,6 +23,9 @@ export default function Home({ allPostsData }) {
       <div>
         <h1 className="writingsTitle">notes & thinks <span style={{"fontSize" : "0.75em"}}>♥︎</span></h1>
         <p style={{"fontSize": '1.25rem', "fontWeight" : "800"}}>Shorter-form thoughts and notes I write that don't turn into an entire post.</p>
+        <p style={{"fontSize": '0.9rem', "marginTop": '0.5rem'}}>
+          <a href="/api/notes-rss" style={{"textDecoration": "underline", "color": "#666"}}>📡 RSS Feed</a>
+        </p>
         <br />
         <ul>
           {allPostsData.map(({ id, date, title }, index) => (
