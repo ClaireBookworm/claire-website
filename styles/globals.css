@@ -7,6 +7,23 @@
     src: url("/gilroy.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/newsreader.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/newsreader_italic.ttf") format("truetype");
+}
+
+
 /* @font-face {
     font-family: "Satoshi";
     font-style: normal;
@@ -19,8 +36,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block');
 
 @tailwind base;
 @tailwind components;
@@ -145,7 +163,8 @@ GalleryCard > a:hover {
     /* max-width: 100%; */
     margin: auto;
     align-items: center;
-    font-family: "Newsreader", "EB Garamond", "Garamond", "Times New Roman", "Helvetica Neue", Arial, serif;
+    font-family: "Newsreader", "EB Garamond", "Garamond", "Baskerville", "Times New Roman", "Helvetica Neue", Arial, serif !important;
+    font-feature-settings: "liga" 1, "calt" 1;
     font-weight: 400;
     font-style: normal;
     font-size: 1.2rem;
@@ -236,6 +255,26 @@ GalleryCard > a:hover {
     opacity: 0.8;  /* Slight opacity for a subtle effect */
 }
 
+.epigraph {
+    /* text-align: center; */
+    font-style: italic;
+    border: none;
+    margin: 2rem auto;
+}
+
+.epigraph cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.postContent mark {
+    background-color: #E2F9D9FF;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
 @media (max-width: 800px) {
     .enlarge {
         width: 90vw;
@@ -284,5 +323,81 @@ GalleryCard > a:hover {
     }
     .postContent li {
         font-size: 0.8rem;
+    }
+}
+
+
+.postContent .footnotes {
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 0.9em;
+}
+
+.postContent .footnotes ol {
+    padding-left: 1.5rem;
+}
+
+.postContent .footnotes li {
+    margin-bottom: 0.5rem;
+}
+
+.postContent a.footnote-ref {
+    /* text-decoration: none; */
+    font-size: 0.75em;
+    vertical-align: super;
+    color: #4599ba;
+    font-weight: 600;
+}
+
+.postContent a.footnote-backref {
+    /* text-decoration: none; */
+    margin-left: 0.5rem;
+    color: #4599ba;
+}
+
+/* responsive images */
+.postContent img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5rem auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* responsive videos */
+.postContent iframe {
+    max-width: 100%;
+    margin: 2rem auto;
+    display: block;
+}
+
+/* specific youtube embed container */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 728px;
+    margin: 2rem auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+/* mobile adjustments */
+@media (max-width: 800px) {
+    .postContent img {
+        margin: 1rem auto;
+    }
+    
+    .postContent iframe {
+        margin: 1rem auto;
+        height: 250px; /* fallback for older browsers */
+    }
+    
+    .video-container iframe {
+        height: 200px;
     }
 }

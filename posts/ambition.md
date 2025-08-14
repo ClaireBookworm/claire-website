@@ -3,19 +3,23 @@ title: "i can do more more more"
 desc: "isidora, therefore, is the city of his dreams: with one difference. the dreamed-of city contained him as a young man; he arrives in his old age."
 date: 'Sep 22, 2024'
 ---
-> When a man rides a long time through wild regions he feels the desire for a city. Finally he comes to Isidora, a city where the buildings have spiral staircases encrusted with spiral seashells, where perfect telescopes and violins are made, where the foreigner hesitating between two women always encounters a third, where cockfights degenerate into bloody brawls among the bettors.
->
-> He was thinking of all these things when he desired a city. Isidora, therefore, is the city of his dreams: with one difference.
->
-> The dreamed-of city contained him as a young man; he arrives at Isidora in his old age. In the square there is the wall where the old men sit and watch the young go by; he is seated in a row with them.
->
-> **Desires are already memories.**
+
+<blockquote class="epigraph">
+"When a man rides a long time through wild regions he feels the desire for a city. Finally he comes to Isidora, a city where the buildings have spiral staircases encrusted with spiral seashells, where perfect telescopes and violins are made, where the foreigner hesitating between two women always encounters a third, where cockfights degenerate into bloody brawls among the bettors.
+
+He was thinking of all these things when he desired a city. Isidora, therefore, is the city of his dreams: with one difference.
+
+The dreamed-of city contained him as a young man; he arrives at Isidora in his old age. In the square there is the wall where the old men sit and watch the young go by; he is seated in a row with them.
+
+<span style="font-weight: 600">Desires are already memories</span>."
+<cite>— Italo Calvino</cite>
+</blockquote>
 
 <br />
 
 That’s Calvino’s *Invisible Cities*—I’m always finding myself referencing the same three things: *Rosencrantz and Guildenstern are Dead* by Tom Stoppard, [*Invisible Cities*](https://www.ruanyifeng.com/calvino/2006/12/cities_one.html) by Italo Calvino, and [Mythologies](https://www.poetryfoundation.org/poems/54877/mythologies) by David Lehman. (As one of my friends calls it, these are my foundational texts.)
 
-I think we should be more worried about working our entire lives for a dream we can never enjoy. “There’s no sense of accomplishment — rather a feeling of discontent. "Eventually, the city of desire reduces to a city of memory, rather nostalgia."[1](https://substack.com/home/post/p-147343205?source=queue#footnote-1-147343205)
+I think we should be more worried about working our entire lives for a dream we can never enjoy. “There’s no sense of accomplishment — rather a feeling of discontent. "Eventually, the city of desire reduces to a city of memory, rather nostalgia."[^1]
 
 It’s no mistake this passage is in Cities & Memory: becoming a “city of memory” is so notable — you never get that ideal of perfection, and your dreams might only materialize partially or differently from how you imagined. So, given that, should we forget about the impossible dream we tend to go for your entire life? Is striving all you should do, or when does stopping make sense?
 
@@ -44,7 +48,7 @@ After asking this of many people who seem to have found their Thing™ in the UK
 
 *The Age Of Reason by Sartre*
 
-I’ve always wanted to be the kid that waits for the second marshmallow (that’s what we’re told is the best measure of success) but honestly, I think we should actually be the one that eats the first one. (*The study was disproved anyways.*)[2](https://substack.com/home/post/p-147343205?source=queue#footnote-2-147343205) I always eat my favorite ice cream last, save the lucky charms marshmallows for later, etc., but somehow child me didn’t learn that the last ice cream melts; that the marshmallows, when left out too long, kind of suck.
+I’ve always wanted to be the kid that waits for the second marshmallow (that’s what we’re told is the best measure of success) but honestly, I think we should actually be the one that eats the first one. (*The study was disproved anyways.*)[^2] I always eat my favorite ice cream last, save the lucky charms marshmallows for later, etc., but somehow child me didn’t learn that the last ice cream melts; that the marshmallows, when left out too long, kind of suck.
 
 Sometimes, ambition is the intrinsic desire to mean something, an existential need to learn and improve.
 
@@ -52,7 +56,7 @@ Let’s take a step back here: *is* ambition intrinsic?
 
 There’s an old Greek concept of *kleos:* to want individual glory. Is this inherent within us? Or did we have to be taught ambition? If every individual is independently ambitious, is this good for the community as a whole (i.e., evolutionary advantage), similar to when optimal games are played when everyone is a rational player? But, if so, where does this come from, and how (why) do cultures differ? *How do less individualistic Eastern cultures deal with this, where there is much more of an emphasis on the group vs. the self?*
 
-Consider Hamilton (or, at least, the fictional version of him in the musical): he does everything because he dreams of having a legacy.[3](https://substack.com/home/post/p-147343205?source=queue#footnote-3-147343205) While not everyone (including me) is as obsessed with legacy as this Lin-Manuel version of Hamilton was, I feel like ever since I was young, I wanted to “make a dent in the world.” I wanted to *change* something. To matter; to know and be known.
+Consider Hamilton (or, at least, the fictional version of him in the musical): he does everything because he dreams of having a legacy.[^3] While not everyone (including me) is as obsessed with legacy as this Lin-Manuel version of Hamilton was, I feel like ever since I was young, I wanted to “make a dent in the world.” I wanted to *change* something. To matter; to know and be known.
 
 > Am I a fool to picture my own funeral as a real gala affair?
 > 
@@ -82,7 +86,7 @@ Consider Hamilton (or, at least, the fictional version of him in the musical): h
 
 ### 2.
 
-Or, consider fuzzy values as a way to combat [value capture](https://philpapers.org/rec/NGUVCH) (when a person’s rich and subtle values are simplified and quantified, and those simplified versions dominate their practical reasoning, akin to goodharts).[4](https://substack.com/home/post/p-147343205?source=queue#footnote-4-147343205) How do we deal with ambitions while ensuring we do not become the worst versions of ourselves? A constant issue is avoiding over-optimizing for things — “Goodharts all the way down.”
+Or, consider fuzzy values as a way to combat [value capture](https://philpapers.org/rec/NGUVCH) (when a person’s rich and subtle values are simplified and quantified, and those simplified versions dominate their practical reasoning, akin to goodharts).[^4] How do we deal with ambitions while ensuring we do not become the worst versions of ourselves? A constant issue is avoiding over-optimizing for things — “Goodharts all the way down.”
 
 I yearn for something I don’t quite know: I don’t dream of some specific job, to reach the top of some ladder… It’s not that I wouldn’t do these things, but in my imagination of the future, I can only see a hazy version of myself.
 
@@ -117,11 +121,11 @@ Yet, there is a line. The right kind of ambition cannot trespass upon others. In
 
 Maybe ambition comes from a desire to be known.
 
-I feel like I’m so scared of not being known. I think this is perhaps why I post and tweet and write so much. I want to tell the same stories to everyone so they know me. I’m retelling and retelling; I am always finding myself asking, “Oh wait, did I tell you this before?” because I repeat the same things. I want to reduce my life into *soundbites* so it’s easier for those around me to digest, remember, and regurgitate.[5](https://substack.com/home/post/p-147343205?source=queue#footnote-5-147343205)
+I feel like I’m so scared of not being known. I think this is perhaps why I post and tweet and write so much. I want to tell the same stories to everyone so they know me. I’m retelling and retelling; I am always finding myself asking, “Oh wait, did I tell you this before?” because I repeat the same things. I want to reduce my life into *soundbites* so it’s easier for those around me to digest, remember, and regurgitate.[^5]
 
 Maybe by being someone worthy of spending time on, we believe people will want to *know* us, and we’ll get a chance to know them, too. Perhaps it is an avoidance of knowing ourselves—when we always look to the future, we do not need to worry about how we are now.
 
-I worry deeply that I’ll forever be inadequate, but if I am always thinking about how I’m striving for a future where I am *not*, then I can still feel in control. I can still keep trying.[6](https://substack.com/home/post/p-147343205?source=queue#footnote-6-147343205)
+I worry deeply that I’ll forever be inadequate, but if I am always thinking about how I’m striving for a future where I am *not*, then I can still feel in control. I can still keep trying.[^6]
 
 > You said, remember that life is
 > 
@@ -202,7 +206,7 @@ Initially, I created this playlist as a way to make myself focus, to lock in, to
 
 **please please please let me get what i want this time** — the plaintive begging in this song feels so real to me, because sometimes i just want to beg the world to let me take a break, have a win, be better, have SOMETHING to change.
 
-**I wanna get better** — i love bleachers so so much… <3[7](https://substack.com/home/post/p-147343205?source=queue#footnote-7-147343205) *how a life can move from darkness she said to get better, so I put a bullet where i shoulda put a helmet*… the idea of being inspired to change and heal for the better when you meet someone that inspires you to do so: *I didn’t know I was lonely ‘til i saw your face*. This is so, so important, and why I think my parents were right when they told me to be careful about who I spent time around. When you’re around those that make you want to be better, the people that jumpstart you from stagnation and make you **want** to improve, well, truly wanting something is the first step for anything.
+**I wanna get better** — i love bleachers so so much… <3[^7] *how a life can move from darkness she said to get better, so I put a bullet where i shoulda put a helmet*… the idea of being inspired to change and heal for the better when you meet someone that inspires you to do so: *I didn’t know I was lonely ‘til i saw your face*. This is so, so important, and why I think my parents were right when they told me to be careful about who I spent time around. When you’re around those that make you want to be better, the people that jumpstart you from stagnation and make you **want** to improve, well, truly wanting something is the first step for anything.
 
 **your best american girl** — This is such an anthem of just wanting to be what others have ever wanted of you. To change yourself so deeply so someone else can’t be without you, but doing this for everyone in your life and thereby losing yourself completely. I find myself doing this a lot and even if it doesn’t seem like this there’s a part of me that’s always trying to change myself, test myself, and see how much I’m willing to give to others… and maybe this is why I think I am so scared to be close and dependent on others. Because I know there is a part of me that will change myself for them, and I dont want that to happen — “*and you’re an all-american boy; I guess I couldn’t help trying to be your best American girl*”
 
@@ -220,7 +224,7 @@ Initially, I created this playlist as a way to make myself focus, to lock in, to
 
 **working for the knife** — Mitski likely wrote this song about writing songs for others, and how it feels like you’ve never, never enough… *“I guess ‘cause I wish I was making things too”* — and making things for the “knife” the concept of “capitalism” or making things for profit/benefit vs. self-enjoyment. should I do something that would, I don’t know, give myself some sort of profit, or change the world, or something I love? Maybe I cannot live in a delusion where I’ll just follow my passions forever. Or can I truly live a life where I do not have to do the type of work I hate?
 
-**nina cried power** — the amazing, inspiring people in the world who have “*cried power*” who have grabbed power and made an impact — became someone we write songs about today, that we pay homage to in history.[8](https://substack.com/home/post/p-147343205?source=queue#footnote-8-147343205)
+**nina cried power** — the amazing, inspiring people in the world who have “*cried power*” who have grabbed power and made an impact — became someone we write songs about today, that we pay homage to in history.[^8]
 
 **beautiful things** — a scary thing about *having* things is being able to lose them. This leads us to the quintessential question of “Is it worth it to have a good thing if you know it’ll hurt after?” - whether you should care if you know the ending will hurt. And should this fear stop you?
 
@@ -248,20 +252,18 @@ Initially, I created this playlist as a way to make myself focus, to lock in, to
 <br />
 
 
-**Footnotes:**
+[^1]:An awesome [article](https://medium.com/@pooja.tarun.patel/understanding-invisible-cities-with-authors-illustrations-for-each-and-every-city-3648e044279d) with drawings of the cities & some analyses! I encourage you to also buy the actual book and try to doodle what you imagine the cities look like. I also made playlists for some of the other cities: [zora](https://open.spotify.com/playlist/4NDwZSusbqjTQHVjEoyzPk?si=03c1cfad1a904595), [dorothea](https://open.spotify.com/playlist/4lssXZ0oyzfKvLzmY8lm7V?si=1c091fb1a07f4be8), and [eusapia](https://open.spotify.com/playlist/69EMAY1Tq2nrLjLAhfprPS?si=8c29df1448944662).
 
-1. An awesome [article](https://medium.com/@pooja.tarun.patel/understanding-invisible-cities-with-authors-illustrations-for-each-and-every-city-3648e044279d) with drawings of the cities & some analyses! I encourage you to also buy the actual book and try to doodle what you imagine the cities look like. I also made playlists for some of the other cities: [zora](https://open.spotify.com/playlist/4NDwZSusbqjTQHVjEoyzPk?si=03c1cfad1a904595), [dorothea](https://open.spotify.com/playlist/4lssXZ0oyzfKvLzmY8lm7V?si=1c091fb1a07f4be8), and [eusapia](https://open.spotify.com/playlist/69EMAY1Tq2nrLjLAhfprPS?si=8c29df1448944662).
+[^2]:It was [disproved](https://anderson-review.ucla.edu/new-study-disavows-marshmallow-tests-predictive-powers/)! So many of these psych studies have been disproved. When I went to [Invisible College](https://www.worksinprogress.news/p/apply-to-come-to-invisible-college) (a program at Cambridge, UK, run by [Works in Progress](https://worksinprogress.co/) and [Stripe Press](https://press.stripe.com/); super fun!!) this summer, [Stuart Ritchie](https://www.sciencefictions.org/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile) gave a talk about this — did you know a lot of Kahneman’s studies were shown to not really be extrapolatable?
 
-2. It was [disproved](https://anderson-review.ucla.edu/new-study-disavows-marshmallow-tests-predictive-powers/)! So many of these psych studies have been disproved. When I went to [Invisible College](https://www.worksinprogress.news/p/apply-to-come-to-invisible-college) (a program at Cambridge, UK, run by [Works in Progress](https://worksinprogress.co/) and [Stripe Press](https://press.stripe.com/); super fun!!) this summer, [Stuart Ritchie](https://www.sciencefictions.org/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile) gave a talk about this — did you know a lot of Kahneman’s studies were shown to not really be extrapolatable?
+[^3]:In many ways, I think *Hamilton* could be a Greek tragedy. His desire to be remembered, his lack of care for his life in his prioritization of what happens after his death is his hamartia.
 
-3. In many ways, I think *Hamilton* could be a Greek tragedy. His desire to be remembered, his lack of care for his life in his prioritization of what happens after his death is his hamartia.
+[^4]:Check out [C. Thi Nguyen](https://objectionable.net/)’s writings! He also wrote *Games: Agency as Art*, which is a banger everyone should read. (*He gave a talk at the Workshop back at Andover and I remember talking about it to M allll night.*)
 
-4. Check out [C. Thi Nguyen](https://objectionable.net/)’s writings! He also wrote *Games: Agency as Art*, which is a banger everyone should read. (*He gave a talk at the Workshop back at Andover and I remember talking about it to M allll night.*)
+[^5]:In “[i’m losing my edge to the aphids](https://clairebookworm.substack.com/p/im-losing-my-edge-to-aphids)” I talk about how I think I learned to become more extroverted through simple patterns and creating tangible personality traits. While it worked quite well, and my life has become much more colorful and happier through the years, I don’t think it’s done as much to fix my feelings of loneliness as much as me being more intentional in being truly myself with people. In conversations with friends, I’ve heard their sturggles as well—of being tired of being reduced to a soundbite. But if you don’t, how do people remember you? Want to get to know you better?
 
-5. In “[i’m losing my edge to the aphids](https://clairebookworm.substack.com/p/im-losing-my-edge-to-aphids)” I talk about how I think I learned to become more extroverted through simple patterns and creating tangible personality traits. While it worked quite well, and my life has become much more colorful and happier through the years, I don’t think it’s done as much to fix my feelings of loneliness as much as me being more intentional in being truly myself with people. In conversations with friends, I’ve heard their sturggles as well—of being tired of being reduced to a soundbite. But if you don’t, how do people remember you? Want to get to know you better?
+[^6]:Man, this paragraph (and this entire essay) has so many “I”’s. But it’s because I believe any “advice” essay is really only advice from and *for* the author alone—for any reader, it is nothing more than leading questions. So many people write these long treatises of what you *should* do but tbh, that’s pretty bad as some source of truth.
 
-6. Man, this paragraph (and this entire essay) has so many “I”’s. But it’s because I believe any “advice” essay is really only advice from and *for* the author alone—for any reader, it is nothing more than leading questions. So many people write these long treatises of what you *should* do but tbh, that’s pretty bad as some source of truth.
+[^7]:If you’ve ever talked to me at *all* in the past year, you might already know this. :) I offer a pre-emptive apology to everyone because Jack Antonoff might be all I ever talk about, and I know it gets boring. Along the same lines, here’s [literally just interspersed bleachers and hozier](https://open.spotify.com/playlist/3NiIWaqbBT0LKVPjunky2a?si=8733566d089c4750). And [every bleachers song ever](https://open.spotify.com/playlist/3yFLpkeocdp3DaOVoq8qch?si=d7fffa2771bc4044).
 
-7. If you’ve ever talked to me at *all* in the past year, you might already know this. :) I offer a pre-emptive apology to everyone because Jack Antonoff might be all I ever talk about, and I know it gets boring. Along the same lines, here’s [literally just interspersed bleachers and hozier](https://open.spotify.com/playlist/3NiIWaqbBT0LKVPjunky2a?si=8733566d089c4750). And [every bleachers song ever](https://open.spotify.com/playlist/3yFLpkeocdp3DaOVoq8qch?si=d7fffa2771bc4044).
-
-8. Check out [Nina Simone](https://en.wikipedia.org/wiki/Nina_Simone) and [Sinead O’Connor](https://en.wikipedia.org/wiki/Sin%C3%A9ad_O%27Connor)!
+[^8]:Check out [Nina Simone](https://en.wikipedia.org/wiki/Nina_Simone) and [Sinead O’Connor](https://en.wikipedia.org/wiki/Sin%C3%A9ad_O%27Connor)!
