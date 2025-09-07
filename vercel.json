@@ -1,8 +1,3 @@
 {
-  "version": 2,
-  "functions": {
-    "pages/api/**/*.js": {
-      "runtime": "nodejs22.x"
-    }
-  }
+  "version": 2
 }
