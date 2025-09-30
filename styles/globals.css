@@ -66,6 +66,10 @@ a:hover {
     @apply font-gilroy uppercase text-6xl sm:text-7xl md:text-8xl
 }
 
+.landing-link {
+    text-decoration: underline dotted;
+}
+
 
 .icon-bar {
     width: 100%; /* Full-width */
