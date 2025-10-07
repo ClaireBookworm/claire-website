@@ -36,9 +36,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -404,4 +404,23 @@ GalleryCard > a:hover {
     .video-container iframe {
         height: 200px;
     }
+}
+
+/* RADIO HEADING */
+.radio-heading {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.radio-content {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: -0.2px;
+    line-height: 1.5;
+    margin: 0.5rem 0;
 }
