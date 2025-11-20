@@ -1,22 +1,58 @@
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
+import { useState } from 'react'
 
 export function GalleryCard({
     title,
     children,
-    href
+    href,
+    icon: Icon,
+    importance = 1 // 1-3, for opacity and visual weight
 }) {
-    return (
-        <Link href={href ?? '/'}>
-            <a className={`padding1 rounded border border-white max-w-sm p-5 ${href ? 'hover:bg-white hover:text-black transition duration-200' : 'pointer-events-none'}`}>
-                <h1 className="text-2xl font-bold cardTitle">{title ?? 'Empty Card Title'}</h1>
-                <p className="">
-                    <ReactMarkdown plugins={[gfm]} bullet={true}>
-                        {children ?? '**Lorem ipsum dolor sit amet.** Empty card description.'}
-                    </ReactMarkdown>
-                </p>
-            </a>
-        </Link>
+    const [isHovered, setIsHovered] = useState(false)
+    
+    const opacityClasses = {
+        1: 'opacity-100',
+        2: 'opacity-85',
+        3: 'opacity-70'
+    }
+
+    const CardContent = () => (
+        <div 
+            className={`topster-card ${opacityClasses[importance]} ${href ? 'cursor-pointer' : 'pointer-events-none'}`}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+        >
+            <div className="topster-card-compact">
+                {Icon && (
+                    <div className="topster-icon">
+                        <Icon />
+                    </div>
+                )}
+                <div className="topster-title">{title ?? 'Empty Card Title'}</div>
+            </div>
+            
+            <div className={`topster-card-expanded ${isHovered ? 'expanded' : ''}`}>
+                <div className="topster-expanded-content">
+                    <h3 className="topster-expanded-title">{title ?? 'Empty Card Title'}</h3>
+                    <div className="topster-expanded-text">
+                        <ReactMarkdown plugins={[gfm]} bullet={true}>
+                            {children ?? '**Lorem ipsum dolor sit amet.** Empty card description.'}
+                        </ReactMarkdown>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
+
+    if (href) {
+        return (
+            <Link href={href} className="topster-link">
+                <CardContent />
+            </Link>
+        )
+    }
+
+    return <CardContent />
 }

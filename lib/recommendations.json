@@ -1,0 +1,66 @@
+{
+  "books": [
+    {
+      "title": "Symphony for the City of the Dead",
+      "author": "M.T. Anderson",
+      "link": "",
+      "notes": "A haunting exploration of Shostakovich's life during the siege of Leningrad"
+    },
+    {
+      "title": "Invisible Cities",
+      "author": "Italo Calvino",
+      "link": "",
+      "notes": "Poetic meditation on cities, memory, and imagination"
+    }
+  ],
+  "music": [
+    {
+      "name": "Melodrama",
+      "artist": "Lorde",
+      "link": "",
+      "notes": "Perfect breakup album with incredible production"
+    },
+    {
+      "name": "Submarine",
+      "artist": "The Marias",
+      "link": "",
+      "notes": "Dreamy indie pop with Spanish influences"
+    }
+  ],
+  "playlists": [
+    {
+      "name": "sizzle",
+      "link": "https://open.spotify.com/playlist/1ME2BDtz6wgqk4bLqyl892?si=53ca471122304f2c",
+      "notes": "r&b beats"
+    },
+    {
+      "name": "dahhling",
+      "link": "https://open.spotify.com/playlist/0ougicLNjGgbmIIsvp4Z1L?si=657869bf74c540ac",
+      "notes": "indie/rock, woodsy? nostalgic?"
+    }
+  ],
+  "films": [
+    {
+      "name": "Everything Everywhere All at Once",
+      "link": "",
+      "notes": "Mind-bending multiverse adventure with incredible heart"
+    },
+    {
+      "name": "A Silent Voice",
+      "link": "",
+      "notes": "Beautiful anime about redemption and friendship"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "ava bookbear express",
+      "link": "",
+      "notes": "Thoughtful writing on books and culture"
+    },
+    {
+      "name": "rayne fisher-quann",
+      "link": "",
+      "notes": "Sharp cultural criticism and personal essays"
+    }
+  ]
+}
