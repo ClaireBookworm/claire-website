@@ -27,18 +27,8 @@ export function GalleryCard({
         checkMobile()
         window.addEventListener('resize', checkMobile)
         
-        // Cancel hover timeout on scroll to prevent greying out during scroll
-        const handleScroll = () => {
-            if (hoverTimeoutRef.current) {
-                clearTimeout(hoverTimeoutRef.current)
-                hoverTimeoutRef.current = null
-            }
-        }
-        window.addEventListener('scroll', handleScroll, true) // Use capture phase
-        
         return () => {
             window.removeEventListener('resize', checkMobile)
-            window.removeEventListener('scroll', handleScroll, true)
             if (hoverTimeoutRef.current) clearTimeout(hoverTimeoutRef.current)
         }
     }, [])
@@ -76,7 +66,10 @@ export function GalleryCard({
 
     const handleMouseEnter = (e) => {
         // Only handle hover after mount and on desktop
-        if (!isMounted || isMobileRef.current) return
+        if (!isMounted) return
+        
+        // Don't handle hover on mobile - use tap instead
+        if (isMobileRef.current) return
         
         // Clear any pending hide timeout
         if (hoverTimeoutRef.current) {
@@ -88,7 +81,10 @@ export function GalleryCard({
 
     const handleMouseLeave = (e) => {
         // Only handle hover after mount and on desktop
-        if (!isMounted || isMobileRef.current) return
+        if (!isMounted) return
+        
+        // Don't handle hover on mobile - use tap instead
+        if (isMobileRef.current) return
         
         // Check if mouse actually left the card (not just moved to expanded content)
         if (cardRef.current && e.relatedTarget) {
@@ -98,52 +94,56 @@ export function GalleryCard({
             }
         }
         
-        // Add a longer delay before hiding to prevent flicker during scrolling
-        hoverTimeoutRef.current = setTimeout(() => {
-            // Double-check that we're still not hovering before hiding
-            // The scroll handler will cancel this if user is scrolling
-            if (cardRef.current && document.contains(cardRef.current)) {
-                setIsHovered(false)
-            }
+        // Hide immediately - no delay to prevent overlay issue
+        if (hoverTimeoutRef.current) {
+            clearTimeout(hoverTimeoutRef.current)
             hoverTimeoutRef.current = null
-        }, 300) // Increased delay to prevent flicker during scroll
+        }
+        setIsHovered(false)
     }
 
-    // Compute className - only apply interactive classes after mount to avoid hydration issues
+    // Compute className - ensure consistent between server and client
+    // On server and initial client render, isMounted is false, so classes are consistent
     const cardClassName = `topster-card ${opacityClasses[importance]}${isMounted && isTapped ? ' tapped' : ''}${href ? ' cursor-pointer' : ' pointer-events-none'}`.trim()
+    
+    // Only add expanded class after mount to ensure server/client match
     const expandedClassName = `topster-card-expanded${isMounted && isExpanded ? ' expanded' : ''}`.trim()
 
     // Memoize the markdown components to avoid hydration issues
     // Render links as spans to avoid nested <a> tags inside Link
-    const markdownComponents = useMemo(() => ({
-        a: ({ href, children, ...props }) => {
-            // Remove href and other link-specific props to avoid issues
-            const { href: _, node, ...spanProps } = props
-            return (
-                <span 
-                    {...spanProps}
-                    onClick={(e) => {
-                        e.stopPropagation()
-                        e.preventDefault()
-                        if (href && typeof window !== 'undefined') {
-                            window.open(href, '_blank', 'noopener,noreferrer')
-                        }
-                    }}
-                    style={{ textDecoration: 'underline', textDecorationStyle: 'dotted', cursor: 'pointer' }}
-                >
-                    {children}
-                </span>
-            )
+    const markdownComponents = useMemo(() => {
+        return {
+            a: ({ href, children, ...props }) => {
+                // Extract href and remove link-specific props
+                const linkHref = href
+                const { node, target, rel, ...restProps } = props
+                
+                return (
+                    <span 
+                        {...restProps}
+                        onClick={(e) => {
+                            e.stopPropagation()
+                            e.preventDefault()
+                            if (linkHref && typeof window !== 'undefined') {
+                                window.open(linkHref, '_blank', 'noopener,noreferrer')
+                            }
+                        }}
+                        style={{ textDecoration: 'underline', textDecorationStyle: 'dotted', cursor: 'pointer' }}
+                    >
+                        {children}
+                    </span>
+                )
+            }
         }
-    }), [])
+    }, [])
 
     const CardContent = () => (
         <div 
             ref={cardRef}
             className={cardClassName}
-            onMouseEnter={isMounted ? handleMouseEnter : undefined}
-            onMouseLeave={isMounted ? handleMouseLeave : undefined}
-            onClick={isMounted ? handleClick : undefined}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            onClick={handleClick}
         >
             <div className="topster-card-compact">
                 {Icon && (
@@ -156,9 +156,9 @@ export function GalleryCard({
             
             <div 
                 className={expandedClassName}
-                onClick={isMounted ? handleClick : undefined}
-                onMouseEnter={isMounted ? handleMouseEnter : undefined}
-                onMouseLeave={isMounted ? handleMouseLeave : undefined}
+                onClick={handleClick}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
             >
                 <div className="topster-expanded-content">
                     <h3 className="topster-expanded-title">{title ?? 'Empty Card Title'}</h3>
@@ -179,7 +179,7 @@ export function GalleryCard({
         return (
             <Link href={href} className="topster-link">
                 <a 
-                    onClick={isMounted ? handleLinkClick : undefined} 
+                    onClick={handleLinkClick} 
                     style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}
                 >
                     <CardContent />

@@ -54,7 +54,7 @@ export default function Gallery() {
               "
             />
             <GalleryCard
-              title="Algorithmic Alingment Lab @ MIT CSAIL (2025-)"
+              title="Algorithmic Alignment Lab @ MIT CSAIL (2025-)"
               href="https://algorithmicalignment.csail.mit.edu/"
               icon={FaFlask}
               importance={1}
@@ -95,7 +95,7 @@ export default function Gallery() {
               children="Developed consumer-facing OS features for Apple's ecosystem, shipping production code in Objective-C, Swift, and Python. Designed system architecture for new feature handling encrypted data transfer across CloudKit/CryptoKit, accounting for edge cases in user and retail workflows. In addition,assisted in integrating ML models and pipelines into existing systems."
             />
             <GalleryCard
-              title="Contrary Venture Partner"
+              title="Contrary Venture Partner (2023-)"
               href="https://contrary.com/"
               icon={FaChartLine}
               importance={1}
@@ -277,7 +277,7 @@ export default function Gallery() {
               href="https://anomaly-science.com"
               title="Anomaly Science Board / Executive (2019-Present)"
               icon={FaBriefcase}
-              importance={2}
+              importance={3}
               children="I'm on the board and am CMO of Anomaly Science, which focuses on honing the art of the artisans through legal aid, engagement, the particle system, and the community. Currently raising our Series A round."
             />
           </div>

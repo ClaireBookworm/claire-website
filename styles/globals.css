@@ -238,7 +238,7 @@ a:hover {
 .topster-card.tapped .topster-card-compact {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.15s ease, visibility 0s linear 0s;
+    transition: opacity 0.1s ease, visibility 0s linear 0s;
     pointer-events: none;
 }
 
@@ -273,25 +273,31 @@ a:hover {
     padding: 1rem;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.15s ease 0.15s, visibility 0s linear 0.3s;
+    transition: opacity 0.1s ease, visibility 0s linear 0s;
     pointer-events: none;
     overflow-y: auto;
     z-index: 2;
 }
 
-.topster-card-expanded.expanded,
-.topster-card.tapped .topster-card-expanded {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.15s ease 0.15s, visibility 0s linear 0s;
+.topster-card-expanded.expanded {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: opacity 0.1s ease, visibility 0s linear 0s;
     pointer-events: auto;
 }
 
-/* Hide expanded view when not hovered and not tapped */
-.topster-card:not(:hover):not(.tapped) .topster-card-expanded {
+.topster-card.tapped .topster-card-expanded {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.1s ease, visibility 0s linear 0s;
+    pointer-events: auto;
+}
+
+/* Hide expanded view when not hovered and not tapped - but only if not expanded via JS */
+.topster-card:not(:hover):not(.tapped) .topster-card-expanded:not(.expanded) {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.15s ease, visibility 0s linear 0.15s;
+    transition: opacity 0.1s ease, visibility 0s linear 0s;
     pointer-events: none;
 }
 
