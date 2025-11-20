@@ -46,7 +46,7 @@ export default function Gallery() {
           <div className="topster-row-label"></div>
           <div className="topster-row-content">
             <GalleryCard
-              title="Boyden Lab @ MIT McGovern/Media Lab"
+              title="Boyden Lab @ MIT McGovern (2023-)"
               href="https://synthneuro.org/projects/understanding-normal-and-pathological-brain-computations/"
               icon={FaBrain}
               importance={1}
@@ -54,14 +54,14 @@ export default function Gallery() {
               "
             />
             <GalleryCard
-              title="Algorithmic Alingment Lab @ MIT CSAIL"
+              title="Algorithmic Alingment Lab @ MIT CSAIL (2025-)"
               href="https://algorithmicalignment.csail.mit.edu/"
               icon={FaFlask}
               importance={1}
               children="*Open Task and Motion Planning*, development of an open-source symbolic planning formalism for better decision-making RL/robotics agents, leading to effective online belief-space planning and interpretable goals. Working under Phillip Christoffersen (in Dylan Hadfield-Menell’s Lab), contributing to experiments, applications to realistic environments, and expanded applications of the formalism."
             />
             <GalleryCard
-              title="Jasanoff Lab @ MIT McGovern/CSAIL"
+              title="Jasanoff Lab @ MIT Bio (2023-24)"
               href="https://jasanofflab.mit.edu/"
               icon={FaMicroscope}
               importance={1}
@@ -81,7 +81,7 @@ export default function Gallery() {
           <div className="topster-row-label"></div>
           <div className="topster-row-content">
             <GalleryCard
-              title="E11 Bio"
+              title="E11 Bio (2025)"
               href="https://e11.bio/"
               icon={GiSpiderWeb}
               importance={1}

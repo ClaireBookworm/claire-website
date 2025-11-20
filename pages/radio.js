@@ -15,12 +15,35 @@ export default function Radio() {
 				<h1 className="heading" style={{fontFamily: 'Limelight'}}>death car for qt</h1>
 				<section className="selfbio mt-8 md:mt-16 w-2/3 lg:w-1/2 md:text-xl" style={{lineHeight: '1.9rem'}}>
 					<span style={{marginBottom: "1rem", display: "block"}}>
-						<p className="radio-content">Welcome to the radio page! Death Car for QT was inspired by really good production and how many shared sampling and styles there are between genres and artists. I'm a huge fan of Jack Antonoff and I think, in general, there's a lot of skill to pop music that's ignored. Beyond that, I really love jazz, electronic music, r&b, alternative indie, punk/psychdelic rock... and want to play them! <br /><br />Every week, I'll have a "connections" with three songs that have something in common. You can also find the tracklist from my <a className="landing-link" href="https://track-blaster.com/wmbr/?startdt=1984-06-28&enddt=2030-09-23&sort=desc&program=587">WMBR track-blaster</a>. Recordings are available for the 2 most recent weeks. <strong>Listen at 88.1 FM WMBR in Boston or at <a className="landing-link" style={{fontStyle: 'italic'}} href="https://wmbr.org/">wmbr.org</a> at Monday nights (12-1AM EST).</strong></p>
+						<p className="radio-content">Welcome to the radio page! Death Car for QT was inspired by really good production and how many shared sampling and styles there are between genres and artists. I'm a huge fan of Jack Antonoff and I think, in general, there's a lot of skill to pop music that's ignored. Beyond that, I really love jazz, electronic music, r&b, alternative indie, punk/psychdelic rock... and want to play them! 
+							
+							<br /><br />
+						
+						Every week, I'll have a "connections" with three songs that have something in common. You can also find the tracklist from my <a className="landing-link" href="https://track-blaster.com/wmbr/?startdt=1984-06-28&enddt=2030-09-23&sort=desc&program=587">WMBR track-blaster</a>. Recordings are available for the 2 most recent weeks. <strong>Listen at 88.1 FM WMBR in Boston or at <a className="landing-link" style={{fontStyle: 'italic'}} href="https://wmbr.org/">wmbr.org</a> at Monday nights (12-1AM EST).</strong>
+						
+						<br /> <br />
+						
+						This page is slightly out of date, will update soon!
+						</p>
 					</span>
 
 					<br />
 
-					<p className="radio-heading">Week 1</p>
+					<div style={{width: '100%', marginBottom: '2rem', padding: '1.5rem 0', borderTop: '1px solid rgba(255, 255, 255, 0.2)', borderBottom: '1px solid rgba(255, 255, 255, 0.2)'}}>
+						<div style={{display: 'flex', flexWrap: 'wrap', gap: '1.5rem', justifyContent: 'flex-start', alignItems: 'center', fontFamily: "'Courier New', 'Courier', monospace"}}>
+							<span style={{opacity: 0.5}}>Week:</span>
+							<a href="#week-1" className="landing-link" style={{textDecoration: 'none', opacity: 0.5, transition: 'opacity 0.2s ease'}} onMouseEnter={(e) => e.target.style.opacity = '1'} onMouseLeave={(e) => e.target.style.opacity = '0.5'}>one</a>
+							<a href="#week-2" className="landing-link" style={{textDecoration: 'none', opacity: 0.5, transition: 'opacity 0.2s ease'}} onMouseEnter={(e) => e.target.style.opacity = '1'} onMouseLeave={(e) => e.target.style.opacity = '0.5'}>two</a>
+							<a href="#week-3" className="landing-link" style={{textDecoration: 'none', opacity: 0.5, transition: 'opacity 0.2s ease'}} onMouseEnter={(e) => e.target.style.opacity = '1'} onMouseLeave={(e) => e.target.style.opacity = '0.5'}>three</a>
+							<a href="#week-4" className="landing-link" style={{textDecoration: 'none', opacity: 0.5, transition: 'opacity 0.2s ease'}} onMouseEnter={(e) => e.target.style.opacity = '1'} onMouseLeave={(e) => e.target.style.opacity = '0.5'}>four</a>
+							<a href="#week-5" className="landing-link" style={{textDecoration: 'none', opacity: 0.5, transition: 'opacity 0.2s ease'}} onMouseEnter={(e) => e.target.style.opacity = '1'} onMouseLeave={(e) => e.target.style.opacity = '0.5'}>five</a>
+							<a href="#week-6" className="landing-link" style={{textDecoration: 'none', opacity: 0.5, transition: 'opacity 0.2s ease'}} onMouseEnter={(e) => e.target.style.opacity = '1'} onMouseLeave={(e) => e.target.style.opacity = '0.5'}>six</a>
+						</div>
+					</div>
+
+					<br />
+
+					<p className="radio-heading" id="week-1">Week 1</p>
 					<br></br>
 
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/50gCG7CZhe3IiyMoNzuodH?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -30,7 +53,7 @@ export default function Radio() {
 
 					<br />
 
-					<p className="radio-heading">Week 2</p>
+					<p className="radio-heading" id="week-2">Week 2</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/4oBpiIQ1dWxuOXJpUQaBGT?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -40,7 +63,7 @@ export default function Radio() {
 
 					<br /><br />
 
-					<p className="radio-heading">Week 3</p>
+					<p className="radio-heading" id="week-3">Week 3</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/7IJLBQV3tcVn0yZilTSccl?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58050">link to recording + track blaster list</a></p>
@@ -50,7 +73,7 @@ export default function Radio() {
 
 					<br /><br />
 
-					<p className="radio-heading">Week 4</p>
+					<p className="radio-heading" id="week-4">Week 4</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/playlist/5gnTTA2L0LPSqXQknG9bn5?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58135">link to recording + track blaster list</a></p>
@@ -60,7 +83,7 @@ export default function Radio() {
 
 					<br /><br />
 					
-					<p className="radio-heading">Week 5</p>
+					<p className="radio-heading" id="week-5">Week 5</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/5qAry5JctJsbTA6grgWJBJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58314">link to recording + track blaster list</a></p>
@@ -70,7 +93,7 @@ export default function Radio() {
 
 					<br /><br />
 					
-										<p className="radio-heading">Week 6</p>
+										<p className="radio-heading" id="week-6">Week 6</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/6AALFISH5Dcm9xGjmqcHRd?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58224">link to recording + track blaster list</a></p>
@@ -79,8 +102,8 @@ export default function Radio() {
 					<p className="radio-content">This week, the connections are between <em>Vermillion</em> by Mitski, <em>Supalonely</em> by BENEE ft. Gus Dapperton, and <em>i wanna be your girlfriend</em> by girl in red. All three songs explore themes of loneliness and longing in the context of relationships. Mitski's <em>Vermillion</em> delves into the complexities of desire and emotional vulnerability, while BENEE's <em>Supalonely</em> captures the feeling of isolation despite being surrounded</p>
 
 					<br /><br />
-
-										<p className="radio-heading">Week 5</p>
+{/* 
+					<p className="radio-heading" id="week-5">Week 5</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/5qAry5JctJsbTA6grgWJBJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58224">link to recording + track blaster list</a></p>
@@ -90,7 +113,7 @@ export default function Radio() {
 
 					<br /><br />
 
-										<p className="radio-heading">Week 5</p>
+										<p className="radio-heading" id="week-5">Week 5</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/5qAry5JctJsbTA6grgWJBJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58224">link to recording + track blaster list</a></p>
@@ -101,7 +124,7 @@ export default function Radio() {
 					<br /><br />
 
 
-					<p className="radio-heading">Week 5</p>
+					<p className="radio-heading" id="week-5">Week 5</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/5qAry5JctJsbTA6grgWJBJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58224">link to recording + track blaster list</a></p>
@@ -109,7 +132,7 @@ export default function Radio() {
 					<br />
 					<p className="radio-content">This week, the connections are between <em>Vermillion</em> by Mitski, <em>Supalonely</em> by BENEE ft. Gus Dapperton, and <em>i wanna be your girlfriend</em> by girl in red. All three songs explore themes of loneliness and longing in the context of relationships. Mitski's <em>Vermillion</em> delves into the complexities of desire and emotional vulnerability, while BENEE's <em>Supalonely</em> captures the feeling of isolation despite being surrounded</p>
 
-					<br /><br />
+					<br /><br /> */}
 
 				</section>
 			</main>

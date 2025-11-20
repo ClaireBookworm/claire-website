@@ -104,60 +104,80 @@ a:hover {
 /* Topsters-style expandable grid */
 .topster-grid {
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 1rem 1.5rem;
+    gap: 1.5rem;
     grid-auto-rows: min-content;
     counter-reset: topster-row;
 }
 
 .topster-row {
-    display: contents;
+    display: grid;
+    gap: 1rem;
 }
 
+/* Mobile: simple layout with label on top */
 .topster-row-label {
-    grid-column: 1;
-    font-family: 'Courier New', 'Courier', monospace;
-    font-size: 0.9rem;
-    color: white;
-    opacity: 0.6;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 1rem;
-    counter-increment: topster-row;
-    align-self: start;
-}
-
-.topster-row-label::before {
-    content: counter(topster-row, decimal-leading-zero);
+    display: none; /* Hide numbering on mobile */
 }
 
 .topster-row-right-label {
-    grid-column: 3;
     font-family: 'Courier New', 'Courier', monospace;
     font-size: 0.9rem;
     color: white;
     opacity: 0.6;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 1rem;
-    align-self: start;
-    max-width: 15vw;
+    margin-bottom: 0.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
 }
 
 .topster-row-content {
-    grid-column: 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
-@media (min-width: 640px) {
+/* Tablet and up: show full layout with side labels */
+@media (min-width: 768px) {
+    .topster-grid {
+        grid-template-columns: auto 1fr auto;
+        gap: 1rem 1.5rem;
+    }
+
+    .topster-row {
+        display: contents;
+    }
+
+    .topster-row-label {
+        display: flex;
+        grid-column: 1;
+        font-family: 'Courier New', 'Courier', monospace;
+        font-size: 0.9rem;
+        color: white;
+        opacity: 0.6;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 1rem;
+        counter-increment: topster-row;
+        align-self: start;
+    }
+
+    .topster-row-label::before {
+        content: counter(topster-row, decimal-leading-zero);
+    }
+
+    .topster-row-right-label {
+        grid-column: 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 1rem;
+        align-self: start;
+        max-width: 15vw;
+        margin-bottom: 0;
+    }
+
     .topster-row-content {
+        grid-column: 2;
         grid-template-columns: repeat(3, 1fr);
         gap: 1.25rem;
     }
@@ -210,13 +230,23 @@ a:hover {
     text-align: center;
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.1s ease, visibility 0s linear 0.1s;
+    transition: opacity 0.15s ease, visibility 0s linear 0.15s;
+    z-index: 1;
 }
 
-.topster-card:hover .topster-card-compact {
+.topster-card:hover .topster-card-compact,
+.topster-card.tapped .topster-card-compact {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.1s ease, visibility 0s linear 0s;
+    transition: opacity 0.15s ease, visibility 0s linear 0s;
+    pointer-events: none;
+}
+
+/* Ensure compact view shows when not hovered and not tapped */
+.topster-card:not(:hover):not(.tapped) .topster-card-compact {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.15s ease, visibility 0s linear 0s;
 }
 
 .topster-icon {
@@ -243,16 +273,26 @@ a:hover {
     padding: 1rem;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.1s ease 0.1s, visibility 0s linear 0.2s;
+    transition: opacity 0.15s ease 0.15s, visibility 0s linear 0.3s;
     pointer-events: none;
     overflow-y: auto;
+    z-index: 2;
 }
 
-.topster-card-expanded.expanded {
+.topster-card-expanded.expanded,
+.topster-card.tapped .topster-card-expanded {
     opacity: 1;
     visibility: visible;
-    transition: opacity 0.1s ease 0.1s, visibility 0s linear 0s;
+    transition: opacity 0.15s ease 0.15s, visibility 0s linear 0s;
     pointer-events: auto;
+}
+
+/* Hide expanded view when not hovered and not tapped */
+.topster-card:not(:hover):not(.tapped) .topster-card-expanded {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0s linear 0.15s;
+    pointer-events: none;
 }
 
 .topster-expanded-content {
