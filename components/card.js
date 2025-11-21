@@ -104,10 +104,20 @@ export function GalleryCard({
 
     // Compute className - ensure consistent between server and client
     // On server and initial client render, isMounted is false, so classes are consistent
-    const cardClassName = `topster-card ${opacityClasses[importance]}${isMounted && isTapped ? ' tapped' : ''}${href ? ' cursor-pointer' : ' pointer-events-none'}`.trim()
+    // Use array join to ensure consistent spacing
+    const cardClassParts = [
+        'topster-card',
+        opacityClasses[importance]
+    ]
+    if (isMounted && isTapped) cardClassParts.push('tapped')
+    if (href) cardClassParts.push('cursor-pointer')
+    else cardClassParts.push('pointer-events-none')
+    const cardClassName = cardClassParts.join(' ')
     
     // Only add expanded class after mount to ensure server/client match
-    const expandedClassName = `topster-card-expanded${isMounted && isExpanded ? ' expanded' : ''}`.trim()
+    const expandedClassParts = ['topster-card-expanded']
+    if (isMounted && isExpanded) expandedClassParts.push('expanded')
+    const expandedClassName = expandedClassParts.join(' ')
 
     // Memoize the markdown components to avoid hydration issues
     // Render links as spans to avoid nested <a> tags inside Link
@@ -144,6 +154,7 @@ export function GalleryCard({
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             onClick={handleClick}
+            suppressHydrationWarning
         >
             <div className="topster-card-compact">
                 {Icon && (
@@ -159,10 +170,11 @@ export function GalleryCard({
                 onClick={handleClick}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
+                suppressHydrationWarning
             >
                 <div className="topster-expanded-content">
                     <h3 className="topster-expanded-title">{title ?? 'Empty Card Title'}</h3>
-                    <div className="topster-expanded-text">
+                    <div className="topster-expanded-text" suppressHydrationWarning>
                         <ReactMarkdown 
                             plugins={[gfm]} 
                             components={markdownComponents}
