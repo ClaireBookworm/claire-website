@@ -193,6 +193,26 @@ a:hover {
     }
 }
 
+/* Large screens: add more spacing instead of making boxes bigger */
+@media (min-width: 1440px) {
+    .topster-row-content {
+        gap: 2rem;
+    }
+    .topster-grid {
+        gap: 1.5rem 2rem;
+    }
+}
+
+/* Extra large screens: even more spacing */
+@media (min-width: 1920px) {
+    .topster-row-content {
+        gap: 2.5rem;
+    }
+    .topster-grid {
+        gap: 2rem 2.5rem;
+    }
+}
+
 .topster-link {
     display: block;
     text-decoration: none;
@@ -314,13 +334,13 @@ a:hover {
     display: none;
     font-family: 'Gilroy';
     font-weight: 700;
-    font-size: 0.75rem;
+    font-size: clamp(0.6rem, 1.2vw, 0.8rem);
     margin-bottom: 0.5rem;
     line-height: 1.1;
 }
 
 .topster-expanded-text {
-    font-size: 0.8rem;
+    font-size: clamp(0.7rem, 1.3vw, 0.9rem);
     line-height: 1.6;
     flex: 1;
     overflow-y: auto;

@@ -43,7 +43,7 @@ export default function Radio() {
 
 					<br />
 
-					<p className="radio-heading" id="week-1">Week 1</p>
+					<p className="radio-heading" id="week-1">Week 1: Sep 22</p>
 					<br></br>
 
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/50gCG7CZhe3IiyMoNzuodH?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -53,7 +53,7 @@ export default function Radio() {
 
 					<br />
 
-					<p className="radio-heading" id="week-2">Week 2</p>
+					<p className="radio-heading" id="week-2">Week 2: Sep 29</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/4oBpiIQ1dWxuOXJpUQaBGT?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -63,7 +63,7 @@ export default function Radio() {
 
 					<br /><br />
 
-					<p className="radio-heading" id="week-3">Week 3</p>
+					<p className="radio-heading" id="week-3">Week 3: Oct 6</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/7IJLBQV3tcVn0yZilTSccl?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58050">link to recording + track blaster list</a></p>
@@ -73,7 +73,7 @@ export default function Radio() {
 
 					<br /><br />
 
-					<p className="radio-heading" id="week-4">Week 4</p>
+					<p className="radio-heading" id="week-4">Week 4: Oct 13</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/playlist/5gnTTA2L0LPSqXQknG9bn5?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58135">link to recording + track blaster list</a></p>
@@ -83,13 +83,13 @@ export default function Radio() {
 
 					<br /><br />
 					
-					<p className="radio-heading" id="week-5">Week 5</p>
+					<p className="radio-heading" id="week-5">Week 5: Oct 20</p>
 					<br />
 					<iframe data-testid="embed-iframe" style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/playlist/5qAry5JctJsbTA6grgWJBJ?utm_source=generator" width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 					<p className="radio-content"><a className="landing-link" href="https://track-blaster.com/wmbr/playlist.php?id=58314">link to recording + track blaster list</a></p>
 
 					<br />
-					<p className="radio-content">This week, the connections are between <em>Vermillion</em> by Mitski, <em>Supalonely</em> by BENEE ft. Gus Dapperton, and <em>i wanna be your girlfriend</em> by girl in red. All three songs explore themes of loneliness and longing in the context of relationships. Mitski's <em>Vermillion</em> delves into the complexities of desire and emotional vulnerability, while BENEE's <em>Supalonely</em> captures the feeling of isolation despite being surrounded</p>
+					<p className="radio-content">Definitely focused a lot on some "world ending"-vibe songs. EDEN's <em>A Call</em> is a beautiful (spoken word?) track. I'm really proud of the songs this week because I feel like it kind of tells of sto </p>
 
 					<br /><br />
 					

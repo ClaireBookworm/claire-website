@@ -43,11 +43,33 @@ export function GalleryCard({
         // Only handle mobile clicks after mount to avoid hydration issues
         if (!isMounted) return
         
-        // On mobile/touch devices, toggle expanded state on click
+        // On mobile/touch devices
         if (isMobileRef.current) {
+            // If content is already expanded, allow navigation (don't prevent default)
+            if (isTapped) {
+                // Second tap: navigate to the link
+                return // Allow the link to work normally
+            }
+            // First tap: expand to show content (prevent navigation)
             e.preventDefault()
             e.stopPropagation()
-            setIsTapped(prev => !prev)
+            setIsTapped(true)
+        }
+    }
+    
+    // Handle clicking on expanded content - allow navigation on second tap
+    const handleExpandedClick = (e) => {
+        if (!isMounted) return
+        
+        if (isMobileRef.current && isTapped) {
+            // If clicking on a markdown link (span with pointer cursor), allow it
+            const target = e.target.closest('span[style*="cursor: pointer"]')
+            if (target) {
+                return // Allow markdown link navigation
+            }
+            // Second tap anywhere else: navigate to main link
+            // Don't prevent default - let the link work
+            return
         }
     }
 
@@ -55,10 +77,15 @@ export function GalleryCard({
         // Only handle after mount
         if (!isMounted) return
         
-        // Prevent navigation on mobile when toggling
-        if (isMobileRef.current && isTapped) {
-            e.preventDefault()
-            e.stopPropagation()
+        // On mobile, if content is NOT expanded, prevent navigation (first tap)
+        // If content IS expanded, allow navigation (second tap)
+        if (isMobileRef.current) {
+            if (!isTapped) {
+                // First tap - prevent navigation, will be handled by handleClick
+                e.preventDefault()
+                e.stopPropagation()
+            }
+            // If isTapped is true, allow navigation (don't prevent)
         }
     }
 
@@ -103,47 +130,42 @@ export function GalleryCard({
     }
 
     // Compute className - ensure consistent between server and client
-    // On server and initial client render, isMounted is false, so classes are consistent
-    // Use array join to ensure consistent spacing
-    const cardClassParts = [
-        'topster-card',
-        opacityClasses[importance]
-    ]
-    if (isMounted && isTapped) cardClassParts.push('tapped')
-    if (href) cardClassParts.push('cursor-pointer')
-    else cardClassParts.push('pointer-events-none')
-    const cardClassName = cardClassParts.join(' ')
+    // On server: isMounted=false, isTapped=false, isHovered=false, so isExpanded=false
+    // On initial client render: same values, so classes match
+    const baseCardClass = `topster-card ${opacityClasses[importance]}`
+    const tappedClass = isMounted && isTapped ? ' tapped' : ''
+    const pointerClass = href ? ' cursor-pointer' : ' pointer-events-none'
+    const cardClassName = `${baseCardClass}${tappedClass}${pointerClass}`.trim()
     
     // Only add expanded class after mount to ensure server/client match
-    const expandedClassParts = ['topster-card-expanded']
-    if (isMounted && isExpanded) expandedClassParts.push('expanded')
-    const expandedClassName = expandedClassParts.join(' ')
+    const baseExpandedClass = 'topster-card-expanded'
+    const expandedClass = isMounted && isExpanded ? ' expanded' : ''
+    const expandedClassName = `${baseExpandedClass}${expandedClass}`.trim()
 
     // Memoize the markdown components to avoid hydration issues
     // Render links as spans to avoid nested <a> tags inside Link
+    // Make this stable across server and client renders
     const markdownComponents = useMemo(() => {
+        const LinkSpan = ({ href, children }) => {
+            const linkHref = href
+            return (
+                <span 
+                    onClick={(e) => {
+                        e.stopPropagation()
+                        e.preventDefault()
+                        if (linkHref && typeof window !== 'undefined') {
+                            window.open(linkHref, '_blank', 'noopener,noreferrer')
+                        }
+                    }}
+                    style={{ textDecoration: 'underline', textDecorationStyle: 'dotted', cursor: 'pointer' }}
+                >
+                    {children}
+                </span>
+            )
+        }
+        
         return {
-            a: ({ href, children, ...props }) => {
-                // Extract href and remove link-specific props
-                const linkHref = href
-                const { node, target, rel, ...restProps } = props
-                
-                return (
-                    <span 
-                        {...restProps}
-                        onClick={(e) => {
-                            e.stopPropagation()
-                            e.preventDefault()
-                            if (linkHref && typeof window !== 'undefined') {
-                                window.open(linkHref, '_blank', 'noopener,noreferrer')
-                            }
-                        }}
-                        style={{ textDecoration: 'underline', textDecorationStyle: 'dotted', cursor: 'pointer' }}
-                    >
-                        {children}
-                    </span>
-                )
-            }
+            a: LinkSpan
         }
     }, [])
 
@@ -154,7 +176,6 @@ export function GalleryCard({
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
             onClick={handleClick}
-            suppressHydrationWarning
         >
             <div className="topster-card-compact">
                 {Icon && (
@@ -167,17 +188,17 @@ export function GalleryCard({
             
             <div 
                 className={expandedClassName}
-                onClick={handleClick}
+                onClick={handleExpandedClick}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                suppressHydrationWarning
             >
                 <div className="topster-expanded-content">
                     <h3 className="topster-expanded-title">{title ?? 'Empty Card Title'}</h3>
-                    <div className="topster-expanded-text" suppressHydrationWarning>
+                    <div className="topster-expanded-text">
                         <ReactMarkdown 
                             plugins={[gfm]} 
                             components={markdownComponents}
+                            skipHtml={true}
                         >
                             {children ?? '**Lorem ipsum dolor sit amet.** Empty card description.'}
                         </ReactMarkdown>
