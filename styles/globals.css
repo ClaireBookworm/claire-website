@@ -296,7 +296,7 @@ a:hover {
     visibility: hidden;
     transition: opacity 0.08s ease, visibility 0s linear 0.08s;
     pointer-events: none;
-    overflow-y: auto;
+    overflow: hidden;
     z-index: 2;
     will-change: opacity, visibility;
 }
