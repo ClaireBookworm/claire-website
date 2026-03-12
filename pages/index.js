@@ -77,6 +77,16 @@ export default function Home() {
         <div className="font-gilroy uppercase opacity-40">
           Copyright {new Date().getFullYear()} Claire Wang.
         </div>
+        <div style={{ width: '100%', marginTop: '1rem' }}>
+          <iframe 
+            src='https://overengineering.kognise.dev/embed/claire' 
+            title='overengineeRING embed' 
+            width='100%' 
+            height='100' 
+            style={{ userSelect: 'none' }} 
+            frameBorder='0'
+          ></iframe>
+        </div>
       </footer>
     </div>
   )
