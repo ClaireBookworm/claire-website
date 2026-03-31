@@ -80,7 +80,7 @@ export default function Home() {
 
           {/* Right column: status cards */}
           <div className="home-right">
-            <div className="home-card" style={{ transform: 'rotate(-1deg)' }}>
+            <div className="home-card" style={{ transform: 'rotate(-0.7deg)' }}>
               <div className="home-card-header">
                 <FaRocket className="home-card-icon" aria-hidden />
                 <span className="home-card-label">Recently</span>
@@ -90,7 +90,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="home-card" style={{ transform: 'rotate(1.5deg)' }}>
+            <div className="home-card" style={{ transform: 'rotate(1.2deg)' }}>
               <div className="home-card-header">
                 <FaHammer className="home-card-icon" aria-hidden />
                 <span className="home-card-label">Now</span>
