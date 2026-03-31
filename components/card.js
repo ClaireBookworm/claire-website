@@ -2,13 +2,15 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 import { useMemo } from 'react'
+import { TAG_LABELS } from '../lib/gallery-tags'
 
 export function GalleryCard({
     title,
     children,
     href,
     icon: Icon,
-    importance = 1
+    importance = 1,
+    tags = [],
 }) {
     const markdownComponents = useMemo(() => {
         const LinkSpan = ({ href: linkHref, children: mdChildren }) => (
@@ -46,6 +48,15 @@ export function GalleryCard({
 
     const inner = (
         <>
+            {tags.length > 0 && (
+                <div className="project-card-tags" aria-label="Tags">
+                    {tags.map((slug) => (
+                        <span key={slug} className="project-card-tag">
+                            #{TAG_LABELS[slug] ?? slug}
+                        </span>
+                    ))}
+                </div>
+            )}
             <div className="project-card-top">
                 {Icon && (
                     <div className="project-card-icon-wrap" aria-hidden>
