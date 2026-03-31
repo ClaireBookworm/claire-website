@@ -31,7 +31,7 @@ import { SiHackclub } from "react-icons/si";
 
 export default function Gallery() {
   return (
-    <Layout active="Gallery">
+    <Layout active="Projects">
       <Head>
         <title>projects, claire wang</title>
         <meta property="og:title" content="projects & portfolio" />
@@ -39,12 +39,16 @@ export default function Gallery() {
       <h1 className="heading">
         Projects <div className="inline opacity-50">&</div> Portfolio<div className="inline opacity-50">.</div>
       </h1>
+      <p className="gallery-intro">
+        A scrapbook of labs, hacks, and things I’ve loved building — each card is the whole story; no hidden
+        surprises on hover.
+      </p>
 
       <h2 className="gallerySubhead enlarge">Major Projects & In Progress</h2>
-      <div className="galleryMobile mt-12 mr-16 topster-grid">
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+      <div className="gallery-section galleryMobile mt-12 mr-16">
+        <div className="gallery-band">
+          <p className="gallery-band-label">projects & research</p>
+          <div className="gallery-band-grid">
             <GalleryCard
               title="Boyden Lab @ MIT McGovern (2023-)"
               href="https://synthneuro.org/projects/understanding-normal-and-pathological-brain-computations/"
@@ -75,11 +79,10 @@ export default function Gallery() {
               href="https://epubs.siam.org/doi/abs/10.1137/1.9781611977578.ch2"
             />
           </div>
-          <div className="topster-row-right-label">projects & research</div>
         </div>
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+        <div className="gallery-band">
+          <p className="gallery-band-label">work experience</p>
+          <div className="gallery-band-grid">
             <GalleryCard
               title="E11 Bio (2025)"
               href="https://e11.bio/"
@@ -109,12 +112,10 @@ export default function Gallery() {
               children="Various roles all through-out high school, such as community team, intern, organizer, fundraiser, etc. Lead producer of a web-based game exploring function composition through love & skiing. Public beta launched May 2023 & reached 2nd on HackerNews. [SineRider](https://sinerider.com) Also, helped create/hosted AMA program, with speakers like Elon Musk, Nicky Case, Sal Khan. Organized the HackerZephyr: a cross-country hackathon from Vermont to California. [Zephyr](zephyr.hackclub.com) [Hack Club](hackclub.com)"
             />
           </div>
-
-          <div className="topster-row-right-label">work experience</div>
         </div>
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+        <div className="gallery-band">
+          <p className="gallery-band-label">additional hacker-y projects</p>
+          <div className="gallery-band-grid">
           <GalleryCard
               title="Phillipian State Of The Academy 2023"
               href="https://sota.phillipian.net/"
@@ -144,11 +145,10 @@ export default function Gallery() {
               children="An independent project with Dr. Kiran Bhardwaj & Olha @ Andover on Tech Ethics (something I've been interested in for a while)! We researched/read papers on privacy, EA/AI, competition, and design ethics. A list of readings we've done is **[linked here](https://bit.ly/excstential-readings)**, you should check it out! In addition, click on this card to see some of the essays we wrote & find our final presentation on privacy policy **[here](https://cloud-qg99kx646-hack-club-bot.vercel.app/0excstential-presentation.pdf)**."
             />
           </div>
-          <div className="topster-row-right-label">additional hacker-y projects</div>
         </div>
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+        <div className="gallery-band">
+          <p className="gallery-band-label">additional side projects/old research</p>
+          <div className="gallery-band-grid">
             <GalleryCard
                 href="https://fab.cba.mit.edu/classes/863.25/people/ClaireWang/"
                 title="How To Make (almost) Anything"
@@ -178,15 +178,14 @@ export default function Gallery() {
               children="After working on a project with DeepAI in 2019, I started to intern for them. I worked in content development, doing research on data science, writing articles, and marketing/outreach."
             />
           </div>
-          <div className="topster-row-right-label">additional side projects/old research</div>
         </div>
       </div>
       <br />
       <h2 className="gallerySubhead">More<div className="inline opacity-50">...</div></h2>
-      <div className="galleryMobile mt-12 mr-16 topster-grid">
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+      <div className="gallery-section galleryMobile mt-12 mr-16">
+        <div className="gallery-band">
+          <p className="gallery-band-label">fun hobbies</p>
+          <div className="gallery-band-grid">
               <GalleryCard
               href="https://artofmemory.com/start/"
               title="Memory Sports"
@@ -209,15 +208,14 @@ export default function Gallery() {
               children="Theater kid? Played: Oberon in A Midsummer Night's Dream, Cannibal Queen in Airness, Benedick in Much Ado About Nothing. Previously did on-screen acting under the [Clear Talent Group](https://www.cleartalentgroup.com/) agency."
             />
           </div>
-          <div className="topster-row-right-label">fun hobbies</div>
         </div>
       </div>
       <br />
       <h2 className="gallerySubhead">Previous <div className="inline opacity-50">/</div> Hiatus</h2>
-      <div className="galleryMobile mt-12 mr-16 topster-grid">
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+      <div className="gallery-section galleryMobile mt-12 mr-16">
+        <div className="gallery-band">
+          <p className="gallery-band-label">past projects</p>
+          <div className="gallery-band-grid">
             <GalleryCard
               title="Phillipian Digital Editor"
               href="https://phillipian.net"
@@ -247,11 +245,10 @@ export default function Gallery() {
               children="Neuroscientists are driven to understand a three-pound mass of neurons and glia pondering the morality and risks of studying themselves. Neuro-ethics is a broad field, yet evaluating the risks and benefits of brain-computer interfaces (BCIs) is a timely and critical topic due to the rapid development of technologies, including implants and wearables electronics. "
             />
           </div>
-          <div className="topster-row-right-label">past projects</div>
         </div>
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+        <div className="gallery-band">
+          <p className="gallery-band-label">short-form explorations</p>
+          <div className="gallery-band-grid">
             <GalleryCard
               title="Supersingular Ratio of Elliptic Curves (2018-2019)"
               icon={FaPencilAlt}
@@ -281,11 +278,10 @@ export default function Gallery() {
               children="I'm on the board and am CMO of Anomaly Science, which focuses on honing the art of the artisans through legal aid, engagement, the particle system, and the community. Currently raising our Series A round."
             />
           </div>
-          <div className="topster-row-right-label">short-form explorations</div>
         </div>
-        <div className="topster-row">
-          <div className="topster-row-label"></div>
-          <div className="topster-row-content">
+        <div className="gallery-band">
+          <p className="gallery-band-label">public projects</p>
+          <div className="gallery-band-grid">
             <GalleryCard
               title="Arena of Memory Streaming"
               href="https://www.twitch.tv/memorysportstv"
@@ -301,7 +297,6 @@ export default function Gallery() {
               children="AngelHacks had remaining funds and we hoped to be able to donate a portion of it towards getting masks to those in need. We were able to donate a many K-N95 masks to non-medical yet essential public service workers."
             />
           </div>
-          <div className="topster-row-right-label">public projects</div>
         </div>
       </div>
 
