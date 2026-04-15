@@ -55,4 +55,4 @@ Horgan, J. (2017, October 13). Bizarre Brain-Implant Experiment Sought to "Cure"
 
 
 ## Thanks
-Thanks for reading! If you share or have any comments lmk! My twitter is [@clairebookworm1](https://twitter.com/clairebookworm1)!
+Thanks for reading! If you share or have any comments lmk! My twitter is [@clairebookworm](https://twitter.com/clairebookworm)!

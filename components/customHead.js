@@ -7,7 +7,7 @@ const CustomHead = ({ title, description, children }) => {
     }
     const defaultKeywords = "claire, wang, neuroscience, computer science, hack club, mit";
     const defaultAuthor = "Claire Wang";
-    const defaultTwitter = "@clairebookworm1";
+    const defaultTwitter = "@clairebookworm";
     // const defaultTitle = "claire's corner";
     var title_f = "claire's corner"
     if (title !== undefined) {
