@@ -86,7 +86,7 @@ export default function Home() {
                 <span className="home-card-label">Recently</span>
               </div>
               <div className="home-card-body">
-                <p>I've just taken a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a className="landing-link" href="https://e11.bio">e11.bio</a>! ♥︎ I spent IAP 2026 doing ML engineering at <a className="landing-link" href="https://github.com/dimensionalOS">DimensionalOS</a>, a startup building a fully open-source universal robotics framework.</p>
+                <p>I've just taken a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a className="landing-link" href="https://e11.bio">e11.bio</a>! ♥︎ I spent IAP 2026 doing ML engineering at dimensionalOS, a startup building a fully open-source universal robotics framework & built a temporal-spatial memory framework.</p>
               </div>
             </div>
 
@@ -96,7 +96,7 @@ export default function Home() {
                 <span className="home-card-label">Now</span>
               </div>
               <div className="home-card-body">
-                <p>I took <a className="landing-link" href="https://fab.cba.mit.edu/classes/MAS.863/">How to Make (almost) Anything</a>, and you can find my project and work updates <a className="landing-link" href="https://fab.cba.mit.edu/classes/863.25/people/ClaireWang/">here</a>!</p>
+                <p>I took How to Make (almost) Anything @ MIT, and you can find my project and work updates <a className="landing-link" href="https://htmaa.clairebookworm.com/">here</a>, and find the video for my final project, Blonk, <a className="landing-link" href="https://www.youtube.com/watch?v=MC4Wx8t5EyM">here</a>!</p>
               </div>
             </div>
 
@@ -116,7 +116,7 @@ export default function Home() {
                 <span className="home-card-label">Current listening</span>
               </div>
               <div className="home-card-body">
-                <p><a className="landing-link" href="https://open.spotify.com/album/3n0N3fSeIXDhMWSFtN2rX9?si=IOA6NIxMSMutxkC7Fjk60w">purity ring</a> & <a className="landing-link" href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</a>. I run a weekly radio show Monday nights (12-1AM EST), <a className="landing-link" href="https://wmbr.org/cgi-bin/show?id=9072">Death Car for QT</a>, listenable at 88.1 FM in Boston or at <a className="landing-link" href="https://wmbr.org/">wmbr.org</a>, and my personal tracklist <a className="landing-link" href="https://www.clairebookworm.com/radio">here</a>.</p>
+                <p><a className="landing-link" href="https://open.spotify.com/artist/7ENzCHnmJUr20nUjoZ0zZ1?si=eorMUT5qTQSOf4VO9xHgyg">Snarky Puppy</a> & <a className="landing-link" href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</a>. I run a weekly radio show Tuesday nights (12-1AM EST), <a className="landing-link" href="https://wmbr.org/cgi-bin/show?id=9072">Death Car for QT</a>, listenable at 88.1 FM in Boston or at <a className="landing-link" href="https://wmbr.org/">wmbr.org</a>, and my personal tracklist <a className="landing-link" href="https://www.clairebookworm.com/radio">here</a>.</p>
               </div>
             </div>
 
