@@ -1,151 +1,513 @@
-// import Head from '../components/head'
-import CustomHead from '../components/customHead';
-import Nav from '../components/nav';
-import Link from 'next/link';
-import { FaHammer, FaBroadcastTower, FaBookOpen, FaRocket } from 'react-icons/fa';
+import { useEffect, useRef, useState, useCallback } from 'react';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { getSortedPostsData as getPosts } from '../lib/posts';
+import { getSortedPostsData as getNotes } from '../notes-lib/posts';
+import { useSkin } from '../components/claireos/SkinContext';
+import VaporwaveBackdrop from '../components/claireos/VaporwaveBackdrop';
+import { AboutGlyph, ProjectsGlyph, WritingGlyph, RadioGlyph, NotesGlyph } from '../components/claireos/Glyphs';
 
-export default function Home() {
-  return (
-    <div>
-      <CustomHead title="claire's corner" description="words, words, words. they're all we have to go on!"></CustomHead>
-      <Nav active="Home" />
+export async function getStaticProps() {
+  const allPosts = getPosts().map((p) => ({ id: p.id, title: p.title || p.id, date: p.date || '' }));
+  const allNotes = getNotes().map((n) => ({ id: n.id, title: n.title || n.id, date: n.date || '' }));
+  return { props: { allPosts, allNotes } };
+}
 
-      <main className="home-main mobile mt-6 sm:mt-12 md:mt-16 pl-12 md:pl-20 pr-12 md:pr-20 text-white">
-        {/* Hero */}
-        <section className="heading" aria-hidden="true">
-          <div>Claire Wang<div className="inline opacity-50">.</div></div>
-        </section>
-        <p className="home-tagline mt-2 md:mt-4 text-base md:text-lg">
-          #1 bleachers fan · emulating worms · learning hardware
-        </p>
+const MOODS = [
+  { name: 'happy', colors: ['#ff9f43', '#ffb15c'], head: '#ff9f43', face: '♥' },
+  { name: 'excited', colors: ['#ff5d8f', '#ff85aa'], head: '#ff5d8f', face: '!!' },
+  { name: 'full', colors: ['#5ce6b5', '#86eecb'], head: '#5ce6b5', face: '✦' },
+  { name: 'sleepy', colors: ['#a78bff', '#c0adff'], head: '#a78bff', face: 'z' },
+];
+const ICON_TO_WIN = { iAbout: 'about', iProjects: 'projects', iWriting: 'writing', iRadio: 'radio', iNotes: 'notes' };
+const APPS = ['about', 'projects', 'writing', 'radio', 'notes'];
+const NOW_PLAYING = '♪ WILLOW — b i g f e e l i n g s   ✦   Thundercat — Them Changes   ✦   Bleachers — Stop Making This Hurt   ✦   Japanese Breakfast — Posing for Cars   ✦   Esperanza Spalding — I Know You Know   ✦';
 
-        {/* Quick-link pills */}
-        <nav className="home-pills mt-6 md:mt-8 flex flex-wrap gap-2 md:gap-3" aria-label="Quick links">
-          {/* <Link href="/gallery" className="home-pill">Research</Link> */}
-          <Link href="/gallery" className="home-pill">Projects</Link>
-          <Link href="/writing" className="home-pill">Writing</Link>
-          <Link href="/radio" className="home-pill">Radio</Link>
-          {/* <Link href="/notes/recs" className="home-pill">Recs</Link> */}
-        </nav>
+// Icons scattered around the desktop (kept clear of the default-open windows
+// and the bottom chrome). Each is still individually draggable.
+const INITIAL_POS = {
+  iAbout: { x: 38, y: 78 }, iWriting: { x: 66, y: 222 }, iNotes: { x: 40, y: 362 }, iProjects: { x: 168, y: 470 }, iRadio: { x: 318, y: 472 },
+  about: { x: 168, y: 92 }, writing: { x: 600, y: 150 }, projects: { x: 300, y: 320 }, radio: { x: 470, y: 250 }, notes: { x: 360, y: 380 },
+};
 
-        {/* Two-column layout: left = bio, right = status cards */}
-        <div className="home-columns mt-10 md:mt-14">
-          {/* Left column: intro + social + signature */}
-          <div className="home-left">
-            <section className="selfbio md:text-lg leading-relaxed">
-              <p>
-                Hey! I'm Claire; thanks for stopping by! I'm fascinated about neuroscience and computer science (& some progress policy work) and have done <a className="landing-link" href="https://math.mit.edu/research/highschool/primes/materials/2021/Huang-Wang.pdf">some</a> <a className="landing-link" href="http://lonn.semel.ucla.edu/">budding</a> <a className="landing-link" href="https://math.mit.edu/research/highschool/rsi/">research</a> in these fields, as well as various <a className="landing-link" href="https://anomaly-science.com">related</a> <a className="landing-link" href="https://drive.google.com/file/d/1cC8jZFIYP95uXqYlMgm38lnGg9uaachC/view?usp=sharing">ventures</a> and <a className="landing-link" href="https://angelhacks.org">social</a> <a className="landing-link" href="https://sota.phillipian.net/">projects</a>.
-              </p>
-              <p className="mt-4">
-                If you ever see me, I'll probably either be talking about <a className="landing-link" href="https://hackclub.com/">Hack Club</a>, expressing my undying love for Bleachers & my Spotify <a className="landing-link" href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s?si=5952a9845b984880">playlists</a>, ranting about <a className="landing-link" href="https://www.goodreads.com/clairebookworm">books</a>, stuck in the <a className="landing-link" href="https://jasanofflab.mit.edu/">lab</a> where I'm currently researching <a className="landing-link" href="https://synthneuro.org/">whole brain simulation</a> of C. elegans and connectomics, or writing bad music <a className="landing-link" href="https://musicboard.app/clairebookworm">reviews</a> on my <a className="landing-link" href="https://clairebookworm.substack.com">blog</a>. I truly believe in the art of making for the betterment of the world while having fun doing so. DFTBA¹!
-              </p>
-            </section>
+function fmtClock() {
+  const d = new Date();
+  let h = d.getHours();
+  const m = String(d.getMinutes()).padStart(2, '0');
+  const ap = h >= 12 ? 'PM' : 'AM';
+  h = h % 12 || 12;
+  return `${h}:${m} ${ap}`;
+}
 
-            <section className="home-social mt-8 md:mt-10">
-              <div className="icon-bar home-icon-bar">
-                <a href="https://twitter.com/clairebookworm" className="home-icon" aria-label="Twitter">
-                  <svg fill="white" height="20px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.10c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" /></svg>
-                </a>
-                <a href="https://instagram.com/clairebookworm" className="home-icon" aria-label="Instagram">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" /></svg>
-                </a>
-                <a href="https://github.com/clairebookworm" className="home-icon" aria-label="GitHub">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
-                </a>
-                <a href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s?si=d72ea19966304c10" className="home-icon" aria-label="Spotify">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" /></svg>
-                </a>
-                <a href="https://www.linkedin.com/in/claire-bookworm/" className="home-icon" aria-label="LinkedIn">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg>
-                </a>
-                <a href="https://www.goodreads.com/clairebookworm" className="home-icon" aria-label="Goodreads">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.3013 17.6146c-.1299-.3387-.5228-1.5119-.1337-2.4314l9.8273 5.6738a.329.329 0 0 0 .3299 0L24 12.9616v2.3542l-13.8401 7.9906-9.8586-5.6918zM.1911 8.9628c-.2882.8769.0149 2.0581.1236 2.4261l9.8452 5.6841L24 9.0823V6.7275L10.3248 14.623a.329.329 0 0 1-.3299 0L.1911 8.9628z" /></svg>
-                </a>
-                <a href="https://www.youtube.com/channel/UCxu_RGPnVSEke61ebevOJPA" className="home-icon" aria-label="YouTube">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
-                </a>
-                <a href="https://clairebookworm.substack.com/" className="home-icon" aria-label="Substack">
-                  <svg role="img" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" fill="white"></path></svg>
-                </a>
-                <a href="https://musicboard.app/clairebookworm" className="home-icon" aria-label="MusicBoard">
-                  <svg fill="white" height="20px" role="img" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><path d="M 9.046875 29.996094 C 12.375 30.078125 15.3125 28.917969 16.914062 27.128906 C 17.484375 26.492188 17.851562 25.738281 17.921875 25.589844 C 17.964844 25.5 18 25.40625 18.03125 25.308594 L 22.234375 11.453125 C 22.484375 10.636719 23.164062 10.472656 23.722656 11.121094 C 24.152344 11.621094 24.617188 12.191406 25.089844 12.824219 C 27.027344 15.429688 27.183594 18.855469 26.148438 21.617188 C 25.113281 24.378906 23.160156 25.160156 23.785156 26.035156 C 24.414062 26.910156 26.878906 24.734375 28.484375 22.144531 C 30.085938 19.550781 30.265625 15.21875 28.820312 11.671875 C 27.371094 8.125 25.265625 5.84375 24.863281 3.996094 C 24.839844 3.875 24.8125 3.757812 24.789062 3.644531 C 24.746094 3.453125 24.761719 3.128906 24.828125 2.917969 L 24.941406 2.535156 C 25.257812 1.496094 24.671875 0.398438 23.632812 0.0859375 C 22.597656 -0.230469 21.5 0.355469 21.183594 1.394531 L 16.085938 18.195312 C 15.835938 19.011719 15.074219 19.261719 14.304688 18.890625 C 12.894531 18.210938 11.191406 17.792969 9.347656 17.746094 C 4.375 17.625 0.28125 20.269531 0.199219 23.652344 C 0.113281 27.035156 4.078125 29.875 9.046875 29.996094 Z" fill="white"/></svg>
-                </a>
-              </div>
-            </section>
+export default function Home({ allPosts, allNotes }) {
+  const router = useRouter();
+  const { skin, dark, setSkin, toggleSkin } = useSkin();
 
-            <section className="mt-8 md:mt-10">
-              <img className="home-signature w-1/2 sm:w-1/3 lg:w-1/4" src="/signature.png" alt="signature of claire" aria-hidden="true" />
-            </section>
-          </div>
+  const [pos, setPos] = useState(INITIAL_POS);
+  const [open, setOpen] = useState({ about: true, writing: true, projects: false, radio: false, notes: false });
+  const [z, setZ] = useState({ about: 101, writing: 100, projects: 90, radio: 90, notes: 90 });
+  const topZ = useRef(101);
+  const [mobile, setMobile] = useState(false);
+  const [termH, setTermH] = useState(116); // terminal dock height — grows on tall screens
+  const [now, setNow] = useState('');
+  const [worm, setWorm] = useState({ fed: 0, moodIdx: 0 });
+  const [pop, setPop] = useState({ show: false, char: '' });
+  const [cmd, setCmd] = useState('');
+  const [term, setTerm] = useState([
+    { type: 'sys', text: 'ClaireOS 1.0 — booted ok ✓' },
+    { type: 'sys', text: "type 'help' · drag icons · click the worm · ✉ contact ↘" },
+  ]);
 
-          {/* Right column: status cards */}
-          <div className="home-right">
-            <div className="home-card" style={{ transform: 'rotate(-0.7deg)' }}>
-              <div className="home-card-header">
-                <FaRocket className="home-card-icon" aria-hidden />
-                <span className="home-card-label">Recently</span>
-              </div>
-              <div className="home-card-body">
-                <p>I've just taken a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a className="landing-link" href="https://e11.bio">e11.bio</a>! ♥︎ I spent IAP 2026 doing ML engineering at dimensionalOS, a startup building a fully open-source universal robotics framework & built a temporal-spatial memory framework.</p>
-              </div>
-            </div>
+  const dragRef = useRef(null);
+  const popTimer = useRef(null);
+  const wormRef = useRef(worm);
+  wormRef.current = worm;
 
-            <div className="home-card" style={{ transform: 'rotate(1.2deg)' }}>
-              <div className="home-card-header">
-                <FaHammer className="home-card-icon" aria-hidden />
-                <span className="home-card-label">Now</span>
-              </div>
-              <div className="home-card-body">
-                <p>I took How to Make (almost) Anything @ MIT, and you can find my project and work updates <a className="landing-link" href="https://htmaa.clairebookworm.com/">here</a>, and find the video for my final project, Blonk, <a className="landing-link" href="https://www.youtube.com/watch?v=MC4Wx8t5EyM">here</a>!</p>
-              </div>
-            </div>
+  // ---- terminal helpers ----
+  const print = useCallback((type, text) => {
+    setTerm((t) => [...t, { type, text }].slice(-40));
+  }, []);
 
-            <div className="home-card" style={{ transform: 'rotate(-0.5deg)' }}>
-              <div className="home-card-header">
-                <FaBookOpen className="home-card-icon" aria-hidden />
-                <span className="home-card-label">Currently reading</span>
-              </div>
-              <div className="home-card-body">
-                <p><em>Argonauts</em> by Maggie Nelson (also recommend reading her Bluets) & <em>If On A Winter's Night a Traveler</em> by Italo Calvino. Also, check out my <a className="landing-link" href="https://invisible-cities.vercel.app/">Invisible Cities</a> site.</p>
-              </div>
-            </div>
+  const front = useCallback((win) => {
+    const nz = topZ.current + 1;
+    topZ.current = nz;
+    setZ((zz) => ({ ...zz, [win]: nz }));
+  }, []);
 
-            <div className="home-card" style={{ transform: 'rotate(1deg)' }}>
-              <div className="home-card-header">
-                <FaBroadcastTower className="home-card-icon" aria-hidden />
-                <span className="home-card-label">Current listening</span>
-              </div>
-              <div className="home-card-body">
-                <p><a className="landing-link" href="https://open.spotify.com/artist/7ENzCHnmJUr20nUjoZ0zZ1?si=eorMUT5qTQSOf4VO9xHgyg">Snarky Puppy</a> & <a className="landing-link" href="https://open.spotify.com/artist/2eam0iDomRHGBypaDQLwWI?si=jzkiW3-XToqaC0pucylJEQ">Bleachers</a>. I run a weekly radio show Tuesday nights (12-1AM EST), <a className="landing-link" href="https://wmbr.org/cgi-bin/show?id=9072">Death Car for QT</a>, listenable at 88.1 FM in Boston or at <a className="landing-link" href="https://wmbr.org/">wmbr.org</a>, and my personal tracklist <a className="landing-link" href="https://www.clairebookworm.com/radio">here</a>.</p>
-              </div>
-            </div>
+  const openWin = useCallback((win) => {
+    const nz = topZ.current + 1;
+    topZ.current = nz;
+    setOpen((o) => ({ ...o, [win]: true }));
+    setZ((zz) => ({ ...zz, [win]: nz }));
+    print('out', `▸ opened ${win}/`);
+  }, [print]);
 
-            <p className="home-recs mt-4 text-sm md:text-base">
-              More recs for books and music can be found <a className="landing-link" href="https://www.clairebookworm.com/notes/recs">here</a>!
-            </p>
-          </div>
-        </div>
-      </main>
+  const closeWin = (win) => (e) => {
+    e.stopPropagation();
+    setOpen((o) => ({ ...o, [win]: false }));
+  };
 
-      <footer className="para mobile text-white mt-8 md:mt-16 pl-12 md:pl-20 pr-12 md:pr-20 mb-5 flex flex-col space-y-4 text-xs sm:text-sm">
-        <div id="footnotes" className="font-inter">
-          <span style={{ fontWeight: 'bold' }}>¹</span>DFTBA: Don't forget to be awesome!<br />
-          <span style={{ fontWeight: 'bold' }}>²</span>I'm always happy to chat! You can find me by emailing me at claire (at) angelhacks.org or any way you can find (linked above or otherwise).
-        </div>
-        <div className="font-gilroy uppercase opacity-40">
-          Copyright {new Date().getFullYear()} Claire Wang.
-        </div>
-        <div style={{ width: '100%', marginTop: '1rem' }}>
-          <iframe
-            src='https://overengineering.kognise.dev/embed/claire'
-            title='overengineeRING embed'
-            width='100%'
-            height='100'
-            style={{ userSelect: 'none' }}
-            frameBorder='0'
-          ></iframe>
-        </div>
-      </footer>
+  const wormCount = () => 7 + Math.min(wormRef.current.fed, 9);
+
+  const feedWorm = useCallback(() => {
+    clearTimeout(popTimer.current);
+    setWorm((w) => {
+      const moodIdx = (w.moodIdx + 1) % MOODS.length;
+      const m = MOODS[moodIdx];
+      setPop({ show: true, char: m.face });
+      print('out', `▸ *nom* — the worm is now ${m.name} ${m.face}`);
+      return { fed: w.fed + 1, moodIdx };
+    });
+    popTimer.current = setTimeout(() => setPop((p) => ({ ...p, show: false })), 900);
+  }, [print]);
+
+  const showContact = useCallback(() => print('out', '✉  claire [at] angelhacks [dot] org  — say hi!'), [print]);
+  const focusCmd = () => { const el = document.querySelector('.ccterm-input'); if (el) el.focus(); };
+
+  const run = useCallback((raw) => {
+    const line = (raw || '').trim();
+    print('in', `claire@os ~ % ${line}`);
+    if (!line) return;
+    const parts = line.split(/\s+/);
+    const c = parts[0].toLowerCase();
+    const arg = (parts[1] || '').toLowerCase();
+    const P = (t) => print('out', t);
+    const E = (t) => print('err', t);
+    switch (c) {
+      case 'help':
+        P('apps: ls · open <app> · cat about · whoami · feed · clear');
+        P('look: dark · light   ·   reach: contact');
+        P('pages: projects · writing · notes · radio');
+        break;
+      case 'ls': P('about_me   projects/   writing/   radio.exe   notes/'); break;
+      case 'open':
+        if (APPS.includes(arg)) openWin(arg);
+        else E(`can't open '${arg}' — try: ${APPS.join(', ')}`);
+        break;
+      case 'cat':
+        if (['about', 'about_me', 'me', 'about_me.txt'].includes(arg)) {
+          P('claire wang — neuro + cs @ mit, on leave in sf.');
+          P('building whole-brain emulation @ e11.bio. radio host. worm fan. DFTBA!');
+        } else E(`no such file: ${arg || '(nothing)'}`);
+        break;
+      case 'whoami': P('claire wang ☺ — but you probably knew that'); break;
+      case 'feed': case 'feed-worm': feedWorm(); break;
+      case 'contact': case 'email': showContact(); break;
+      case 'dark': case 'night': case 'vaporwave': setSkin('dark'); P('☾ dark mode (vaporwave) on'); break;
+      case 'light': case 'day': setSkin('light'); P('☀ light mode on'); break;
+      case 'skin': case 'theme': toggleSkin(); P('flipped the skin — see the ☀/☾ in the menu bar'); break;
+      case 'projects': P('loading projects/ …'); setTimeout(() => router.push('/gallery'), 350); break;
+      case 'writing': case 'blog': P('loading cold-brew-blog …'); setTimeout(() => router.push('/writing'), 350); break;
+      case 'notes': P('loading notes/ …'); setTimeout(() => router.push('/notes'), 350); break;
+      case 'radio': openWin('radio'); break;
+      case 'clear': setTerm([]); break;
+      case 'date': P(new Date().toString()); break;
+      case 'sudo': P('nice try ☺ — you already have root in here'); break;
+      case 'bleachers': P('♫ ♫  BLEACHERS FOREVER  ♫ ♫'); break;
+      case 'worm': P(`the worm has ${1 + wormCount()} segments & feels ${MOODS[wormRef.current.moodIdx].name}. click it to feed.`); break;
+      default: E(`command not found: ${c}   (try 'help')`);
+    }
+  }, [print, openWin, feedWorm, showContact, setSkin, toggleSkin, router]);
+
+  // ---- drag (pointer events) ----
+  const down = (key, kind) => (e) => {
+    // bring windows to front on grab — on desktop (z-index) and mobile (stack order)
+    if (kind === 'win') front(key);
+    if (mobile) { dragRef.current = { key, kind, moved: false, mobile: true }; return; }
+    e.preventDefault();
+    const p = pos[key];
+    dragRef.current = { key, kind, dx: e.clientX - p.x, dy: e.clientY - p.y, sx: e.clientX, sy: e.clientY, moved: false };
+  };
+
+  useEffect(() => {
+    const tick = setInterval(() => setNow(fmtClock()), 1000);
+    setNow(fmtClock());
+    const onResize = () => {
+      setMobile(window.innerWidth < 760);
+      const h = window.innerHeight;
+      // give the terminal a slightly larger slice of tall screens
+      setTermH(h >= 800 ? Math.min(208, Math.round(h * 0.18)) : 116);
+    };
+    onResize();
+    const onMove = (e) => {
+      const dr = dragRef.current;
+      if (!dr || dr.mobile) return;
+      if (Math.abs(e.clientX - dr.sx) + Math.abs(e.clientY - dr.sy) > 3) dr.moved = true;
+      const x = Math.max(0, e.clientX - dr.dx);
+      const y = Math.max(34, e.clientY - dr.dy);
+      setPos((pp) => ({ ...pp, [dr.key]: { x, y } }));
+    };
+    const onUp = () => {
+      const dr = dragRef.current;
+      dragRef.current = null;
+      if (dr && dr.kind === 'icon' && !dr.moved) openWin(ICON_TO_WIN[dr.key]);
+    };
+    window.addEventListener('resize', onResize);
+    document.addEventListener('pointermove', onMove);
+    document.addEventListener('pointerup', onUp);
+    return () => {
+      clearInterval(tick);
+      clearTimeout(popTimer.current);
+      window.removeEventListener('resize', onResize);
+      document.removeEventListener('pointermove', onMove);
+      document.removeEventListener('pointerup', onUp);
+    };
+  }, [openWin]);
+
+  // ---- derived render values ----
+  const mood = MOODS[worm.moodIdx];
+  const n = 7 + Math.min(worm.fed, 9);
+  const wormSegs = [];
+  for (let i = 0; i < n; i++) {
+    const t = i / n;
+    const size = Math.round(18 - t * 11);
+    const color = mood.colors[i % 2];
+    wormSegs.push({ size, color, delay: (i * 0.07).toFixed(2), glow: dark ? `0 0 7px ${color}` : 'none' });
+  }
+  const termColor = { in: '#9fd9ff', out: '#5ce6b5', sys: '#3f8f74', err: '#ff6b6b' };
+  const termLines = Math.max(4, Math.floor((termH - 52) / 21));
+  const termView = term.slice(-termLines);
+  const bottomDockH = termH; // now-playing sits on top of the terminal
+  const npBottom = termH; // now-playing bar bottom offset
+  const wormBottom = termH + 36; // worm + webring float just above now-playing
+
+  const winBorder = dark ? '#ff43c8' : '#0d1b2a';
+  const winShadow = dark ? '0 0 20px rgba(255,67,200,.45)' : '7px 7px 0 rgba(0,0,0,.22)';
+  const termAccent = dark ? '#ff43c8' : '#5ce6b5';
+  const npBg = dark ? 'rgba(18,6,34,.85)' : 'rgba(255,255,255,.92)';
+  const npBorder = dark ? '#8a2be2' : '#0d1b2a';
+  const npLabel = dark ? '#00eaff' : '#0c63ff';
+  const npText = dark ? '#ff9de2' : '#0d1b2a';
+  const barBg = dark ? 'rgba(20,8,40,.55)' : 'rgba(255,255,255,.95)';
+  const barColor = dark ? '#ff9de2' : '#1c1a17';
+  const logoBg = dark ? 'linear-gradient(#fff3a0,#ff7be6)' : '#0c63ff';
+
+  const winFrame = (key, w) => (mobile
+    ? { position: 'relative', width: '100%', maxWidth: 560, margin: '0 auto', order: 1000 - (z[key] || 90) }
+    : { position: 'absolute', width: w, left: pos[key].x, top: pos[key].y, zIndex: z[key] });
+  const iconFrame = (key) => (mobile
+    ? { position: 'relative' }
+    : { position: 'absolute', left: pos[key].x, top: pos[key].y });
+
+  const iconLabel = { marginTop: 5, fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 600, fontSize: 12, color: '#fff', textShadow: '1px 1px 0 rgba(0,0,0,.55)' };
+  const iconWrap = { width: 88, textAlign: 'center', cursor: 'pointer', touchAction: 'none', zIndex: 20 };
+  const titleBarBase = { height: 28, borderBottom: `2px solid ${winBorder}`, display: 'flex', alignItems: 'center', padding: '0 8px', gap: 6, cursor: 'move', touchAction: 'none' };
+  const winBase = { background: '#fff', border: `2px solid ${winBorder}`, boxShadow: winShadow };
+  const chip = { fontFamily: "'VT323',monospace", fontSize: 15, color: '#0c63ff', border: '1.5px solid #c4d2ea', padding: '0 8px', textDecoration: 'none' };
+  // yellow close box, now with an × so it reads as "exit"
+  const closeBox = { width: 14, height: 14, background: '#ffd23f', border: '1.5px solid #0d1b2a', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: "'VT323',monospace", fontSize: 14, lineHeight: 1, color: '#0d1b2a', fontWeight: 700 };
+
+  // Webring — loose on the desktop. fixed=true pins it just above the now-playing
+  // bar (desktop); otherwise it flows inline (mobile). Retro font, lower opacity.
+  const renderWebring = (fixed) => (
+    <div
+      style={fixed
+        ? { position: 'fixed', left: 18, bottom: wormBottom, width: 300, zIndex: 7, opacity: 0.68 }
+        : { position: 'relative', width: '100%', maxWidth: 560, margin: '0 auto', opacity: 0.85 }}
+    >
+      <div style={{ fontFamily: "'VT323',monospace", fontSize: 14, letterSpacing: '.08em', color: dark ? '#8ff6ff' : '#fff', textShadow: dark ? '0 0 8px rgba(110,240,255,.7)' : '1px 1px 0 rgba(0,0,0,.45)', marginBottom: 2 }}>✦ overengineeRING webring</div>
+      <iframe
+        src="https://overengineering.kognise.dev/embed/claire"
+        title="overengineeRING webring"
+        width="100%"
+        height="84"
+        frameBorder="0"
+        allowTransparency="true"
+        style={{ border: 'none', display: 'block', background: 'transparent' }}
+      />
     </div>
+  );
+
+  return (
+    <>
+      <Head>
+        <title>ClaireOS — claire wang</title>
+        <meta name="description" content="claire wang — a desktop-OS corner of the internet." />
+      </Head>
+
+      <div
+        style={{
+          position: 'fixed',
+          inset: 0,
+          backgroundColor: dark ? '#160a2e' : '#0c63ff',
+          backgroundImage: 'radial-gradient(rgba(255,255,255,.12) 1px, transparent 1.5px)',
+          backgroundSize: '20px 20px',
+          fontFamily: "'Space Grotesk',system-ui,sans-serif",
+          userSelect: 'none',
+          overflowY: mobile ? 'auto' : 'hidden',
+          overflowX: 'hidden',
+        }}
+      >
+        {dark ? <VaporwaveBackdrop titleSize={mobile ? '34px' : '60px'} /> : null}
+
+        {/* MENU BAR */}
+        <div style={{ position: 'fixed', top: 0, left: 0, right: 0, height: 32, background: barBg, backdropFilter: 'blur(6px)', WebkitBackdropFilter: 'blur(6px)', display: 'flex', alignItems: 'center', gap: 16, padding: '0 12px', zIndex: 9000, boxShadow: '0 1px 0 rgba(0,0,0,.2)', fontSize: 13, color: barColor }}>
+          <span style={{ width: 16, height: 16, borderRadius: 3, display: 'inline-block', background: logoBg }} />
+          <span style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700 }}>clairebookworm</span>
+          <span style={{ opacity: 0.6 }} className="cc-hide-sm">File</span>
+          <span style={{ opacity: 0.6 }} className="cc-hide-sm">Edit</span>
+          <span style={{ opacity: 0.6 }} className="cc-hide-sm">View</span>
+          <span onClick={toggleSkin} style={{ cursor: 'pointer', fontSize: 16, lineHeight: 1, marginLeft: 2 }} title="toggle light / dark">{dark ? '☾' : '☀'}</span>
+          <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 14, fontFamily: "'Silkscreen',monospace", fontSize: 10, color: barColor }}>
+            <span onClick={feedWorm} style={{ cursor: 'pointer', opacity: 0.85 }}>{`◐ worm: ${mood.name} ${mood.face}`}</span>
+            <span suppressHydrationWarning>{now}</span>
+          </span>
+        </div>
+
+        {/* BLEACHERS POSTER (desktop only) */}
+        {!mobile ? (
+          <div style={{ position: 'fixed', top: 60, right: 34, zIndex: 10, background: '#11122a', border: '3px solid #fff', boxShadow: '5px 5px 0 rgba(0,0,0,.3)', padding: '14px 18px', textAlign: 'center', transform: 'rotate(2.5deg)' }}>
+            <div style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 20, color: '#ffd23f', lineHeight: 1, textShadow: '2px 2px 0 #000' }}>BLEACHERS</div>
+            <div style={{ fontFamily: "'Silkscreen',monospace", fontSize: 10, letterSpacing: '.2em', color: '#ff5d8f', marginTop: 6 }}>F O R E V E R</div>
+            <div style={{ marginTop: 7, display: 'flex', gap: 5, justifyContent: 'center' }}>
+              <span style={{ color: '#5ce6b5' }}>★</span><span style={{ color: '#ffd23f' }}>★</span><span style={{ color: '#ff5d8f' }}>★</span>
+            </div>
+          </div>
+        ) : null}
+
+        {/* FLOW: icons + windows + webring */}
+        <div style={mobile ? { position: 'relative', zIndex: 5, padding: `42px 14px ${termH + 120}px`, display: 'flex', flexDirection: 'column', gap: 16 } : { display: 'contents' }}>
+
+          {/* ICONS */}
+          <div style={mobile ? { display: 'flex', flexWrap: 'wrap', gap: 14, justifyContent: 'center', marginBottom: 4, order: -1 } : { display: 'contents' }}>
+            <div onPointerDown={down('iAbout', 'icon')} style={{ ...iconWrap, ...iconFrame('iAbout') }}>
+              <AboutGlyph />
+              <div style={iconLabel}>about_me</div>
+            </div>
+            <div onPointerDown={down('iProjects', 'icon')} style={{ ...iconWrap, ...iconFrame('iProjects') }}>
+              <ProjectsGlyph />
+              <div style={{ ...iconLabel, marginTop: 3 }}>projects</div>
+            </div>
+            <div onPointerDown={down('iWriting', 'icon')} style={{ ...iconWrap, ...iconFrame('iWriting') }}>
+              <WritingGlyph />
+              <div style={iconLabel}>writing</div>
+            </div>
+            <div onPointerDown={down('iRadio', 'icon')} style={{ ...iconWrap, ...iconFrame('iRadio') }}>
+              <RadioGlyph />
+              <div style={iconLabel}>radio</div>
+            </div>
+            <div onPointerDown={down('iNotes', 'icon')} style={{ ...iconWrap, ...iconFrame('iNotes') }}>
+              <NotesGlyph />
+              <div style={iconLabel}>notes</div>
+            </div>
+          </div>
+
+          {/* ABOUT */}
+          {open.about ? (
+            <div style={{ ...winBase, ...winFrame('about', 392) }}>
+              <div onPointerDown={down('about', 'win')} style={{ ...titleBarBase, background: '#0c63ff' }}>
+                <span onPointerDown={closeWin('about')} style={closeBox} title="close">×</span>
+                <span style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 13, color: '#fff' }}>about_me.txt</span>
+                <span style={{ marginLeft: 'auto', width: 13, height: 13, background: '#5ce6b5', border: '1.5px solid #0d1b2a' }} />
+              </div>
+              <div style={{ padding: 18 }}>
+                <div style={{ display: 'flex', gap: 14, alignItems: 'center' }}>
+                  <div style={{ width: 54, height: 54, flex: 'none', background: '#ffd23f', border: '2px solid #0d1b2a', position: 'relative' }}>
+                    <div style={{ position: 'absolute', top: 10, left: 10, width: 8, height: 8, background: '#0d1b2a' }} />
+                    <div style={{ position: 'absolute', top: 10, right: 10, width: 8, height: 8, background: '#0d1b2a' }} />
+                    <div style={{ position: 'absolute', bottom: 11, left: 13, right: 13, height: 6, background: '#0d1b2a', borderRadius: '0 0 6px 6px' }} />
+                  </div>
+                  <div>
+                    <div style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 22, color: '#0d1b2a', lineHeight: 1 }}>claire wang</div>
+                    <div style={{ fontFamily: "'Silkscreen',monospace", fontSize: 9, letterSpacing: '.1em', color: '#5b6678', marginTop: 6 }}>NEURO + CS @ MIT · SF</div>
+                  </div>
+                </div>
+                <p style={{ fontSize: 13.5, lineHeight: 1.6, color: '#2a2722', margin: '14px 0 10px' }}>hi, i&apos;m claire ☺ — on leave from MIT in SF, building toward a whole-brain connectome of the mouse <a href="https://e11.bio" style={{ color: '#0c63ff' }}>@ e11.bio</a>. before: ML eng @ dimensionalOS, CoreOS @ Apple, and a pile of neuro research.</p>
+                <p style={{ fontSize: 13.5, lineHeight: 1.6, color: '#2a2722', margin: '0 0 14px' }}>i run a weekly radio show (<em>Death Car for QT</em>), love Bleachers + jazz, hold strong book opinions, and was once a memory athlete. <strong>DFTBA!</strong></p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                  <a href="https://twitter.com/clairebookworm" target="_blank" rel="noreferrer" style={chip}>twitter</a>
+                  <a href="https://github.com/clairebookworm" target="_blank" rel="noreferrer" style={chip}>github</a>
+                  <a href="https://clairebookworm.substack.com" target="_blank" rel="noreferrer" style={chip}>substack</a>
+                  <a href="https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s" target="_blank" rel="noreferrer" style={chip}>spotify</a>
+                  <a href="https://www.goodreads.com/clairebookworm" target="_blank" rel="noreferrer" style={chip}>goodreads</a>
+                </div>
+              </div>
+            </div>
+          ) : null}
+
+          {/* WRITING preview */}
+          {open.writing ? (
+            <div style={{ ...winBase, ...winFrame('writing', 436) }}>
+              <div onPointerDown={down('writing', 'win')} style={{ ...titleBarBase, background: '#0c63ff' }}>
+                <span onPointerDown={closeWin('writing')} style={closeBox} title="close">×</span>
+                <span style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 13, color: '#fff' }}>cold-brew-blog</span>
+                <a href="/writing" title="open full" style={{ marginLeft: 'auto', width: 13, height: 13, background: '#5ce6b5', border: '1.5px solid #0d1b2a' }} />
+              </div>
+              <div className="ccwin-scroll" style={{ maxHeight: 320, overflowY: 'auto' }}>
+                {allPosts.map((p, i) => (
+                  <a key={p.id} href={`/posts/${p.id}`} style={{ display: 'flex', alignItems: 'baseline', gap: 10, padding: '10px 16px', borderBottom: i < allPosts.length - 1 ? '1px solid #e7ecf5' : 'none', textDecoration: 'none' }}>
+                    <span style={{ fontFamily: "'Newsreader',serif", fontWeight: 600, fontSize: 17, color: '#0d1b2a', flex: 1, lineHeight: 1.25 }}>{p.title}</span>
+                    <span style={{ fontFamily: "'VT323',monospace", fontSize: 14, color: '#8a93a6', whiteSpace: 'nowrap' }}>{p.date}</span>
+                  </a>
+                ))}
+              </div>
+              <a href="/writing" style={{ display: 'block', padding: '9px 16px', borderTop: `2px solid ${winBorder}`, background: '#f3f7ff', fontFamily: "'VT323',monospace", fontSize: 15, color: '#0c63ff', textDecoration: 'none' }}>▸ open cold-brew-blog →</a>
+            </div>
+          ) : null}
+
+          {/* PROJECTS preview */}
+          {open.projects ? (
+            <div style={{ ...winBase, ...winFrame('projects', 380) }}>
+              <div onPointerDown={down('projects', 'win')} style={{ ...titleBarBase, background: '#0c63ff' }}>
+                <span onPointerDown={closeWin('projects')} style={closeBox} title="close">×</span>
+                <span style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 13, color: '#fff' }}>projects/</span>
+                <a href="/gallery" title="open full" style={{ marginLeft: 'auto', width: 13, height: 13, background: '#5ce6b5', border: '1.5px solid #0d1b2a' }} />
+              </div>
+              <div style={{ padding: '6px 0' }}>
+                {[
+                  { c: '#c9f7e4', name: 'whole-brain emulation', tag: 'NEURO' },
+                  { c: '#a7c4ff', name: 'SineRider', tag: 'GAME' },
+                  { c: '#ffe2a7', name: 'Blonk — physical DAW', tag: 'HTMAA' },
+                  { c: '#ffc2d6', name: 'AngelHacks', tag: 'HACKS' },
+                ].map((r) => (
+                  <div key={r.name} style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '8px 14px' }}>
+                    <span style={{ width: 20, height: 20, background: r.c, border: '1.5px solid #0d1b2a', flex: 'none' }} />
+                    <span style={{ fontSize: 14, fontWeight: 600, color: '#0d1b2a', flex: 1 }}>{r.name}</span>
+                    <span style={{ fontFamily: "'Silkscreen',monospace", fontSize: 8, color: '#8a93a6' }}>{r.tag}</span>
+                  </div>
+                ))}
+              </div>
+              <a href="/gallery" style={{ display: 'block', padding: '9px 14px', borderTop: `2px solid ${winBorder}`, background: '#f3f7ff', fontFamily: "'VT323',monospace", fontSize: 15, color: '#0c63ff', textDecoration: 'none' }}>▸ open full portfolio →</a>
+            </div>
+          ) : null}
+
+          {/* RADIO */}
+          {open.radio ? (
+            <div style={{ background: '#15122a', border: `2px solid ${winBorder}`, boxShadow: winShadow, ...winFrame('radio', 340) }}>
+              <div onPointerDown={down('radio', 'win')} style={{ ...titleBarBase, background: '#ff5d8f' }}>
+                <span onPointerDown={closeWin('radio')} style={closeBox} title="close">×</span>
+                <span style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 13, color: '#fff' }}>radio.exe</span>
+              </div>
+              <div style={{ padding: 18, textAlign: 'center' }}>
+                <div style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 18, color: '#ffd23f', textShadow: '2px 2px 0 #000' }}>DEATH CAR FOR QT</div>
+                <div style={{ fontFamily: "'VT323',monospace", fontSize: 16, color: '#5ce6b5', marginTop: 4 }}>Tue 12–1AM EST · 88.1 FM WMBR</div>
+                <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'center', gap: 4, height: 36, margin: '14px 0' }}>
+                  {[['#5ce6b5', '.7s', '0s'], ['#ffd23f', '.9s', '.1s'], ['#ff5d8f', '.6s', '.2s'], ['#5ce6b5', '1s', '.05s'], ['#ffd23f', '.8s', '.25s']].map((b, i) => (
+                    <div key={i} style={{ width: 6, height: 30, background: b[0], transformOrigin: 'bottom', animation: `ccVis ${b[1]} ease-in-out infinite`, animationDelay: b[2] }} />
+                  ))}
+                </div>
+                <a href="/radio" style={{ display: 'inline-block', fontFamily: "'VT323',monospace", fontSize: 18, color: '#15122a', background: '#5ce6b5', border: '2px solid #0d1b2a', padding: '4px 18px', textDecoration: 'none' }}>▶ launch player →</a>
+              </div>
+            </div>
+          ) : null}
+
+          {/* NOTES */}
+          {open.notes ? (
+            <div style={{ ...winBase, ...winFrame('notes', 320) }}>
+              <div onPointerDown={down('notes', 'win')} style={{ ...titleBarBase, background: '#5ce6b5' }}>
+                <span onPointerDown={closeWin('notes')} style={closeBox} title="close">×</span>
+                <span style={{ fontFamily: "'Pixelify Sans',sans-serif", fontWeight: 700, fontSize: 13, color: '#0d1b2a' }}>notes/</span>
+                <a href="/notes" title="open full" style={{ marginLeft: 'auto', width: 13, height: 13, background: '#0c63ff', border: '1.5px solid #0d1b2a' }} />
+              </div>
+              <div className="ccwin-scroll" style={{ padding: '8px 0', maxHeight: 300, overflowY: 'auto' }}>
+                {allNotes.map((nt) => (
+                  <a key={nt.id} href={`/notes/${nt.id}`} style={{ display: 'flex', alignItems: 'baseline', gap: 8, padding: '6px 16px', fontFamily: "'VT323',monospace", fontSize: 17, color: '#0d1b2a', textDecoration: 'none' }}>
+                    <span style={{ flex: 1, lineHeight: 1.2 }}>▸ {nt.title}</span>
+                    <span style={{ fontSize: 13, color: '#8a93a6', whiteSpace: 'nowrap' }}>{nt.date}</span>
+                  </a>
+                ))}
+                <div style={{ padding: '9px 16px 4px', fontFamily: "'VT323',monospace", fontSize: 15, color: '#8a93a6' }}>// you found the worm tank. hi 🪱</div>
+              </div>
+            </div>
+          ) : null}
+
+          {/* WEBRING (mobile: inline in flow) */}
+          {mobile ? renderWebring(false) : null}
+        </div>
+
+        {/* WEBRING (desktop: pinned just above the now-playing bar) */}
+        {!mobile ? renderWebring(true) : null}
+
+        {/* WORM PET */}
+        <div onClick={feedWorm} style={{ position: 'fixed', bottom: wormBottom, zIndex: 8000, display: 'flex', alignItems: 'flex-end', cursor: 'pointer', animation: 'ccCrawl 19s linear infinite' }} title="click to feed me!">
+          {pop.show ? (
+            <span style={{ position: 'absolute', left: 8, top: -26, fontFamily: "'VT323',monospace", fontSize: 22, color: '#fff', textShadow: '1px 1px 0 #0d1b2a', animation: 'ccPop .9s ease-out forwards' }}>{pop.char}</span>
+          ) : null}
+          <div style={{ width: 20, height: 20, borderRadius: '50%', background: mood.head, border: '2px solid #0d1b2a', position: 'relative', boxShadow: dark ? `0 0 8px ${mood.head}` : 'none', animation: 'ccSeg .55s ease-in-out infinite' }}>
+            <span style={{ position: 'absolute', top: 5, left: 4, width: 3, height: 3, background: '#0d1b2a', borderRadius: '50%' }} />
+            <span style={{ position: 'absolute', top: 5, left: 11, width: 3, height: 3, background: '#0d1b2a', borderRadius: '50%' }} />
+          </div>
+          {wormSegs.map((s, i) => (
+            <div key={i} style={{ borderRadius: '50%', border: '2px solid #0d1b2a', marginLeft: -4, width: s.size, height: s.size, background: s.color, boxShadow: s.glow, animation: 'ccSeg .55s ease-in-out infinite', animationDelay: `${s.delay}s` }} />
+          ))}
+        </div>
+
+        {/* NOW PLAYING */}
+        <div style={{ position: 'fixed', left: 0, right: 0, bottom: npBottom, height: 30, zIndex: 8400, display: 'flex', alignItems: 'center', background: npBg, borderTop: `2px solid ${npBorder}`, overflow: 'hidden' }}>
+          <span style={{ flex: 'none', fontFamily: "'Silkscreen',monospace", fontSize: 9, color: npLabel, padding: '0 12px', borderRight: `1px solid ${npBorder}` }}>NOW PLAYING</span>
+          <div style={{ overflow: 'hidden', flex: 1 }}>
+            <div style={{ display: 'inline-flex', whiteSpace: 'nowrap', animation: 'ccMarquee 22s linear infinite' }}>
+              <span style={{ fontFamily: "'VT323',monospace", fontSize: 18, color: npText, paddingRight: 50 }}>{NOW_PLAYING}</span>
+              <span style={{ fontFamily: "'VT323',monospace", fontSize: 18, color: npText, paddingRight: 50 }}>{NOW_PLAYING}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* TERMINAL DOCK */}
+        <div onClick={focusCmd} style={{ position: 'fixed', bottom: 0, left: 0, right: 0, height: bottomDockH, background: '#0a0a14', borderTop: `2px solid ${termAccent}`, zIndex: 8500, padding: '8px 14px 10px', fontFamily: "'VT323',monospace", boxShadow: '0 -4px 16px rgba(0,0,0,.4)', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ flex: 1, minHeight: 0, overflow: 'hidden', display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
+            {termView.map((l, i) => (
+              <div key={i} style={{ fontSize: 16, lineHeight: 1.3, color: termColor[l.type] || '#5ce6b5', whiteSpace: 'pre-wrap' }}>{l.text}</div>
+            ))}
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 4, borderTop: '1px solid #1c2030', paddingTop: 6 }}>
+            <span style={{ fontSize: 16, color: termAccent }}>claire@os</span>
+            <span style={{ fontSize: 16, color: '#ffd23f' }}>~ %</span>
+            <input
+              className="ccterm-input"
+              value={cmd}
+              onChange={(e) => setCmd(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter') { const v = cmd; setCmd(''); run(v); } }}
+              placeholder="type 'help' · 'contact' · 'dark'"
+              spellCheck="false"
+              autoComplete="off"
+              aria-label="terminal command input"
+              style={{ flex: 1, minWidth: 0, background: 'transparent', border: 'none', outline: 'none', color: '#eafff7', fontFamily: "'VT323',monospace", fontSize: 18 }}
+            />
+            <span onClick={showContact} style={{ cursor: 'pointer', fontSize: 15, color: '#ff9de2', whiteSpace: 'nowrap' }}>✉ contact</span>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }

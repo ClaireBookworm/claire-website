@@ -77,6 +77,17 @@ export function getAllPostIds() {
   });
 }
 
+// Lightweight sidebar list for the ClaireOS reader: id, title, date.
+// Ships only metadata (no rendered HTML), keeping page payloads small.
+export function getReaderList() {
+  const sorted = getSortedPostsData();
+  return sorted.map(({ id, title, date }) => ({
+    id,
+    title: title || id,
+    date: date || "",
+  }));
+}
+
 export async function getPostData(id) {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");

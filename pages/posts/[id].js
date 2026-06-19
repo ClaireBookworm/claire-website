@@ -1,54 +1,43 @@
-import Layout from "../../components/layout";
-import CustomHead from '../../components/customHead';
+import Head from 'next/head';
 import 'katex/dist/katex.min.css';
+import Reader from '../../components/claireos/Reader';
+import { getAllPostIds, getReaderList, getPostData } from '../../lib/posts';
 
-import { getAllPostIds, getPostData } from "../../lib/posts";
+const SUBSTACK_FOOTER = (
+  <>↳ also on <a href="https://clairebookworm.substack.com" target="_blank" rel="noreferrer" style={{ color: '#0c63ff' }}>substack</a> · written by claire wang</>
+);
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id);
-  return {
-    props: { postData },
-  };
+  const list = getReaderList();
+  const items = list.map((p) => ({ id: p.id, title: p.title, meta: `${p.date}${p.date ? ' · ' : ''}${p.minutes} min` }));
+  const meta = items.find((it) => it.id === params.id);
+  const post = await getPostData(params.id);
+  const current = { id: params.id, title: post.title || params.id, meta: meta ? meta.meta : (post.date || ''), contentHtml: post.contentHtml };
+  return { props: { items, current } };
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds();
-  return {
-    paths,
-    fallback: false,
-
-  };
+  return { paths: getAllPostIds(), fallback: false };
 }
 
-export default function Post({ postData }) {
-  if (!postData.desc) {
-    postData.desc = "cold brew blog | clairebookworm";
-  }
+export default function Post({ items, current }) {
   return (
-    <Layout className="blog-elements mt-6 sm:mt-12 md:mt-16 pl-0 md:pl-0">
-      <CustomHead
-        title={postData.title}
-        description={postData.desc}
-      />
-      {/* <Head>
-        <title>{postData.title}</title>
-        <meta property="og:title" content={postData.title} />
-        <meta property="og:description" content="cold brew blog | clairebookworm" />
+    <>
+      <Head>
+        <title>{current.title}</title>
+        <meta property="og:title" content={current.title} />
         <meta property="og:type" content="article" />
-      </Head> */}
-      <div className="backButton" onClick={() => window.history.length > 1 ? window.history.back() : window.location.href = '/writing'}>
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="white" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-        </svg>
-      </div>
-      <div className="blogContainer">
-        <div className="postTitle">{postData.title}</div>
-        <div className="postDate">
-          {postData.date}
-        </div>
-        <br />
-        <div className="postContent" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-      </div>
-    </Layout>
+      </Head>
+      <Reader
+        variant="blue"
+        items={items}
+        current={current}
+        basePath="/posts"
+        windowTitle="cold-brew-blog — reader"
+        menuRightLabel="cold-brew-blog.app"
+        sidebarLabel={`${items.length} POSTS · FULL TEXT ON-SITE`}
+        articleFooter={SUBSTACK_FOOTER}
+      />
+    </>
   );
 }

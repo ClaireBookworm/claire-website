@@ -1,12 +1,15 @@
 import { Analytics } from '@vercel/analytics/react';
 import '../styles/globals.css'
 import { ThemeProvider } from 'next-themes'
+import { SkinProvider } from '../components/claireos/SkinContext'
 
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
-      <Component {...pageProps} />
-	    <Analytics />
+      <SkinProvider>
+        <Component {...pageProps} />
+        <Analytics />
+      </SkinProvider>
     </ThemeProvider>
   )
 }

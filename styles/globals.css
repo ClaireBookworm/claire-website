@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+/* ClaireOS redesign fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Silkscreen:wght@400;700&family=VT323&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
@@ -1151,3 +1153,74 @@ body:has(.radio-page) {
         padding: 0.35rem 0.75rem;
     }
 }
+/* ============================================================
+   ClaireOS redesign — keyframes, scrollbars, helpers
+   ============================================================ */
+@keyframes ccCrawl { from { left: -120px; } to { left: 102%; } }
+@keyframes ccSeg { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+@keyframes ccBlink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+@keyframes ccTankWorm { 0%,100% { transform: translateX(-8px) scaleX(1); } 50% { transform: translateX(12px) scaleX(-1); } }
+@keyframes ccVis { 0%,100% { transform: scaleY(.2); } 50% { transform: scaleY(1); } }
+@keyframes ccPop { 0% { transform: translateY(0) scale(.6); opacity: 0; } 25% { opacity: 1; transform: translateY(-10px) scale(1.2); } 100% { transform: translateY(-40px) scale(1); opacity: 0; } }
+@keyframes ccGrid { from { background-position: 0 0; } to { background-position: 0 60px; } }
+@keyframes ccScan { from { background-position: 0 0; } to { background-position: 0 5px; } }
+@keyframes ccMarquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes ccFlick { 0%,100% { opacity: 1; } 48% { opacity: .82; } 52% { opacity: 1; } }
+
+/* themed window scrollbar (light/blue) */
+.ccwin-scroll::-webkit-scrollbar { width: 12px; }
+.ccwin-scroll::-webkit-scrollbar-track { background: #e7ecf5; }
+.ccwin-scroll::-webkit-scrollbar-thumb { background: #0c63ff; border: 2px solid #e7ecf5; }
+/* cream reader scrollbar (writing) */
+.ccscroll-cream::-webkit-scrollbar { width: 12px; }
+.ccscroll-cream::-webkit-scrollbar-track { background: #eef0ea; }
+.ccscroll-cream::-webkit-scrollbar-thumb { background: #c9c0ad; border: 2px solid #eef0ea; }
+/* green reader scrollbar (notes) */
+.ccscroll-green::-webkit-scrollbar { width: 12px; }
+.ccscroll-green::-webkit-scrollbar-track { background: #eef0ea; }
+.ccscroll-green::-webkit-scrollbar-thumb { background: #5ce6b5; border: 2px solid #eef0ea; }
+/* winamp library scrollbar (dark) */
+.cclib::-webkit-scrollbar { width: 12px; }
+.cclib::-webkit-scrollbar-track { background: #0c0f16; }
+.cclib::-webkit-scrollbar-thumb { background: #2c3650; border: 2px solid #0c0f16; }
+
+/* terminal input has no chrome */
+.ccterm-input::placeholder { color: #4a5a52; }
+
+/* article body styling for reader (markdown HTML from .postContent reused, but
+   scoped serif look for the ClaireOS reader pane) */
+.cc-article p { font-family: 'Newsreader', serif; font-size: 19px; line-height: 1.78; color: #26241d; margin: 0 0 20px; text-wrap: pretty; }
+.cc-article h1, .cc-article h2, .cc-article h3, .cc-article h4 { font-family: 'Pixelify Sans', sans-serif; font-weight: 700; color: #15140f; margin: 30px 0 12px; line-height: 1.2; }
+.cc-article h1 { font-size: 27px; } .cc-article h2 { font-size: 23px; } .cc-article h3 { font-size: 20px; }
+.cc-article blockquote { font-family: 'Newsreader', serif; font-style: italic; font-size: 19px; line-height: 1.7; color: #3a372e; border-left: 3px solid #0c63ff; padding: 4px 0 4px 18px; margin: 0 0 18px; }
+.cc-article a { color: #0c63ff; text-decoration: underline; }
+.cc-article ul, .cc-article ol { font-family: 'Newsreader', serif; font-size: 19px; line-height: 1.7; color: #26241d; margin: 0 0 20px; padding-left: 1.3em; }
+.cc-article li { margin: 0 0 6px; color: #26241d; }
+/* keep list bullets/numbers dark on the white reader background */
+.cc-article li::marker { color: #0d1b2a; }
+.cc-article--green li::marker { color: #0d1b2a; }
+.cc-article em { font-style: italic; }
+.cc-article strong { font-weight: 700; }
+.cc-article img { max-width: 100%; height: auto; border: 2px solid #0d1b2a; margin: 8px 0 20px; }
+.cc-article code { font-family: 'VT323', monospace; font-size: 17px; background: #f0eee6; padding: 0 4px; }
+.cc-article hr { border: none; border-top: 1px solid #e3dccb; margin: 24px 0; }
+/* notes green variant: recolor headings + quote bar */
+.cc-article--green blockquote { border-left-color: #1f8a5b; }
+.cc-article--green h1, .cc-article--green h2, .cc-article--green h3, .cc-article--green h4 { color: #1f8a5b; }
+.cc-article--green a { color: #1f8a5b; }
+
+/* responsive reader: stack two-pane on narrow screens */
+@media (max-width: 760px) {
+  .cc-reader-panes { flex-direction: column !important; }
+  .cc-reader-sidebar { width: 100% !important; max-height: 200px; border-right: none !important; border-bottom: 2px solid #0d1b2a !important; }
+  .cc-reader-article { padding: 24px 18px 48px !important; }
+  .cc-winamp-wrap { flex-direction: column !important; }
+  .cc-winamp-left, .cc-winamp-right { width: 100% !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="cc"] *, .cc-anim { animation: none !important; }
+}
+
+/* ClaireOS: hide secondary menu items on narrow screens */
+@media (max-width: 760px) { .cc-hide-sm { display: none !important; } }
