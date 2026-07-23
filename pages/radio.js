@@ -58,7 +58,7 @@ function WinampWindow({ week, frame, onClose, onDownTitle }) {
     <div style={{ background: 'linear-gradient(#3a4456,#2a3240)', border: '2px solid #0a0d14', boxShadow: '0 10px 28px rgba(0,0,0,.55)', display: 'flex', flexDirection: 'column', ...frame }}>
       {/* title bar */}
       <div onPointerDown={onDownTitle} style={{ ...panelHead, borderBottom: '1px solid #0a0d14', flex: 'none' }}>
-        <span onPointerDown={onClose} role="button" tabIndex={0} aria-label="close window" style={{ width: 11, height: 11, background: '#ff5d6c', border: '1px solid #0a0d14', marginRight: 8, cursor: 'pointer' }} />
+        <span onPointerDown={onClose} role="button" tabIndex={0} aria-label="close window" title="close" style={{ width: 14, height: 14, background: '#ff5d6c', border: '1px solid #0a0d14', marginRight: 8, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: "'VT323',monospace", fontSize: 13, lineHeight: 1, color: '#2a0a0f', fontWeight: 700 }}>×</span>
         <span style={silk}>DEATH CAR FOR QT — {week.wk}</span>
         <span style={{ marginLeft: 'auto', display: 'flex', gap: 4 }}>
           <span style={{ width: 10, height: 9, background: '#5a6680', border: '1px solid #0a0d14' }} />
@@ -191,7 +191,7 @@ export default function Radio({ weeks }) {
   return (
     <>
       <Head>
-        <title>radio — Death Car for QT</title>
+        <title>radio, claire wang</title>
         <meta property="og:title" content="radio — Death Car for QT" />
       </Head>
       <div style={{ position: 'fixed', inset: 0, background: 'radial-gradient(120% 120% at 50% 0%, #2a3650 0%, #11151f 65%)', overflow: 'auto', fontFamily: "'Space Grotesk',system-ui,sans-serif", userSelect: 'none' }}>

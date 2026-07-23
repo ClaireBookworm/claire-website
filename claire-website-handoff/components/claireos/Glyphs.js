@@ -61,7 +61,7 @@ export function NotesGlyph() {
   );
 }
 
-// A little shelf with book spines, a record edge, and a VHS — the recs room.
+// A little shelf with a book spine, a record edge, and a VHS — the recs room.
 export function RecsGlyph() {
   return (
     <div style={{ width: 62, height: 48, margin: '0 auto', background: 'linear-gradient(#f3efe4,#e6dfcd)', border: '2px solid #0d1b2a', boxShadow: '3px 3px 0 rgba(0,0,0,.3)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center', gap: 3, padding: '0 6px 5px', overflow: 'hidden' }}>

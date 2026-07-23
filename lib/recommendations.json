@@ -1,66 +1,154 @@
 {
   "books": [
-    {
-      "title": "Symphony for the City of the Dead",
-      "author": "M.T. Anderson",
-      "link": "",
-      "notes": "A haunting exploration of Shostakovich's life during the siege of Leningrad"
-    },
-    {
-      "title": "Invisible Cities",
-      "author": "Italo Calvino",
-      "link": "",
-      "notes": "Poetic meditation on cities, memory, and imagination"
-    }
+    { "title": "Symphony for the City of the Dead", "author": "M.T. Anderson", "category": "nonfic", "fave": true, "note": "Shostakovich vs. the siege of Leningrad. Thrilling — nonfiction that reads like a war novel." },
+    { "title": "Invisible Cities", "author": "Italo Calvino", "category": "fiction", "fave": true, "note": "No plot, all craft. A patient painting of impossible cities — read it slow." },
+    { "title": "The Adventures of Kavalier & Clay", "author": "Michael Chabon", "category": "fiction", "fave": true, "note": "Comics, escape, golems, big hearts. Every side character gets their due." },
+    { "title": "A Gentleman in Moscow", "author": "Amor Towles", "category": "fiction", "fave": false, "note": "A whole life lived inside one hotel. Warm, tidy, every thread tied off." },
+    { "title": "Sum: Forty Tales from the Afterlives", "author": "David Eagleman", "category": "fiction", "fave": false, "note": "Forty tiny afterlives. The best premise machine I know." },
+    { "title": "Rosencrantz and Guildenstern Are Dead", "author": "Tom Stoppard", "category": "fiction", "fave": false, "note": "" },
+    { "title": "How Much of These Hills is Gold", "author": "C. Pam Zhang", "category": "fiction", "fave": false, "note": "" },
+    { "title": "Homegoing", "author": "Yaa Gyasi", "category": "fiction", "fave": false, "note": "Generations, one per chapter. Stunning structure." },
+    { "title": "The Glass Castle", "author": "Jeannette Walls", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Notes from Underground", "author": "Dostoyevsky", "category": "fiction", "fave": false, "note": "" },
+    { "title": "The Tale of Despereaux", "author": "Kate DiCamillo", "category": "fiction", "fave": false, "note": "" },
+    { "title": "On Earth We're Briefly Gorgeous", "author": "Ocean Vuong", "category": "fiction", "fave": true, "note": "A letter to a mother that reads like a poem." },
+    { "title": "Bluets", "author": "Maggie Nelson", "category": "nonfic", "fave": false, "note": "240 fragments about the color blue. Yes really — yes it works." },
+    { "title": "The Book of Disquiet", "author": "Fernando Pessoa", "category": "fiction", "fave": false, "note": "" },
+    { "title": "Sophie's World", "author": "Jostein Gaarder", "category": "fiction", "fave": false, "note": "" },
+    { "title": "The Little Prince", "author": "Saint-Exupéry", "category": "fiction", "fave": false, "note": "" },
+    { "title": "No Exit", "author": "Jean-Paul Sartre", "category": "fiction", "fave": false, "note": "" },
+    { "title": "Man's Search for Meaning", "author": "Viktor Frankl", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Tomorrow, and Tomorrow, and Tomorrow", "author": "Gabrielle Zevin", "category": "fiction", "fave": true, "note": "Love + games + making things together. Tender." },
+    { "title": "A Little Life", "author": "Hanya Yanagihara", "category": "fiction", "fave": true, "note": "Learn someone inside & out. Devastating — worth every page." },
+    { "title": "Crying in H Mart", "author": "Michelle Zauner", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "The Three-Body Problem", "author": "Cixin Liu", "category": "fiction", "fave": false, "note": "" },
+    { "title": "Wolf Hall", "author": "Hilary Mantel", "category": "fiction", "fave": false, "note": "" },
+    { "title": "Never Let Me Go", "author": "Kazuo Ishiguro", "category": "fiction", "fave": false, "note": "Quiet and gutting. Don't look up the premise first." },
+    { "title": "The Curious Incident of the Dog in the Night-Time", "author": "Mark Haddon", "category": "fiction", "fave": false, "note": "" },
+    { "title": "The Book Thief", "author": "Markus Zusak", "category": "fiction", "fave": false, "note": "" },
+    { "title": "There Is No Antimemetics Division", "author": "qntm", "category": "fiction", "fave": false, "note": "" },
+    { "title": "The Science of Storytelling", "author": "Will Storr", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "The Anthropocene Reviewed", "author": "John Green", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Humble Pi", "author": "Matt Parker", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Games: Agency as Art", "author": "C. Thi Nguyen", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Being Mortal", "author": "Atul Gawande", "category": "nonfic", "fave": false, "note": "Really topical for elderly care & longevity. Humane and clear." },
+    { "title": "The Sunflower", "author": "Simon Wiesenthal", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "I Am a Strange Loop", "author": "Douglas Hofstadter", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Gödel, Escher, Bach", "author": "Douglas Hofstadter", "category": "nonfic", "fave": false, "note": "Still unfinished — still worth it." },
+    { "title": "The Design of Everyday Things", "author": "Donald Norman", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Fear and Trembling", "author": "Søren Kierkegaard", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "When Breath Becomes Air", "author": "Paul Kalanithi", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Utilitarianism: For and Against", "author": "Smart & Williams", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Disability Visibility", "author": "Alice Wong", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Design Justice", "author": "Sasha Costanza-Chock", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "The Selfish Gene", "author": "Richard Dawkins", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "A Short History of Nearly Everything", "author": "Bill Bryson", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "The Innovators", "author": "Walter Isaacson", "category": "nonfic", "fave": false, "note": "" },
+    { "title": "Anna Karenina", "author": "Leo Tolstoy", "category": "other", "fave": false, "note": "" },
+    { "title": "20,000 Leagues Under the Sea", "author": "Jules Verne", "category": "other", "fave": false, "note": "" },
+    { "title": "Frankenstein", "author": "Mary Shelley", "category": "other", "fave": false, "note": "" },
+    { "title": "Moonglow", "author": "Michael Chabon", "category": "other", "fave": false, "note": "" },
+    { "title": "Pride and Prejudice", "author": "Jane Austen", "category": "other", "fave": false, "note": "" },
+    { "title": "Little Women", "author": "Louisa May Alcott", "category": "other", "fave": false, "note": "Did you know it's a trilogy? And it's actually pretty good." },
+    { "title": "Wuthering Heights", "author": "Emily Brontë", "category": "other", "fave": false, "note": "" },
+    { "title": "Beloved", "author": "Toni Morrison", "category": "other", "fave": false, "note": "" },
+    { "title": "The Things They Carried", "author": "Tim O'Brien", "category": "other", "fave": false, "note": "" },
+    { "title": "Night", "author": "Elie Wiesel", "category": "other", "fave": false, "note": "" },
+    { "title": "Cat's Cradle", "author": "Kurt Vonnegut", "category": "other", "fave": false, "note": "" },
+    { "title": "I, Robot", "author": "Isaac Asimov", "category": "other", "fave": false, "note": "" },
+    { "title": "Journey to the Center of the Earth", "author": "Jules Verne", "category": "other", "fave": false, "note": "" },
+    { "title": "100 Years of Solitude", "author": "Gabriel García Márquez", "category": "other", "fave": false, "note": "" },
+    { "title": "The Secret History", "author": "Donna Tartt", "category": "other", "fave": false, "note": "" },
+    { "title": "Ender's Game", "author": "Orson Scott Card", "category": "other", "fave": false, "note": "" },
+    { "title": "The Scarlet Pimpernel", "author": "Baroness Orczy", "category": "other", "fave": false, "note": "" },
+    { "title": "The Electric Kool-Aid Acid Test", "author": "Tom Wolfe", "category": "other", "fave": false, "note": "" },
+    { "title": "Last Comes the Raven", "author": "Italo Calvino", "category": "other", "fave": false, "note": "" },
+    { "title": "The Office of Historical Corrections", "author": "Danielle Evans", "category": "other", "fave": false, "note": "" },
+    { "title": "Where the Mountain Meets the Moon", "author": "Grace Lin", "category": "other", "fave": false, "note": "" },
+    { "title": "1984", "author": "George Orwell", "category": "other", "fave": false, "note": "" },
+    { "title": "The Stranger", "author": "Albert Camus", "category": "other", "fave": false, "note": "" },
+    { "title": "The Yiddish Policemen's Union", "author": "Michael Chabon", "category": "other", "fave": false, "note": "" },
+    { "title": "The Wicked + The Divine", "author": "Gillen & McKelvie", "category": "graphic", "fave": false, "note": "" },
+    { "title": "Saga", "author": "BKV & Fiona Staples", "category": "graphic", "fave": false, "note": "" },
+    { "title": "Watchmen", "author": "Alan Moore", "category": "graphic", "fave": false, "note": "" },
+    { "title": "Crisis on Infinite Earths", "author": "Marv Wolfman", "category": "graphic", "fave": false, "note": "" },
+    { "title": "V for Vendetta", "author": "Alan Moore", "category": "graphic", "fave": false, "note": "" },
+    { "title": "Batman: Hush", "author": "Jeph Loeb", "category": "graphic", "fave": false, "note": "" },
+    { "title": "I Was Their American Dream", "author": "Malaka Gharib", "category": "graphic", "fave": false, "note": "" }
   ],
-  "music": [
-    {
-      "name": "Melodrama",
-      "artist": "Lorde",
-      "link": "",
-      "notes": "Perfect breakup album with incredible production"
-    },
-    {
-      "name": "Submarine",
-      "artist": "The Marias",
-      "link": "",
-      "notes": "Dreamy indie pop with Spanish influences"
-    }
+  "albums": [
+    { "title": "Melodrama", "artist": "Lorde", "fave": true, "note": "The best breakup-party record." },
+    { "title": "Submarine", "artist": "The Marías", "fave": false, "note": "Dreamy, velvet, on repeat." },
+    { "title": "Pulsar", "artist": "L'Impératrice", "fave": false, "note": "" },
+    { "title": "Bleachers", "artist": "Bleachers", "fave": true, "note": "You knew this would be on here." },
+    { "title": "The Last Goodbye", "artist": "ODESZA", "fave": false, "note": "" },
+    { "title": "empathogen", "artist": "WILLOW", "fave": false, "note": "Jazzy, unhinged, gorgeous." },
+    { "title": "Empire Central", "artist": "Snarky Puppy", "fave": false, "note": "Musicianship as a contact sport." },
+    { "title": "How to Build an Ocean: Instructions", "artist": "Bears in Trees", "fave": false, "note": "" },
+    { "title": "Unreal Unearth", "artist": "Hozier", "fave": false, "note": "Dante's Inferno, track by track." },
+    { "title": "Five Seconds Flat", "artist": "Lizzy McAlpine", "fave": false, "note": "" },
+    { "title": "MINT JAMS (Live)", "artist": "Casiopea", "fave": false, "note": "" },
+    { "title": "Mr. Morale & the Big Steppers", "artist": "Kendrick Lamar", "fave": false, "note": "Therapy on wax." },
+    { "title": "BRAT", "artist": "Charli xcx", "fave": false, "note": "Obviously." },
+    { "title": "The Land is Inhospitable and So Are We", "artist": "Mitski", "fave": false, "note": "" },
+    { "title": "Dance Fever", "artist": "Florence + the Machine", "fave": false, "note": "" },
+    { "title": "Luv(sic) Hexology", "artist": "Nujabes", "fave": false, "note": "" },
+    { "title": "Good Morning It's Now Tomorrow", "artist": "Matt Maltese", "fave": false, "note": "" },
+    { "title": "Nothing Happens", "artist": "Wallows", "fave": false, "note": "" },
+    { "title": "Good Faith", "artist": "Madeon", "fave": false, "note": "" },
+    { "title": "Love Hate Music Box", "artist": "Rainbow Kitten Surprise", "fave": false, "note": "" },
+    { "title": "Further Joy", "artist": "The Regrettes", "fave": false, "note": "" },
+    { "title": "Hyperdrama", "artist": "Justice", "fave": false, "note": "French touch, maximal." },
+    { "title": "22, A Million", "artist": "Bon Iver", "fave": false, "note": "Static and hymns." },
+    { "title": "Random Access Memories", "artist": "Daft Punk", "fave": false, "note": "The future remembering disco." },
+    { "title": "Dopamine", "artist": "BØRNS", "fave": false, "note": "" },
+    { "title": "Carrie & Lowell", "artist": "Sufjan Stevens", "fave": false, "note": "Grief, whispered." },
+    { "title": "Loss of Life", "artist": "MGMT", "fave": false, "note": "" },
+    { "title": "I Love You So F***ing Much", "artist": "Glass Animals", "fave": false, "note": "" },
+    { "title": "God Said No", "artist": "Omar Apollo", "fave": false, "note": "" },
+    { "title": "Wild EP", "artist": "The Analog Affair", "fave": false, "note": "" },
+    { "title": "M3LL155X", "artist": "FKA twigs", "fave": false, "note": "" },
+    { "title": "Hurry Up, We're Dreaming", "artist": "M83", "fave": false, "note": "" },
+    { "title": "Citrona", "artist": "Flipturn", "fave": false, "note": "" }
   ],
   "playlists": [
-    {
-      "name": "sizzle",
-      "link": "https://open.spotify.com/playlist/1ME2BDtz6wgqk4bLqyl892?si=53ca471122304f2c",
-      "notes": "r&b beats"
-    },
-    {
-      "name": "dahhling",
-      "link": "https://open.spotify.com/playlist/0ougicLNjGgbmIIsvp4Z1L?si=657869bf74c540ac",
-      "notes": "indie/rock, woodsy? nostalgic?"
-    }
+    { "name": "sizzle", "note": "r&b beats", "link": "https://open.spotify.com/playlist/1ME2BDtz6wgqk4bLqyl892" },
+    { "name": "dahhling", "note": "indie/rock, woodsy? nostalgic?", "link": "https://open.spotify.com/playlist/0ougicLNjGgbmIIsvp4Z1L" },
+    { "name": "unavailable", "note": "sorry i can't come to the phone right now — pop-girl party music", "link": "https://open.spotify.com/playlist/5Jqz7gjwAFKbwYsWfXYv9g" },
+    { "name": "🧸🪀🧶", "note": "play with your music! — fun electronica", "link": "https://open.spotify.com/playlist/7r2XPz7THgjJr8uQKbAt2G" },
+    { "name": "so it goes...", "note": "more fun electronica", "link": "https://open.spotify.com/playlist/13IAsMqVJnZwXoKJSPg8fe" },
+    { "name": "schilly and spilly", "note": "indie pop standards", "link": "https://open.spotify.com/playlist/5K1b96cFtvMRl6MwmsIOrA" },
+    { "name": "buttervinyl", "fave": true, "note": "jazz and funky", "link": "https://open.spotify.com/playlist/4Kw8tq592A7pUYwiP5avrz" },
+    { "name": "slightly funky and possibly spunky", "note": "even more jazz and funk", "link": "https://open.spotify.com/playlist/17cb5sukTNNmIwzDwK5HJY" },
+    { "name": "spin (disc)", "note": "insanely well produced house edm", "link": "https://open.spotify.com/playlist/54nSJBDuN09vOhxJMDrTT6" },
+    { "name": "intro to bleachers", "note": "if you want to learn more about them...", "link": "https://open.spotify.com/playlist/0bzfpSgyjg3BB8w7f7nUQV" },
+    { "name": "micro-classical", "note": "soundtracks and modern classical", "link": "https://open.spotify.com/playlist/26is1OVE2tQXaWuGlmjO0C" }
   ],
   "films": [
-    {
-      "name": "Everything Everywhere All at Once",
-      "link": "",
-      "notes": "Mind-bending multiverse adventure with incredible heart"
-    },
-    {
-      "name": "A Silent Voice",
-      "link": "",
-      "notes": "Beautiful anime about redemption and friendship"
-    }
+    { "title": "Everything Everywhere All at Once", "director": "Daniels", "fave": true, "note": "The one I cry to every single time.", "link": "https://letterboxd.com/clairebookworm/" },
+    { "title": "A Silent Voice", "director": "Naoko Yamada", "fave": false, "note": "Animation that earns every tear." },
+    { "title": "Across the Spider-Verse", "director": "the whole series", "fave": false, "note": "Every single frame is a poster." },
+    { "title": "The Dark Knight", "director": "Christopher Nolan", "fave": false, "note": "The whole Nolan-verse, honestly." },
+    { "title": "Synecdoche, New York", "director": "Charlie Kaufman", "fave": false, "note": "\"Nobody is an extra.\"" },
+    { "title": "Stalker", "director": "Andrei Tarkovsky", "fave": false, "note": "Slow-cinema church (1979). Surrender to it." },
+    { "title": "Kinds of Kindness", "director": "Yorgos Lanthimos", "fave": false, "note": "Weird in exactly the right way." },
+    { "title": "Challengers", "director": "Luca Guadagnino", "fave": false, "note": "Tennis as a love triangle. So tense." }
   ],
   "blogs": [
-    {
-      "name": "ava bookbear express",
-      "link": "",
-      "notes": "Thoughtful writing on books and culture"
-    },
-    {
-      "name": "rayne fisher-quann",
-      "link": "",
-      "notes": "Sharp cultural criticism and personal essays"
-    }
+    { "name": "ava — bookbear express", "link": "https://www.avabear.xyz/" },
+    { "name": "rayne fisher-quann", "link": "https://internetprincess.substack.com/" },
+    { "name": "sasha chapin", "link": "https://sashachapin.substack.com/" },
+    { "name": "libraries for the future", "link": "" },
+    { "name": "overcoming bias", "link": "https://www.overcomingbias.com/" },
+    { "name": "works in progress", "link": "https://worksinprogress.co/" },
+    { "name": "asterisk mag", "link": "https://asteriskmag.com/" },
+    { "name": "asimov press", "link": "https://press.asimov.com/" },
+    { "name": "freddie deboer", "link": "https://freddiedeboer.substack.com/" },
+    { "name": "gwern", "link": "https://gwern.net/" },
+    { "name": "sam kriss", "link": "https://samkriss.substack.com/" }
+  ],
+  "toread": [
+    { "title": "White Teeth", "author": "Zadie Smith" },
+    { "title": "The Overstory", "author": "Richard Powers" }
   ]
 }

@@ -19,7 +19,7 @@ export default function Writing({ items, current }) {
   return (
     <>
       <Head>
-        <title>cold-brew-blog — reader</title>
+        <title>cold brew blog</title>
         <meta property="og:title" content="cold brew blog" />
       </Head>
       <Reader

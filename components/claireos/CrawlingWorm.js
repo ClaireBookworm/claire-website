@@ -13,11 +13,13 @@ export default function CrawlingWorm({ duration = 22, bottom = 6 }) {
       aria-hidden="true"
       style={{
         position: 'absolute',
+        left: 0,
         bottom,
         zIndex: 50,
         display: 'flex',
         alignItems: 'flex-end',
         animation: `ccCrawl ${duration}s linear infinite`,
+        willChange: 'transform',
       }}
     >
       {segs.map((s, i) => (

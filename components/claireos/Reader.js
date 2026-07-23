@@ -89,6 +89,7 @@ export default function Reader({
                   <Link
                     key={p.id}
                     href={`${basePath}/${p.id}`}
+                    onClick={() => setListOpen(false)}
                     style={{
                       display: 'block', textDecoration: 'none',
                       padding: variant === 'green' ? '10px 14px' : '11px 14px',

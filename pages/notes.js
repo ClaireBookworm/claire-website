@@ -15,7 +15,7 @@ export default function Notes({ items, current }) {
   return (
     <>
       <Head>
-        <title>notes/ — lists, recs & musings</title>
+        <title>notes & thinks</title>
         <meta property="og:title" content="notes & thinks | claire" />
       </Head>
       <Reader
