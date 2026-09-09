@@ -128,7 +128,7 @@ find the musicboard (and more comprehensive) list for this [here](https://musicb
 - BRAT, by Charli xcx
 - The Land is Inhospitable and So Are We, by Mitski
 - Dance Fever, by Florence + the Machine
-- Luv(six) Heaxology, by Nujabes
+- Luv(sic) Hexalogy, by Nujabes
 - Good Morning It's Now Tomorrow, by Matt Maltese
 - Nothing Happens, by Wallows
 - Good Faith, by Madeon
@@ -159,6 +159,13 @@ find the musicboard (and more comprehensive) list for this [here](https://musicb
 - Stalker (1979)
 - Kinds of Kindness
 - Challengers
+- Paprika
+- The Secret Life of Walter Mitty
+- Resurrection (Bi Gan)
+- Sinners
+- Flow
+- Weathering with You
+- Coco
 
 *blogs/magazines you should read too* 
 - ava bookbear express

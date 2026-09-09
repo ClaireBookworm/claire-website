@@ -1,0 +1,1223 @@
+{
+  "album:Melodrama": {
+    "image": "/table-art/album-0.jpg",
+    "source": "https://music.apple.com/us/album/melodrama/1428764777?uo=4",
+    "catalogTitle": "Melodrama",
+    "catalogCreator": "Lorde",
+    "aspect": 1
+  },
+  "album:Submarine": {
+    "image": "/table-art/album-1.jpg",
+    "source": "https://music.apple.com/us/album/submarine/1733730985?uo=4",
+    "catalogTitle": "Submarine",
+    "catalogCreator": "The Marías",
+    "aspect": 1
+  },
+  "album:Pulsar": {
+    "image": "/table-art/album-2.jpg",
+    "source": "https://music.apple.com/us/album/pulsar/1736766809?uo=4",
+    "catalogTitle": "Pulsar",
+    "catalogCreator": "L'Impératrice",
+    "aspect": 1
+  },
+  "book:Tomorrow, and Tomorrow, and Tomorrow": {
+    "image": "/table-art/book-18.jpg",
+    "source": "https://openlibrary.org/works/OL26004554W",
+    "catalogTitle": "Tomorrow, and Tomorrow, and Tomorrow",
+    "catalogCreator": [
+      "Gabrielle Zevin"
+    ],
+    "aspect": 0.662
+  },
+  "album:The Last Goodbye": {
+    "image": "/table-art/album-4.jpg",
+    "source": "https://music.apple.com/us/album/the-last-goodbye/1612664558?uo=4",
+    "catalogTitle": "The Last Goodbye",
+    "catalogCreator": "ODESZA",
+    "aspect": 1
+  },
+  "album:empathogen": {
+    "image": "/table-art/album-5.jpg",
+    "source": "https://music.apple.com/us/album/empathogen/1737442320?uo=4",
+    "catalogTitle": "empathogen",
+    "catalogCreator": "WILLOW",
+    "aspect": 1
+  },
+  "book:A Little Life": {
+    "image": "/table-art/book-19.jpg",
+    "source": "https://openlibrary.org/works/OL17370186W",
+    "catalogTitle": "A Little Life",
+    "catalogCreator": [
+      "Hanya Yanagihara"
+    ],
+    "aspect": 0.64
+  },
+  "album:Empire Central": {
+    "image": "/table-art/album-6.jpg",
+    "source": "https://music.apple.com/us/album/empire-central/1624123331?uo=4",
+    "catalogTitle": "Empire Central",
+    "catalogCreator": "Snarky Puppy",
+    "aspect": 1
+  },
+  "book:A Gentleman in Moscow": {
+    "image": "/table-art/book-3.jpg",
+    "source": "https://openlibrary.org/works/OL17797130W",
+    "catalogTitle": "A Gentleman in Moscow",
+    "catalogCreator": [
+      "Amor Towles"
+    ],
+    "aspect": 0.654
+  },
+  "album:Unreal Unearth": {
+    "image": "/table-art/album-8.jpg",
+    "source": "https://music.apple.com/us/album/unreal-unearth/1687585357?uo=4",
+    "catalogTitle": "Unreal Unearth",
+    "catalogCreator": "Hozier",
+    "aspect": 1
+  },
+  "book:How Much of These Hills is Gold": {
+    "image": "/table-art/book-6.jpg",
+    "source": "https://openlibrary.org/works/OL20660554W",
+    "catalogTitle": "How much of these hills is gold",
+    "catalogCreator": [
+      "C Pam Zhang"
+    ],
+    "aspect": 0.662
+  },
+  "book:Homegoing": {
+    "image": "/table-art/book-7.jpg",
+    "source": "https://openlibrary.org/works/OL17795349W",
+    "catalogTitle": "Homegoing",
+    "catalogCreator": [
+      "Yaa Gyasi"
+    ],
+    "aspect": 0.6709
+  },
+  "album:MINT JAMS (Live)": {
+    "image": "/table-art/album-10.jpg",
+    "source": "https://music.apple.com/us/album/mint-jams-live/1535034571?uo=4",
+    "catalogTitle": "MINT JAMS (Live)",
+    "catalogCreator": "Casiopea",
+    "aspect": 1
+  },
+  "book:The Glass Castle": {
+    "image": "/table-art/book-8.jpg",
+    "source": "https://openlibrary.org/works/OL46760W",
+    "catalogTitle": "The Glass Castle",
+    "catalogCreator": [
+      "Jeannette Walls"
+    ],
+    "aspect": 0.604
+  },
+  "album:Mr. Morale & the Big Steppers": {
+    "image": "/table-art/album-11.jpg",
+    "source": "https://music.apple.com/us/album/mr-morale-the-big-steppers/1626194593?uo=4",
+    "catalogTitle": "Mr. Morale & The Big Steppers",
+    "catalogCreator": "Kendrick Lamar",
+    "aspect": 1
+  },
+  "album:The Land is Inhospitable and So Are We": {
+    "image": "/table-art/album-13.jpg",
+    "source": "https://music.apple.com/us/album/the-land-is-inhospitable-and-so-are-we/1697335341?uo=4",
+    "catalogTitle": "The Land Is Inhospitable and So Are We",
+    "catalogCreator": "Mitski",
+    "aspect": 1
+  },
+  "book:The Tale of Despereaux": {
+    "image": "/table-art/book-10.jpg",
+    "source": "https://openlibrary.org/works/OL468677W",
+    "catalogTitle": "The Tale of Despereaux",
+    "catalogCreator": [
+      "Kate DiCamillo"
+    ],
+    "aspect": 0.7495
+  },
+  "book:Bluets": {
+    "image": "/table-art/book-12.jpg",
+    "source": "https://openlibrary.org/works/OL5814581W",
+    "catalogTitle": "Bluets",
+    "catalogCreator": [
+      "Maggie Nelson"
+    ],
+    "aspect": 0.614
+  },
+  "album:Dance Fever": {
+    "image": "/table-art/album-14.jpg",
+    "source": "https://music.apple.com/us/album/dance-fever/1613321261?uo=4",
+    "catalogTitle": "Dance Fever",
+    "catalogCreator": "Florence + the Machine",
+    "aspect": 1
+  },
+  "album:Good Morning It's Now Tomorrow": {
+    "image": "/table-art/album-16.jpg",
+    "source": "https://music.apple.com/us/album/good-morning-its-now-tomorrow/1607645832?uo=4",
+    "catalogTitle": "Good Morning It's Now Tomorrow",
+    "catalogCreator": "Matt Maltese",
+    "aspect": 1
+  },
+  "book:Sophie's World": {
+    "image": "/table-art/sophies-world-correct.jpg",
+    "source": "https://us.macmillan.com/books/9780374530716/sophiesworld/",
+    "catalogTitle": "Sophie's World",
+    "catalogCreator": [
+      "Jostein Gaarder"
+    ],
+    "isbn": "9780374530716",
+    "aspect": 0.666
+  },
+  "album:Good Faith": {
+    "image": "/table-art/album-18.jpg",
+    "source": "https://music.apple.com/us/album/good-faith/1485487825?uo=4",
+    "catalogTitle": "Good Faith",
+    "catalogCreator": "Madeon",
+    "aspect": 1
+  },
+  "album:Further Joy": {
+    "image": "/table-art/album-20.jpg",
+    "source": "https://music.apple.com/us/album/further-joy/1611586848?uo=4",
+    "catalogTitle": "Further Joy",
+    "catalogCreator": "The Regrettes",
+    "aspect": 1
+  },
+  "album:Hyperdrama": {
+    "image": "/table-art/album-21.jpg",
+    "source": "https://music.apple.com/us/album/hyperdrama/1724935208?uo=4",
+    "catalogTitle": "Hyperdrama",
+    "catalogCreator": "Justice",
+    "aspect": 1
+  },
+  "book:Wolf Hall": {
+    "image": "/table-art/book-22.jpg",
+    "source": "https://openlibrary.org/works/OL464512W",
+    "catalogTitle": "Wolf Hall",
+    "catalogCreator": [
+      "Hilary Mantel"
+    ],
+    "aspect": 0.646
+  },
+  "book:Crying in H Mart": {
+    "image": "/table-art/book-20.jpg",
+    "source": "https://openlibrary.org/works/OL22448002W",
+    "catalogTitle": "Crying in H Mart",
+    "catalogCreator": [
+      "Michelle Zauner"
+    ],
+    "aspect": 0.676
+  },
+  "album:Random Access Memories": {
+    "image": "/table-art/album-23.jpg",
+    "source": "https://music.apple.com/us/album/random-access-memories/617154241?uo=4",
+    "catalogTitle": "Random Access Memories",
+    "catalogCreator": "Daft Punk",
+    "aspect": 1
+  },
+  "book:Never Let Me Go": {
+    "image": "/table-art/never-let-me-go-english.jpg",
+    "source": "https://openlibrary.org/isbn/9781400078776",
+    "catalogTitle": "Never Let Me Go",
+    "catalogCreator": [
+      "Kazuo Ishiguro"
+    ],
+    "isbn": "9781400078776",
+    "aspect": 0.648
+  },
+  "album:Dopamine": {
+    "image": "/table-art/album-24.jpg",
+    "source": "https://music.apple.com/us/album/dopamine/1440848871?uo=4",
+    "catalogTitle": "Dopamine",
+    "catalogCreator": "BØRNS",
+    "aspect": 1
+  },
+  "book:The Book Thief": {
+    "image": "/table-art/book-thief-preferred.png",
+    "source": "https://openlibrary.org/works/OL5819456W",
+    "catalogTitle": "The Book Thief",
+    "catalogCreator": [
+      "Markus Zusak"
+    ],
+    "aspect": 0.648,
+    "providedBy": "Claire — preferred cover"
+  },
+  "album:Carrie & Lowell": {
+    "image": "/table-art/carrie-lowell-studio.jpg",
+    "source": "https://music.apple.com/us/album/carrie-lowell/955572616?uo=4",
+    "catalogTitle": "Carrie & Lowell",
+    "catalogCreator": "Sufjan Stevens",
+    "aspect": 1
+  },
+  "book:The Curious Incident of the Dog in the Night-Time": {
+    "image": "/table-art/book-24.jpg",
+    "source": "https://openlibrary.org/works/OL2965102W",
+    "catalogTitle": "The Curious Incident of the Dog in the Night-Time",
+    "catalogCreator": [
+      "Mark Haddon"
+    ],
+    "aspect": 0.652
+  },
+  "book:There Is No Antimemetics Division": {
+    "image": "/table-art/book-26.jpg",
+    "source": "https://openlibrary.org/works/OL24726867W",
+    "catalogTitle": "There Is No Antimemetics Division",
+    "catalogCreator": [
+      "qntm"
+    ],
+    "aspect": 0.6
+  },
+  "album:I Love You So F***ing Much": {
+    "image": "/table-art/album-27.jpg",
+    "source": "https://music.apple.com/us/album/i-love-you-so-f-ing-much/1738536692?uo=4",
+    "catalogTitle": "I Love You So F***ing Much",
+    "catalogCreator": "Glass Animals",
+    "aspect": 1
+  },
+  "book:The Science of Storytelling": {
+    "image": "/table-art/book-27.jpg",
+    "source": "https://openlibrary.org/works/OL20652355W",
+    "catalogTitle": "The Science of Storytelling",
+    "catalogCreator": [
+      "Will Storr"
+    ],
+    "aspect": 0.624
+  },
+  "album:God Said No": {
+    "image": "/table-art/album-28.jpg",
+    "source": "https://music.apple.com/us/album/god-said-no/1745791571?uo=4",
+    "catalogTitle": "God Said No",
+    "catalogCreator": "Omar Apollo",
+    "aspect": 1
+  },
+  "book:The Anthropocene Reviewed": {
+    "image": "/table-art/book-28.jpg",
+    "source": "https://openlibrary.org/works/OL22425473W",
+    "catalogTitle": "The Anthropocene Reviewed",
+    "catalogCreator": [
+      "John Green"
+    ],
+    "aspect": 0.662
+  },
+  "album:Wild EP": {
+    "image": "/table-art/album-29.jpg",
+    "source": "https://music.apple.com/us/album/wild-ep/672427162?uo=4",
+    "catalogTitle": "Wild - EP",
+    "catalogCreator": "The Analog Affair",
+    "aspect": 1
+  },
+  "book:Being Mortal": {
+    "image": "/table-art/book-31.jpg",
+    "source": "https://openlibrary.org/works/OL17079567W",
+    "catalogTitle": "Being Mortal",
+    "catalogCreator": [
+      "Atul Gawande"
+    ],
+    "aspect": 0.664
+  },
+  "album:Hurry Up, We're Dreaming": {
+    "image": "/table-art/album-31.jpg",
+    "source": "https://music.apple.com/us/album/hurry-up-were-dreaming/828259375?uo=4",
+    "catalogTitle": "Hurry Up, We're Dreaming",
+    "catalogCreator": "M83",
+    "aspect": 1
+  },
+  "book:Humble Pi": {
+    "image": "/table-art/book-29.jpg",
+    "source": "https://openlibrary.org/works/OL20646270W",
+    "catalogTitle": "Humble Pi",
+    "catalogCreator": [
+      "Matt Parker"
+    ],
+    "aspect": 0.666
+  },
+  "book:I Am a Strange Loop": {
+    "image": "/table-art/book-33.jpg",
+    "source": "https://openlibrary.org/works/OL8067922W",
+    "catalogTitle": "I Am a Strange Loop",
+    "catalogCreator": [
+      "Douglas R. Hofstadter"
+    ],
+    "aspect": 0.658
+  },
+  "book:Gödel, Escher, Bach": {
+    "image": "/table-art/book-34.jpg",
+    "source": "https://openlibrary.org/works/OL716850W",
+    "catalogTitle": "Gödel, Escher, Bach",
+    "catalogCreator": [
+      "Douglas R. Hofstadter"
+    ],
+    "aspect": 0.624
+  },
+  "book:When Breath Becomes Air": {
+    "image": "/table-art/book-37.jpg",
+    "source": "https://openlibrary.org/works/OL17356252W",
+    "catalogTitle": "When Breath Becomes Air",
+    "catalogCreator": [
+      "Paul Kalanithi"
+    ],
+    "aspect": 0.662
+  },
+  "book:A Short History of Nearly Everything": {
+    "image": "/table-art/book-42.jpg",
+    "source": "https://openlibrary.org/works/OL74128W",
+    "catalogTitle": "A short history of nearly everything",
+    "catalogCreator": [
+      "Bill Bryson"
+    ],
+    "aspect": 0.658
+  },
+  "book:The Selfish Gene": {
+    "image": "/table-art/book-41.jpg",
+    "source": "https://openlibrary.org/works/OL1966488W",
+    "catalogTitle": "The Selfish Gene",
+    "catalogCreator": [
+      "Richard Dawkins"
+    ],
+    "aspect": 0.65
+  },
+  "book:The Innovators": {
+    "image": "/table-art/book-43.jpg",
+    "source": "https://openlibrary.org/works/OL17074268W",
+    "catalogTitle": "The Innovators",
+    "catalogCreator": [
+      "Walter Isaacson",
+      "Francisco José Ramos Mena",
+      "Marcos Pérez Sánchez",
+      "Inga Pellisa Díaz"
+    ],
+    "aspect": 0.662
+  },
+  "book:Moonglow": {
+    "image": "/table-art/book-47.jpg",
+    "source": "https://openlibrary.org/works/OL18818747W",
+    "catalogTitle": "Moonglow",
+    "catalogCreator": [
+      "Michael Chabon"
+    ],
+    "aspect": 0.634
+  },
+  "book:Frankenstein": {
+    "image": "/table-art/book-46.jpg",
+    "source": "https://openlibrary.org/works/OL26860869W",
+    "catalogTitle": "Frankenstein",
+    "catalogCreator": [
+      "Mary Shelley"
+    ],
+    "aspect": 0.666
+  },
+  "book:Pride and Prejudice": {
+    "image": "/table-art/book-48.jpg",
+    "source": "https://openlibrary.org/works/OL66554W",
+    "catalogTitle": "Pride and Prejudice",
+    "catalogCreator": [
+      "Jane Austen"
+    ],
+    "aspect": 0.626
+  },
+  "book:Little Women": {
+    "image": "/table-art/book-49.jpg",
+    "source": "https://openlibrary.org/works/OL29983W",
+    "catalogTitle": "Little Women",
+    "catalogCreator": [
+      "Louisa May Alcott"
+    ],
+    "aspect": 0.7244
+  },
+  "book:Wuthering Heights": {
+    "image": "/table-art/book-50.jpg",
+    "source": "https://openlibrary.org/works/OL21177W",
+    "catalogTitle": "Wuthering Heights",
+    "catalogCreator": [
+      "Emily Brontë"
+    ],
+    "aspect": 0.618
+  },
+  "book:Beloved": {
+    "image": "/table-art/book-51.jpg",
+    "source": "https://openlibrary.org/works/OL50548W",
+    "catalogTitle": "Beloved",
+    "catalogCreator": [
+      "Toni Morrison"
+    ],
+    "aspect": 0.668
+  },
+  "book:Night": {
+    "image": "/table-art/book-53.jpg",
+    "source": "https://openlibrary.org/works/OL13341644W",
+    "catalogTitle": "Night",
+    "catalogCreator": [
+      "Elie Wiesel",
+      "Marion Wiesel",
+      "Wiesel,Elie"
+    ],
+    "aspect": 0.65
+  },
+  "book:Cat's Cradle": {
+    "image": "/table-art/book-54.jpg",
+    "source": "https://openlibrary.org/works/OL98454W",
+    "catalogTitle": "Cat's Cradle",
+    "catalogCreator": [
+      "Kurt Vonnegut",
+      "Martí Sales Sariola"
+    ],
+    "aspect": 0.658
+  },
+  "book:I, Robot": {
+    "image": "/table-art/book-55.jpg",
+    "source": "https://openlibrary.org/works/OL46241W",
+    "catalogTitle": "I, Robot",
+    "catalogCreator": [
+      "Isaac Asimov"
+    ],
+    "aspect": 0.654
+  },
+  "book:Journey to the Center of the Earth": {
+    "image": "/table-art/book-56.jpg",
+    "source": "https://openlibrary.org/works/OL18437639W",
+    "catalogTitle": "Journey to the center of the earth",
+    "catalogCreator": [
+      "Jules Verne"
+    ],
+    "aspect": 0.556
+  },
+  "book:The Secret History": {
+    "image": "/table-art/book-58.jpg",
+    "source": "https://openlibrary.org/works/OL4321141W",
+    "catalogTitle": "The Secret History",
+    "catalogCreator": [
+      "Donna Tartt"
+    ],
+    "aspect": 0.6484
+  },
+  "book:Ender's Game": {
+    "image": "/table-art/book-59.jpg",
+    "source": "https://openlibrary.org/works/OL49488W",
+    "catalogTitle": "Ender's Game",
+    "catalogCreator": [
+      "Orson Scott Card"
+    ],
+    "aspect": 0.632
+  },
+  "book:100 Years of Solitude": {
+    "image": "/table-art/book-57.jpg",
+    "source": "https://openlibrary.org/works/OL25065502W",
+    "catalogTitle": "100 Years of Solitude",
+    "catalogCreator": [
+      "Gabriel García Márquez"
+    ],
+    "aspect": 0.664
+  },
+  "book:The Scarlet Pimpernel": {
+    "image": "/table-art/book-60.jpg",
+    "source": "https://openlibrary.org/works/OL1253285W",
+    "catalogTitle": "The Scarlet Pimpernel",
+    "catalogCreator": [
+      "Emma Orczy"
+    ],
+    "aspect": 0.604
+  },
+  "book:The Electric Kool-Aid Acid Test": {
+    "image": "/table-art/book-61.jpg",
+    "source": "https://openlibrary.org/works/OL1925362W",
+    "catalogTitle": "The Electric Kool-Aid Acid Test",
+    "catalogCreator": [
+      "Tom Wolfe"
+    ],
+    "aspect": 0.598
+  },
+  "book:The Office of Historical Corrections": {
+    "image": "/table-art/book-63.jpg",
+    "source": "https://openlibrary.org/works/OL20934961W",
+    "catalogTitle": "The Office of Historical Corrections",
+    "catalogCreator": [
+      "Danielle Evans"
+    ],
+    "aspect": 0.636
+  },
+  "book:Where the Mountain Meets the Moon": {
+    "image": "/table-art/book-64.jpg",
+    "source": "https://openlibrary.org/works/OL1913873W",
+    "catalogTitle": "Where the Mountain Meets the Moon",
+    "catalogCreator": [
+      "Grace Lin",
+      "Janet Song"
+    ],
+    "aspect": 0.69
+  },
+  "book:The Yiddish Policemen's Union": {
+    "image": "/table-art/book-67.jpg",
+    "source": "https://openlibrary.org/works/OL119430W",
+    "catalogTitle": "The Yiddish Policemen's Union",
+    "catalogCreator": [
+      "Michael Chabon"
+    ],
+    "aspect": 0.676
+  },
+  "book:V for Vendetta": {
+    "image": "/table-art/book-72.jpg",
+    "source": "https://openlibrary.org/works/OL2897797W",
+    "catalogTitle": "V for Vendetta",
+    "catalogCreator": [
+      "Alan Moore",
+      "David Lloyd"
+    ],
+    "aspect": 0.65
+  },
+  "book:I Was Their American Dream": {
+    "image": "/table-art/book-74.jpg",
+    "source": "https://openlibrary.org/works/OL20065119W",
+    "catalogTitle": "I Was Their American Dream",
+    "catalogCreator": [
+      "Malaka Gharib"
+    ],
+    "aspect": 0.666
+  },
+  "book:Invisible Cities": {
+    "image": "/table-art/isbn-9780099429838.jpg",
+    "source": "https://openlibrary.org/isbn/9780099429838",
+    "isbn": "9780099429838",
+    "catalogTitle": "Invisible Cities",
+    "aspect": 0.6526
+  },
+  "book:Symphony for the City of the Dead": {
+    "image": "/table-art/isbn-9780763668181.jpg",
+    "source": "https://openlibrary.org/isbn/9780763668181",
+    "isbn": "9780763668181",
+    "catalogTitle": "Symphony for the City of the Dead",
+    "aspect": 0.662
+  },
+  "book:The Adventures of Kavalier & Clay": {
+    "image": "/table-art/isbn-9780312282998.jpg",
+    "source": "https://openlibrary.org/isbn/9780312282998",
+    "isbn": "9780312282998",
+    "catalogTitle": "The Adventures of Kavalier & Clay",
+    "aspect": 0.666
+  },
+  "book:On Earth We're Briefly Gorgeous": {
+    "image": "/table-art/isbn-9780525562023.jpg",
+    "source": "https://openlibrary.org/isbn/9780525562023",
+    "isbn": "9780525562023",
+    "catalogTitle": "On Earth We're Briefly Gorgeous",
+    "aspect": 0.666
+  },
+  "blog:ava — bookbear express": {
+    "logo": "/table-art/blog-0.png",
+    "source": "https://www.avabear.xyz/",
+    "logoSource": "https://substackcdn.com/image/fetch/$s_!kMGd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F39504673-47d1-4cdf-85eb-889db2712252%2Fapple-touch-icon-114x114.png",
+    "catalogTitle": "ava — bookbear express"
+  },
+  "blog:rayne fisher-quann": {
+    "logo": "/table-art/blog-1.jpg",
+    "source": "https://internetprincess.substack.com/",
+    "logoSource": "https://substackcdn.com/image/fetch/$s_!tNjP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72bff967-518b-4ee7-89ae-bab90cfc511e%2Fapple-touch-icon-72x72.png",
+    "catalogTitle": "rayne fisher-quann"
+  },
+  "blog:sasha chapin": {
+    "logo": "/table-art/blog-2.jpg",
+    "source": "https://sashachapin.substack.com/",
+    "logoSource": "https://substackcdn.com/image/fetch/$s_!wEfc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4c46f776-94d9-4e59-a2c4-c4e0c96dd7e4%2Fapple-touch-icon-180x180.png",
+    "catalogTitle": "sasha chapin"
+  },
+  "blog:overcoming bias": {
+    "logo": "/table-art/blog-4.jpg",
+    "source": "https://www.overcomingbias.com/",
+    "logoSource": "https://substackcdn.com/image/fetch/$s_!w3Sl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb5119a05-d1c6-420f-96f7-07ed5219ad5a%2Fapple-touch-icon-180x180.png",
+    "catalogTitle": "overcoming bias"
+  },
+  "blog:works in progress": {
+    "logo": "/table-art/blog-5.ico",
+    "source": "https://worksinprogress.co/",
+    "logoSource": "https://worksinprogress.co/images/favicon.ico",
+    "catalogTitle": "works in progress"
+  },
+  "blog:asterisk mag": {
+    "logo": "/table-art/blog-6.png",
+    "source": "https://asteriskmag.com/",
+    "logoSource": "https://asteriskmag.com/assets/favicon/apple-touch-icon.png",
+    "catalogTitle": "asterisk mag"
+  },
+  "blog:asimov press": {
+    "logo": "/table-art/blog-7.jpg",
+    "source": "https://press.asimov.com/",
+    "logoSource": "https://cdn.prod.website-files.com/6518bf2f1b5b8c2edad6162d/651c498f5726501ef626a6a2_Webclip.jpg",
+    "catalogTitle": "asimov press"
+  },
+  "blog:freddie deboer": {
+    "logo": "/table-art/blog-8.png",
+    "source": "https://freddiedeboer.substack.com/",
+    "logoSource": "https://substackcdn.com/image/fetch/$s_!pbZ-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd47b7d09-d77a-4831-8492-2ad54b545abc%2Fapple-touch-icon-120x120.png",
+    "catalogTitle": "freddie deboer"
+  },
+  "blog:gwern": {
+    "logo": "/table-art/blog-9.png",
+    "source": "https://gwern.net/",
+    "logoSource": "https://gwern.net/static/img/logo/logo-favicon-appletouch.png",
+    "catalogTitle": "gwern"
+  },
+  "blog:sam kriss": {
+    "logo": "/table-art/blog-10.jpg",
+    "source": "https://samkriss.substack.com/",
+    "logoSource": "https://substackcdn.com/image/fetch/$s_!xfZn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F53cf7d04-ae95-43b9-8c0c-7a4a290c872b%2Fapple-touch-icon-180x180.png",
+    "catalogTitle": "sam kriss"
+  },
+  "book:Sum: Forty Tales from the Afterlives": {
+    "image": "/table-art/sum-featured.jpg",
+    "source": "https://www.penguinrandomhouse.com/books/44458/sum-by-david-eagleman/",
+    "catalogTitle": "Sum: Forty Tales from the Afterlives",
+    "catalogCreator": [
+      "David Eagleman"
+    ],
+    "isbn": "9780307389930",
+    "aspect": 0.64
+  },
+  "book:Rosencrantz and Guildenstern Are Dead": {
+    "image": "/table-art/edition-9780802126214.jpg",
+    "source": "https://openlibrary.org/isbn/9780802126214",
+    "isbn": "9780802126214",
+    "catalogTitle": "Rosencrantz and Guildenstern Are Dead",
+    "catalogCreator": [
+      "Tom Stoppard"
+    ],
+    "aspect": 0.668,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780802126214-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Notes from Underground": {
+    "image": "/table-art/edition-9780679734529.jpg",
+    "source": "https://openlibrary.org/isbn/9780679734529",
+    "isbn": "9780679734529",
+    "catalogTitle": "Notes from Underground",
+    "catalogCreator": [
+      "Dostoyevsky"
+    ],
+    "aspect": 0.642,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780679734529-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Book of Disquiet": {
+    "image": "/table-art/edition-9780141183046.jpg",
+    "source": "https://openlibrary.org/isbn/9780141183046",
+    "isbn": "9780141183046",
+    "catalogTitle": "The Book of Disquiet",
+    "catalogCreator": [
+      "Fernando Pessoa"
+    ],
+    "aspect": 0.644,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780141183046-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Little Prince": {
+    "image": "/table-art/edition-9780156012195.jpg",
+    "source": "https://openlibrary.org/isbn/9780156012195",
+    "isbn": "9780156012195",
+    "catalogTitle": "The Little Prince",
+    "catalogCreator": [
+      "Saint-Exupéry"
+    ],
+    "aspect": 0.8063,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:No Exit": {
+    "image": "/table-art/edition-9780679725169.jpg",
+    "source": "https://openlibrary.org/isbn/9780679725169",
+    "isbn": "9780679725169",
+    "catalogTitle": "No Exit",
+    "catalogCreator": [
+      "Jean-Paul Sartre"
+    ],
+    "aspect": 0.6505,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780679725169-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Man's Search for Meaning": {
+    "image": "/table-art/edition-9780807014271.jpg",
+    "source": "https://openlibrary.org/isbn/9780807014271",
+    "isbn": "9780807014271",
+    "catalogTitle": "Man's Search for Meaning",
+    "catalogCreator": [
+      "Viktor Frankl"
+    ],
+    "aspect": 0.624,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780807014271-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Three-Body Problem": {
+    "image": "/table-art/edition-9780765382030.jpg",
+    "source": "https://openlibrary.org/isbn/9780765382030",
+    "isbn": "9780765382030",
+    "catalogTitle": "The Three-Body Problem",
+    "catalogCreator": [
+      "Cixin Liu"
+    ],
+    "aspect": 0.662,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780765382030-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Games: Agency as Art": {
+    "image": "/table-art/edition-9780190052089.jpg",
+    "source": "https://openlibrary.org/isbn/9780190052089",
+    "isbn": "9780190052089",
+    "catalogTitle": "Games: Agency as Art",
+    "catalogCreator": [
+      "C. Thi Nguyen"
+    ],
+    "aspect": 0.658,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780190052089-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Sunflower": {
+    "image": "/table-art/edition-9780805210606.jpg",
+    "source": "https://openlibrary.org/isbn/9780805210606",
+    "isbn": "9780805210606",
+    "catalogTitle": "The Sunflower",
+    "catalogCreator": [
+      "Simon Wiesenthal"
+    ],
+    "aspect": 0.6358,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780805210606-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Design of Everyday Things": {
+    "image": "/table-art/edition-9780465050659.jpg",
+    "source": "https://openlibrary.org/isbn/9780465050659",
+    "isbn": "9780465050659",
+    "catalogTitle": "The Design of Everyday Things",
+    "catalogCreator": [
+      "Donald Norman"
+    ],
+    "aspect": 0.644,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780465050659-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Fear and Trembling": {
+    "image": "/table-art/edition-9780140444490.jpg",
+    "source": "https://openlibrary.org/isbn/9780140444490",
+    "isbn": "9780140444490",
+    "catalogTitle": "Fear and Trembling",
+    "catalogCreator": [
+      "Søren Kierkegaard"
+    ],
+    "aspect": 0.662,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780140444490-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Utilitarianism: For and Against": {
+    "image": "/table-art/edition-9780521098229.jpg",
+    "source": "https://openlibrary.org/isbn/9780521098229",
+    "isbn": "9780521098229",
+    "catalogTitle": "Utilitarianism: For and Against",
+    "catalogCreator": [
+      "Smart & Williams"
+    ],
+    "aspect": 0.648,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780521098229-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Disability Visibility": {
+    "image": "/table-art/edition-9781984899422.jpg",
+    "source": "https://openlibrary.org/isbn/9781984899422",
+    "isbn": "9781984899422",
+    "catalogTitle": "Disability Visibility",
+    "catalogCreator": [
+      "Alice Wong"
+    ],
+    "aspect": 0.648,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9781984899422-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Design Justice": {
+    "image": "/table-art/edition-9780262043458.jpg",
+    "source": "https://openlibrary.org/isbn/9780262043458",
+    "isbn": "9780262043458",
+    "catalogTitle": "Design Justice",
+    "catalogCreator": [
+      "Sasha Costanza-Chock"
+    ],
+    "aspect": 0.666,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780262043458-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Anna Karenina": {
+    "image": "/table-art/edition-9780143035008.jpg",
+    "source": "https://openlibrary.org/isbn/9780143035008",
+    "isbn": "9780143035008",
+    "catalogTitle": "Anna Karenina",
+    "catalogCreator": [
+      "Leo Tolstoy"
+    ],
+    "aspect": 0.648,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780143035008-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:20,000 Leagues Under the Sea": {
+    "image": "/table-art/edition-9780141394930.jpg",
+    "source": "https://openlibrary.org/isbn/9780141394930",
+    "isbn": "9780141394930",
+    "catalogTitle": "20,000 Leagues Under the Sea",
+    "catalogCreator": [
+      "Jules Verne"
+    ],
+    "aspect": 0.652,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780141394930-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Things They Carried": {
+    "image": "/table-art/edition-9780618706419.jpg",
+    "source": "https://openlibrary.org/isbn/9780618706419",
+    "isbn": "9780618706419",
+    "catalogTitle": "The Things They Carried",
+    "catalogCreator": [
+      "Tim O'Brien"
+    ],
+    "aspect": 0.636,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780618706419-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:1984": {
+    "image": "/table-art/edition-9780451524935.jpg",
+    "source": "https://openlibrary.org/isbn/9780451524935",
+    "isbn": "9780451524935",
+    "catalogTitle": "1984",
+    "catalogCreator": [
+      "George Orwell"
+    ],
+    "aspect": 0.62,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Stranger": {
+    "image": "/table-art/edition-9780679720201.jpg",
+    "source": "https://openlibrary.org/isbn/9780679720201",
+    "isbn": "9780679720201",
+    "catalogTitle": "The Stranger",
+    "catalogCreator": [
+      "Albert Camus"
+    ],
+    "aspect": 0.63,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780679720201-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:The Wicked + The Divine": {
+    "image": "/table-art/edition-9781632150196.jpg",
+    "source": "https://openlibrary.org/isbn/9781632150196",
+    "isbn": "9781632150196",
+    "catalogTitle": "The Wicked + The Divine",
+    "catalogCreator": [
+      "Gillen & McKelvie"
+    ],
+    "aspect": 0.628,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9781632150196-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Saga": {
+    "image": "/table-art/edition-9781607066019.jpg",
+    "source": "https://openlibrary.org/isbn/9781607066019",
+    "isbn": "9781607066019",
+    "catalogTitle": "Saga",
+    "catalogCreator": [
+      "BKV & Fiona Staples"
+    ],
+    "aspect": 0.618,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9781607066019-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Watchmen": {
+    "image": "/table-art/edition-9780930289232.jpg",
+    "source": "https://openlibrary.org/isbn/9780930289232",
+    "isbn": "9780930289232",
+    "catalogTitle": "Watchmen",
+    "catalogCreator": [
+      "Alan Moore"
+    ],
+    "aspect": 0.676,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780930289232-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Crisis on Infinite Earths": {
+    "image": "/table-art/edition-9781563897504.jpg",
+    "source": "https://openlibrary.org/isbn/9781563897504",
+    "isbn": "9781563897504",
+    "catalogTitle": "Crisis on Infinite Earths",
+    "catalogCreator": [
+      "Marv Wolfman"
+    ],
+    "aspect": 0.614,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9781563897504-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Batman: Hush": {
+    "image": "/table-art/edition-9781401223175.jpg",
+    "source": "https://openlibrary.org/isbn/9781401223175",
+    "isbn": "9781401223175",
+    "catalogTitle": "Batman: Hush",
+    "catalogCreator": [
+      "Jeph Loeb"
+    ],
+    "aspect": 0.6421,
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9781401223175-L.jpg?default=false",
+    "reviewed": "Cover title and author visually checked"
+  },
+  "book:Last Comes the Raven": {
+    "image": "/table-art/last-comes-the-raven.jpg",
+    "source": "https://www.penguin.com.au/books/last-comes-the-raven-9781784878214",
+    "imageSource": "https://cdn2.penguin.com.au/covers/original/9781784878214.jpg",
+    "isbn": "9781784878214",
+    "catalogTitle": "Last Comes the Raven",
+    "catalogCreator": [
+      "Italo Calvino"
+    ],
+    "aspect": 0.6516,
+    "reviewed": "Cover title and author visually checked"
+  },
+  "film:Everything Everywhere All at Once": {
+    "image": "/table-art/film-0.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once",
+    "catalogTitle": "Everything Everywhere All at Once",
+    "catalogCreator": [
+      "Daniels"
+    ],
+    "description": "2022 film by Daniel Kwan and Daniel Scheinert",
+    "aspect": 0.6757
+  },
+  "film:A Silent Voice": {
+    "image": "/table-art/film-1.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/3/32/A_Silent_Voice_Film_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/A_Silent_Voice_(film)",
+    "catalogTitle": "A Silent Voice (film)",
+    "catalogCreator": [
+      "Naoko Yamada"
+    ],
+    "description": "2016 Japanese animated film by Kyoto Animation",
+    "aspect": 0.712
+  },
+  "film:Across the Spider-Verse": {
+    "image": "/table-art/film-2.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/b/b4/Spider-Man-_Across_the_Spider-Verse_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Spider-Man%3A_Across_the_Spider-Verse",
+    "catalogTitle": "Spider-Man: Across the Spider-Verse",
+    "catalogCreator": [
+      "the whole series"
+    ],
+    "description": "2023 animated superhero film",
+    "aspect": 0.6727
+  },
+  "film:The Dark Knight": {
+    "image": "/table-art/film-3.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight",
+    "catalogTitle": "The Dark Knight",
+    "catalogCreator": [
+      "Christopher Nolan"
+    ],
+    "description": "2008 film by Christopher Nolan",
+    "aspect": 0.6762
+  },
+  "film:Synecdoche, New York": {
+    "image": "/table-art/film-4.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/6/6a/Synecdoche%2C_New_York_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Synecdoche%2C_New_York",
+    "catalogTitle": "Synecdoche, New York",
+    "catalogCreator": [
+      "Charlie Kaufman"
+    ],
+    "description": "2008 film by Charlie Kaufman",
+    "aspect": 0.6824
+  },
+  "film:Stalker": {
+    "image": "/table-art/film-5.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/d/d4/Stalker_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Stalker_(1979_film)",
+    "catalogTitle": "Stalker (1979 film)",
+    "catalogCreator": [
+      "Andrei Tarkovsky"
+    ],
+    "description": "1979 Soviet epic science fantasy film by Andrei Tarkovsky",
+    "aspect": 0.6125
+  },
+  "film:Kinds of Kindness": {
+    "image": "/table-art/film-6.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/9/9c/Kinds_of_Kindness_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Kinds_of_Kindness",
+    "catalogTitle": "Kinds of Kindness",
+    "catalogCreator": [
+      "Yorgos Lanthimos"
+    ],
+    "description": "2024 film by Yorgos Lanthimos",
+    "aspect": 0.6667
+  },
+  "film:Challengers": {
+    "image": "/table-art/film-7.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/b/b4/Challengers_2024_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Challengers_(film)",
+    "catalogTitle": "Challengers (film)",
+    "catalogCreator": [
+      "Luca Guadagnino"
+    ],
+    "description": "2024 film by Luca Guadagnino",
+    "aspect": 0.6748
+  },
+  "film:Paprika": {
+    "image": "/table-art/film-8.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/16/Paprikaposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Paprika_(2006_film)",
+    "catalogTitle": "Paprika (2006 film)",
+    "catalogCreator": [
+      "Satoshi Kon"
+    ],
+    "description": "2006 Japanese anime film",
+    "aspect": 0.7086
+  },
+  "film:The Secret Life of Walter Mitty": {
+    "image": "/table-art/film-9.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/f/f2/The_Secret_Life_of_Walter_Mitty_2013_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty_(2013_film)",
+    "catalogTitle": "The Secret Life of Walter Mitty (2013 film)",
+    "catalogCreator": [
+      "Ben Stiller"
+    ],
+    "description": "2013 film by Ben Stiller",
+    "aspect": 0.6757
+  },
+  "film:Resurrection": {
+    "image": "/table-art/film-10.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/1/16/Resurrection_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Resurrection_(2025_film)",
+    "catalogTitle": "Resurrection (2025 film)",
+    "catalogCreator": [
+      "Bi Gan"
+    ],
+    "description": "2025 Chinese epic science fiction drama film by Bi Gan",
+    "aspect": 0.6667
+  },
+  "film:Sinners": {
+    "image": "/table-art/film-11.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/5/5f/Sinners_%282025_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Sinners_(2025_film)",
+    "catalogTitle": "Sinners (2025 film)",
+    "catalogCreator": [
+      "Ryan Coogler"
+    ],
+    "description": "Horror film by Ryan Coogler",
+    "aspect": 0.6745
+  },
+  "film:Flow": {
+    "image": "/table-art/film-12.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/2/2d/Flow_movie_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Flow_(2024_film)",
+    "catalogTitle": "Flow (2024 film)",
+    "catalogCreator": [
+      "Gints Zilbalodis"
+    ],
+    "description": "2024 animated film by Gints Zilbalodis",
+    "aspect": 0.6667
+  },
+  "film:Weathering with You": {
+    "image": "/table-art/film-13.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/6/66/Weathering_with_You_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Weathering_with_You",
+    "catalogTitle": "Weathering with You",
+    "catalogCreator": [
+      "Makoto Shinkai"
+    ],
+    "description": "2019 Japanese film by Makoto Shinkai",
+    "aspect": 0.7112
+  },
+  "film:Coco": {
+    "image": "/table-art/film-14.jpg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "source": "https://en.wikipedia.org/wiki/Coco_(2017_film)",
+    "catalogTitle": "Coco (2017 film)",
+    "catalogCreator": [
+      "Lee Unkrich & Adrian Molina"
+    ],
+    "description": "2017 film by Lee Unkrich",
+    "aspect": 0.6745
+  },
+  "album:Bleachers": {
+    "image": "/table-art/album-3.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6d/74/ff/6d74ff6e-8f28-5a62-6270-69f49e1f8855/196922686047_Cover.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/bleachers/1712730224?uo=4",
+    "catalogTitle": "Bleachers",
+    "catalogCreator": "Bleachers",
+    "aspect": 1
+  },
+  "album:How to Build an Ocean: Instructions": {
+    "image": "/table-art/album-7.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c1/51/21/c15121cc-7b9c-0eaa-4fe8-aceb6dbf2988/197190843866.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/how-to-build-an-ocean-instructions/1725031274?uo=4",
+    "catalogTitle": "How to Build an Ocean: Instructions",
+    "catalogCreator": "Bears in Trees",
+    "aspect": 1
+  },
+  "album:Five Seconds Flat": {
+    "image": "/table-art/album-9.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/11/6a/64/116a64ee-0db3-4e59-bd86-f44008e47f85/5056167170006.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/five-seconds-flat/1604657567?uo=4",
+    "catalogTitle": "five seconds flat",
+    "catalogCreator": "Lizzy McAlpine",
+    "aspect": 1
+  },
+  "album:BRAT": {
+    "image": "/table-art/album-12.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/4e/63/884e6321-ad41-aab1-f6f0-20efcafcfd55/075679666130.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/brat/1739079974?uo=4",
+    "catalogTitle": "BRAT",
+    "catalogCreator": "Charli xcx",
+    "aspect": 1
+  },
+  "album:Luv(sic) Hexalogy": {
+    "image": "/table-art/album-15.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/cb/2b/cfcb2b72-c7a5-b4af-e227-46d341a3e3f2/Luv_sic_Hexjaket.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/luv-sic-hexalogy/1361503700?uo=4",
+    "catalogTitle": "Luv(sic) Hexalogy",
+    "catalogCreator": "Nujabes",
+    "aspect": 1
+  },
+  "album:Nothing Happens": {
+    "image": "/table-art/album-17.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/66/4e/b5/664eb519-7163-512c-78a8-b22bf6b166dd/075679859211.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/nothing-happens/1450670646?uo=4",
+    "catalogTitle": "Nothing Happens",
+    "catalogCreator": "Wallows",
+    "aspect": 1
+  },
+  "album:Love Hate Music Box": {
+    "image": "/table-art/album-19.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/72/ac/7e/72ac7e3a-504d-cf64-4a7c-5437d5dd99be/075679659552.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/love-hate-music-box/1732562033?uo=4",
+    "catalogTitle": "Love Hate Music Box",
+    "catalogCreator": "Rainbow Kitten Surprise",
+    "aspect": 1
+  },
+  "album:22, A Million": {
+    "image": "/table-art/album-22.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/df/7d/90/df7d908a-b7ae-5565-4f89-40f8bc9440ab/656605230061.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/22-a-million/1141107722?uo=4",
+    "catalogTitle": "22, A Million",
+    "catalogCreator": "Bon Iver",
+    "aspect": 1
+  },
+  "album:Loss of Life": {
+    "image": "/table-art/album-26.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/93/d1/3d/93d13de2-4772-c990-77e1-a9b5009a6064/810090094113.png/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/loss-of-life/1711646500?uo=4",
+    "catalogTitle": "Loss Of Life",
+    "catalogCreator": "MGMT",
+    "aspect": 1
+  },
+  "album:M3LL155X": {
+    "image": "/table-art/album-30.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0d/79/64/0d79648f-22a7-82d3-64c3-21c5d4a15e5d/889030014252.png/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/m3ll155x-ep/1028920695?uo=4",
+    "catalogTitle": "M3LL155X - EP",
+    "catalogCreator": "FKA twigs",
+    "aspect": 1
+  },
+  "album:Citrona": {
+    "image": "/table-art/album-32.jpg",
+    "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/96/6e/32/966e3201-7e7b-3d9e-493d-f6ab43654148/859726189694_cover.jpg/600x600bb.jpg",
+    "source": "https://music.apple.com/us/album/citrona/1370580331?uo=4",
+    "catalogTitle": "Citrona",
+    "catalogCreator": "Flipturn",
+    "aspect": 1
+  }
+}

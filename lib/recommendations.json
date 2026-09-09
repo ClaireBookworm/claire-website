@@ -1,4 +1,11 @@
 {
+  "topBooks": [
+    "Bluets",
+    "Sum: Forty Tales from the Afterlives",
+    "The Adventures of Kavalier & Clay",
+    "Symphony for the City of the Dead",
+    "A Gentleman in Moscow"
+  ],
   "books": [
     { "title": "Symphony for the City of the Dead", "author": "M.T. Anderson", "category": "nonfic", "fave": true, "note": "Shostakovich vs. the siege of Leningrad. Thrilling — nonfiction that reads like a war novel." },
     { "title": "Invisible Cities", "author": "Italo Calvino", "category": "fiction", "fave": true, "note": "No plot, all craft. A patient painting of impossible cities — read it slow." },
@@ -92,7 +99,7 @@
     { "title": "BRAT", "artist": "Charli xcx", "fave": false, "note": "Obviously." },
     { "title": "The Land is Inhospitable and So Are We", "artist": "Mitski", "fave": false, "note": "" },
     { "title": "Dance Fever", "artist": "Florence + the Machine", "fave": false, "note": "" },
-    { "title": "Luv(sic) Hexology", "artist": "Nujabes", "fave": false, "note": "" },
+    { "title": "Luv(sic) Hexalogy", "artist": "Nujabes", "fave": false, "note": "" },
     { "title": "Good Morning It's Now Tomorrow", "artist": "Matt Maltese", "fave": false, "note": "" },
     { "title": "Nothing Happens", "artist": "Wallows", "fave": false, "note": "" },
     { "title": "Good Faith", "artist": "Madeon", "fave": false, "note": "" },
@@ -132,7 +139,14 @@
     { "title": "Synecdoche, New York", "director": "Charlie Kaufman", "fave": false, "note": "\"Nobody is an extra.\"" },
     { "title": "Stalker", "director": "Andrei Tarkovsky", "fave": false, "note": "Slow-cinema church (1979). Surrender to it." },
     { "title": "Kinds of Kindness", "director": "Yorgos Lanthimos", "fave": false, "note": "Weird in exactly the right way." },
-    { "title": "Challengers", "director": "Luca Guadagnino", "fave": false, "note": "Tennis as a love triangle. So tense." }
+    { "title": "Challengers", "director": "Luca Guadagnino", "fave": false, "note": "Tennis as a love triangle. So tense." },
+    {"title": "Paprika", "director": "Satoshi Kon", "fave": false, "note": ""},
+    {"title": "The Secret Life of Walter Mitty", "director": "Ben Stiller", "fave": false, "note": ""},
+    {"title": "Resurrection", "director": "Bi Gan", "fave": false, "note": ""},
+    {"title": "Sinners", "director": "Ryan Coogler", "fave": false, "note": ""},
+    {"title": "Flow", "director": "Gints Zilbalodis", "fave": false, "note": ""},
+    {"title": "Weathering with You", "director": "Makoto Shinkai", "fave": false, "note": ""},
+    {"title": "Coco", "director": "Lee Unkrich & Adrian Molina", "fave": false, "note": ""}
   ],
   "blogs": [
     { "name": "ava — bookbear express", "link": "https://www.avabear.xyz/" },
