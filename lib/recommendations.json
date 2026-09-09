@@ -4,9 +4,12 @@
     "Sum: Forty Tales from the Afterlives",
     "The Adventures of Kavalier & Clay",
     "Symphony for the City of the Dead",
-    "A Gentleman in Moscow"
+    "A Gentleman in Moscow",
+    "Invisible Cities"
   ],
   "books": [
+    {"title": "Just Kids", "author": "Patti Smith", "category": "nonfic", "fave": false, "note": ""},
+    {"title": "If on a Winter's Night a Traveler", "author": "Italo Calvino", "category": "fiction", "fave": false, "note": ""},
     { "title": "Symphony for the City of the Dead", "author": "M.T. Anderson", "category": "nonfic", "fave": true, "note": "Shostakovich vs. the siege of Leningrad. Thrilling — nonfiction that reads like a war novel." },
     { "title": "Invisible Cities", "author": "Italo Calvino", "category": "fiction", "fave": true, "note": "No plot, all craft. A patient painting of impossible cities — read it slow." },
     { "title": "The Adventures of Kavalier & Clay", "author": "Michael Chabon", "category": "fiction", "fave": true, "note": "Comics, escape, golems, big hearts. Every side character gets their due." },

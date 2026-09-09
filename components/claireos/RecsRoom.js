@@ -217,7 +217,7 @@ export default function RecsRoom({ data = {} }) {
     }}>
       <div className={styles.surface} style={{ width: width * zoom, height: height * zoom, minWidth: '100%', minHeight: '100%' }}>
         <div className={`${styles.world} ${view === 'library' ? styles.libraryWorld : ''} ${layout.compact ? styles.compactWorld : ''}`} style={{ width, height, left: Math.max(0, (screen.width - width * zoom) / 2), top: Math.max(0, (screen.height - height * zoom) / 2), transform: `scale(${zoom})`, '--table-zoom': zoom }}>
-          {view === 'table' && featuredCount > 0 && <div className={styles.featuredHeading} style={labels.featured}><h2>start with<br />these</h2><span>my top five</span></div>}
+          {view === 'table' && featuredCount > 0 && <div className={styles.featuredHeading} style={labels.featured}><h2>start with<br />these</h2><span>my top {featuredCount}</span></div>}
           {view === 'table' && <div className={styles.tableLabel} style={labels.collection}>{featuredCount ? '& everything else' : "claire’s collection"} <span>— take a look around</span></div>}
           {layout.shelves?.map((shelf, index) => <div key={index} aria-hidden="true"><div className={styles.shelfBay} style={{ top: shelf.bayTop, height: shelf.height, width: layout.shelfWidth - 28 }} /><div className={styles.shelfBoard} style={{ top: shelf.top, width: layout.shelfWidth - 18 }}>{shelf.label && <span>{shelf.label}</span>}</div></div>)}
           {layout.widgets?.map(widget => <div key={widget.type} className={styles.libraryWidget} style={{ left: widget.x, top: widget.y, width: widget.width, height: widget.height }}><div style={{ width: widget.width / (widget.scale || 1), height: widget.height / (widget.scale || 1), transform: `scale(${widget.scale || 1})`, transformOrigin: 'top left' }}>{widget.type === 'records' ? <RecordHolder items={widget.items} onOpen={setSelected} /> : <PlaylistPlayer items={widget.items} onOpen={setSelected} />}</div></div>)}
@@ -235,7 +235,7 @@ export default function RecsRoom({ data = {} }) {
       </div>
     </div>
     <footer className={styles.footer}>
-      <span className={styles.count}>{shown.length} {view === 'library' ? 'things in the library' : 'things on the table'}</span>
+      <span className={styles.count}>{shown.length} {view === 'library' ? 'things in the library' : 'things on the table'}{process.env.NODE_ENV === 'development' && <a className={styles.editorLink} href="/recs/edit" target="_blank" rel="noreferrer">edit descriptions ↗</a>}</span>
       <span className={styles.hint}>{layout.compact ? 'swipe to explore · tap to open' : <>scroll to zoom in <i>·</i> drag to explore</>}</span>
       <div className={styles.zoom}><button type="button" aria-label="Zoom out" disabled={zoom <= MIN_ZOOM} onClick={() => changeZoom(zoom / 1.2)}>−</button><output aria-label="Zoom level">{Math.round(zoom * 100)}%</output><button type="button" aria-label="Zoom in" disabled={zoom >= MAX_ZOOM} onClick={() => changeZoom(zoom * 1.2)}>+</button><button type="button" className={styles.reset} aria-pressed={fitted && (overview || !layout.compact)} onClick={() => resetView(!(layout.compact && overview && fitted))}>{layout.compact && overview && fitted ? 'reading size ↗' : view === 'library' ? 'fit library ↖' : 'fit whole table ↖'}</button></div>
     </footer>

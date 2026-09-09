@@ -298,5 +298,13 @@
   "I Was Their American Dream": {
     "color": "rgb(146,68,55)",
     "ink": "#f0e2c7"
+  },
+  "If on a Winter's Night a Traveler": {
+    "color": "rgb(112,112,112)",
+    "ink": "#f0e2c7"
+  },
+  "Just Kids": {
+    "color": "rgb(4,4,4)",
+    "ink": "#f0e2c7"
   }
 }
