@@ -1,0 +1,7 @@
+.navigation { position: fixed; inset: 0 0 auto; height: 32px; z-index: 9000; display: flex; align-items: center; gap: 22px; padding: 0 16px; background: #f6f4ef; color: #4f493e; box-shadow: 0 1px 0 #342a2233; font: 12px 'Space Grotesk',sans-serif; }
+.navigation a { color: inherit; text-decoration: none; white-space: nowrap; }
+.navigation a:hover { color: #17140f; text-decoration: underline; }
+.navigation a:focus-visible { outline: 2px solid #2456bd; outline-offset: 3px; }
+.navigation .name { font-weight: 600; margin-right: auto; }
+.navigation a[aria-current=page] { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 420px) { .navigation { padding-inline: 10px; gap: 12px; font-size: 11px; } }

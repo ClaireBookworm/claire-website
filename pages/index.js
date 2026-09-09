@@ -25,7 +25,7 @@ export default function Home() {
           <Link href="/gallery" className="home-pill">Projects</Link>
           <Link href="/writing" className="home-pill">Writing</Link>
           <Link href="/radio" className="home-pill">Radio</Link>
-          {/* <Link href="/notes/recs" className="home-pill">Recs</Link> */}
+          <Link href="/recs" className="home-pill">Recs</Link>
         </nav>
 
         {/* Two-column layout: left = bio, right = status cards */}

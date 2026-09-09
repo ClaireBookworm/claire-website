@@ -1,0 +1,42 @@
+.records { position: relative; width: 100%; height: 100%; color: #eddfc6; font-family: 'Space Grotesk',sans-serif; }
+.recordHeader { display: flex; align-items: center; justify-content: space-between; padding: 0 18px; margin-bottom: 18px; }
+.recordHeader > span { font: 24px 'Permanent Marker',cursive; transform: rotate(-2deg); }
+.recordHeader small { font-size: 13px; opacity: .65; }
+.sleeves { position: relative; height: 300px; perspective: 900px; touch-action: pan-y; }
+.backSleeve, .frontSleeve { position: absolute; width: 262px; height: 262px; left: 44px; padding: 0; border: 1px solid #ffffff38; background: #282821; box-shadow: 2px 3px 1px #b7ac96, 6px 6px 10px #0007; transform-origin: bottom center; }
+.backSleeve { top: calc(25px - var(--depth) * 8px); transform: translateY(calc(var(--depth) * -7px)) rotateX(-10deg) rotate(calc(var(--depth) * -1deg)); width: calc(262px - var(--depth) * 6px); left: calc(44px + var(--depth) * 3px); }
+.backSleeve img, .frontSleeve img { width: 100%; height: 100%; object-fit: contain; display: block; pointer-events: none; }
+.frontSleeve { top: 26px; cursor: pointer; z-index: 5; transform: rotateX(-5deg); animation: flip .35s ease both; }
+.frontSleeve:hover { transform: translateY(-6px) rotateX(0deg); }
+.crate { position: absolute; z-index: 6; left: 18px; right: 18px; bottom: -2px; height: 62px; border: 3px solid #8b643a; border-top: 5px solid #b18a55; background: linear-gradient(#3d260b20,#170d0590),url('/table-art/walnut-table.jpg') center / cover; box-shadow: inset 0 3px 7px #0009, 5px 9px 12px #0009; pointer-events: none; }
+.crate:before, .crate:after { content: ''; position: absolute; width: 9px; height: 100%; top: 0; background: #51351c; box-shadow: inset 1px 0 #b98b5066; }
+.crate:before { left: 20px; } .crate:after { right: 20px; }
+.crate span { display: block; margin: 17px auto 0; width: max-content; font-size: 12px; letter-spacing: .13em; color: #e4ccaa; }
+.recordCaption { text-align: center; margin: 21px 16px 0; height: 60px; }
+.recordCaption strong { display: block; font: 23px/1.05 'Newsreader',serif; }
+.recordCaption > span { display: block; margin-top: 5px; font-size: 12px; color: #c5b393; }
+.recordControls { display: flex; justify-content: center; align-items: center; gap: 25px; }
+.recordControls button { width: 48px; height: 42px; border: 1px solid #ab947052; border-radius: 4px; background: #2c241b; color: #eddfc6; cursor: pointer; font-size: 26px; }
+.recordControls > span { font: italic 16px 'Newsreader',serif; color: #cbb897; }
+.player { height: 100%; width: 100%; padding: 20px 19px 12px; border: 2px solid #a7a59c; border-radius: 25px; background: linear-gradient(112deg,#fcfaf1,#d9d8ce 45%,#bcbdb7 90%,#eeeae0); box-shadow: inset 2px 2px 3px #fff, inset -3px -4px 4px #8a8c86, 8px 12px 15px #0009; color: #232d30; font-family: Arial,sans-serif; box-sizing: border-box; }
+.playerScreen { padding: 5px; height: 229px; background: linear-gradient(125deg,#e0eced,#b2c6c7); border: 5px solid #424849; border-radius: 8px; box-shadow: 0 1px 1px #fff, inset 1px 2px 6px #14282e55; overflow: hidden; }
+.statusBar { display: flex; align-items: center; justify-content: space-between; padding: 4px 4px 7px; font-size: 15px; font-weight: bold; border-bottom: 1px solid #68848a; }
+.statusBar i { position: relative; width: 21px; height: 10px; border: 1px solid #405c60; background: repeating-linear-gradient(90deg,#405c60 0 4px,transparent 4px 5px); }
+.statusBar i:after { content: ''; position: absolute; right: -3px; top: 2px; height: 4px; width: 2px; background: #405c60; }
+.playlistList { position: relative; height: 141px; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #658187 transparent; }
+.playlistList button { display: flex; align-items: center; justify-content: space-between; width: 100%; gap: 5px; min-height: 32px; padding: 5px 6px; border: 0; background: transparent; color: #233337; text-align: left; font: bold 14px/1.2 Arial,sans-serif; cursor: pointer; }
+.playlistList button span { min-width: 0; }
+.playlistList button[aria-pressed=true] { background: linear-gradient(#537dac,#2d5e95); color: white; }
+.playlistList b { font-size: 20px; }
+.playerStatus { height: 30px; padding: 5px 4px 0; border-top: 1px solid #68848a; font-size: 10px; line-height: 1.25; overflow: hidden; }
+.clickWheel { position: relative; width: 164px; height: 164px; margin: 14px auto 0; border-radius: 50%; border: 1px solid #c7c7bf; background: #faf9f2; box-shadow: inset 0 1px 3px #fff, 0 1px 1px #aaa; }
+.clickWheel button, .clickWheel a { position: absolute; display: flex; align-items: center; justify-content: center; border: 0; background: transparent; color: #737b78; cursor: pointer; font: bold 12px Arial,sans-serif; text-decoration: none; padding: 0; }
+.menuKey { top: 4px; left: 48px; width: 66px; height: 40px; }
+.previousKey { top: 59px; left: 0; width: 47px; height: 44px; }
+.nextKey { top: 59px; right: 0; width: 47px; height: 44px; }
+.clickWheel .selectKey { inset: 49px; border-radius: 50%; background: linear-gradient(120deg,#eeeae2,#c9ccc7); border: 1px solid #b8bcb5; box-shadow: inset 0 1px 2px white; }
+.playKey { bottom: 3px; left: 57px; width: 48px; height: 40px; }
+.playerLink { display: block; text-align: center; color: #68716b; font: 10px 'Space Grotesk',sans-serif; margin-top: 9px; text-underline-offset: 3px; }
+.records :is(button,a):focus-visible, .player :is(button,a):focus-visible { outline: 3px solid #3c7fcb; outline-offset: 2px; }
+@keyframes flip { from { opacity: .3; transform: translateY(-15px) rotateX(-24deg); } to { opacity: 1; transform: rotateX(-5deg); } }
+@media (prefers-reduced-motion: reduce) { .frontSleeve { animation: none; } }

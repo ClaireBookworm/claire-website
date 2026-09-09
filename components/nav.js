@@ -7,6 +7,7 @@ const links = [
     { label: "Home", href: "/" },
     // { label: "Resume", href: "https://cloud-k9qzmiamk-hack-club-bot.vercel.app/0claire-resume-pager.pdf" },
     { label: "Projects", href: "/gallery" },
+    { label: "Recs", href: "/recs" },
     // { label: "Resume", href:"https://hc-cdn.hel1.your-objectstorage.com/s/v3/28d564b02cd0c48bba1fc927dc7162fa7ca5b932_resume_aug_2025.pdf"},
     { label: "Writing", href: "/writing"},
     { label: "Notes", href: "/notes"},
@@ -39,7 +40,7 @@ export default function Nav({active}) {
         <nav className="text-white">
             <ul className="padding1 flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
                 <li className="hidden sm:block sm:grid-cols-1 sm:grid-cols-2 sm:grid-cols-3 sm:grid-cols-4 sm:grid-cols-5 sm:grid-cols-6 sm:grid-cols-7 sm:grid-cols-8 sm:grid-cols-9 sm:grid-cols-10 sm:grid-cols-11 sm:grid-cols-12"></li>
-                <ul className={`mx-auto sm:mx-0 grid gap-4 justify-items-center items-center ${links.length + 1 > 4 ? 'grid-cols-3' : 'grid-cols-2'} sm:grid-rows-1 sm:grid-cols-${links.length + 1}`}>
+                <ul className={`mx-auto sm:mx-0 grid gap-4 justify-items-center items-center ${links.length + 1 > 4 ? 'grid-cols-3' : 'grid-cols-2'} sm:grid-cols-4 lg:grid-rows-1 lg:grid-cols-7`}>
                     {links.map(({ href, label }) => (
                         <li key={`${href}${label}`}>
                             <Link
