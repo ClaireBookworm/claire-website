@@ -86,7 +86,7 @@ export default function Home() {
                 <span className="home-card-label">Recently</span>
               </div>
               <div className="home-card-body">
-                <p>I've just taken a gap semester from MIT in SF working towards building a whole brain connectome of the mouse brain at <a className="landing-link" href="https://e11.bio">e11.bio</a>! ♥︎ I spent IAP 2026 doing ML engineering at dimensionalOS, a startup building a fully open-source universal robotics framework & built a temporal-spatial memory framework.</p>
+                <p>I just received the Thiel Fellowship & dropped out of MIT! For the past bit, I've been making next-gen biohybrid interfaces at <a className="landing-link" href="https://axoneurotech.com">Axo Neurotech</a> & working on building a whole brain connectome of the mouse brain at <a className="landing-link" href="https://e11.bio">e11.bio</a>, as well as some continued robotics and C. elegans brain emulation research! ♥︎</p>
               </div>
             </div>
 
