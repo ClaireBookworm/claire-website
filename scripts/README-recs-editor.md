@@ -1,6 +1,6 @@
 # Editing recommendation descriptions
 
-On the `main` checkout, run `npm run edit:recs`, then open:
+On the checkout you want to edit (`main` or `redesign-2`), run `npm run edit:recs`, then open:
 
 http://127.0.0.1:3001/recs/edit
 
