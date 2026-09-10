@@ -10,6 +10,7 @@ I love giving people recommendations and notes on the infinite amount of content
 
 - Symphony for the City of the Dead, by M.T. Anderson
 - Invisible Cities, by Italo Calvino
+- If on a Winter's Night a Traveler, by Italo Calvino
 - The Adventures of Kavalier and Clay, by Michael Chabon
 - A Gentleman in Moscow, by Amor Towles
 - Sum: Forty Tales from the Afterlives, by David Eagleman
@@ -37,6 +38,8 @@ I love giving people recommendations and notes on the infinite amount of content
 - There Is No Antimemetics Division, by qntm
 
 *nonfiction masterpieces/recs*
+
+- Just Kids, by Patti Smith
 
 - The Science of Storytelling, by Will Storr
 - The Anthropocene Reviewed

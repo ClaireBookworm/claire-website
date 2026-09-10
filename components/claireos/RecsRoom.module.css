@@ -1,3 +1,7 @@
+@font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 400; font-display: swap; src: url('/table-art/space-grotesk-400.ttf') format('truetype'); }
+@font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 500; font-display: swap; src: url('/table-art/space-grotesk-500.ttf') format('truetype'); }
+@font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 600; font-display: swap; src: url('/table-art/space-grotesk-600.ttf') format('truetype'); }
+@font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 700; font-display: swap; src: url('/table-art/space-grotesk-700.ttf') format('truetype'); }
 @font-face { font-family: 'Permanent Marker'; src: url('/table-art/permanent-marker.ttf') format('truetype'); font-display: swap; }
 .room { position: fixed; inset: 42px 10px 10px; display: flex; flex-direction: column; overflow: hidden; border: 1px solid #433e33; border-radius: 5px; color: #302e29; background: #f3f0e8; box-shadow: 0 6px 22px #13253d30; font-family: 'Space Grotesk',sans-serif; }
 .header { z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 26px; background: #f6f4ef; border-bottom: 1px solid #6b51363a; }
@@ -283,3 +287,5 @@
 }
 @media (prefers-reduced-motion: reduce) { .revealedCover { transition: none; } }
 .libraryWidget { position: absolute; z-index: 550; }
+.editorLink { display: inline-block; margin-left: 12px; color: #355447; text-decoration: underline; text-underline-offset: 3px; }
+.note .noteText a { font: inherit; padding: 0; display: inline; }

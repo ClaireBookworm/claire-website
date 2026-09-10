@@ -1,0 +1,15 @@
+.prose { overflow-wrap: anywhere; }
+.prose p { margin: 0 0 .8em; font: inherit; color: inherit; }
+.prose > :last-child { margin-bottom: 0; }
+.prose a { color: #36577a; text-decoration: underline; text-underline-offset: 3px; }
+.prose strong { font-weight: 700; }
+.prose em { font-style: italic; }
+.prose ul, .prose ol { padding-left: 1.3em; margin: .7em 0; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin: .2em 0; }
+.prose blockquote { border-left: 2px solid #b7a78b; padding-left: .8em; margin: .8em 0; font-style: italic; }
+.prose h1, .prose h2, .prose h3, .prose h4 { font: inherit; font-weight: 700; margin: .8em 0 .3em; }
+.prose code { font-size: .85em; background: #ded6c650; padding: .1em .25em; border-radius: 3px; }
+.prose pre { overflow-x: auto; padding: .6em; background: #ded6c650; }
+.prose img { max-width: 100%; height: auto; }

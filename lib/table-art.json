@@ -1219,5 +1219,25 @@
     "catalogTitle": "Citrona",
     "catalogCreator": "Flipturn",
     "aspect": 1
+  },
+  "book:If on a Winter's Night a Traveler": {
+    "image": "/table-art/if-on-a-winters-night.jpg",
+    "source": "https://openlibrary.org/isbn/9780156439619",
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780156439619-L.jpg",
+    "catalogTitle": "If on a Winter's Night a Traveler",
+    "catalogCreator": [
+      "Italo Calvino"
+    ],
+    "aspect": 0.6526315789473685
+  },
+  "book:Just Kids": {
+    "image": "/table-art/just-kids.jpg",
+    "source": "https://openlibrary.org/isbn/9780060936228",
+    "imageSource": "https://covers.openlibrary.org/b/isbn/9780060936228-L.jpg",
+    "catalogTitle": "Just Kids",
+    "catalogCreator": [
+      "Patti Smith"
+    ],
+    "aspect": 0.6654676258992805
   }
 }
