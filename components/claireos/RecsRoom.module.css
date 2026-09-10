@@ -288,3 +288,4 @@
 @media (prefers-reduced-motion: reduce) { .revealedCover { transition: none; } }
 .libraryWidget { position: absolute; z-index: 550; }
 .editorLink { display: inline-block; margin-left: 12px; color: #355447; text-decoration: underline; text-underline-offset: 3px; }
+.note .noteText a { font: inherit; padding: 0; display: inline; }

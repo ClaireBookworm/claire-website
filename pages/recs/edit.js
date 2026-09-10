@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import artwork from '../../lib/table-art.json';
 import styles from '../../components/claireos/RecsEditor.module.css';
+import RecommendationNote from '../../components/claireos/RecommendationNote';
 
 const GROUPS = [['books', 'books', 'book'], ['albums', 'albums', 'album'], ['playlists', 'playlists', 'playlist'], ['films', 'films', 'film'], ['blogs', 'the internet', 'blog'], ['toread', 'to read', 'book']];
 const STORAGE = 'claire-recs-description-drafts-v1';
@@ -81,7 +82,7 @@ export default function RecsEditor() {
   return <div className={styles.page}>
     <Head><title>Edit recommendations — Claire</title><meta name="robots" content="noindex,nofollow" /></Head>
     <header className={styles.header}>
-      <div><Link href="/recs">← recommendations</Link><h1>A little note for each thing.</h1><p>Your local description editor. Blank is completely fine.</p></div>
+      <div><Link href="/recs">← recommendations</Link><h1>A little note for each thing.</h1><p>Links and Markdown welcome. Blank is completely fine.</p></div>
       <div className={styles.actions}><a href="/recs?view=library" target="_blank" rel="noreferrer">open preview ↗</a><button type="button" onClick={save} disabled={!count || saving}>{saving ? 'Saving…' : count ? `Save ${count} change${count === 1 ? '' : 's'}` : 'All saved'}</button><small>⌘ / Ctrl + S</small></div>
     </header>
     <main className={styles.main}>
@@ -92,6 +93,8 @@ export default function RecsEditor() {
         {drafts[item.key] && drafts[item.key].previousNote !== (item.note || '') && drafts[item.key].note !== (item.note || '') && <div className={styles.conflict}><strong>This description changed elsewhere.</strong><p>Currently saved: {item.note || '(blank)'}</p><div><button type="button" onClick={() => setDrafts(current => ({ ...current, [item.key]: { ...current[item.key], previousNote: item.note || '' } }))}>Keep my draft instead</button><button type="button" onClick={() => edit(item, item.note || '')}>Use saved description</button></div></div>}
         <label htmlFor={`note-${item.key}`} className={styles.noteLabel}>Your description {drafts[item.key] && <span>unsaved</span>}</label>
         <textarea id={`note-${item.key}`} value={drafts[item.key]?.note ?? item.note ?? ''} onChange={event => edit(item, event.target.value)} maxLength={20000} rows={4} placeholder="What stayed with you? Why would you recommend it?" />
+        <p className={styles.markdownHelp}>Add a link with <code>[here](https://…)</code> · <code>*italics*</code> · <code>**bold**</code></p>
+        <details className={styles.preview}><summary>Preview description</summary>{(drafts[item.key]?.note ?? item.note ?? '').trim() ? <RecommendationNote>{drafts[item.key]?.note ?? item.note}</RecommendationNote> : <p className={styles.previewEmpty}>Your description will appear here as you write.</p>}</details>
       </article>)}</div>
       {data && !shown.length && <p className={styles.empty}>Nothing matches—try another search or filter.</p>}
       <p className={styles.footnote}>Save updates this checkout’s recommendations file. Publishing to clairebookworm.com is a separate commit and push; your public site has no editing endpoint.</p>

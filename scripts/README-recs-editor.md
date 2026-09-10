@@ -11,3 +11,5 @@ Saving updates `lib/recommendations.json` in the checkout running the server. Re
 The editor and its write API are unavailable in production. Local requests must use a loopback hostname, and saves must be same-origin JSON requests.
 
 Run the save/conflict/access tests with `node --test tests/recs-editor.test.cjs`.
+
+Descriptions support Markdown: `[here](https://example.com)`, `*italics*`, `**bold**`, paragraphs, blockquotes, and lists. Expand **Preview description** under any text box to see the same formatting used in the table and library. Links open in a new tab.

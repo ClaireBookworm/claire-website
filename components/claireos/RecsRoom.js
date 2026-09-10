@@ -6,6 +6,7 @@ import { layoutLibrary } from '../../lib/libraryLayout';
 import spineColors from '../../lib/book-spine-colors.json';
 import { useRouter } from 'next/router';
 import { RecordHolder, PlaylistPlayer } from './LibraryMusic';
+import RecommendationNote from './RecommendationNote';
 
 const FILTERS = [['all', 'everything'], ['book', 'books'], ['music', 'music'], ['film', 'films'], ['blog', 'the internet']];
 const SOURCES = { book: ['goodreads', 'https://www.goodreads.com/clairebookworm'], album: ['musicboard', 'https://musicboard.app/clairebookworm'], playlist: ['spotify', 'https://open.spotify.com/user/rsjahryaqu08yocko5k5cfd9s'], film: ['letterboxd', 'https://letterboxd.com/clairebookworm/'] };
@@ -248,7 +249,7 @@ export default function RecsRoom({ data = {} }) {
           <h2 id="table-detail-title">{selected.title}</h2>
           {selected.by && <p className={styles.byline}>{selected.by}</p>}
           <span className={styles.rule} />
-          {selected.note && <p className={styles.noteText}>{selected.note}</p>}
+          {selected.note && <RecommendationNote className={styles.noteText}>{selected.note}</RecommendationNote>}
           {link && <a href={link} target="_blank" rel="noreferrer">{selected.type === 'blog' ? 'read here' : selected.type === 'playlist' ? 'listen on spotify' : selected.link ? 'open' : source[0]} ↗</a>}
           {selected.art?.source && <a className={styles.artSource} href={selected.art.source} target="_blank" rel="noreferrer">artwork / catalog ↗</a>}
         </article>

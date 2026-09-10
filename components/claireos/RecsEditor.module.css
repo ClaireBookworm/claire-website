@@ -50,3 +50,9 @@
 .conflict p { white-space: pre-wrap; padding-block: 8px; }
 .conflict > div { display: flex; flex-wrap: wrap; gap: 8px; }
 .conflict button { padding: 8px; min-height: 36px; background: #fffaf3; border: 1px solid #c59d6b; border-radius: 4px; cursor: pointer; }
+.markdownHelp { font-size: 11px; color: #8b806c; margin: 9px 0; line-height: 1.6; }
+.markdownHelp code { color: #655e50; }
+.preview { margin-top: 12px; border-top: 1px solid #e0d8ca; padding-top: 12px; font: 17px/1.5 'Newsreader',Georgia,serif; }
+.preview summary { cursor: pointer; font: 12px 'Inter',sans-serif; color: #496b59; list-style: disclosure-closed; margin-left: 14px; }
+.preview[open] summary { margin-bottom: 14px; list-style: disclosure-open; }
+.previewEmpty { color: #8b806c; font-style: italic; }
