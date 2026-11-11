@@ -1,3 +1,16 @@
 {
-  "version": 2
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/:path((?!\\.well-known/sci/keys/).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "clairebookworm\\.com"
+        }
+      ],
+      "destination": "https://www.clairebookworm.com/:path",
+      "permanent": true
+    }
+  ]
 }
