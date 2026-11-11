@@ -1,0 +1,1 @@
+{"schema":"sci-key-claim/0.1","public_key":{"kty":"OKP","crv":"Ed25519","x":"Qd-SezmF6yyMfJUjpFemm7y8ErtF-wx_9Rjaaq_RuHQ"},"account":{"type":"domain","id":"clairebookworm.com"},"expires":"2027-02-09T19:03:13Z"}
